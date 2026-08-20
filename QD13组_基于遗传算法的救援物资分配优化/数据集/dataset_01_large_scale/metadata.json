@@ -1,0 +1,25 @@
+{
+  "dataset_id": "dataset_01_large_scale",
+  "dataset_name": "大规模洪涝应急物资调度模拟数据",
+  "scenario": "多区域、多仓库、大规模洪涝灾害物资调运",
+  "data_source": "基于河南洪灾案例规则扩展的模拟数据",
+  "created_date": "2026-06-16",
+  "disaster_points_count": 80,
+  "warehouses_count": 12,
+  "materials_count": 3,
+  "material_names": [
+    "饮用水",
+    "方便面",
+    "帐篷"
+  ],
+  "total_population_affected": 5169540,
+  "total_demand": 17078456,
+  "total_inventory": 11675647,
+  "max_transport_capacity": 92240,
+  "characteristics": [
+    "80个受灾点，覆盖黄淮流域模拟区域",
+    "12个区域储备库，异构车辆与运力",
+    "3类物资，需求与库存规模达十万级",
+    "适用于验证算法在大规模场景下的可扩展性"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scenario_name": "Sichuan Wenchuan earthquake rescue planning with OSM regional road network",
+  "start_node": "START",
+  "target_node": "TARGET",
+  "start_label": "起点：成都市区",
+  "target_label": "终点：汶川县城",
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 1.4,
+    "flood": 2.2,
+    "collapse": 8.0
+  },
+  "congestion_weight": 0.6,
+  "undirected": true,
+  "disaster_type": "earthquake",
+  "historical_event_id": "EQ2008-SC-WENCHUAN-OSM-01",
+  "historical_event_name": "2008 Wenchuan earthquake Yingxiu-Wenchuan road impact zone with OSM road network",
+  "historical_event_date": "2008-05-12",
+  "historical_event_source": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g650",
+  "road_data_source": "OpenStreetMap / Overpass API regional highway extract",
+  "description": "The routing graph uses a regional OSM road network around Chengdu, Dujiangyan, Yingxiu, Wenchuan, Lixian, Maoxian and Beichuan. Historical Wenchuan earthquake collapse risk is mapped to road segments by buffer overlay before Dijkstra planning.",
+  "traffic_data_source": "AMap traffic status circle API, matched to existing OSM edges by road name",
+  "traffic_source_url": "https://lbs.amap.com/api/webservice/guide/api-advanced/traffic-situation-inquiry"
+}

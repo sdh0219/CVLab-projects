@@ -1,0 +1,17 @@
+{
+  "algorithm": "AES-256-CBC",
+  "key_derivation": "SHA-256(project_identifier)",
+  "iv_size": 16,
+  "padding": "PKCS7",
+  "encrypted_files": [
+    "dangerous_sources.enc",
+    "hidden_dangers.enc",
+    "population.enc",
+    "rainfall_data.enc",
+    "rainfall_stations.enc",
+    "risk_spots.enc",
+    "roads.enc",
+    "shelters.enc"
+  ],
+  "note": "密钥通过代码中的项目标识符派生，用于课程作业安全演示"
+}

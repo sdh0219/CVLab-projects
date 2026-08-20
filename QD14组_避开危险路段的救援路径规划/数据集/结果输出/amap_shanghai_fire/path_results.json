@@ -1,0 +1,50 @@
+[
+  {
+    "algorithm": "Dijkstra",
+    "mode": "distance",
+    "path": [
+      "N001",
+      "N052",
+      "N058",
+      "N059",
+      "N015",
+      "N002"
+    ],
+    "total_distance": 4.829,
+    "total_cost": 4.829,
+    "dangerous_edge_count": 2,
+    "dangerous_edges": [
+      "AM0055",
+      "AM0010"
+    ],
+    "danger_types": [
+      "fire"
+    ],
+    "rescue_assessment": "距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。"
+  },
+  {
+    "algorithm": "Dijkstra",
+    "mode": "safe",
+    "path": [
+      "N001",
+      "N052",
+      "N058",
+      "N059",
+      "N131",
+      "N130",
+      "N056",
+      "N057",
+      "N002"
+    ],
+    "total_distance": 6.309,
+    "total_cost": 14.272,
+    "dangerous_edge_count": 1,
+    "dangerous_edges": [
+      "AM0052"
+    ],
+    "danger_types": [
+      "fire"
+    ],
+    "rescue_assessment": "综合代价较低，但仍包含部分风险路段，需要现场确认后通行。"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "constraints": {
+    "inventory_limit": true,
+    "demand_limit": true,
+    "vehicle_limit": true,
+    "time_window_soft": true,
+    "specialty_matching_soft": true
+  },
+  "disaster_types": [
+    "内涝",
+    "堰塞湖",
+    "洪水",
+    "山体滑坡",
+    "洪水+滑坡"
+  ],
+  "access_levels": [
+    "良好",
+    "一般",
+    "较差",
+    "极差",
+    "中断"
+  ],
+  "material_names": [
+    "饮用水",
+    "食品",
+    "帐篷",
+    "药品",
+    "发电设备"
+  ],
+  "notes": [
+    "受灾点含洪水、内涝、山体滑坡、堰塞湖及复合灾害类型",
+    "通行等级影响道路状况矩阵，进而影响运输成本与时间",
+    "仓库具有物资专长标签，可用于扩展约束模型",
+    "部分受灾点设置配送时间窗（小时），体现复杂调度描述"
+  ]
+}

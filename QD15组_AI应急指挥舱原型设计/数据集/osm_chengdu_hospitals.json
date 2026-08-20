@@ -1,0 +1,1425 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-16T01:07:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1949246070,
+  "lat": 30.6851715,
+  "lon": 104.1128769,
+  "tags": {
+    "amenity": "hospital",
+    "name": "八里医院"
+  }
+},
+{
+  "type": "node",
+  "id": 1956621325,
+  "lat": 30.6869300,
+  "lon": 104.1177329,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "东区医院"
+  }
+},
+{
+  "type": "node",
+  "id": 1958204071,
+  "lat": 30.6754365,
+  "lon": 104.0747145,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "丽婴房"
+  }
+},
+{
+  "type": "node",
+  "id": 1964383754,
+  "lat": 30.6701337,
+  "lon": 104.0957683,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都成华戈韦尔医院"
+  }
+},
+{
+  "type": "node",
+  "id": 1964586853,
+  "lat": 30.6647509,
+  "lon": 104.1185719,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都市华川医院"
+  }
+},
+{
+  "type": "node",
+  "id": 2615891835,
+  "lat": 30.4894871,
+  "lon": 103.9917581,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "公兴社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 2651673336,
+  "lat": 30.6588850,
+  "lon": 104.1127172,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都中德肾病医院"
+  }
+},
+{
+  "type": "node",
+  "id": 2716031253,
+  "lat": 30.6104738,
+  "lon": 104.0779287,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "安琪儿妇产医院",
+    "name:zh": "安琪儿妇产医院"
+  }
+},
+{
+  "type": "node",
+  "id": 2817623839,
+  "lat": 30.6875980,
+  "lon": 104.0737417,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "五冶医院",
+    "name:en": "Wuye Hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 3673105396,
+  "lat": 30.5225553,
+  "lon": 104.0532668,
+  "tags": {
+    "amenity": "hospital",
+    "name": "贝康宠物医院",
+    "name:zh": "贝康宠物医院"
+  }
+},
+{
+  "type": "node",
+  "id": 4201795165,
+  "lat": 30.6536849,
+  "lon": 104.1010371,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "新华医院"
+  }
+},
+{
+  "type": "node",
+  "id": 4601641604,
+  "lat": 30.6344400,
+  "lon": 104.1210049,
+  "tags": {
+    "addr:housenumber": "1666号",
+    "addr:street": "岷江路1666号",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "四川微医互联网医院",
+    "name:en": "Sichuan Weiyi Internet Hospital",
+    "name:zh": "四川微医互联网医院"
+  }
+},
+{
+  "type": "node",
+  "id": 4661854188,
+  "lat": 30.5915278,
+  "lon": 104.0513544,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:housenumber": "516",
+    "addr:street": "府城大道",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "成都市急救指挥中心(120)"
+  }
+},
+{
+  "type": "node",
+  "id": 4702508991,
+  "lat": 30.5900136,
+  "lon": 104.0524212,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "拉斐尔口腔",
+    "name:zh": "拉斐尔口腔",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4724343820,
+  "lat": 30.6793760,
+  "lon": 104.0480503,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:housenumber": "85号",
+    "addr:street": "花牌坊街",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "人民北路社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 4771151813,
+  "lat": 30.5491813,
+  "lon": 103.9842092,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "文星镇同济医院"
+  }
+},
+{
+  "type": "node",
+  "id": 4772476117,
+  "lat": 30.6613642,
+  "lon": 104.0475088,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "门诊部"
+  }
+},
+{
+  "type": "node",
+  "id": 4831098724,
+  "lat": 30.6748028,
+  "lon": 104.0554749,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital"
+  }
+},
+{
+  "type": "node",
+  "id": 5160197922,
+  "lat": 30.6854918,
+  "lon": 104.0286775,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5160198122,
+  "lat": 30.6703132,
+  "lon": 104.0633107,
+  "tags": {
+    "amenity": "hospital",
+    "full_name": "成都市青羊区草市御河社区卫生服务中心",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;paediatrics;internal;surgery;stomatology;dermatology;traditional_chinese_medicine;blood_check;diagnostic_radiology",
+    "name": "草市御河社区卫生服务中心",
+    "name:en": "Caoshi Yuhe Community Health Center",
+    "name:zh": "草市御河社区卫生服务中心",
+    "opening_hours": "Mo-Fr 08:15-12:00,13:30-17:00",
+    "phone": "+86 28 86748422",
+    "reg_ref": "PDY00107151010512B1001"
+  }
+},
+{
+  "type": "node",
+  "id": 5807318425,
+  "lat": 30.6642045,
+  "lon": 104.0943659,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成华区人民医院"
+  }
+},
+{
+  "type": "node",
+  "id": 6839483094,
+  "lat": 30.6821788,
+  "lon": 104.0791760,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "dentist",
+    "name": "海涛口腔"
+  }
+},
+{
+  "type": "node",
+  "id": 6839838085,
+  "lat": 30.6807702,
+  "lon": 104.0731610,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name:en": "Ineye Hospital of Chengdu University of T.C.M"
+  }
+},
+{
+  "type": "node",
+  "id": 7069341985,
+  "lat": 30.6569402,
+  "lon": 104.0547645,
+  "tags": {
+    "addr:full": "青羊区上网家拐",
+    "amenity": "hospital",
+    "beds": "12",
+    "healthcare": "clinic;doctor;pharmacy",
+    "healthcare:speciality": "general;internal",
+    "insurance:health": "private;public",
+    "name": "汪家拐社区医院",
+    "opening_hours": "Mo-Fr 00:00-23:55",
+    "operational_status": "operational",
+    "operator:type": "community",
+    "staff_count:doctors": "7",
+    "staff_count:nurses": "18",
+    "water_source": "water_works",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7236668455,
+  "lat": 30.4916567,
+  "lon": 104.1390723,
+  "tags": {
+    "addr:city": "成都",
+    "addr:district": "天府新区",
+    "addr:postcode": "610213",
+    "addr:province": "四川",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "healthcare:speciality": "general",
+    "name": "北山诊所",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "operator": "成都天府新区北山诊所有限公司",
+    "operator:type": "community",
+    "phone": "+86 28 64713390"
+  }
+},
+{
+  "type": "node",
+  "id": 8692997733,
+  "lat": 30.6655666,
+  "lon": 104.1150242,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "no",
+    "healthcare": "hospital",
+    "healthcare:speciality": "plastic_surgery"
+  }
+},
+{
+  "type": "node",
+  "id": 8995209382,
+  "lat": 30.6667955,
+  "lon": 104.1212317,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成华区跳蹬河社区卫生服务中心杉板桥分中心"
+  }
+},
+{
+  "type": "node",
+  "id": 9003487074,
+  "lat": 30.6497821,
+  "lon": 104.0384869,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "武侯区浆洗街社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 9560360623,
+  "lat": 30.6475386,
+  "lon": 104.1519054,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成华区保和社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 9565926192,
+  "lat": 30.7302968,
+  "lon": 103.9616761,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "医务室"
+  }
+},
+{
+  "type": "node",
+  "id": 9633125265,
+  "lat": 30.7595668,
+  "lon": 103.9265121,
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "电子科技大学医院",
+    "name:en": "UESTC Hospital",
+    "name:zh": "电子科技大学医院",
+    "operator": "电子科技大学",
+    "operator:type": "public"
+  }
+},
+{
+  "type": "node",
+  "id": 9976837508,
+  "lat": 30.6529376,
+  "lon": 104.0115150,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dermatology",
+    "name": "成都腋臭皮肤病医院",
+    "phone": "+8619180966120"
+  }
+},
+{
+  "type": "node",
+  "id": 10061108165,
+  "lat": 30.7627437,
+  "lon": 103.9793109,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "天吉康晟医院"
+  }
+},
+{
+  "type": "node",
+  "id": 10101126207,
+  "lat": 30.6271679,
+  "lon": 103.9804463,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都聚焦超声医院"
+  }
+},
+{
+  "type": "node",
+  "id": 10101214899,
+  "lat": 30.6354316,
+  "lon": 103.9811415,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "武侯区第二人民医院"
+  }
+},
+{
+  "type": "node",
+  "id": 10253152072,
+  "lat": 30.6843412,
+  "lon": 103.9749591,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "未来中西医结合诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 10304962294,
+  "lat": 30.5918793,
+  "lon": 103.9232175,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "四川大学华西医院空港医院"
+  }
+},
+{
+  "type": "node",
+  "id": 10795418489,
+  "lat": 30.5945299,
+  "lon": 103.9681321,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "俊茂诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 10915752864,
+  "lat": 30.6835401,
+  "lon": 103.9742298,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "青羊惠民仁爱诊所",
+    "name:zh": "青羊惠民仁爱诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 11514143734,
+  "lat": 30.6754248,
+  "lon": 104.0574828,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:district": "青羊区",
+    "addr:housenumber": "7",
+    "addr:province": "四川省",
+    "addr:street": "万和路",
+    "alt_name": "成都市青羊区新华少城社区卫生服务中心",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "full_name": "成都市青羊区人民医院",
+    "healthcare": "hospital",
+    "healthcare:speciality": "general;ophthalmology;paediatrics;dermatology;internal;surgery;blood_check;diagnostic_radiology;traditional_chinese_medicine;anaesthetics;gynaecology;otolaryngology;stomatology;oncology;physiatry;pulmonology;neurology;gastroenterology;orthopaedics;urology",
+    "name": "青羊区人民医院",
+    "operator": "青羊区卫生健康局",
+    "operator:type": "government",
+    "reg_ref": "45077663151010512A1002;PDY00108X51010512B1001"
+  }
+},
+{
+  "type": "node",
+  "id": 11543327454,
+  "lat": 30.5372530,
+  "lon": 104.0895463,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "中和社区卫生服务中心("
+  }
+},
+{
+  "type": "node",
+  "id": 11634335021,
+  "lat": 30.7411412,
+  "lon": 103.9619672,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都玛诗特肿瘤医院"
+  }
+},
+{
+  "type": "node",
+  "id": 11736402461,
+  "lat": 30.6134466,
+  "lon": 104.1183495,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "四川师范大学医院"
+  }
+},
+{
+  "type": "node",
+  "id": 11741418019,
+  "lat": 30.7016815,
+  "lon": 103.9660989,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "成飞社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 11812171720,
+  "lat": 30.7283835,
+  "lon": 103.9178442,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都泰康蜀园医院"
+  }
+},
+{
+  "type": "node",
+  "id": 11846050887,
+  "lat": 30.6702502,
+  "lon": 104.0405453,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "脑病科"
+  }
+},
+{
+  "type": "node",
+  "id": 11846050888,
+  "lat": 30.6701833,
+  "lon": 104.0406741,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "心身疾病科"
+  }
+},
+{
+  "type": "node",
+  "id": 11917195145,
+  "lat": 30.6920196,
+  "lon": 103.8409555,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "温江向阳诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 11961151501,
+  "lat": 30.7100446,
+  "lon": 104.1181426,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "青龙社区卫生服务中心（新山院区）"
+  }
+},
+{
+  "type": "node",
+  "id": 11962618493,
+  "lat": 30.5637087,
+  "lon": 103.9679237,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "西南民族大学航空港校区（校医院）"
+  }
+},
+{
+  "type": "node",
+  "id": 11994568344,
+  "lat": 30.7367564,
+  "lon": 104.1425341,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "南大门医务室"
+  }
+},
+{
+  "type": "node",
+  "id": 12000325830,
+  "lat": 30.7953600,
+  "lon": 103.9396608,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "三观社区卫生服务站"
+  }
+},
+{
+  "type": "node",
+  "id": 12073393951,
+  "lat": 30.7982464,
+  "lon": 103.8864218,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:district": "郫都区",
+    "addr:housenumber": "300号",
+    "addr:postcode": "611730",
+    "addr:province": "四川省",
+    "addr:street": "文信路",
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "tuina;community;vaccination;physiatry",
+    "name": "郫筒街道第二社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12087052687,
+  "lat": 30.7951061,
+  "lon": 103.8901344,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "蔡刚诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 12433800381,
+  "lat": 30.6739036,
+  "lon": 104.1219347,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "北区医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12444429577,
+  "lat": 30.6383518,
+  "lon": 104.0433360,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "罗氏骨科"
+  }
+},
+{
+  "type": "node",
+  "id": 12447431322,
+  "lat": 30.6343522,
+  "lon": 104.0407751,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "肖家河社区卫生服务中心健康管理中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12451125612,
+  "lat": 30.6306635,
+  "lon": 104.0635228,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "悦瞳眼科医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12451125850,
+  "lat": 30.6275293,
+  "lon": 104.0618757,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "武侯区人南诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 12451223723,
+  "lat": 30.6312502,
+  "lon": 104.0561831,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "成都市武侯区玉林北路社区卫生服务站"
+  }
+},
+{
+  "type": "node",
+  "id": 12453149181,
+  "lat": 30.6257609,
+  "lon": 104.0698949,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "洪春诊所(棕南西街)"
+  }
+},
+{
+  "type": "node",
+  "id": 12460868014,
+  "lat": 30.6166385,
+  "lon": 104.0904617,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "华侨口腔牙科"
+  }
+},
+{
+  "type": "node",
+  "id": 12461009657,
+  "lat": 30.6239896,
+  "lon": 104.0899662,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "蓉达诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 12463120376,
+  "lat": 30.6293777,
+  "lon": 104.0949392,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "锦江桦鑫堂诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 12463232678,
+  "lat": 30.6478547,
+  "lon": 104.0027440,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "成都市武侯区晋阳社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12463251400,
+  "lat": 30.6462678,
+  "lon": 103.9980127,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "肖龙口腔"
+  }
+},
+{
+  "type": "node",
+  "id": 12466994588,
+  "lat": 30.6510498,
+  "lon": 103.9864976,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都同神堂中西医结合医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12475285915,
+  "lat": 30.6378706,
+  "lon": 104.0483063,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都西部白癜风医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12475286063,
+  "lat": 30.6378165,
+  "lon": 104.0508089,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都武侯甘露海藏医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12478443075,
+  "lat": 30.6933833,
+  "lon": 104.0608875,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都市金牛区荷花池社区卫生服务中心(荷花池院区)"
+  }
+},
+{
+  "type": "node",
+  "id": 12480745182,
+  "lat": 30.6802622,
+  "lon": 104.0892319,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都泰康拜博口腔医院(成都金牛总院)"
+  }
+},
+{
+  "type": "node",
+  "id": 12486746194,
+  "lat": 30.6912718,
+  "lon": 104.0855367,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都团圆口腔医院(北站院区)"
+  }
+},
+{
+  "type": "node",
+  "id": 12492504347,
+  "lat": 30.6960383,
+  "lon": 104.0827772,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都得乐医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12497554307,
+  "lat": 30.5589092,
+  "lon": 104.0304364,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "百合花口腔诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 12520775232,
+  "lat": 30.5590372,
+  "lon": 104.2683626,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "龙泉长康医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12520775233,
+  "lat": 30.5588552,
+  "lon": 104.2682213,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "龙泉长康医院口腔科"
+  }
+},
+{
+  "type": "node",
+  "id": 12520879125,
+  "lat": 30.5610514,
+  "lon": 104.2708554,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都市龙泉驿区仁爱社区卫生服务中心(东街院区)"
+  }
+},
+{
+  "type": "node",
+  "id": 12525739220,
+  "lat": 30.5502838,
+  "lon": 104.2643967,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "龙泉航天社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12540962490,
+  "lat": 30.6677441,
+  "lon": 104.0385573,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "西南华西颈腰椎研究院"
+  }
+},
+{
+  "type": "node",
+  "id": 12541862911,
+  "lat": 30.6752148,
+  "lon": 104.0460150,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "麦迪格眼科医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12543688294,
+  "lat": 30.6724149,
+  "lon": 104.0640591,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都小米熊医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12544079850,
+  "lat": 30.6744363,
+  "lon": 104.0559572,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都颐和医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12551144050,
+  "lat": 30.6575150,
+  "lon": 104.0964117,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dentist",
+    "name": "桥腔"
+  }
+},
+{
+  "type": "node",
+  "id": 12553389520,
+  "lat": 30.6492664,
+  "lon": 104.0953216,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "牛市口社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12553478952,
+  "lat": 30.6517085,
+  "lon": 104.1064499,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "dental_oral_maxillo_facial_surgery",
+    "name": "美昂口腔"
+  }
+},
+{
+  "type": "node",
+  "id": 12555847165,
+  "lat": 30.6384721,
+  "lon": 104.1044432,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "思迈口腔(文华店)"
+  }
+},
+{
+  "type": "node",
+  "id": 12555907111,
+  "lat": 30.6414117,
+  "lon": 104.0993330,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "莲新社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12556322405,
+  "lat": 30.6451843,
+  "lon": 104.1225230,
+  "tags": {
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "成华区玉芳西医诊所"
+  }
+},
+{
+  "type": "node",
+  "id": 12556414405,
+  "lat": 30.6534904,
+  "lon": 104.1185673,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "联合社区卫生服务站"
+  }
+},
+{
+  "type": "node",
+  "id": 12558317255,
+  "lat": 30.6820871,
+  "lon": 104.1192190,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "中西医眼科"
+  }
+},
+{
+  "type": "node",
+  "id": 12560749992,
+  "lat": 30.6345961,
+  "lon": 104.1357392,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都成华索思综合门诊部(鹏瑞利东站店)"
+  }
+},
+{
+  "type": "node",
+  "id": 12585081128,
+  "lat": 30.6729748,
+  "lon": 104.0302281,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都胃病医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12585081200,
+  "lat": 30.6728401,
+  "lon": 104.0298870,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "金沙社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12585397960,
+  "lat": 30.6772503,
+  "lon": 104.0148536,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "府南金沙社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12585398572,
+  "lat": 30.6786425,
+  "lon": 104.0096747,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "西南口腔医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12590281082,
+  "lat": 30.6998775,
+  "lon": 104.0212477,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "茶店子街道锦城社区健康管理服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12597675663,
+  "lat": 30.6887360,
+  "lon": 104.0427719,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "抚琴社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12598667316,
+  "lat": 30.7014921,
+  "lon": 104.0339875,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都市金牛区营门口社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12600785391,
+  "lat": 30.7091933,
+  "lon": 104.0446928,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "九里堤社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12615651675,
+  "lat": 30.6142726,
+  "lon": 104.0402911,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "圣约瑟康复中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12618335921,
+  "lat": 30.6044695,
+  "lon": 104.0548671,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "瞳仁视康眼科医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12620714330,
+  "lat": 30.7125348,
+  "lon": 104.0715382,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成华区双水碾社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12620797049,
+  "lat": 30.7258717,
+  "lon": 104.0521941,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "洞子口医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12623240467,
+  "lat": 30.7136477,
+  "lon": 104.0892092,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成华区第三人民医院北区"
+  }
+},
+{
+  "type": "node",
+  "id": 12625519855,
+  "lat": 30.7028858,
+  "lon": 104.1152409,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "海滨社区卫生服务站"
+  }
+},
+{
+  "type": "node",
+  "id": 12625620415,
+  "lat": 30.7161759,
+  "lon": 104.1077649,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "四川省人民医院对口辅导社区卫生服务中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12628198335,
+  "lat": 30.6062070,
+  "lon": 104.0381709,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都高新同爱医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12730598693,
+  "lat": 30.6644638,
+  "lon": 104.0215107,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "healthcare:speciality": "otolaryngology",
+    "name": "成都仁品耳鼻喉专科医院"
+  }
+},
+{
+  "type": "node",
+  "id": 12741539208,
+  "lat": 30.6737249,
+  "lon": 104.0635853,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "健康管理中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12741539241,
+  "lat": 30.6744426,
+  "lon": 104.0586730,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都九龙医院"
+  }
+},
+{
+  "type": "node",
+  "id": 13382696123,
+  "lat": 30.6466729,
+  "lon": 104.0579855,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "华西医院"
+  }
+},
+{
+  "type": "node",
+  "id": 13423028917,
+  "lat": 30.6722724,
+  "lon": 104.0702708,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:district": "青羊区",
+    "addr:housenumber": "42",
+    "addr:province": "四川省",
+    "addr:street": "新华大道文武路",
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "healthcare:speciality": "paediatrics;psychiatry;behavior",
+    "name": "西南康复医院",
+    "operator": "成都西南康复医院有限公司",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 13702817522,
+  "lat": 30.6712118,
+  "lon": 104.0707045,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都瑞恩糖尿病医院"
+  }
+},
+{
+  "type": "node",
+  "id": 13702817523,
+  "lat": 30.6743354,
+  "lon": 104.0661233,
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "成都东大肛肠医院"
+  }
+},
+{
+  "type": "way",
+  "id": 262628569,
+  "center": {
+    "lat": 30.8271170,
+    "lon": 104.1799377
+  },
+  "tags": {
+    "amenity": "hospital"
+  }
+},
+{
+  "type": "way",
+  "id": 263042768,
+  "center": {
+    "lat": 30.8221724,
+    "lon": 104.1857569
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "新都区妇幼保健院"
+  }
+},
+{
+  "type": "way",
+  "id": 263156088,
+  "center": {
+    "lat": 30.8315307,
+    "lon": 104.1563359
+  },
+  "tags": {
+    "amenity": "hospital",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "成都医学院第一附属医院"
+  }
+},
+{
+  "type": "way",
+  "id": 284224187,
+  "center": {
+    "lat": 30.7635853,
+    "lon": 103.9646646
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "公路医院",
+    "name:zh": "公路医院"
+  }
+},
+{
+  "type": "way",
+  "id": 284803751,
+  "center": {
+    "lat": 30.6748152,
+    "lon": 103.8652857
+  },
+  "tags": {
+    "amenity": "hospital",
+    "name": "涌泉卫生服务中心"
+  }
+},
+{
+  "type": "way",
+  "id": 324900607,
+  "center": {
+    "lat": 30.6727725,
+    "lon": 104.0775457
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "青羊区妇幼保健院",
+    "place": "locality"
+  }
+}
+
+  ]
+}
+

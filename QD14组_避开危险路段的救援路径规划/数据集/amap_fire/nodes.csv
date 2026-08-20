@@ -1,0 +1,180 @@
+﻿node_id,x,y,label,type
+N001,116.231027,39.84216,AMap origin,start
+N002,116.280437,39.889128,AMap destination,target
+N003,116.230893,39.8485,route point,normal
+N004,116.238618,39.855469,卢沟桥南路,normal
+N005,116.23982,39.857813,G4京港澳高速辅路,normal
+N006,116.274141,39.873268,G4京港澳高速入口,normal
+N007,116.274661,39.885075,岳各庄桥,normal
+N008,116.274613,39.885869,西四环中路出口,normal
+N009,116.274302,39.889291,西四环中路出口,normal
+N010,116.280616,39.889506,靛厂路,normal
+N011,116.230893,39.8485,route point,normal
+N012,116.238618,39.855469,卢沟桥南路,normal
+N013,116.23982,39.857813,G4京港澳高速辅路,normal
+N014,116.274141,39.873268,G4京港澳高速入口,normal
+N015,116.274661,39.885075,岳各庄桥,normal
+N016,116.274613,39.885869,西四环中路出口,normal
+N017,116.274318,39.892778,西四环中路出口,normal
+N018,116.283438,39.897166,西翠路,normal
+N019,116.281882,39.897225,莲花池西路辅路,normal
+N020,116.281875,39.897407,route point,normal
+N021,116.281866,39.897708,route point,normal
+N022,116.281882,39.897225,route point,normal
+N023,116.274736,39.898679,莲花池西路辅路,normal
+N024,116.272462,39.898331,西四环中路辅路,normal
+N025,116.272387,39.896571,西四环中路辅路,normal
+N026,116.275766,39.880558,西四环中路辅路,normal
+N027,116.276469,39.88058,route point,normal
+N028,116.274302,39.889291,西四环中路辅路,normal
+N029,116.280616,39.889506,靛厂路,normal
+N030,116.230893,39.8485,route point,normal
+N031,116.238618,39.855469,卢沟桥南路,normal
+N032,116.23982,39.857813,G4京港澳高速辅路,normal
+N033,116.274141,39.873268,G4京港澳高速入口,normal
+N034,116.275353,39.88309,岳各庄桥,normal
+N035,116.275343,39.883578,西四环中路出口,normal
+N036,116.284194,39.883074,route point,normal
+N037,116.284162,39.882293,岳各庄东路,normal
+N038,116.284162,39.882275,岳各庄东路,normal
+N039,116.284591,39.889474,岳各庄东路,normal
+N040,116.280112,39.889586,靛厂路,normal
+N041,116.280616,39.889506,靛厂路,normal
+N042,116.230893,39.8485,route point,normal
+N043,116.238618,39.855469,卢沟桥南路,normal
+N044,116.23982,39.857813,G4京港澳高速辅路,normal
+N045,116.290712,39.87881,G4京港澳高速入口,normal
+N046,116.294832,39.879485,G4京港澳高速出口,normal
+N047,116.294939,39.878573,万丰路辅路,normal
+N048,116.295068,39.885724,万丰路,normal
+N049,116.295213,39.886722,万丰路,normal
+N050,116.302755,39.886572,莲怡园北路,normal
+N051,116.303375,39.886726,route point,normal
+N052,116.303399,39.886727,route point,normal
+N053,116.30275,39.88669,route point,normal
+N054,116.30268,39.889678,莲怡园东路,normal
+N055,116.280112,39.889586,莲宝路,normal
+N056,116.280616,39.889506,靛厂路,normal
+N057,116.230893,39.8485,route point,normal
+N058,116.238618,39.855469,卢沟桥南路,normal
+N059,116.23982,39.857813,G4京港澳高速辅路,normal
+N060,116.290712,39.87881,G4京港澳高速入口,normal
+N061,116.294832,39.879485,G4京港澳高速出口,normal
+N062,116.294939,39.878573,万丰路,normal
+N063,116.300781,39.880226,广安路,normal
+N064,116.299456,39.878214,route point,normal
+N065,116.299322,39.878466,route point,normal
+N066,116.299622,39.878579,route point,normal
+N067,116.299456,39.878214,route point,normal
+N068,116.300781,39.880226,route point,normal
+N069,116.295121,39.878616,广安路,normal
+N070,116.295062,39.889528,万丰路,normal
+N071,116.280112,39.889586,靛厂路,normal
+N072,116.280616,39.889506,靛厂路,normal
+N073,116.230893,39.8485,route point,normal
+N074,116.238618,39.855469,卢沟桥南路,normal
+N075,116.23982,39.857813,G4京港澳高速辅路,normal
+N076,116.257994,39.865785,G4京港澳高速入口,normal
+N077,116.259593,39.866294,G4京港澳高速出口,normal
+N078,116.264448,39.866015,G4京港澳高速出口,normal
+N079,116.264582,39.872184,程庄路,normal
+N080,116.25712,39.872211,双林南路,normal
+N081,116.257173,39.880403,双林东路,normal
+N082,116.258536,39.880478,梅市口路,normal
+N083,116.258681,39.878949,route point,normal
+N084,116.259294,39.878998,route point,normal
+N085,116.261722,39.879276,route point,normal
+N086,116.261647,39.879743,route point,normal
+N087,116.263391,39.880719,route point,normal
+N088,116.275874,39.88029,梅市口路,normal
+N089,116.274302,39.889291,西四环中路辅路,normal
+N090,116.280616,39.889506,靛厂路,normal
+N091,116.230893,39.8485,route point,normal
+N092,116.238618,39.855469,卢沟桥南路,normal
+N093,116.23982,39.857813,G4京港澳高速辅路,normal
+N094,116.274141,39.873268,G4京港澳高速入口,normal
+N095,116.27413,39.895605,岳各庄桥,normal
+N096,116.274806,39.897537,南沙窝桥,normal
+N097,116.274956,39.898556,南沙窝桥,normal
+N098,116.272462,39.898331,西四环中路辅路,normal
+N099,116.272387,39.896571,西四环中路辅路,normal
+N100,116.273696,39.889651,西四环中路辅路,normal
+N101,116.268396,39.889586,大成路,normal
+N102,116.26839,39.89118,郑常庄路,normal
+N103,116.268535,39.891175,route point,normal
+N104,116.268514,39.8914,route point,normal
+N105,116.268583,39.891426,route point,normal
+N106,116.268686,39.891462,route point,normal
+N107,116.268707,39.89147,route point,normal
+N108,116.268514,39.8914,route point,normal
+N109,116.268535,39.891175,route point,normal
+N110,116.26839,39.89118,route point,normal
+N111,116.268396,39.889586,郑常庄路,normal
+N112,116.264957,39.889565,大成路,normal
+N113,116.273696,39.889404,大成路,normal
+N114,116.278695,39.872823,西四环中路辅路,normal
+N115,116.300781,39.880226,卢沟桥路,normal
+N116,116.299456,39.878214,route point,normal
+N117,116.299485,39.878527,route point,normal
+N118,116.299622,39.878579,route point,normal
+N119,116.299456,39.878214,route point,normal
+N120,116.300781,39.880226,route point,normal
+N121,116.295121,39.878616,广安路,normal
+N122,116.295062,39.889528,万丰路,normal
+N123,116.280112,39.889586,靛厂路,normal
+N124,116.280616,39.889506,靛厂路,normal
+N125,116.280437,39.889128,context_hospital_yuegezhuang origin,context
+N126,116.284775,39.882475,context_hospital_yuegezhuang destination,context
+N127,116.280616,39.889506,route point,normal
+N128,116.284494,39.889474,靛厂路,normal
+N129,116.284162,39.882275,岳各庄东路,normal
+N130,116.280437,39.889128,context_hospital_wanshoulu origin,context
+N131,116.281841,39.897407,context_hospital_wanshoulu destination,context
+N132,116.280616,39.889506,route point,normal
+N133,116.294826,39.889522,靛厂路,normal
+N134,116.295057,39.896818,万丰路,normal
+N135,116.281882,39.897225,莲花池西路辅路,normal
+N136,116.280437,39.889128,context_hospital_liuliqiao origin,context
+N137,116.303199,39.886584,context_hospital_liuliqiao destination,context
+N138,116.280616,39.889506,route point,normal
+N139,116.30268,39.889731,靛厂路,normal
+N140,116.30275,39.88669,莲怡园东路,normal
+N141,116.303399,39.886727,route point,normal
+N142,116.268898,39.891732,context_zhengchangzhuang_xiaotun origin,context
+N143,116.259285,39.879067,context_zhengchangzhuang_xiaotun destination,context
+N144,116.268514,39.8914,route point,normal
+N145,116.268535,39.891175,route point,normal
+N146,116.26839,39.89118,route point,normal
+N147,116.268396,39.889586,郑常庄路,normal
+N148,116.253145,39.889586,大成路,normal
+N149,116.252834,39.88021,小屯路,normal
+N150,116.258536,39.880478,梅市口路,normal
+N151,116.258681,39.878949,route point,normal
+N152,116.259285,39.879067,context_xiaotun_yuegezhuang origin,context
+N153,116.284775,39.882475,context_xiaotun_yuegezhuang destination,context
+N154,116.258681,39.878949,route point,normal
+N155,116.258536,39.880478,route point,normal
+N156,116.257173,39.880403,梅市口路,normal
+N157,116.25712,39.872211,双林东路,normal
+N158,116.264324,39.872152,双林南路,normal
+N159,116.264619,39.880794,青塔西路,normal
+N160,116.283985,39.880548,梅市口路,normal
+N161,116.284253,39.88227,岳各庄东路,normal
+N162,116.284775,39.882475,context_yuegezhuang_wanfeng origin,context
+N163,116.299259,39.87854,context_yuegezhuang_wanfeng destination,context
+N164,116.284253,39.88227,route point,normal
+N165,116.284462,39.88647,岳各庄东路,normal
+N166,116.294837,39.886743,水衙沟路,normal
+N167,116.294939,39.878573,万丰路,normal
+N168,116.300781,39.880226,广安路,normal
+N169,116.299456,39.878214,route point,normal
+N170,116.281841,39.897407,context_wanshoulu_liuliqiao origin,context
+N171,116.303199,39.886584,context_wanshoulu_liuliqiao destination,context
+N172,116.281882,39.897225,route point,normal
+N173,116.276233,39.898062,莲花池西路辅路,normal
+N174,116.293936,39.897166,莲花池西路辅路,normal
+N175,116.293968,39.896834,莲花池西路辅路,normal
+N176,116.294933,39.896818,莲花池西路出口,normal
+N177,116.294955,39.886738,万丰路,normal
+N178,116.302755,39.886572,莲怡园北路,normal
+N179,116.303399,39.886727,route point,normal

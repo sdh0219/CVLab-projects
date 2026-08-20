@@ -1,0 +1,90 @@
+[
+  {
+    "algorithm": "Dijkstra",
+    "mode": "distance",
+    "path": [
+      "N001",
+      "N003",
+      "N004",
+      "N005",
+      "N006",
+      "N007",
+      "N008",
+      "N009",
+      "N010",
+      "N011",
+      "N012",
+      "N013",
+      "N014",
+      "N015",
+      "N002"
+    ],
+    "total_distance": 19.973,
+    "total_cost": 19.973,
+    "dangerous_edge_count": 4,
+    "dangerous_edges": [
+      "AM0009",
+      "AM0010",
+      "AM0013",
+      "AM0014"
+    ],
+    "danger_types": [
+      "congestion",
+      "flood"
+    ],
+    "rescue_assessment": "距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。"
+  },
+  {
+    "algorithm": "Dijkstra",
+    "mode": "safe",
+    "path": [
+      "N001",
+      "N016",
+      "N017",
+      "N018",
+      "N019",
+      "N020",
+      "N021",
+      "N022",
+      "N023",
+      "N024",
+      "N025",
+      "N026",
+      "N027",
+      "N028",
+      "N029",
+      "N030",
+      "N031",
+      "N032",
+      "N033",
+      "N034",
+      "N035",
+      "N036",
+      "N037",
+      "N038",
+      "N039",
+      "N040",
+      "N041",
+      "N042",
+      "N043",
+      "N044",
+      "N002"
+    ],
+    "total_distance": 26.816,
+    "total_cost": 38.941,
+    "dangerous_edge_count": 7,
+    "dangerous_edges": [
+      "AM0034",
+      "AM0035",
+      "AM0036",
+      "AM0039",
+      "AM0040",
+      "AM0043",
+      "AM0044"
+    ],
+    "danger_types": [
+      "congestion"
+    ],
+    "rescue_assessment": "综合代价较低，但仍包含部分风险路段，需要现场确认后通行。"
+  }
+]

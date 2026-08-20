@@ -1,0 +1,9 @@
+{
+  "use_crf": true,
+  "epochs": 10,
+  "lr": 2e-05,
+  "batch_size": 16,
+  "best_f1": 0.9702380952380952,
+  "best_epoch": 10,
+  "seed": 42
+}

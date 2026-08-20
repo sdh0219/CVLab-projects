@@ -1,0 +1,84 @@
+{
+   "dct:Subject":
+   [
+      {
+         "@value":"人工智能其他学科",
+         "@type":"https://casdc.cn/md/subjectType/GBT13745"
+      }
+
+   ],
+   "schema:fileCount":967,
+   "schema:publisher":"国家基础学科公共科学数据中心",
+   "schema:sensitiveContent":"合格",
+   "@type":"dcmi:Dataset",
+   "schema:licenseDetail":"https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "schema:storageNum":212298445,
+   "schema:originalStatement":"合格",
+   "casdc:fileNumber":967,
+   "dcat:byteSize":212298445,
+   "schema:privacyProtection":"合格",
+   "schema:references":"",
+   "casdc:sdAccessRights":"http://purl.org/coar/access_right/c_abf2",
+   "dc:type":"dcmi:Dataset",
+   "casdc:privacyProtection":"yes",
+   "casdc:originalStatement":"yes",
+   "@id":"http://127.0.0.1:8081/dataDetails/a718b74bcfa2457e963c6eb473a2fe35",
+   "schema:creativeWorkStatus":"http://purl.org/coar/version/c_970fb48d4fbd8a85",
+   "dcterms:accessRights":"http://purl.org/coar/access_right/c_abf2",
+   "schema:version":"v1",
+   "schema:url":"http://127.0.0.1:8081/dataDetails/a718b74bcfa2457e963c6eb473a2fe35",
+   "schema:datePublished":"2025-09-09T00:00:00+08:00",
+   "casdc:sensitiveContent":"yes",
+   "@context":
+   {
+      "casdc":"http://casdc.cn/md/",
+      "schema":"https://schema.org/",
+      "xsd":"http://www.w3.org/2001/XMLSchema#",
+      "dc":"http://purl.org/dc/elements/1.1/",
+      "dcmi":"http://purl.org/dc/dcmitype/",
+      "dct":"http://datacite.org/schema/kernel-4/",
+      "dcterms":"http://purl.org/dc/terms/",
+      "dcat":"http://www.w3.org/ns/dcat#",
+      "@language":"zh"
+   },
+   "schema:identifier":
+   [
+      {
+         "@type":"dct:DOI",
+         "@id":"https://www.doi.org/"
+      },
+      {
+         "@type":"https://www.iana.org/assignments/uri-schemes/prov/cstr",
+         "@id":"https://cstr.cn/16666.11.nbsdc.HA4jOftt"
+      }
+
+   ],
+   "schema:paper":
+   [
+      
+   ],
+   "schema:license":"",
+   "schema:description":
+   [
+      {
+         "@value":"针对不同类型的应急情况（如地震，火灾，洪水等）进行分类，同时不同的灾害类型所需要的物资类型也不同,
+         且在不同的地区，灾害程度也与地理位置有关联，例如广东省是沿海省份，由于地理位置和气候条件，很容易发生洪涝灾害，数据量37MB。",
+         "@language":"zh"
+      },
+      {
+         "@value":"Emergency situations are categorized by type (such as earthquakes,
+          fires,
+          and floods),
+          with each disaster requiring specific supplies; furthermore,
+          disaster severity varies by region due to geographical factors,
+          for instance,
+          Guangdong Province,
+          being a coastal area with specific climatic conditions,
+          is highly prone to flooding,
+          and the dataset size is 37MB.",
+         "@language":"en"
+      }
+
+   ],
+   "schema:isReferencedBy":""
+}

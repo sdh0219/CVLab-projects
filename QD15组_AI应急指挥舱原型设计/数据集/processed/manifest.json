@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-06-16T09:23:06",
+  "scope": "Chengdu center and surrounding area, bbox 30.45-30.85N / 103.80-104.35E for OSM resources",
+  "principle": "Use public verifiable data only. Non-public quantities such as real-time inventory, rescue team personnel counts, current occupancy and affected population are not fabricated.",
+  "files": {
+    "real_rescue_hospitals.json": 30,
+    "real_rescue_fire_stations.json": 20,
+    "real_shelter_candidates.json": 12,
+    "real_major_roads.json": 25,
+    "real_weather_current.json": 1,
+    "real_disaster_events.json": 5,
+    "real_material_catalog.json": 6,
+    "real_public_policy_indicators.json": 4
+  }
+}

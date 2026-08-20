@@ -1,0 +1,28 @@
+{
+  "scenario_name": "Shanghai Jiaozhou Road fire rescue planning with OSM regional road network",
+  "start_node": "START",
+  "target_node": "TARGET",
+  "start_label": "起点：武宁消防站",
+  "target_label": "终点：胶州路728号",
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 2.0,
+    "fire": 9.0,
+    "flood": 2.2,
+    "collapse": 4.0
+  },
+  "congestion_weight": 1.25,
+  "danger_fixed_costs": {
+    "fire": 1.5,
+    "congestion": 8.0
+  },
+  "undirected": true,
+  "disaster_type": "fire",
+  "historical_event_id": "FIRE2010-SH-JIAOZHOU-OSM-01",
+  "historical_event_name": "2010 Shanghai Jiaozhou Road fire response zone with OSM road network",
+  "historical_event_date": "2010-11-15",
+  "historical_event_source": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E2%80%9C11%C2%B715%E2%80%9D%E7%89%B9%E5%88%AB%E9%87%8D%E5%A4%A7%E7%81%AB%E7%81%BE",
+  "road_data_source": "OpenStreetMap / Overpass API regional highway extract",
+  "traffic_data_source": "AMap traffic status circle API, matched by road name and polyline proximity when available",
+  "description": "The main routing graph uses a continuous regional OSM road network around the Shanghai Jiaozhou Road fire site. Historical fire risk and AMap traffic status are overlaid onto the road segments before Dijkstra planning."
+}

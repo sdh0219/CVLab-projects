@@ -1,0 +1,27 @@
+{
+  "dataset_id": "dataset_02_complex_scenario",
+  "dataset_name": "复杂场景多灾害应急物资调度模拟数据",
+  "scenario": "多灾害类型、多物资、异构仓库与通行约束",
+  "data_source": "基于应急管理复杂场景构建的模拟数据",
+  "created_date": "2026-06-16",
+  "disaster_points_count": 15,
+  "warehouses_count": 6,
+  "materials_count": 5,
+  "material_names": [
+    "饮用水",
+    "食品",
+    "帐篷",
+    "药品",
+    "发电设备"
+  ],
+  "total_population_affected": 878600,
+  "total_demand": 3555974,
+  "total_inventory": 989000,
+  "max_transport_capacity": 31575,
+  "characteristics": [
+    "15个受灾点，5种灾害类型与5级通行条件",
+    "6个异构仓库，5类物资，含专长与冷链描述",
+    "道路状况由灾害类型与通行等级共同决定",
+    "适用于验证复杂约束与多目标优化建模能力"
+  ]
+}

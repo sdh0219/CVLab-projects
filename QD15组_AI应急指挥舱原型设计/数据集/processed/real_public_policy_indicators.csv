@@ -1,0 +1,5 @@
+indicator,label,value,unit,display_value,source,url,note
+chengdu_emergency_shelters,成都市已建成应急避难场所,2300,余个,2300+,人民网四川频道,https://sc.people.com.cn/BIG5/n2/2024/0513/c345167-40841412.html,公开报道：成都已建成应急避难场所2300余个。
+park_emergency_shelters,城市公园内应急避难场所,100,余个,100+,四川在线,https://sichuan.scol.com.cn/ggxw/202203/58471261.html,公开报道：成都市2000余个应急避难场所中，100余个位于城市各个公园里。
+grain_oil_reserve_days,粮食、食用油政府储备市场供应量,15,日以上,15+,新浪四川转载公开报道,https://sc.sina.cn/news/b/2022-05-20/detail-imcwiwst8342255.d.html,公开报道：粮食、食用油等储备规模满足15日以上市场供应量。
+pork_reserve_days,猪肉储备城镇常住人口消费量,3,日,3,新浪四川转载公开报道,https://sc.sina.cn/news/b/2022-05-20/detail-imcwiwst8342255.d.html,公开报道：猪肉储备规模不低于城镇常住人口3天消费量。

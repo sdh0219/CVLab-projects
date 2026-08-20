@@ -1,0 +1,3 @@
+﻿algorithm,mode,path,total_distance,total_cost,dangerous_edge_count,danger_types,rescue_assessment
+Dijkstra,distance,N001 -> N003 -> N004 -> N005 -> N006 -> N007 -> N008 -> N009 -> N010 -> N011 -> N012 -> N013 -> N014 -> N015 -> N002,19.973,19.973,4,"congestion, flood",距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。
+Dijkstra,safe,N001 -> N016 -> N017 -> N018 -> N019 -> N020 -> N021 -> N022 -> N023 -> N024 -> N025 -> N026 -> N027 -> N028 -> N029 -> N030 -> N031 -> N032 -> N033 -> N034 -> N035 -> N036 -> N037 -> N038 -> N039 -> N040 -> N041 -> N042 -> N043 -> N044 -> N002,26.816,38.941,7,congestion,综合代价较低，但仍包含部分风险路段，需要现场确认后通行。

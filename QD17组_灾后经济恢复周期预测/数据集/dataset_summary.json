@@ -1,0 +1,45 @@
+{
+  "download_date": "2026-06-16",
+  "usgs_min_magnitude": 4.5,
+  "usgs_rows": 8210,
+  "noaa_ncei_rows": 81,
+  "files": {
+    "usgs_raw": "data/raw/usgs_earthquakes_usa_m45_1990_2026.csv",
+    "noaa_ncei_raw": "data/raw/noaa_ncei_significant_earthquakes_usa_1990_2026.csv",
+    "noaa_ncei_processed": "data/processed/significant_earthquake_losses_usa_1990_2026.csv",
+    "usgs_yearly_features": "data/processed/usgs_earthquake_yearly_features_usa_m45_1990_2026.csv",
+    "bea_sagdp_zip": "data/raw/bea_sagdp_1997_2025.zip",
+    "bea_sagdp1": "data/raw/bea_sagdp1_all_areas_1997_2025.csv",
+    "bea_sagdp2": "data/raw/bea_sagdp2_all_areas_1997_2025.csv"
+  },
+  "usgs_year_range": [
+    1990,
+    2026
+  ],
+  "noaa_year_range": [
+    1990,
+    2025
+  ],
+  "usgs_yearly_rows": 37,
+  "noaa_processed_columns": [
+    "noaa_event_id",
+    "year",
+    "month",
+    "day",
+    "location_name",
+    "area",
+    "country",
+    "latitude",
+    "longitude",
+    "depth_km",
+    "magnitude",
+    "intensity",
+    "deaths",
+    "injuries",
+    "damage_million_usd",
+    "damage_amount_order",
+    "houses_destroyed",
+    "houses_damaged",
+    "source"
+  ]
+}

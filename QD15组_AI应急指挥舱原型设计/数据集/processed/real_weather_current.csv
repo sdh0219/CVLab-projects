@@ -1,0 +1,2 @@
+﻿humidity,latitude,longitude,note,rainfall,recorded_at,region_name,source,source_url,temperature,wind_speed
+68,30.5728,104.0668,实时/近实时气象API返回值；预警等级未由该API提供。,0.0,2026-06-16T09:15,成都市中心城区,Open-Meteo Forecast API,https://open-meteo.com/,25.0,2.1

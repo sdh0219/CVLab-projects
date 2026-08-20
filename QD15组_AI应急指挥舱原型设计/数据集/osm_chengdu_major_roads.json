@@ -1,0 +1,1901 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-16T01:08:29Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 25373389,
+  "center": {
+    "lat": 30.6597763,
+    "lon": 104.0648806
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "4",
+    "name": "人民中路一段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25373582,
+  "center": {
+    "lat": 30.6224029,
+    "lon": 104.0661624
+  },
+  "tags": {
+    "highway": "primary_link",
+    "motorroad": "yes",
+    "name": "人南立交",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 26326397,
+  "center": {
+    "lat": 30.6660487,
+    "lon": 104.0640420
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "人民中路一段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 26347792,
+  "center": {
+    "lat": 30.6833349,
+    "lon": 104.0697363
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "name": "人民北路",
+    "name:en": "North People's Road",
+    "name:zh": "人民北路",
+    "name:zh-Latn-pinyin": "Renminbei Lu",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 26347795,
+  "center": {
+    "lat": 30.6806463,
+    "lon": 104.0692630
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "万福桥",
+    "name:en": "Wanfu Bridge",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 26348002,
+  "center": {
+    "lat": 30.7000662,
+    "lon": 104.0069442
+  },
+  "tags": {
+    "highway": "trunk",
+    "name": "蜀汉路",
+    "oneway": "yes",
+    "source:imagery": "Esri World Imagery"
+  }
+},
+{
+  "type": "way",
+  "id": 28620365,
+  "center": {
+    "lat": 30.6189482,
+    "lon": 104.0313067
+  },
+  "tags": {
+    "alt_name": "2.5环路",
+    "highway": "primary",
+    "name": "中环路科园大道段",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 28620960,
+  "center": {
+    "lat": 30.6597521,
+    "lon": 104.0581342
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "东城根南街",
+    "name:en": "Dongchenggen Street South",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 28620968,
+  "center": {
+    "lat": 30.7266040,
+    "lon": 104.0687748
+  },
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "horse": "no",
+    "lanes": "3",
+    "layer": "1",
+    "motor_vehicle": "yes",
+    "name": "北三环路二段",
+    "name:en": "3rd Ring Road",
+    "name:zh": "北三环路二段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 28621528,
+  "center": {
+    "lat": 30.6278274,
+    "lon": 104.0449999
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary_link",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 28623856,
+  "center": {
+    "lat": 30.6277686,
+    "lon": 104.0445560
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary_link",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 30597112,
+  "center": {
+    "lat": 30.5914680,
+    "lon": 104.0264861
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "100",
+    "name": "成都机场高速",
+    "oneway": "yes",
+    "ref": "S6"
+  }
+},
+{
+  "type": "way",
+  "id": 30597114,
+  "center": {
+    "lat": 30.5826279,
+    "lon": 104.0147429
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37129313,
+  "center": {
+    "lat": 30.6596196,
+    "lon": 104.0385264
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37129403,
+  "center": {
+    "lat": 30.6537918,
+    "lon": 104.0330360
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "大石西路",
+    "name:en": "Dashi West Road",
+    "name:zh": "大石西路",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37130830,
+  "center": {
+    "lat": 30.7016561,
+    "lon": 103.9813422
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "3",
+    "name": "黄金路",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37130831,
+  "center": {
+    "lat": 30.6964558,
+    "lon": 103.9774720
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes",
+    "source": "Bing;bing"
+  }
+},
+{
+  "type": "way",
+  "id": 37130832,
+  "center": {
+    "lat": 30.7121711,
+    "lon": 103.9657802
+  },
+  "tags": {
+    "highway": "primary",
+    "name": "金辉路",
+    "name:en": "Jinhui Road",
+    "name:zh": "金辉路",
+    "oneway": "yes",
+    "source": "bing",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37130833,
+  "center": {
+    "lat": 30.6862054,
+    "lon": 103.9810229
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "layer": "1",
+    "name": "金辉路",
+    "name:en": "Jinhui Road",
+    "name:zh": "金辉路",
+    "old_name": "成黄路",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37132272,
+  "center": {
+    "lat": 30.6558057,
+    "lon": 104.0858915
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "3",
+    "layer": "1",
+    "name": "东风桥",
+    "name:en": "Dongfeng Bridge",
+    "name:zh": "东风桥",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379881,
+  "center": {
+    "lat": 30.5734866,
+    "lon": 104.0253039
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379884,
+  "center": {
+    "lat": 30.6627292,
+    "lon": 103.9365752
+  },
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "江安河大桥",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路西段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379888,
+  "center": {
+    "lat": 30.5761055,
+    "lon": 104.0304382
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37379921,
+  "center": {
+    "lat": 30.5768871,
+    "lon": 104.0264442
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "白家立交",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379922,
+  "center": {
+    "lat": 30.5800830,
+    "lon": 104.0277093
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379923,
+  "center": {
+    "lat": 30.5981709,
+    "lon": 104.0324705
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37379924,
+  "center": {
+    "lat": 30.5768483,
+    "lon": 104.0266121
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "白家立交",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379925,
+  "center": {
+    "lat": 30.5728292,
+    "lon": 104.0244948
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37379937,
+  "center": {
+    "lat": 30.5775365,
+    "lon": 104.0238684
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379944,
+  "center": {
+    "lat": 30.5821791,
+    "lon": 104.0289001
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37379954,
+  "center": {
+    "lat": 30.5792081,
+    "lon": 104.0229651
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37379963,
+  "center": {
+    "lat": 30.5757477,
+    "lon": 104.0258659
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "3",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37380650,
+  "center": {
+    "lat": 30.6067973,
+    "lon": 104.0648427
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "primary",
+    "lanes": "4",
+    "layer": "2",
+    "motorroad": "yes",
+    "name": "天府大道北段",
+    "name:en": "Tianfu Blvd.",
+    "name:zh": "天府大道北段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37380658,
+  "center": {
+    "lat": 30.5972612,
+    "lon": 104.0653411
+  },
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "primary",
+    "lanes": "4",
+    "layer": "1",
+    "name": "天府大道北段",
+    "name:en": "Tianfu Blvd.",
+    "name:zh": "天府大道北段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37380660,
+  "center": {
+    "lat": 30.6010792,
+    "lon": 104.0465455
+  },
+  "tags": {
+    "bicycle": "no",
+    "foot": "no",
+    "highway": "trunk",
+    "horse": "no",
+    "lanes": "3",
+    "motor_vehicle": "yes",
+    "name": "南三环路四段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37380662,
+  "center": {
+    "lat": 30.5992045,
+    "lon": 104.0666538
+  },
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "trunk_link",
+    "horse": "no",
+    "lanes": "1",
+    "layer": "1",
+    "motor_vehicle": "yes",
+    "name": "天府立交",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37385920,
+  "center": {
+    "lat": 30.6074608,
+    "lon": 104.0346669
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37385926,
+  "center": {
+    "lat": 30.6031330,
+    "lon": 104.0387375
+  },
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "horse": "no",
+    "lanes": "3",
+    "layer": "2",
+    "motor_vehicle": "yes",
+    "name": "南三环路五段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37385927,
+  "center": {
+    "lat": 30.6029443,
+    "lon": 104.0385717
+  },
+  "tags": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "no",
+    "highway": "trunk",
+    "horse": "no",
+    "lanes": "3",
+    "layer": "2",
+    "motor_vehicle": "yes",
+    "name": "南三环路五段",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37387190,
+  "center": {
+    "lat": 30.5742637,
+    "lon": 104.0268436
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37387196,
+  "center": {
+    "lat": 30.5486287,
+    "lon": 104.0093120
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "2",
+    "name": "京昆高速",
+    "name:en": "Jingkun Expressway",
+    "name:zh": "京昆高速",
+    "oneway": "yes",
+    "ref": "G5;G93",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 37387201,
+  "center": {
+    "lat": 30.5915098,
+    "lon": 103.9889247
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路西段",
+    "name:en": "Fourth Ring Road West Section",
+    "name:zh": "四环路西段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37387204,
+  "center": {
+    "lat": 30.5816262,
+    "lon": 104.0151716
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37387205,
+  "center": {
+    "lat": 30.5814538,
+    "lon": 104.0178184
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37387208,
+  "center": {
+    "lat": 30.5826468,
+    "lon": 104.0164106
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37387209,
+  "center": {
+    "lat": 30.5801790,
+    "lon": 103.9993750
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "2",
+    "layer": "1",
+    "maxspeed": "100",
+    "name": "成都机场高速",
+    "oneway": "yes",
+    "ref": "S6"
+  }
+},
+{
+  "type": "way",
+  "id": 37387214,
+  "center": {
+    "lat": 30.5826121,
+    "lon": 104.0145970
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37389822,
+  "center": {
+    "lat": 30.5893240,
+    "lon": 104.0300850
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37389851,
+  "center": {
+    "lat": 30.5743842,
+    "lon": 103.9774823
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "2",
+    "maxspeed": "100",
+    "name": "成都机场高速",
+    "oneway": "yes",
+    "ref": "S6"
+  }
+},
+{
+  "type": "way",
+  "id": 37402458,
+  "center": {
+    "lat": 30.5764942,
+    "lon": 104.0258444
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37403621,
+  "center": {
+    "lat": 30.5689334,
+    "lon": 104.0736555
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路南段",
+    "name:en": "4th Ring Road South Section",
+    "name:zh": "四环路南段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37403624,
+  "center": {
+    "lat": 30.5700134,
+    "lon": 104.0849920
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路南段",
+    "name:zh": "四环路南段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37403630,
+  "center": {
+    "lat": 30.5677321,
+    "lon": 104.0697891
+  },
+  "tags": {
+    "bridge": "yes",
+    "destination": "天府大道;会展中心",
+    "highway": "motorway_link",
+    "junction:ref": "38",
+    "lanes": "1",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "濯锦立交桥",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37403632,
+  "center": {
+    "lat": 30.5679015,
+    "lon": 104.0733178
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "layer": "1",
+    "name": "濯锦立交桥",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37403634,
+  "center": {
+    "lat": 30.5688213,
+    "lon": 104.0720315
+  },
+  "tags": {
+    "bridge": "yes",
+    "destination": "天府大道;会展中心",
+    "highway": "motorway_link",
+    "junction:ref": "38",
+    "lanes": "1",
+    "layer": "1",
+    "maxspeed": "40",
+    "name": "濯锦立交桥",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37403636,
+  "center": {
+    "lat": 30.5695519,
+    "lon": 104.0706060
+  },
+  "tags": {
+    "destination": "天府大道;会展中心",
+    "highway": "motorway_link",
+    "junction:ref": "38",
+    "lanes": "1",
+    "maxspeed": "40",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404208,
+  "center": {
+    "lat": 30.6390270,
+    "lon": 104.1299237
+  },
+  "tags": {
+    "highway": "trunk",
+    "lanes": "4",
+    "layer": "1",
+    "name": "蜀都大道迎晖路",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404209,
+  "center": {
+    "lat": 30.6315335,
+    "lon": 104.2033191
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路东段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404212,
+  "center": {
+    "lat": 30.6168075,
+    "lon": 104.2033900
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路南段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404214,
+  "center": {
+    "lat": 30.6184072,
+    "lon": 104.2038477
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404216,
+  "center": {
+    "lat": 30.6188139,
+    "lon": 104.2045552
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404218,
+  "center": {
+    "lat": 30.6223829,
+    "lon": 104.2034445
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404220,
+  "center": {
+    "lat": 30.6315227,
+    "lon": 104.2031416
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路东段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404222,
+  "center": {
+    "lat": 30.6194917,
+    "lon": 104.2036181
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路南段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404223,
+  "center": {
+    "lat": 30.6168366,
+    "lon": 104.2032287
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路南段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404226,
+  "center": {
+    "lat": 30.6161094,
+    "lon": 104.2039240
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37404230,
+  "center": {
+    "lat": 30.6182765,
+    "lon": 104.2016239
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37413203,
+  "center": {
+    "lat": 30.5687047,
+    "lon": 104.0684322
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "name": "濯锦立交桥",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37413204,
+  "center": {
+    "lat": 30.5699766,
+    "lon": 104.0699983
+  },
+  "tags": {
+    "destination": "天府大道;会展中心",
+    "highway": "motorway_link",
+    "junction:ref": "38",
+    "lanes": "1",
+    "maxspeed": "40",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37449233,
+  "center": {
+    "lat": 30.6165861,
+    "lon": 104.2087576
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37449839,
+  "center": {
+    "lat": 30.5788267,
+    "lon": 104.0242901
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37449842,
+  "center": {
+    "lat": 30.5785177,
+    "lon": 104.0247915
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37449846,
+  "center": {
+    "lat": 30.5759635,
+    "lon": 104.0270748
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "2",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37449847,
+  "center": {
+    "lat": 30.5790547,
+    "lon": 104.0280303
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37449848,
+  "center": {
+    "lat": 30.5778647,
+    "lon": 104.0260584
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "2",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450746,
+  "center": {
+    "lat": 30.6733982,
+    "lon": 104.1367271
+  },
+  "tags": {
+    "highway": "primary",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450747,
+  "center": {
+    "lat": 30.6674175,
+    "lon": 104.2043946
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路东段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450748,
+  "center": {
+    "lat": 30.7178480,
+    "lon": 104.1898796
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路东段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450749,
+  "center": {
+    "lat": 30.7178307,
+    "lon": 104.1900474
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路东段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450750,
+  "center": {
+    "lat": 30.6674132,
+    "lon": 104.2045599
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路东段",
+    "oneway": "yes",
+    "ref": "G5;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450755,
+  "center": {
+    "lat": 30.6760702,
+    "lon": 104.2049345
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450757,
+  "center": {
+    "lat": 30.6770625,
+    "lon": 104.2018667
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37450766,
+  "center": {
+    "lat": 30.6753585,
+    "lon": 104.2040450
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452539,
+  "center": {
+    "lat": 30.7642896,
+    "lon": 104.1709723
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "oneway": "yes",
+    "ref": "G5;G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37452540,
+  "center": {
+    "lat": 30.7581547,
+    "lon": 104.1667463
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452542,
+  "center": {
+    "lat": 30.7587037,
+    "lon": 104.1673749
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "成都城北出口高速",
+    "name:zh": "成都城北出口高速",
+    "oneway": "yes",
+    "ref": "S57",
+    "toll": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 37452543,
+  "center": {
+    "lat": 30.7635768,
+    "lon": 104.1703624
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "成都城北出口高速",
+    "name:zh": "成都城北出口高速",
+    "oneway": "yes",
+    "ref": "S57",
+    "source": "GPS",
+    "toll": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 37452544,
+  "center": {
+    "lat": 30.7586666,
+    "lon": 104.1675221
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "成都城北出口高速",
+    "name:zh": "成都城北出口高速",
+    "oneway": "yes",
+    "ref": "S57",
+    "toll": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 37452545,
+  "center": {
+    "lat": 30.7535871,
+    "lon": 104.1637321
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452546,
+  "center": {
+    "lat": 30.7569189,
+    "lon": 104.1703200
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37452547,
+  "center": {
+    "lat": 30.7588432,
+    "lon": 104.1679350
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37452548,
+  "center": {
+    "lat": 30.7533303,
+    "lon": 104.1664953
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452549,
+  "center": {
+    "lat": 30.7620318,
+    "lon": 104.1648230
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37452550,
+  "center": {
+    "lat": 30.7590408,
+    "lon": 104.1642955
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452551,
+  "center": {
+    "lat": 30.7598584,
+    "lon": 104.1685194
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37452552,
+  "center": {
+    "lat": 30.7569296,
+    "lon": 104.1685725
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37452553,
+  "center": {
+    "lat": 30.7554349,
+    "lon": 104.1696749
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes",
+    "ref": "G5"
+  }
+},
+{
+  "type": "way",
+  "id": 37452554,
+  "center": {
+    "lat": 30.7560214,
+    "lon": 104.1676944
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452555,
+  "center": {
+    "lat": 30.7571344,
+    "lon": 104.1683813
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452556,
+  "center": {
+    "lat": 30.7592839,
+    "lon": 104.1671553
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37452562,
+  "center": {
+    "lat": 30.7572781,
+    "lon": 104.1673775
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes",
+    "ref": "G93"
+  }
+},
+{
+  "type": "way",
+  "id": 37452569,
+  "center": {
+    "lat": 30.7591080,
+    "lon": 104.1669958
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453456,
+  "center": {
+    "lat": 30.7786039,
+    "lon": 104.1303115
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453457,
+  "center": {
+    "lat": 30.7769144,
+    "lon": 104.1287502
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453458,
+  "center": {
+    "lat": 30.7802922,
+    "lon": 104.1279120
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453459,
+  "center": {
+    "lat": 30.7799997,
+    "lon": 104.1235367
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453460,
+  "center": {
+    "lat": 30.7792107,
+    "lon": 104.1281640
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453462,
+  "center": {
+    "lat": 30.7779513,
+    "lon": 104.1274457
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453464,
+  "center": {
+    "lat": 30.7793230,
+    "lon": 104.1266514
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "layer": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37453466,
+  "center": {
+    "lat": 30.7782058,
+    "lon": 104.1260381
+  },
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37482313,
+  "center": {
+    "lat": 30.7866205,
+    "lon": 104.0516869
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37482315,
+  "center": {
+    "lat": 30.7861675,
+    "lon": 104.0474590
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37482318,
+  "center": {
+    "lat": 30.7863748,
+    "lon": 104.0474059
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484150,
+  "center": {
+    "lat": 30.7840215,
+    "lon": 104.0278000
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484152,
+  "center": {
+    "lat": 30.7842115,
+    "lon": 104.0277307
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484154,
+  "center": {
+    "lat": 30.7829370,
+    "lon": 103.9972331
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "surface": "asphalt",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484155,
+  "center": {
+    "lat": 30.7830521,
+    "lon": 104.0087985
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484157,
+  "center": {
+    "lat": 30.7829059,
+    "lon": 104.0088693
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484158,
+  "center": {
+    "lat": 30.7817491,
+    "lon": 103.9805045
+  },
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "name": "四环路北段",
+    "name:en": "4th Ring Road North Section",
+    "name:zh": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 37484159,
+  "center": {
+    "lat": 30.7822355,
+    "lon": 103.9842594
+  },
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "name": "四环路北段",
+    "oneway": "yes",
+    "ref": "G93;G4202",
+    "toll": "yes"
+  }
+}
+
+  ]
+}
+

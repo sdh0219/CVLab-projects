@@ -1,0 +1,84 @@
+[
+  {
+    "algorithm": "Dijkstra",
+    "mode": "distance",
+    "path": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "I"
+    ],
+    "total_distance": 8.6,
+    "total_cost": 8.6,
+    "dangerous_edge_count": 2,
+    "dangerous_edges": [
+      "R02",
+      "R03"
+    ],
+    "danger_types": [
+      "collapse",
+      "flood"
+    ],
+    "rescue_assessment": "距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。"
+  },
+  {
+    "algorithm": "Dijkstra",
+    "mode": "safe",
+    "path": [
+      "A",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "total_distance": 13.0,
+    "total_cost": 13.588,
+    "dangerous_edge_count": 0,
+    "dangerous_edges": [],
+    "danger_types": [],
+    "rescue_assessment": "绕开主要危险路段，安全性更高，适合作为救援推荐路线。"
+  },
+  {
+    "algorithm": "A*",
+    "mode": "distance",
+    "path": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "I"
+    ],
+    "total_distance": 8.6,
+    "total_cost": 8.6,
+    "dangerous_edge_count": 2,
+    "dangerous_edges": [
+      "R02",
+      "R03"
+    ],
+    "danger_types": [
+      "collapse",
+      "flood"
+    ],
+    "rescue_assessment": "距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。"
+  },
+  {
+    "algorithm": "A*",
+    "mode": "safe",
+    "path": [
+      "A",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I"
+    ],
+    "total_distance": 13.0,
+    "total_cost": 13.588,
+    "dangerous_edge_count": 0,
+    "dangerous_edges": [],
+    "danger_types": [],
+    "rescue_assessment": "绕开主要危险路段，安全性更高，适合作为救援推荐路线。"
+  }
+]

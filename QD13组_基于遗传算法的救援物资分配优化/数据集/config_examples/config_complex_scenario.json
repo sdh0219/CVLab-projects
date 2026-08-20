@@ -1,0 +1,20 @@
+{
+  "data": {
+    "disaster_points_file": "../../数据包/dataset_02_complex_scenario/processed_data/processed_data.py",
+    "use_simulation": false
+  },
+  "algorithm": {
+    "pop_size": 120,
+    "generations": 60,
+    "mutation_rate": 0.1,
+    "crossover_rate": 0.8,
+    "elite_ratio": 0.12
+  },
+  "objectives": {
+    "satisfaction": { "weight": 0.35, "enabled": true },
+    "transport_cost": { "weight": 0.15, "enabled": true },
+    "fairness": { "weight": 0.2, "enabled": true },
+    "urgency": { "weight": 0.2, "enabled": true },
+    "time_efficiency": { "weight": 0.1, "enabled": true }
+  }
+}

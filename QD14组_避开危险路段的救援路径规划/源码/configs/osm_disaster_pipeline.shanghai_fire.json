@@ -1,0 +1,85 @@
+{
+  "scenario_id": "osm_shanghai_fire",
+  "scenario_name": "上海胶州路火灾救援路径规划一键流水线",
+  "scenario_label": "上海火灾OSM路网场景",
+  "description": "从 OSM / Overpass 抽取上海静安区胶州路火灾点周边真实道路网络，叠加 2010 年上海胶州路火灾历史位置和影响半径，并可选叠加已有高德交通拥堵 CSV，用 Dijkstra 规划消防站到火灾点的救援路线。",
+  "start": {
+    "name": "武宁消防站",
+    "lon": 121.426226,
+    "lat": 31.237003
+  },
+  "target": {
+    "name": "胶州路728号火灾点",
+    "lon": 121.439175,
+    "lat": 31.235771
+  },
+  "disaster": {
+    "event_id": "FIRE2010-SH-JIAOZHOU-PIPELINE-01",
+    "type": "fire",
+    "name": "2010 年上海胶州路 11.15 火灾响应区",
+    "date": "2010-11-15",
+    "lon": 121.439175,
+    "lat": 31.235771,
+    "influence_radius_km": 0.45,
+    "danger_type": "fire",
+    "severity": "very_high",
+    "source_title": "公开资料：上海胶州路 11.15 特别重大火灾",
+    "source_url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E6%B5%B7%E2%80%9C11%C2%B715%E2%80%9D%E7%89%B9%E5%88%AB%E9%87%8D%E5%A4%A7%E7%81%AB%E7%81%BE",
+    "evidence": "2010 年 11 月 15 日，上海静安区胶州路 728 号发生特别重大火灾。本场景以真实火灾位置作为救援目标，以消防站作为出发点。",
+    "mapping_note": "以火灾点为中心建立消防响应影响缓冲区，道路边进入缓冲区则标记为 fire 风险路段；若存在交通状态 CSV，则按道路名称匹配拥堵信息。"
+  },
+  "bbox": {
+    "margin_km": 2.2,
+    "extra_points": [
+      {
+        "name": "静安寺片区",
+        "lon": 121.459621,
+        "lat": 31.237824
+      },
+      {
+        "name": "长寿路片区",
+        "lon": 121.432151,
+        "lat": 31.224689
+      }
+    ]
+  },
+  "osm": {
+    "timeout_seconds": 140,
+    "highway_types": [
+      "motorway",
+      "trunk",
+      "primary",
+      "secondary",
+      "tertiary",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "road"
+    ],
+    "exclude_service": [
+      "parking_aisle",
+      "driveway",
+      "private"
+    ]
+  },
+  "connectors": {
+    "count": 5,
+    "max_distance_km": 0.35
+  },
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 2.0,
+    "flood": 2.2,
+    "collapse": 4.0,
+    "fire": 9.0
+  },
+  "congestion_weight": 1.25,
+  "danger_fixed_costs": {
+    "fire": 1.5,
+    "congestion": 8.0
+  },
+  "traffic_csv": "data/amap_shanghai_fire_base/traffic_status_circle.csv",
+  "traffic_data_source": "高德交通态势 CSV，若文件存在则按道路名称匹配到 OSM 道路边",
+  "undirected": true
+}

@@ -1,0 +1,24 @@
+{
+  "scenario_name": "Beijing flood rescue planning with OSM regional road network",
+  "start_node": "START",
+  "target_node": "TARGET",
+  "start_label": "起点：清华大学",
+  "target_label": "终点：北京朝阳站",
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 1.4,
+    "flood": 2.2,
+    "collapse": 4.0
+  },
+  "congestion_weight": 0.6,
+  "undirected": true,
+  "disaster_type": "flood",
+  "historical_event_id": "FL2012-BJ-RAIN-01-OSM",
+  "historical_event_name": "2012 July 21 Beijing extreme rainstorm urban waterlogging impact zone with OSM regional road network",
+  "historical_event_date": "2012-07-21",
+  "historical_event_source": "https://data.cma.cn/",
+  "road_data_source": "OpenStreetMap / Overpass API regional highway extract",
+  "description": "The routing graph uses a continuous OSM regional road network between Tsinghua University and Beijing Chaoyang Railway Station. Historical rainstorm and waterlogging impact is mapped to road segments by buffer overlay before Dijkstra route planning.",
+  "traffic_data_source": "AMap traffic status circle API, matched to existing OSM edges by road name",
+  "traffic_source_url": "https://lbs.amap.com/api/webservice/guide/api-advanced/traffic-situation-inquiry"
+}

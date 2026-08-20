@@ -1,0 +1,68 @@
+[
+  {
+    "material_name": "饮用水",
+    "material_type": "生活保障物资",
+    "total_stock": 0,
+    "allocated": 0,
+    "available": 0,
+    "unit": "瓶",
+    "warehouse_name": "未接入公开仓库库存",
+    "source": "应急物资保障通用目录",
+    "note": "真实库存通常不公开；系统仅保留物资类别，数量置0。"
+  },
+  {
+    "material_name": "食品",
+    "material_type": "生活保障物资",
+    "total_stock": 0,
+    "allocated": 0,
+    "available": 0,
+    "unit": "份",
+    "warehouse_name": "未接入公开仓库库存",
+    "source": "应急物资保障通用目录",
+    "note": "真实库存通常不公开；系统仅保留物资类别，数量置0。"
+  },
+  {
+    "material_name": "帐篷",
+    "material_type": "安置物资",
+    "total_stock": 0,
+    "allocated": 0,
+    "available": 0,
+    "unit": "顶",
+    "warehouse_name": "未接入公开仓库库存",
+    "source": "应急物资保障通用目录",
+    "note": "真实库存通常不公开；系统仅保留物资类别，数量置0。"
+  },
+  {
+    "material_name": "棉被",
+    "material_type": "安置物资",
+    "total_stock": 0,
+    "allocated": 0,
+    "available": 0,
+    "unit": "床",
+    "warehouse_name": "未接入公开仓库库存",
+    "source": "应急物资保障通用目录",
+    "note": "真实库存通常不公开；系统仅保留物资类别，数量置0。"
+  },
+  {
+    "material_name": "救生衣",
+    "material_type": "防汛救援物资",
+    "total_stock": 0,
+    "allocated": 0,
+    "available": 0,
+    "unit": "件",
+    "warehouse_name": "未接入公开仓库库存",
+    "source": "应急物资保障通用目录",
+    "note": "真实库存通常不公开；系统仅保留物资类别，数量置0。"
+  },
+  {
+    "material_name": "排水泵",
+    "material_type": "防汛救援设备",
+    "total_stock": 0,
+    "allocated": 0,
+    "available": 0,
+    "unit": "台",
+    "warehouse_name": "未接入公开仓库库存",
+    "source": "应急物资保障通用目录",
+    "note": "真实库存通常不公开；系统仅保留物资类别，数量置0。"
+  }
+]

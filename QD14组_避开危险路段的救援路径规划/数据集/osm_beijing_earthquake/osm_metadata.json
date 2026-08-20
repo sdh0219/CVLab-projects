@@ -1,0 +1,13 @@
+{
+  "bbox_wgs84": {
+    "south": 39.929133426506155,
+    "west": 116.30205158848501,
+    "north": 40.01638152827023,
+    "east": 116.52116321323304
+  },
+  "overpass_elements": 114133,
+  "node_count": 49603,
+  "edge_count": 55430,
+  "disaster_affected_edge_count": 6607,
+  "coordinate_note": "OSM WGS84 coordinates are converted to GCJ-02 for consistency with AMap and existing project visuals."
+}

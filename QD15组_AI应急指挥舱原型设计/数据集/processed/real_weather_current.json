@@ -1,0 +1,15 @@
+[
+  {
+    "region_name": "成都市中心城区",
+    "latitude": 30.5728,
+    "longitude": 104.0668,
+    "temperature": 25.0,
+    "humidity": 68,
+    "rainfall": 0.0,
+    "wind_speed": 2.1,
+    "recorded_at": "2026-06-16T09:15",
+    "source": "Open-Meteo Forecast API",
+    "source_url": "https://open-meteo.com/",
+    "note": "实时/近实时气象API返回值；预警等级未由该API提供。"
+  }
+]

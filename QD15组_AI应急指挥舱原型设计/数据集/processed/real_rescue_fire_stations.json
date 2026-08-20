@@ -1,0 +1,222 @@
+[
+  {
+    "name": "未命名消防站",
+    "type": "消防",
+    "latitude": 30.6356139,
+    "longitude": 104.0655038,
+    "address": "",
+    "osm_id": "node/796679598",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "成都市公安消防支队",
+    "type": "消防",
+    "latitude": 30.5907404,
+    "longitude": 104.0696699,
+    "address": "成都市府城大道东段19号",
+    "osm_id": "node/4724343818",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "未命名消防站",
+    "type": "消防",
+    "latitude": 30.6190884,
+    "longitude": 104.1083813,
+    "address": "",
+    "osm_id": "node/4829045722",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "武侯区玉林街道微型消防站",
+    "type": "消防",
+    "latitude": 30.6308543,
+    "longitude": 104.0560752,
+    "address": "",
+    "osm_id": "node/12451223724",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "十陵街道来龙村微型消防站",
+    "type": "消防",
+    "latitude": 30.6659529,
+    "longitude": 104.1485585,
+    "address": "",
+    "osm_id": "node/12558475107",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "环球中心政府专职队消防站",
+    "type": "消防",
+    "latitude": 30.5717769,
+    "longitude": 104.0583488,
+    "address": "",
+    "osm_id": "node/13108794177",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "成都市消防救援支队特勤大队二站",
+    "type": "消防",
+    "latitude": 30.6039912,
+    "longitude": 104.0566143,
+    "address": "",
+    "osm_id": "way/475487059",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "郫都消防大队",
+    "type": "消防",
+    "latitude": 30.8020407,
+    "longitude": 103.9047442,
+    "address": "",
+    "osm_id": "way/510680827",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "桦彩路政府专职消防站",
+    "type": "消防",
+    "latitude": 30.5935498,
+    "longitude": 104.0898185,
+    "address": "",
+    "osm_id": "way/665487434",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "未命名消防站",
+    "type": "消防",
+    "latitude": 30.5678327,
+    "longitude": 103.9595421,
+    "address": "",
+    "osm_id": "way/778932351",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "建功路消防救援站",
+    "type": "消防",
+    "latitude": 30.6782222,
+    "longitude": 104.1140896,
+    "address": "",
+    "osm_id": "way/824594623",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "富士康消防站",
+    "type": "消防",
+    "latitude": 30.7617751,
+    "longitude": 103.917835,
+    "address": "",
+    "osm_id": "way/848853810",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "花牌坊消防救援站",
+    "type": "消防",
+    "latitude": 30.6802744,
+    "longitude": 104.0458608,
+    "address": "",
+    "osm_id": "way/889116397",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "四川省消防救援总队训练与战勤保障支队",
+    "type": "消防",
+    "latitude": 30.7069762,
+    "longitude": 103.9149711,
+    "address": "",
+    "osm_id": "way/937181997",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "新文路消防救援站",
+    "type": "消防",
+    "latitude": 30.7422232,
+    "longitude": 103.9443863,
+    "address": "",
+    "osm_id": "way/949697834",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "青羊区消防大队成黄路中队",
+    "type": "消防",
+    "latitude": 30.6798642,
+    "longitude": 103.9935846,
+    "address": "",
+    "osm_id": "way/965540887",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "成都市消防救援支队特勤大队三站",
+    "type": "消防",
+    "latitude": 30.6814502,
+    "longitude": 104.0063464,
+    "address": "",
+    "osm_id": "way/993398698",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "龙泉驿区西河消防队",
+    "type": "消防",
+    "latitude": 30.6488336,
+    "longitude": 104.2642928,
+    "address": "",
+    "osm_id": "way/1010260424",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "晋阳路消防救援站",
+    "type": "消防",
+    "latitude": 30.6457806,
+    "longitude": 103.9991878,
+    "address": "",
+    "osm_id": "way/1011435273",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  },
+  {
+    "name": "成都市消防救援支队轨道交通大队",
+    "type": "消防",
+    "latitude": 30.5922024,
+    "longitude": 104.169207,
+    "address": "",
+    "osm_id": "way/1016041164",
+    "source": "OpenStreetMap Overpass API",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "note": "真实地图点位；队伍人数和装备数量未公开，项目中置为0。"
+  }
+]

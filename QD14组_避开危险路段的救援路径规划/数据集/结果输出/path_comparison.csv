@@ -1,0 +1,5 @@
+﻿algorithm,mode,path,total_distance,total_cost,dangerous_edge_count,danger_types,rescue_assessment
+Dijkstra,distance,A -> B -> C -> D -> I,8.6,8.6,2,"collapse, flood",距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。
+Dijkstra,safe,A -> E -> F -> G -> H -> I,13.0,13.588,0,,绕开主要危险路段，安全性更高，适合作为救援推荐路线。
+A*,distance,A -> B -> C -> D -> I,8.6,8.6,2,"collapse, flood",距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。
+A*,safe,A -> E -> F -> G -> H -> I,13.0,13.588,0,,绕开主要危险路段，安全性更高，适合作为救援推荐路线。

@@ -1,0 +1,21 @@
+﻿address,latitude,longitude,name,note,osm_id,source,source_url,type
+,30.6356139,104.0655038,未命名消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,node/796679598,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+成都市府城大道东段19号,30.5907404,104.0696699,成都市公安消防支队,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,node/4724343818,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6190884,104.1083813,未命名消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,node/4829045722,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6308543,104.0560752,武侯区玉林街道微型消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,node/12451223724,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6659529,104.1485585,十陵街道来龙村微型消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,node/12558475107,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.5717769,104.0583488,环球中心政府专职队消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,node/13108794177,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6039912,104.0566143,成都市消防救援支队特勤大队二站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/475487059,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.8020407,103.9047442,郫都消防大队,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/510680827,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.5935498,104.0898185,桦彩路政府专职消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/665487434,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.5678327,103.9595421,未命名消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/778932351,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6782222,104.1140896,建功路消防救援站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/824594623,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.7617751,103.917835,富士康消防站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/848853810,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6802744,104.0458608,花牌坊消防救援站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/889116397,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.7069762,103.9149711,四川省消防救援总队训练与战勤保障支队,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/937181997,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.7422232,103.9443863,新文路消防救援站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/949697834,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6798642,103.9935846,青羊区消防大队成黄路中队,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/965540887,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6814502,104.0063464,成都市消防救援支队特勤大队三站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/993398698,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6488336,104.2642928,龙泉驿区西河消防队,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/1010260424,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.6457806,103.9991878,晋阳路消防救援站,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/1011435273,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防
+,30.5922024,104.169207,成都市消防救援支队轨道交通大队,真实地图点位；队伍人数和装备数量未公开，项目中置为0。,way/1016041164,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,消防

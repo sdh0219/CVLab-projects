@@ -1,0 +1,998 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-16T01:20:45Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1003921259,
+  "lat": 30.6975192,
+  "lon": 104.0520945,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:district": "金牛区",
+    "addr:housenumber": "111",
+    "addr:province": "四川省",
+    "addr:street": "二环路北一段",
+    "amenity": "school",
+    "name": "西南交通大学(九里校区)",
+    "name:en": "Southwest Jiaotong University",
+    "name:fr": "Université des transports du Sud-Ouest",
+    "name:zh": "西南交通大学"
+  }
+},
+{
+  "type": "node",
+  "id": 1947168656,
+  "lat": 30.6870062,
+  "lon": 104.0889626,
+  "tags": {
+    "amenity": "school",
+    "name": "新方舟学校",
+    "source": "Bing"
+  }
+},
+{
+  "type": "node",
+  "id": 1958204198,
+  "lat": 30.6716657,
+  "lon": 104.0784049,
+  "tags": {
+    "amenity": "school",
+    "name": "成都市青羊实验联合中学",
+    "name:en": "Qingyang Experiment United Middle School"
+  }
+},
+{
+  "type": "node",
+  "id": 1958204202,
+  "lat": 30.6690303,
+  "lon": 104.0798756,
+  "tags": {
+    "amenity": "school",
+    "name": "四川电大省级机关分校",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 1958204209,
+  "lat": 30.6686297,
+  "lon": 104.0822778,
+  "tags": {
+    "amenity": "school",
+    "name": "成都市第十一中学",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 1958204273,
+  "lat": 30.6716070,
+  "lon": 104.0839763,
+  "tags": {
+    "amenity": "school",
+    "name": "四川省成都列五中学（初中部）",
+    "name:en": "Chengdu Liewu High School Of Sichuan Province"
+  }
+},
+{
+  "type": "node",
+  "id": 1964485650,
+  "lat": 30.6679094,
+  "lon": 104.1028611,
+  "tags": {
+    "amenity": "school",
+    "name": "成华区教师进修学校",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1964536979,
+  "lat": 30.6616485,
+  "lon": 104.1046754,
+  "tags": {
+    "amenity": "school",
+    "name": "成都市成华小学"
+  }
+},
+{
+  "type": "node",
+  "id": 2653330900,
+  "lat": 30.6556169,
+  "lon": 104.1117101,
+  "tags": {
+    "amenity": "school",
+    "name": "成都成华小学校（和美校区）"
+  }
+},
+{
+  "type": "node",
+  "id": 2908410201,
+  "lat": 30.6511947,
+  "lon": 104.0660572,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:housenumber": "2号",
+    "addr:street": "盐道街",
+    "amenity": "school",
+    "name": "成都市盐道街小学"
+  }
+},
+{
+  "type": "node",
+  "id": 4500661291,
+  "lat": 30.6488606,
+  "lon": 104.0846723,
+  "tags": {
+    "amenity": "school",
+    "name:en": "International Education Institute i2"
+  }
+},
+{
+  "type": "node",
+  "id": 4500680091,
+  "lat": 30.6489326,
+  "lon": 104.0853470,
+  "tags": {
+    "amenity": "school",
+    "name:en": "Eton's house"
+  }
+},
+{
+  "type": "node",
+  "id": 4716620990,
+  "lat": 30.5987293,
+  "lon": 104.0737298,
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "node",
+  "id": 4973209508,
+  "lat": 30.6133232,
+  "lon": 104.0427160,
+  "tags": {
+    "amenity": "school",
+    "name": "成都师范银都小学紫薇校区"
+  }
+},
+{
+  "type": "node",
+  "id": 5453434386,
+  "lat": 30.6542131,
+  "lon": 104.0982230,
+  "tags": {
+    "amenity": "school",
+    "name": "列五书池学校"
+  }
+},
+{
+  "type": "node",
+  "id": 5475934312,
+  "lat": 30.6157464,
+  "lon": 104.1215862,
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "四川师大继续教育学院"
+  }
+},
+{
+  "type": "node",
+  "id": 5586338085,
+  "lat": 30.6974098,
+  "lon": 104.0763451,
+  "tags": {
+    "amenity": "school",
+    "name": "荷花池小学"
+  }
+},
+{
+  "type": "node",
+  "id": 5595556922,
+  "lat": 30.6214981,
+  "lon": 104.0694576,
+  "tags": {
+    "addr:housenumber": "E-2",
+    "addr:postcode": "610000",
+    "addr:street": "Xinxiwang Road #12 Jinguang New City",
+    "amenity": "community_centre",
+    "email": "rabbi@chabadchengdu.com",
+    "internet_access": "wlan",
+    "name:en": "Chabad Jewish Center Of Chengdu",
+    "name:he": "בית חבד צנגדו",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "+86 187 8243 4429",
+    "website": "https://www.chabadchengdu.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5753025340,
+  "lat": 30.7128004,
+  "lon": 104.0542814,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "成都市青少年活动中心"
+  }
+},
+{
+  "type": "node",
+  "id": 5759693511,
+  "lat": 30.5771959,
+  "lon": 104.1327684,
+  "tags": {
+    "amenity": "school",
+    "name": "好奇学校"
+  }
+},
+{
+  "type": "node",
+  "id": 5815413594,
+  "lat": 30.6814334,
+  "lon": 104.0800370,
+  "tags": {
+    "amenity": "school",
+    "name": "张家巷小学"
+  }
+},
+{
+  "type": "node",
+  "id": 6124688386,
+  "lat": 30.6342508,
+  "lon": 104.1438985,
+  "tags": {
+    "amenity": "school"
+  }
+},
+{
+  "type": "node",
+  "id": 6655347843,
+  "lat": 30.5686568,
+  "lon": 103.9280581,
+  "tags": {
+    "leisure": "stadium"
+  }
+},
+{
+  "type": "node",
+  "id": 6685885951,
+  "lat": 30.6367798,
+  "lon": 104.0765541,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "学生活动中心（二楼）"
+  }
+},
+{
+  "type": "node",
+  "id": 6783954785,
+  "lat": 30.6167889,
+  "lon": 104.0601109,
+  "tags": {
+    "addr:housenumber": "1-3-1",
+    "addr:street": "桐梓林东路",
+    "amenity": "school",
+    "name:en": "Chinese Corner",
+    "phone": "+86 28 8555 4728",
+    "website": "https://www.chinesecorner.cn/"
+  }
+},
+{
+  "type": "node",
+  "id": 6975489785,
+  "lat": 30.6321206,
+  "lon": 104.0681869,
+  "tags": {
+    "addr:housenumber": "2",
+    "amenity": "school",
+    "name:en": "IMHE"
+  }
+},
+{
+  "type": "node",
+  "id": 7070965885,
+  "lat": 30.6173330,
+  "lon": 104.0716538,
+  "tags": {
+    "amenity": "school",
+    "name:en": "Kid Castle Weiken School"
+  }
+},
+{
+  "type": "node",
+  "id": 7947767890,
+  "lat": 30.6795385,
+  "lon": 104.0978011,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "学生活动中心"
+  }
+},
+{
+  "type": "node",
+  "id": 8227704742,
+  "lat": 30.6668630,
+  "lon": 104.0350312,
+  "tags": {
+    "amenity": "school",
+    "name": "四川省人民医院护士学校"
+  }
+},
+{
+  "type": "node",
+  "id": 9331912724,
+  "lat": 30.6704103,
+  "lon": 103.9818209,
+  "tags": {
+    "amenity": "school",
+    "name": "青羊区特殊教育学校"
+  }
+},
+{
+  "type": "node",
+  "id": 9480462280,
+  "lat": 30.6822945,
+  "lon": 103.9741414,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "成都金房物业清水路苑服务中心",
+    "operator": "成都金房物业集团有限责任公司",
+    "operator:type": "private"
+  }
+},
+{
+  "type": "node",
+  "id": 9891825961,
+  "lat": 30.6005827,
+  "lon": 104.0325586,
+  "tags": {
+    "amenity": "school",
+    "name": "成都沃顿公学"
+  }
+},
+{
+  "type": "node",
+  "id": 10298181318,
+  "lat": 30.6599549,
+  "lon": 104.0604856,
+  "tags": {
+    "amenity": "school",
+    "name": "树德实验学校（东区）"
+  }
+},
+{
+  "type": "node",
+  "id": 11543327456,
+  "lat": 30.5368549,
+  "lon": 104.0892820,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "中和街道综合文体活动中心"
+  }
+},
+{
+  "type": "node",
+  "id": 11748018288,
+  "lat": 30.7493095,
+  "lon": 104.1937584,
+  "tags": {
+    "addr:city": "成都",
+    "addr:district": "新都",
+    "addr:postcode": "610000",
+    "addr:province": "四川",
+    "addr:street": "木兰山路",
+    "amenity": "school",
+    "grades": "1-12",
+    "name": "成都狄邦肯思学校",
+    "website": "https://kcschengdu.cn/"
+  }
+},
+{
+  "type": "node",
+  "id": 11844353957,
+  "lat": 30.6677285,
+  "lon": 104.0410237,
+  "tags": {
+    "amenity": "school",
+    "name": "研究生院"
+  }
+},
+{
+  "type": "node",
+  "id": 12425254415,
+  "lat": 30.6596484,
+  "lon": 104.1211746,
+  "tags": {
+    "amenity": "community_centre",
+    "community_centre": "跳蹬河社区"
+  }
+},
+{
+  "type": "node",
+  "id": 12444327770,
+  "lat": 30.6380331,
+  "lon": 104.0445006,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "肖家河老年活动中心"
+  }
+},
+{
+  "type": "node",
+  "id": 12511989164,
+  "lat": 30.5391271,
+  "lon": 104.0475961,
+  "tags": {
+    "amenity": "community_centre",
+    "community_centre": "桂溪街道科创社区居民委员会"
+  }
+},
+{
+  "type": "node",
+  "id": 12549370639,
+  "lat": 30.7055568,
+  "lon": 104.0313144,
+  "tags": {
+    "amenity": "community_centre",
+    "name": "茶沁儿童友好空间"
+  }
+},
+{
+  "type": "node",
+  "id": 12842161340,
+  "lat": 30.7086438,
+  "lon": 104.1201437,
+  "tags": {
+    "amenity": "school",
+    "name": "成都市实验中学",
+    "operator": "成都市实验中学",
+    "operator:type": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 13081064570,
+  "lat": 30.7489987,
+  "lon": 103.9866035,
+  "tags": {
+    "amenity": "school",
+    "name": "成都新课堂教育"
+  }
+},
+{
+  "type": "way",
+  "id": 116486208,
+  "center": {
+    "lat": 30.6307539,
+    "lon": 104.0822059
+  },
+  "tags": {
+    "leisure": "stadium",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 116486220,
+  "center": {
+    "lat": 30.6354192,
+    "lon": 104.0858449
+  },
+  "tags": {
+    "leisure": "stadium",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 201271107,
+  "center": {
+    "lat": 30.6194234,
+    "lon": 104.1001711
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "成都市东光实验小学"
+  }
+},
+{
+  "type": "way",
+  "id": 201897220,
+  "center": {
+    "lat": 30.6113614,
+    "lon": 104.1012006
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "成都嘉祥外国语学校"
+  }
+},
+{
+  "type": "way",
+  "id": 207667616,
+  "center": {
+    "lat": 30.6176489,
+    "lon": 104.0954282
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "川师附小"
+  }
+},
+{
+  "type": "way",
+  "id": 210510768,
+  "center": {
+    "lat": 30.5625712,
+    "lon": 104.1102419
+  },
+  "tags": {
+    "amenity": "school",
+    "description": "成都师范附属小学白鹭溪分校",
+    "name": "成都师范附属小学白鹭溪分校",
+    "name:zh": "成都师范附属小学白鹭溪分校"
+  }
+},
+{
+  "type": "way",
+  "id": 217855275,
+  "center": {
+    "lat": 30.7463064,
+    "lon": 103.9259306
+  },
+  "tags": {
+    "building": "yes",
+    "building:levels": "2",
+    "leisure": "stadium",
+    "name": "体育馆",
+    "name:zh": "体育馆"
+  }
+},
+{
+  "type": "way",
+  "id": 232847137,
+  "center": {
+    "lat": 30.6100098,
+    "lon": 104.1098889
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "师一学校锦江校区"
+  }
+},
+{
+  "type": "way",
+  "id": 259709199,
+  "center": {
+    "lat": 30.6837991,
+    "lon": 104.0777436
+  },
+  "tags": {
+    "addr:city": "成都",
+    "addr:housenumber": "72号",
+    "addr:street": "一环路北三段",
+    "amenity": "school",
+    "name": "成都市第八中学",
+    "website": "http://www.cd8hs.com/",
+    "wikipedia": "zh:成都市第八中学"
+  }
+},
+{
+  "type": "way",
+  "id": 259715219,
+  "center": {
+    "lat": 30.6692362,
+    "lon": 104.1000692
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "培华小学"
+  }
+},
+{
+  "type": "way",
+  "id": 259868478,
+  "center": {
+    "lat": 30.6733337,
+    "lon": 104.1096999
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都市建设路小学"
+  }
+},
+{
+  "type": "way",
+  "id": 262113489,
+  "center": {
+    "lat": 30.6422987,
+    "lon": 104.0648193
+  },
+  "tags": {
+    "leisure": "stadium",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 262113494,
+  "center": {
+    "lat": 30.6461907,
+    "lon": 104.0616846
+  },
+  "tags": {
+    "leisure": "stadium",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 262123666,
+  "center": {
+    "lat": 30.6357766,
+    "lon": 104.0837865
+  },
+  "tags": {
+    "leisure": "stadium",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 262123667,
+  "center": {
+    "lat": 30.6379423,
+    "lon": 104.0835523
+  },
+  "tags": {
+    "leisure": "stadium",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 266767877,
+  "center": {
+    "lat": 30.6794336,
+    "lon": 104.0300170
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都第十八中学校"
+  }
+},
+{
+  "type": "way",
+  "id": 266767880,
+  "center": {
+    "lat": 30.7076056,
+    "lon": 104.0485702
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "锦西中学"
+  }
+},
+{
+  "type": "way",
+  "id": 284337326,
+  "center": {
+    "lat": 30.7503197,
+    "lon": 103.9584873
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都高新新科学校",
+    "name:en": "Chengdu Gaoxin Xinke School",
+    "name:zh": "成都高新新科学校"
+  }
+},
+{
+  "type": "way",
+  "id": 288171059,
+  "center": {
+    "lat": 30.6379570,
+    "lon": 104.0721098
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "成都市第七中学（林荫校区）",
+    "short_name": "成都市第七中学",
+    "shortest_name": "成都七中",
+    "wikipedia": "zh:四川省成都市第七中学"
+  }
+},
+{
+  "type": "way",
+  "id": 288171594,
+  "center": {
+    "lat": 30.6469017,
+    "lon": 104.0855064
+  },
+  "tags": {
+    "addr:city": "Chengdu",
+    "addr:district": "锦江区",
+    "addr:housenumber": "45号",
+    "addr:postcode": "610014",
+    "addr:province": "四川省",
+    "addr:street": "双槐树街",
+    "amenity": "school",
+    "name": "成都七中育才学校",
+    "name:en": "No. 7 Yucai Middle School"
+  }
+},
+{
+  "type": "way",
+  "id": 288172902,
+  "center": {
+    "lat": 30.6482930,
+    "lon": 104.0887915
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都锦官驿小学"
+  }
+},
+{
+  "type": "way",
+  "id": 294294522,
+  "center": {
+    "lat": 30.7365220,
+    "lon": 103.9791676
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都外国语学校",
+    "name:en": "Chengdu Foreign Languages School",
+    "name:zh": "成都外国语学校"
+  }
+},
+{
+  "type": "way",
+  "id": 295959150,
+  "center": {
+    "lat": 30.6551882,
+    "lon": 104.0559439
+  },
+  "tags": {
+    "addr:city": "成都",
+    "addr:district": "青羊",
+    "addr:housenumber": "93号",
+    "addr:postcode": "610041",
+    "addr:province": "四川",
+    "addr:street": "文庙前街",
+    "amenity": "school",
+    "name": "石室中学"
+  }
+},
+{
+  "type": "way",
+  "id": 303327749,
+  "center": {
+    "lat": 30.7028328,
+    "lon": 104.1542522
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都石室中学（北湖校区）",
+    "name:en": "Chengdu Shishi Middle School (Beihu Campus)",
+    "website": "http://www.cdshishi.net/bh/"
+  }
+},
+{
+  "type": "way",
+  "id": 314048284,
+  "center": {
+    "lat": 30.5406307,
+    "lon": 104.0633004
+  },
+  "tags": {
+    "addr:city": "成都",
+    "addr:housenumber": "1340",
+    "addr:postcode": "610042",
+    "addr:street": "天府大道中段",
+    "amenity": "school",
+    "name": "成都美视国际学校",
+    "name:zh": "成都美视国际学校"
+  }
+},
+{
+  "type": "way",
+  "id": 314048287,
+  "center": {
+    "lat": 30.5567683,
+    "lon": 104.0533657
+  },
+  "tags": {
+    "addr:city": "成都",
+    "addr:housenumber": "32",
+    "addr:postcode": "610041",
+    "addr:street": "盛治街",
+    "amenity": "school",
+    "name": "益州小学",
+    "name:en": "Yizhou Primary School",
+    "name:zh": "益州小学"
+  }
+},
+{
+  "type": "way",
+  "id": 314292931,
+  "center": {
+    "lat": 30.6345251,
+    "lon": 104.0358068
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "西川中学",
+    "name:en": "Xichuan Middle School",
+    "name:zh": "西川中学"
+  }
+},
+{
+  "type": "way",
+  "id": 341759193,
+  "center": {
+    "lat": 30.6793271,
+    "lon": 104.0112175
+  },
+  "tags": {
+    "addr:city": "成都市",
+    "addr:district": "青羊区",
+    "addr:housenumber": "66号",
+    "addr:province": "四川省",
+    "addr:street": "锦西路",
+    "amenity": "school",
+    "name": "四川师范大学实验外国语学校",
+    "name:en": "Sichuan Normal University Experimental Foreign Language School",
+    "name:zh": "四川师范大学实验外国语学校",
+    "phone": "+86 28 8736 5493"
+  }
+},
+{
+  "type": "way",
+  "id": 408086243,
+  "center": {
+    "lat": 30.6078532,
+    "lon": 104.1386801
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "树德中学外国语学校"
+  }
+},
+{
+  "type": "way",
+  "id": 412069034,
+  "center": {
+    "lat": 30.6119216,
+    "lon": 104.0505560
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "四川省成都高新区实验小学"
+  }
+},
+{
+  "type": "way",
+  "id": 442203338,
+  "center": {
+    "lat": 30.7500481,
+    "lon": 103.9940884
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "郫都区四中"
+  }
+},
+{
+  "type": "way",
+  "id": 443396509,
+  "center": {
+    "lat": 30.6698353,
+    "lon": 103.9651942
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "树德中学（光华校区）"
+  }
+},
+{
+  "type": "way",
+  "id": 444490843,
+  "center": {
+    "lat": 30.6473864,
+    "lon": 104.0692945
+  },
+  "tags": {
+    "amenity": "school",
+    "grades": "7-12",
+    "name": "成都市龙江路小学",
+    "name:en": "Longjianglu Primary School",
+    "religion": "none"
+  }
+},
+{
+  "type": "way",
+  "id": 447608392,
+  "center": {
+    "lat": 30.5482297,
+    "lon": 104.0924809
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都高新新城学校",
+    "name:zh": "成都市中和中学润和分校"
+  }
+},
+{
+  "type": "way",
+  "id": 450575815,
+  "center": {
+    "lat": 30.6779322,
+    "lon": 104.0538540
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都树德中学",
+    "name:en": "Chengdu Shude Middle School"
+  }
+},
+{
+  "type": "way",
+  "id": 459158607,
+  "center": {
+    "lat": 30.6325210,
+    "lon": 104.0269874
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都市第43中学校",
+    "name:en": "Chengdu Number 43 Middle School",
+    "name:zh": "成都市第43中学校"
+  }
+},
+{
+  "type": "way",
+  "id": 459228804,
+  "center": {
+    "lat": 30.6022204,
+    "lon": 104.1323456
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "盐道街小学卓锦分校"
+  }
+},
+{
+  "type": "way",
+  "id": 469523905,
+  "center": {
+    "lat": 30.6872923,
+    "lon": 104.0650453
+  },
+  "tags": {
+    "amenity": "school",
+    "name": "成都市铁路中学校",
+    "name:en": "Chengdu Railway Middle School",
+    "short_name": "成都铁中"
+  }
+}
+
+  ]
+}
+

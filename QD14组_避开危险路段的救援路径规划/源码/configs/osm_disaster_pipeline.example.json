@@ -1,0 +1,75 @@
+{
+  "scenario_id": "osm_beijing_flood",
+  "scenario_name": "北京洪水救援路径规划一键流水线示例",
+  "scenario_label": "北京洪水OSM路网场景",
+  "description": "示例配置用于演示：从 OSM/Overpass 抽取区域路网，把历史洪水影响点映射到道路边，再用 Dijkstra 输出普通最短路径和安全路径。",
+  "start": {
+    "name": "清华大学",
+    "lon": 116.326936,
+    "lat": 40.003213
+  },
+  "target": {
+    "name": "北京朝阳站",
+    "lon": 116.508410,
+    "lat": 39.944819
+  },
+  "disaster": {
+    "event_id": "DEMO-BJ-FLOOD-2012-07-21",
+    "type": "flood",
+    "name": "北京 2012-07-21 暴雨洪涝影响区示例",
+    "date": "2012-07-21",
+    "lon": 116.4012,
+    "lat": 39.9420,
+    "influence_radius_km": 2.4,
+    "danger_type": "flood",
+    "severity": "high",
+    "source_title": "北京 2012 年 7 月 21 日特大暴雨公开资料",
+    "source_url": "https://zh.wikipedia.org/wiki/2012%E5%B9%B4%E5%8C%97%E4%BA%AC%E7%89%B9%E5%A4%A7%E6%9A%B4%E9%9B%A8",
+    "evidence": "课程项目示例：用历史暴雨洪涝事件位置和影响半径构造灾害影响区，演示道路风险映射方法。",
+    "mapping_note": "以历史洪水影响点为中心建立缓冲区，道路边进入缓冲区则标记为 flood 风险路段。"
+  },
+  "bbox": {
+    "margin_km": 1.8,
+    "extra_points": [
+      {
+        "name": "望京片区",
+        "lon": 116.4700,
+        "lat": 39.9950
+      }
+    ]
+  },
+  "osm": {
+    "timeout_seconds": 160,
+    "highway_types": [
+      "motorway",
+      "trunk",
+      "primary",
+      "secondary",
+      "tertiary",
+      "unclassified",
+      "residential",
+      "living_street",
+      "service",
+      "road"
+    ],
+    "exclude_service": [
+      "parking_aisle",
+      "driveway",
+      "private"
+    ]
+  },
+  "connectors": {
+    "count": 5,
+    "max_distance_km": 0.5
+  },
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 1.4,
+    "flood": 2.2,
+    "collapse": 4.0,
+    "fire": 9.0
+  },
+  "congestion_weight": 0.6,
+  "danger_fixed_costs": {},
+  "undirected": true
+}

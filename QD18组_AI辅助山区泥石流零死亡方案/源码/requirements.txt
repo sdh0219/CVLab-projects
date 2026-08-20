@@ -1,0 +1,5 @@
+numpy==2.2.6
+rasterio==1.4.4
+matplotlib==3.10.9
+psycopg2-binary==2.9.12
+pycryptodome==3.23.0

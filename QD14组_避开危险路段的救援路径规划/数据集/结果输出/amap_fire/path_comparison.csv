@@ -1,0 +1,3 @@
+﻿algorithm,mode,path,total_distance,total_cost,dangerous_edge_count,danger_types,rescue_assessment
+Dijkstra,distance,N001 -> N003 -> N004 -> N005 -> N006 -> N007 -> N008 -> N009 -> N010 -> N002,8.026,8.026,5,fire,距离较短，但经过危险路段，不宜直接作为灾害救援首选路线。
+Dijkstra,safe,N001 -> N073 -> N074 -> N075 -> N076 -> N077 -> N078 -> N079 -> N080 -> N081 -> N082 -> N083 -> N084 -> N085 -> N086 -> N087 -> N088 -> N089 -> N090 -> N002,10.093,18.192,3,fire,综合代价较低，但仍包含部分风险路段，需要现场确认后通行。

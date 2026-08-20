@@ -1,0 +1,71 @@
+============================================================
+Bad Cases (BERT 预测与 gold 不一致的样本)
+============================================================
+
+[1] 丽江宁蒗县附近积水2米深, 养老院二楼里有有几十个村民, 需要救援人员, 电话13512345678
+  gold: BIIII··BIIII·BIIII··BIIIII·BIIIII·BIIIIIIIIIIII
+  pred: BIIII··BIIII·BIIII··BIIIII··IIIII·BIIIIIIIIIIII
+
+[2] 紧急求救 郑州京广路隧道附近路被堵死, 有6个老人被困地下车库, 需要救援人员, 手机18600001111
+  gold: ····BIIIIII··BIII·BIIII··BIII·BIIIII·BIIIIIIIIIIII
+  pred: ····BIIIIII··BIII·BIIII··BIII···BIII·BIIIIIIIIIIII
+
+[3] 求扩!河南卫辉市,顿坊店乡全村被淹,有80岁老人和2岁孩子困在房顶,急需船只,电话13800007777
+  gold: ···BIIII·BIII··BI··BIIII·BIII·······BI·BIIIIIIIIIIII
+  pred: ···BIIII·BIIIBIBI·BIIIIIIIIII·······BI·BIIIIIIIIIIII
+
+[4] SOS!四川甘孜泸定县,地震引发山体崩塌,磨西镇有被困群众15人,缺水和药品,电话13900007788
+  gold: ····BIIIIII·BI··BIII·BII·BIIIIII··B·BI·BIIIIIIIIIIII
+  pred: ····BIIIIII·BI··BIII·BII·BIIIIII··I·BI·BIIIIIIIIIIII
+
+[5] 重庆江津区,山林大火,四面山镇火势失控,有游客被困景区,急需救援,电话13900009999
+  gold: BIIII·BIII·BIIIBIII··BI··BI···BI·BIIIIIIIIIIII
+  pred: BIIII·BIII·BIIIBIII··BI··B····BI·BIIIIIIIIIIII
+
+[6] 湖北武汉,黄陂区滠水河溃堤,有村民被困,急需救援队和船只,电话13700005678
+  gold: BIII·BIIBIIBI··BI·····BII·BI·BIIIIIIIIIIII
+  pred: BIII·BIIIIIBI··BI·····BII·BI·BIIIIIIIIIIII
+
+[7] 珠海香洲区,台风加暴雨,南屏镇低洼处积水严重,有老人困在家中,需要救援人员,联系13655556666
+  gold: BIIII·BI·BI·BII···BIII··BI·······BIII·BIIIIIIIIIIII
+  pred: BIIII·BI·BI·BIIBI·BIII··BI·······BIII·BIIIIIIIIIIII
+
+[8] 福建福清市,龙江洪水,海口镇有村民被困养殖场,需要救生艇,电话13900008888
+  gold: BIIII·BIBI·BII·BI··BII···BII·BIIIIIIIIIIII
+  pred: BIIII·BIBI·BII·BI··BI····BII·BIIIIIIIIIIII
+
+[9] 河北涿州,大清河决堤,码头村全村被淹,有孕妇和孩子困在村委会,急需船只转移
+  gold: BIII·BIIBI·BII··BI··BIIII··BII···BIBI
+  pred: BIII·BIIBI·BIIBIBI··BIIII····I···BIBI
+
+[10] 急!! 鹤壁浚县方向路被堵死, 有3个人困在菜市场顶楼里, 需要救援人员, 手机18600001111
+  gold: ···BIII··BIII·BIII··BIIII··BIIIII·BIIIIIIIIIIII
+  pred: ···BIII··BIII·BIII··BIIII····BIII·BIIIIIIIIIIII
+
+[11] 广西北海,台风带来暴雨,银海区低洼处内涝,有10多户被困,急需食物,电话13600007777
+  gold: BIII·BI··BI·BII···BI··BIII·····BI·BIIIIIIIIIIII
+  pred: BIII·BI··BI·BIIBI·BI··BIII·····BI·BIIIIIIIIIIII
+
+[12] 陕西西安,蓝田县山洪,汤峪镇有游客被困景区,需要救援人员,手机13900007777
+  gold: BIII·BIIBI·BII·BI·······BIII·BIIIIIIIIIIII
+  pred: BIII·BIIBI·BII·BI··BI···BIII·BIIIIIIIIIIII
+
+[13] 上海浦东,张江某实验室起火,有4名研究员被困,需要救援队,电话13500003333
+  gold: BIII·BI····BI··BIIII·····BII·BIIIIIIIIIIII
+  pred: BIII·BI·BIIBI··BIIII·····BII·BIIIIIIIIIIII
+
+[14] 大理漾濞县苍山西镇,地震后路面开裂严重,我们一辆车10个人被困路上,缺饮用水,联系18600001111
+  gold: BIIIIIIII·BI·BIII········BIII······BII·BIIIIIIIIIIII
+  pred: BIIIIIIII·BI··IIIII···BIIIIII······III·BIIIIIIIIIIII
+
+[15] 求助!山西临汾,乡宁县山体滑坡,有6栋民房被埋,需要救援设备和搜救犬,电话13500009999
+  gold: ···BIII·BIIBIII····BIII···BIII·BII·BIIIIIIIIIIII
+  pred: ···BIII·BIIBIII··B·BIII···BIII·BII·BIIIIIIIIIIII
+
+[16] 湖南长沙,岳麓区居民楼火灾,12层有老人被困,需要云梯车,手机13700002222
+  gold: BIII·BIIBIIBI·····BI·····BII·BIIIIIIIIIIII
+  pred: BIII·BIIBIIII··II·II·····BII·BIIIIIIIIIIII
+
+[17] 鹤壁浚县卫贤镇,洪水漫过堤坝,村里20多户被困二楼,缺干净水和食物,电话13700003333
+  gold: BIIIIII·BIBIII···BIII······BII·BI·BIIIIIIIIIIII
+  pred: BIIIIII·BIIIBI···BIII······BII·BI·BIIIIIIIIIIII

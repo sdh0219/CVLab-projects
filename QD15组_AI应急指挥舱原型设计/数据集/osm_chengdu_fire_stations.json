@@ -1,0 +1,713 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-16T01:07:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 796679598,
+  "lat": 30.6356139,
+  "lon": 104.0655038,
+  "tags": {
+    "amenity": "fire_station"
+  }
+},
+{
+  "type": "node",
+  "id": 4724343818,
+  "lat": 30.5907404,
+  "lon": 104.0696699,
+  "tags": {
+    "addr:city": "成都市",
+    "addr:housenumber": "19号",
+    "addr:street": "府城大道东段",
+    "amenity": "fire_station",
+    "name": "成都市公安消防支队"
+  }
+},
+{
+  "type": "node",
+  "id": 4829045722,
+  "lat": 30.6190884,
+  "lon": 104.1083813,
+  "tags": {
+    "amenity": "fire_station"
+  }
+},
+{
+  "type": "node",
+  "id": 12451223724,
+  "lat": 30.6308543,
+  "lon": 104.0560752,
+  "tags": {
+    "amenity": "fire_station",
+    "name": "武侯区玉林街道微型消防站"
+  }
+},
+{
+  "type": "node",
+  "id": 12558475107,
+  "lat": 30.6659529,
+  "lon": 104.1485585,
+  "tags": {
+    "amenity": "fire_station",
+    "name": "十陵街道来龙村微型消防站"
+  }
+},
+{
+  "type": "node",
+  "id": 13108794177,
+  "lat": 30.5717769,
+  "lon": 104.0583488,
+  "tags": {
+    "amenity": "fire_station",
+    "name": "环球中心政府专职队消防站"
+  }
+},
+{
+  "type": "way",
+  "id": 475487059,
+  "center": {
+    "lat": 30.6039912,
+    "lon": 104.0566143
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成都市消防救援支队特勤大队二站",
+    "operator": "特勤大队二中队"
+  }
+},
+{
+  "type": "way",
+  "id": 510680827,
+  "center": {
+    "lat": 30.8020407,
+    "lon": 103.9047442
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "郫都消防大队",
+    "name:zh": "郫都消防大队"
+  }
+},
+{
+  "type": "way",
+  "id": 665487434,
+  "center": {
+    "lat": 30.5935498,
+    "lon": 104.0898185
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "barrier": "fence",
+    "name": "桦彩路政府专职消防站",
+    "operator": "锦江区"
+  }
+},
+{
+  "type": "way",
+  "id": 778932351,
+  "center": {
+    "lat": 30.5678327,
+    "lon": 103.9595421
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "building:levels": "3",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 824594623,
+  "center": {
+    "lat": 30.6782222,
+    "lon": 104.1140896
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "建功路消防救援站",
+    "operator": "建功路消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 848853810,
+  "center": {
+    "lat": 30.7617751,
+    "lon": 103.9178350
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "富士康消防站"
+  }
+},
+{
+  "type": "way",
+  "id": 889116397,
+  "center": {
+    "lat": 30.6802744,
+    "lon": 104.0458608
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "花牌坊消防救援站",
+    "operator": "花牌坊消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 937181997,
+  "center": {
+    "lat": 30.7069762,
+    "lon": 103.9149711
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "四川省消防救援总队训练与战勤保障支队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 949697834,
+  "center": {
+    "lat": 30.7422232,
+    "lon": 103.9443863
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "新文路消防救援站"
+  }
+},
+{
+  "type": "way",
+  "id": 965540887,
+  "center": {
+    "lat": 30.6798642,
+    "lon": 103.9935846
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "青羊区消防大队成黄路中队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 993398698,
+  "center": {
+    "lat": 30.6814502,
+    "lon": 104.0063464
+  },
+  "tags": {
+    "alt_name": "金沙消防救援站",
+    "amenity": "fire_station",
+    "name": "成都市消防救援支队特勤大队三站",
+    "operator": "特勤大队三中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1010260424,
+  "center": {
+    "lat": 30.6488336,
+    "lon": 104.2642928
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "龙泉驿区西河消防队"
+  }
+},
+{
+  "type": "way",
+  "id": 1011435273,
+  "center": {
+    "lat": 30.6457806,
+    "lon": 103.9991878
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "晋阳路消防救援站",
+    "operator": "晋阳路消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1016041164,
+  "center": {
+    "lat": 30.5922024,
+    "lon": 104.1692070
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成都市消防救援支队轨道交通大队",
+    "operator": "成都市消防救援支队"
+  }
+},
+{
+  "type": "way",
+  "id": 1031304892,
+  "center": {
+    "lat": 30.6248598,
+    "lon": 103.9788128
+  },
+  "tags": {
+    "alt_name": "武侯区武兴路政府专职消防救援站",
+    "amenity": "fire_station",
+    "name": "武侯区消防救援大队"
+  }
+},
+{
+  "type": "way",
+  "id": 1057786601,
+  "center": {
+    "lat": 30.4978921,
+    "lon": 104.0823081
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "天府新区消防救援大队",
+    "operator": "成都市消防救援支队"
+  }
+},
+{
+  "type": "way",
+  "id": 1065034167,
+  "center": {
+    "lat": 30.5649054,
+    "lon": 104.0823846
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "中和政府专职消防救援站",
+    "operator": "成都高新技术产业开发区"
+  }
+},
+{
+  "type": "way",
+  "id": 1065148255,
+  "center": {
+    "lat": 30.5681260,
+    "lon": 103.9598121
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "双流机场消防队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1108257586,
+  "center": {
+    "lat": 30.6746999,
+    "lon": 103.9466956
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "光华大道政府专职消防队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1108264055,
+  "center": {
+    "lat": 30.6915162,
+    "lon": 103.9632726
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成飞大道政府专职消防救援站",
+    "operator": "青羊区消防救援大队"
+  }
+},
+{
+  "type": "way",
+  "id": 1115665152,
+  "center": {
+    "lat": 30.6380675,
+    "lon": 103.9595322
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "蓉城天虎救援队"
+  }
+},
+{
+  "type": "way",
+  "id": 1122238361,
+  "center": {
+    "lat": 30.7081536,
+    "lon": 104.1110054
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "荆泰路政府专职消防救援站",
+    "operator": "成华区消防救援大队"
+  }
+},
+{
+  "type": "way",
+  "id": 1126486153,
+  "center": {
+    "lat": 30.5901342,
+    "lon": 104.0729717
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "四川省森林消防总队"
+  }
+},
+{
+  "type": "way",
+  "id": 1126695507,
+  "center": {
+    "lat": 30.7210188,
+    "lon": 104.0409217
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "金牛区消防大队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1147980397,
+  "center": {
+    "lat": 30.5852418,
+    "lon": 103.9250539
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "航鹰路消防救援站",
+    "operator": "航鹰路消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1151980818,
+  "center": {
+    "lat": 30.7074928,
+    "lon": 104.0081719
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "金瑞路政府专职救援站"
+  }
+},
+{
+  "type": "way",
+  "id": 1152418175,
+  "center": {
+    "lat": 30.7112652,
+    "lon": 103.9995463
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "四川省消防救援总队"
+  }
+},
+{
+  "type": "way",
+  "id": 1270657193,
+  "center": {
+    "lat": 30.6758375,
+    "lon": 104.0625928
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "full_name": "成都市青羊区消防救援大队",
+    "name": "青羊区消防救援大队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局",
+    "short_name": "青羊消防"
+  }
+},
+{
+  "type": "way",
+  "id": 1274342736,
+  "center": {
+    "lat": 30.5497061,
+    "lon": 104.0404796
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "高新区消防救援大队",
+    "operator": "成都市消防救援支队"
+  }
+},
+{
+  "type": "way",
+  "id": 1274857839,
+  "center": {
+    "lat": 30.6676280,
+    "lon": 104.0471601
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "building": "yes",
+    "name": "成都市青羊区宽窄巷子政府专职消防救援站"
+  }
+},
+{
+  "type": "way",
+  "id": 1294914343,
+  "center": {
+    "lat": 30.7920478,
+    "lon": 103.9493267
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "红光消防中队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1303892626,
+  "center": {
+    "lat": 30.7928988,
+    "lon": 104.0922930
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "国际商贸城消防中队",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1344803257,
+  "center": {
+    "lat": 30.7297573,
+    "lon": 104.2493702
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1346656137,
+  "center": {
+    "lat": 30.5956891,
+    "lon": 104.1134555
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "operator": "应急管理部消防救援局",
+    "operator:wikidata": "Q60573921",
+    "operator:zh": "应急管理部消防救援局"
+  }
+},
+{
+  "type": "way",
+  "id": 1364243548,
+  "center": {
+    "lat": 30.5890469,
+    "lon": 104.0792894
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "四川省森林消防总队训练大队"
+  }
+},
+{
+  "type": "way",
+  "id": 1364482354,
+  "center": {
+    "lat": 30.7031807,
+    "lon": 104.3338260
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "龙泉消防"
+  }
+},
+{
+  "type": "way",
+  "id": 1383697999,
+  "center": {
+    "lat": 30.6364548,
+    "lon": 104.0957263
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "莲桂路消防救援站",
+    "operator": "莲桂路消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1390888051,
+  "center": {
+    "lat": 30.6997219,
+    "lon": 104.1847661
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成华区政府专职消防队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040778,
+  "center": {
+    "lat": 30.5197618,
+    "lon": 104.0736395
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "雅和北二路政府专职消防救援站",
+    "operator": "成都高新技术产业开发区"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040787,
+  "center": {
+    "lat": 30.5900591,
+    "lon": 104.0695289
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成都市消防救援支队",
+    "operator": "四川省消防救援总队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040799,
+  "center": {
+    "lat": 30.4902728,
+    "lon": 104.0434933
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "牧华路政府专职消防救援站",
+    "operator": "天府新区"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040800,
+  "center": {
+    "lat": 30.6577915,
+    "lon": 104.0973980
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "双林路消防救援站",
+    "operator": "双林路消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040802,
+  "center": {
+    "lat": 30.7059316,
+    "lon": 104.0647438
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成都市消防救援支队特勤大队一站",
+    "operator": "特勤大队一中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040803,
+  "center": {
+    "lat": 30.7571912,
+    "lon": 104.1034802
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "成都市消防救援支队特勤大队四站",
+    "operator": "特勤大队四中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040805,
+  "center": {
+    "lat": 30.6366269,
+    "lon": 104.1453748
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "东客站消防救援站",
+    "operator": "成都市消防救援支队站前大队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040806,
+  "center": {
+    "lat": 30.6086503,
+    "lon": 104.1584360
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "洪河大道政府专职消防救援站",
+    "operator": "龙泉驿区"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040808,
+  "center": {
+    "lat": 30.5675922,
+    "lon": 104.2589968
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "龙都路消防救援站",
+    "operator": "龙都路消防救援中队"
+  }
+},
+{
+  "type": "way",
+  "id": 1426040810,
+  "center": {
+    "lat": 30.6809268,
+    "lon": 104.0880328
+  },
+  "tags": {
+    "amenity": "fire_station",
+    "name": "梁家巷消防救援站",
+    "operator": "梁家巷消防救援中队"
+  }
+}
+
+  ]
+}
+

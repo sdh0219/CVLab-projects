@@ -1,0 +1,107 @@
+{
+  "scenario_id": "osm_sichuan_earthquake",
+  "scenario_name": "四川汶川地震救援路径规划一键流水线",
+  "scenario_label": "四川地震OSM路网场景",
+  "description": "从 OSM / Overpass 抽取成都、都江堰、映秀、汶川及周边区域道路网络，叠加 2008 年汶川地震历史影响区，用 Dijkstra 对比普通最短路径与避开塌方风险的安全路径。",
+  "start": {
+    "name": "成都市区",
+    "lon": 104.0668,
+    "lat": 30.5728
+  },
+  "target": {
+    "name": "汶川县城",
+    "lon": 103.5904,
+    "lat": 31.4769
+  },
+  "disaster": {
+    "event_id": "EQ2008-SC-WENCHUAN-PIPELINE-01",
+    "type": "earthquake",
+    "name": "2008 年汶川地震映秀-汶川道路影响区",
+    "date": "2008-05-12",
+    "lon": 103.489,
+    "lat": 31.061,
+    "influence_radius_km": 18.0,
+    "danger_type": "collapse",
+    "severity": "high",
+    "source_title": "USGS / 公开资料：2008 年汶川地震",
+    "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g650",
+    "evidence": "2008 年汶川地震发生于四川龙门山断裂带附近，公开资料显示震区存在强烈震动、滑坡、道路中断和交通受阻等情况。",
+    "mapping_note": "以映秀-汶川地震影响区为代表建立缓冲区，道路边进入缓冲区则标记为 collapse 塌方或中断风险路段。"
+  },
+  "bbox": {
+    "margin_km": 5.0,
+    "extra_points": [
+      {
+        "name": "都江堰",
+        "lon": 103.6472,
+        "lat": 30.988
+      },
+      {
+        "name": "映秀",
+        "lon": 103.489,
+        "lat": 31.061
+      },
+      {
+        "name": "卧龙",
+        "lon": 103.1763,
+        "lat": 31.0072
+      },
+      {
+        "name": "理县",
+        "lon": 103.1669,
+        "lat": 31.4368
+      },
+      {
+        "name": "茂县",
+        "lon": 103.8535,
+        "lat": 31.6816
+      },
+      {
+        "name": "绵竹",
+        "lon": 104.2208,
+        "lat": 31.3389
+      },
+      {
+        "name": "北川",
+        "lon": 104.4552,
+        "lat": 31.8285
+      },
+      {
+        "name": "绵阳",
+        "lon": 104.6796,
+        "lat": 31.4675
+      }
+    ]
+  },
+  "osm": {
+    "timeout_seconds": 180,
+    "highway_types": [
+      "motorway",
+      "trunk",
+      "primary",
+      "secondary",
+      "tertiary",
+      "unclassified",
+      "road"
+    ],
+    "exclude_service": [
+      "parking_aisle",
+      "driveway",
+      "private"
+    ]
+  },
+  "connectors": {
+    "count": 8,
+    "max_distance_km": 4.0
+  },
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 1.4,
+    "flood": 2.2,
+    "collapse": 8.0,
+    "fire": 9.0
+  },
+  "congestion_weight": 0.6,
+  "danger_fixed_costs": {},
+  "undirected": true
+}

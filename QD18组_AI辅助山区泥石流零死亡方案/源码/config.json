@@ -1,0 +1,68 @@
+{
+    "paths": {
+        "_说明": "项目已按四分类重构：数据集/（含 processed_data 栅格与 database_data 加密矢量）、源码/、文档模板/。下列为重构后绝对路径；如迁移项目目录，请同步修改。",
+        "base": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案",
+        "raster_dir": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案\\数据集\\processed_data",
+        "vector_dir": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案\\数据集\\database_data",
+        "output_dir": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案\\源码\\output"
+    },
+
+    "ahp_weights": {
+        "slope": 0.25,
+        "lithology": 0.15,
+        "soil_moisture": 0.12,
+        "dem": 0.10,
+        "landuse": 0.10,
+        "ndvi": 0.10,
+        "soil_sediment": 0.08,
+        "terrain_class": 0.05,
+        "organic_carbon": 0.03,
+        "ph": 0.02
+    },
+
+    "factor_ranges": {
+        "_说明": "标准化参数 [min, max]，部分因子使用反向或非线性标准化",
+        "slope": [0, 60],
+        "dem": [500, 2500],
+        "ndvi": [-0.2, 0.8],
+        "soil_moisture": [0, 1],
+        "soil_sediment": [0, 60],
+        "terrain_class": [0, 400],
+        "organic_carbon": [0, 50],
+        "ph": [4, 9]
+    },
+
+    "risk_thresholds": [0.2, 0.4, 0.6, 0.8],
+
+    "warning_rules": {
+        "blue":   {"1h": 15, "24h": 50,  "level": "IV",   "action": "加强监测"},
+        "yellow": {"1h": 30, "24h": 100, "level": "III",  "action": "发布预警，准备转移"},
+        "orange": {"1h": 50, "24h": 150, "level": "II",   "action": "紧急转移危险区群众"},
+        "red":    {"1h": 70, "24h": 200, "level": "I",    "action": "全面撤离，启动应急预案"}
+    },
+
+    "rescue_forces": [
+        {"name": "专业救援队", "units": 2, "per_unit": 50, "speed_kmh": 100, "color": "#e74c3c"},
+        {"name": "消防救援",   "units": 3, "per_unit": 30, "speed_kmh": 80,  "color": "#e67e22"},
+        {"name": "武警部队",   "units": 2, "per_unit": 100,"speed_kmh": 60,  "color": "#f39c12"},
+        {"name": "医疗救护",   "units": 4, "per_unit": 20, "speed_kmh": 70,  "color": "#27ae60"},
+        {"name": "志愿者队伍", "units": 5, "per_unit": 15, "speed_kmh": 40,  "color": "#2980b9"}
+    ],
+
+    "evacuation": {
+        "walking_speed_km_per_min": 0.08,
+        "top_n_settlements": 20
+    },
+
+    "fonts": ["SimHei", "Microsoft YaHei"],
+
+    "plot": {
+        "dpi": 150,
+        "fig1_size": [16, 7],
+        "fig2_size": [20, 8],
+        "fig3_size": [12, 8],
+        "fig4_size": [12, 8],
+        "fig5_size": [12, 8],
+        "fig6_size": [16, 7]
+    }
+}

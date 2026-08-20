@@ -1,0 +1,26 @@
+﻿congestion_index,latitude,longitude,name,note,osm_id,source,source_url,status
+0,30.6597763,104.0648806,人民中路一段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/25373389,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6224029,104.0661624,人南立交,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/25373582,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6660487,104.064042,人民中路一段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/26326397,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6833349,104.0697363,人民北路,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/26347792,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6806463,104.069263,万福桥,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/26347795,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.7000662,104.0069442,蜀汉路,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/26348002,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6189482,104.0313067,中环路科园大道段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/28620365,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6597521,104.0581342,东城根南街,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/28620960,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.726604,104.0687748,北三环路二段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/28620968,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.591468,104.0264861,成都机场高速,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/30597112,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6537918,104.033036,大石西路,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37129403,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.7016561,103.9813422,黄金路,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37130830,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.7121711,103.9657802,金辉路,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37130832,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6862054,103.9810229,金辉路,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37130833,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6558057,104.0858915,东风桥,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37132272,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6627292,103.9365752,四环路西段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37379884,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.5768871,104.0264442,白家立交,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37379921,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.5768483,104.0266121,白家立交,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37379924,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6067973,104.0648427,天府大道北段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37380650,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.5972612,104.0653411,天府大道北段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37380658,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6010792,104.0465455,南三环路四段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37380660,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.5992045,104.0666538,天府立交,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37380662,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.603133,104.0387375,南三环路五段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37385926,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.6029443,104.0385717,南三环路五段,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37385927,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal
+0,30.5486287,104.009312,京昆高速,真实道路名称和位置；实时通行状态未公开接入，默认normal。,way/37387196,OpenStreetMap Overpass API,https://www.openstreetmap.org/copyright,normal

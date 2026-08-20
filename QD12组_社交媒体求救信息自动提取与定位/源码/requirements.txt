@@ -1,0 +1,44 @@
+# =========================================================
+# 社交媒体求救信息自动提取与定位 — 依赖清单
+# Social Media Distress Message Extraction & Geolocation
+# =========================================================
+# 安装方式 / Install:
+#   pip install -r requirements.txt
+# PyTorch 建议按官网指引单独安装以匹配 CUDA 版本:
+#   https://pytorch.org/get-started/locally/
+# ---------------------------------------------------------
+
+# --- 深度学习框架 / Deep Learning Framework ---
+torch>=1.13.0            # PyTorch 主框架 / main DL framework (GPU 版按官网装)
+transformers>=4.30.0     # HuggingFace, 提供 bert-base-chinese / BERT tokenizer
+
+# --- 中文 NLP / Chinese NLP ---
+jieba>=0.42.1            # 中文分词 / Chinese word segmentation (规则基线用)
+opencc-python-reimplemented>=0.1.7  # 繁简转换 / Traditional-Simplified conversion
+
+# --- 评估 / Evaluation ---
+seqeval>=1.2.2           # 序列标注评估(实体级 P/R/F1) / NER evaluation
+scikit-learn>=1.2.0      # 混淆矩阵等 / confusion matrix etc.
+
+# --- 训练监控 / Training Monitoring ---
+matplotlib>=3.7.0        # 训练曲线静态图 / static training curve
+tensorboard>=2.13.0      # 训练可视化(实时曲线/超参对比) / training visualization
+
+# --- 数据处理 / Data ---
+pandas>=2.0.0            # 结构化结果表 / structured result table
+numpy>=1.23.0
+tqdm>=4.65.0             # 进度条 / progress bar
+
+# --- 地理编码与可视化 / Geocoding & Visualization ---
+folium>=0.14.0           # 交互式地图 / interactive leaflet map
+requests>=2.28.0         # 在线地理编码 API 调用 / online geocoding API
+
+# --- 交互演示 / Interactive Demo ---
+ipykernel>=6.0.0         # Jupyter notebook 内核 / for demo.ipynb
+ipywidgets>=8.0.0        # notebook 控件 / notebook widgets
+
+# --- 模型下载 / Model Download (可选, 用于 scripts/download_model.py) ---
+modelscope>=1.10.0       # 从 ModelScope 下载 bert-base-chinese (国内镜像)
+
+# --- LLM Few-shot NER (可选, 用于 src/baselines/llm_ner.py) ---
+dashscope>=1.20.0        # 通义千问 API (Qwen) 做 few-shot NER 对比实验

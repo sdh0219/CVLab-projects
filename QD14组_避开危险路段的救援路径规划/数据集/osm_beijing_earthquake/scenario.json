@@ -1,0 +1,22 @@
+{
+  "scenario_name": "Beijing earthquake rescue planning with OSM regional road network",
+  "start_node": "START",
+  "target_node": "TARGET",
+  "start_label": "起点：清华大学",
+  "target_label": "终点：北京朝阳站",
+  "risk_factors": {
+    "normal": 1.0,
+    "congestion": 1.4,
+    "flood": 2.2,
+    "collapse": 4.0
+  },
+  "congestion_weight": 0.6,
+  "undirected": true,
+  "disaster_type": "earthquake",
+  "historical_event_id": "EQ1679-BJ-IMPACT-01-OSM",
+  "historical_event_name": "1679 Sanhe-Pinggu earthquake Beijing impact zone with OSM regional road network",
+  "historical_event_date": "1679-09-02",
+  "historical_event_source": "https://en.wikipedia.org/wiki/1679_Sanhe-Pinggu_earthquake",
+  "road_data_source": "OpenStreetMap / Overpass API regional highway extract",
+  "description": "The routing graph uses a continuous OSM regional road network between Tsinghua University and Beijing Chaoyang Railway Station. Historical earthquake impact is mapped to road segments by buffer overlay before Dijkstra route planning."
+}

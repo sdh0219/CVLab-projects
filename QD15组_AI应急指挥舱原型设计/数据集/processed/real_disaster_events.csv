@@ -1,0 +1,6 @@
+affected_area,affected_population,casualties,description,disaster_type,event_name,latitude,longitude,note,response_level,source,source_url,warning_level
+0,0,0,公开水旱灾害资料中将1981年列为成都平原严重洪涝年份之一；该类事件说明极端洪涝下低洼片区排水、河道行洪和跨区域联动压力突出。,flood,成都平原历史性洪涝复盘事件,30.6723,104.0665,历史复盘事件；不编造统一受灾人口和伤亡数字。,I,水旱灾害公开资料,data_package/sources.md,red
+0,0,0,公开报道显示2020年四川遭遇强降雨过程并启动高等级防汛响应，成都周边河流水位、道路通行和城市排涝压力明显上升。,extreme_weather,四川强降雨与流域性洪水应急响应事件,30.65,104.083,历史极端天气复盘；本项目只记录公开事实和处置短板。,II,公开防汛报道,data_package/sources.md,orange
+0,0,0,公开气象与应急报道显示四川盆地多轮强降雨可能诱发城市内涝、山洪地灾和道路通行风险，基层短临预警和就近安置匹配需要加强。,extreme_weather,四川盆地多轮强降雨风险事件,30.589,104.061,用于AI辅助决策历史案例库。,III,公开气象与应急报道,data_package/sources.md,yellow
+0,0,0,公开报道显示成都出现强降雨天气过程，城市低洼道路和交通节点存在积水与排涝压力；需要把气象实况、道路点位和救援资源放在同一态势图中。,extreme_weather,成都市强降雨天气过程与城市内涝风险事件,30.5728,104.0668,真实公开事件描述；受灾人口、面积等未公开字段置0。,IV,公开气象/新闻信息汇总,data_package/sources.md,yellow
+0,0,0,公开政策与新闻信息显示成都持续推进防汛排涝、应急避难场所和城市生命线监测能力建设，本系统将这些公开指标纳入预防性研判。,extreme_weather,成都城市内涝防治能力提升记录,30.602,104.072,治理改进记录，用于再次发生时预防历史短板。,IV,公开政策与新闻指标,data_package/sources.md,blue

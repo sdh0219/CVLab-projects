@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全国灾害响应平台</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div>
+        <h1>全国灾害响应平台</h1>
+        <p>真实路网 · 历史灾害 · Dijkstra 救援路径规划</p>
+        <p class="mode-explain">快速演示：播放已由真实流水线生成的阶段图 · 真实运行：重新执行本地脚本、Dijkstra 计算和可视化生成</p>
+      </div>
+      <div class="actions">
+        <button id="demoBtn" class="secondary">快速演示</button>
+        <button id="runPipelineBtn">真实运行流水线</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="left-pane">
+        <div class="panel map-panel">
+          <div class="section-title">
+            <span>全国历史灾害分布</span>
+            <small>选择一个灾害场景</small>
+          </div>
+          <div class="china-map" id="chinaMap">
+            <svg viewBox="0 0 900 660" role="img" aria-label="全国地图示意">
+              <path class="china-shape" d="M154 275 L214 211 L321 171 L423 129 L548 147 L676 185 L741 249 L805 339 L769 439 L683 522 L552 553 L419 533 L298 559 L190 508 L122 406 Z"></path>
+              <path class="coast-line" d="M675 185 C691 236 742 253 741 304 C740 348 790 381 769 439 C741 516 642 514 552 553"></path>
+              <path class="river-line" d="M241 403 C327 378 392 389 468 416 C530 438 612 433 706 392"></path>
+              <path class="river-line" d="M242 282 C331 273 399 293 484 279 C560 267 617 294 700 282"></path>
+            </svg>
+            <div id="mapMarkers"></div>
+          </div>
+        </div>
+
+        <div class="panel scenario-list" id="scenarioList"></div>
+      </section>
+
+      <section class="center-pane">
+        <div class="panel hero-panel">
+          <div class="scene-heading">
+            <div>
+              <span id="typeBadge" class="badge">地震</span>
+              <h2 id="sceneTitle">加载中</h2>
+              <p id="sceneSummary"></p>
+            </div>
+            <div class="scene-meta">
+              <strong id="sceneDate"></strong>
+              <span id="scenePlace"></span>
+            </div>
+          </div>
+          <div class="route-image-wrap">
+            <img id="routeImage" alt="救援路径规划结果图">
+            <div id="stageOverlay" class="stage-overlay">
+              <strong>最终结果</strong>
+              <span>点击下方步骤可查看每一层叠加效果</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel pipeline-panel">
+          <div class="section-title">
+            <span>一键生成流水线</span>
+            <small>用于四分钟演示视频</small>
+          </div>
+          <div class="pipeline" id="pipeline"></div>
+          <pre id="logBox" class="log-box">等待操作...</pre>
+        </div>
+      </section>
+
+      <aside class="right-pane">
+        <div class="panel">
+          <div class="section-title">
+            <span>数据规模</span>
+            <small>真实区域路网</small>
+          </div>
+          <div class="metric-grid">
+            <div><strong id="nodeCount">0</strong><span>节点</span></div>
+            <div><strong id="edgeCount">0</strong><span>道路边</span></div>
+            <div><strong id="riskEdgeCount">0</strong><span>风险映射</span></div>
+            <div><strong id="trafficEdgeCount">0</strong><span>交通映射</span></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="section-title">
+            <span>路径结果</span>
+            <small>Dijkstra</small>
+          </div>
+          <div class="result-block blue">
+            <h3>普通最短路径</h3>
+            <p><span>距离</span><strong id="distanceKm">0 km</strong></p>
+            <p><span>危险边</span><strong id="distanceDanger">0</strong></p>
+            <p><span>危险类型</span><strong id="distanceTypes">无</strong></p>
+          </div>
+          <div class="result-block green">
+            <h3>安全路径</h3>
+            <p><span>距离</span><strong id="safeKm">0 km</strong></p>
+            <p><span>综合代价</span><strong id="safeCost">0</strong></p>
+            <p><span>危险类型</span><strong id="safeTypes">无</strong></p>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="section-title">
+            <span>图例</span>
+            <small>颜色说明</small>
+          </div>
+          <ul class="legend">
+            <li><i class="line blue-line"></i>普通最短路径</li>
+            <li><i class="line green-line"></i>安全路径</li>
+            <li><i class="zone red-zone"></i>历史灾害影响区</li>
+            <li><i class="line orange-line"></i>危险/拥堵路段</li>
+            <li><i class="line gray-line"></i>周边真实道路</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

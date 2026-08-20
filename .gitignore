@@ -1,0 +1,36 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# === Node.js ===
+node_modules/
+dist/
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === QD12: BERT 模型文件（>100MB，可从 HuggingFace 自动下载）===
+QD12组_社交媒体求救信息自动提取与定位/源码/models/AI-ModelScope/bert-base-chinese/tf_model.h5
+QD12组_社交媒体求救信息自动提取与定位/源码/models/AI-ModelScope/bert-base-chinese/pytorch_model.bin
+QD12组_社交媒体求救信息自动提取与定位/源码/models/AI-ModelScope/bert-base-chinese/model.safetensors
+QD12组_社交媒体求救信息自动提取与定位/源码/models/AI-ModelScope/bert-base-chinese/flax_model.msgpack
+QD12组_社交媒体求救信息自动提取与定位/源码/outputs/checkpoints/bert_ner_best/pytorch_model.bin
+
+# === QD14: 大文件 edges.csv（105MB → Gitee）===
+QD14组_避开危险路段的救援路径规划/数据集/osm_sichuan_earthquake/edges.csv
+
+# === QD16: 数据集（22GB → Gitee）+ best.pth 权重（105MB → Gitee）===
+QD16组_灾后建筑损毁自动识别与GIS空间化评估/数据集/
+QD16组_灾后建筑损毁自动识别与GIS空间化评估/源码/aline/outputs/checkpoints/best.pth
