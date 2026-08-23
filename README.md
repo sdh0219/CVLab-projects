@@ -1,6 +1,6 @@
 # CVLab-projects · 袁静课题组可复现项目集
 
-袁静课题组（Yuan Lab）应急管理计算机视觉方向的 7 个可复现教学项目，涵盖社交媒体求救信息提取、救援物资分配、路径规划、应急指挥、建筑损毁识别、经济恢复预测和泥石流防治。
+袁静课题组（Yuan Lab）应急管理计算机视觉方向的 6 个可复现教学项目，涵盖社交媒体求救信息提取、救援物资分配、路径规划、应急指挥、经济恢复预测和泥石流防治。
 
 ## 项目列表
 
@@ -10,7 +10,6 @@
 | QD13 | 基于遗传算法的救援物资分配优化 | 遗传算法, Vue3+ECharts, Flask | 仓库内 |
 | QD14 | 避开危险路段的救援路径规划 | Dijkstra, 风险权重路由 | 仓库内 + Gitee 镜像 |
 | QD15 | AI 应急指挥舱原型设计 | FastAPI, Vue3, ECharts, SQLite | 仓库内 |
-| QD16 | 灾后建筑损毁自动识别与 GIS 空间化评估 | Siamese U-Net, PyTorch, OpenCV | Gitee 镜像 |
 | QD17 | 灾后经济恢复周期预测 | Random Forest, GBDT, scikit-learn | 仓库内 |
 | QD18 | AI 辅助山区泥石流零死亡方案 | AHP, rasterio, GIS 栅格分析 | 仓库内 |
 
