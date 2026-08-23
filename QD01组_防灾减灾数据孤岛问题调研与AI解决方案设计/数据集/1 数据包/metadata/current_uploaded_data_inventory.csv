@@ -1,0 +1,11 @@
+﻿uploaded_filename,organized_path,size_bytes
+daily-summaries-2026-06-15T04-09-57.csv,raw_data/weather_noaa/daily_summaries_noaa_la_2020_2025.csv,259840
+DisasterDeclarationsSummaries.csv,raw_data/disaster_fema/DisasterDeclarationsSummaries_la_county.csv,5402
+query.csv,raw_data/earthquake_usgs/usgs_earthquake_query_la_region.csv,701816
+tl_2024_06037_roads.cpg,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.cpg,5
+tl_2024_06037_roads.dbf,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.dbf,17444316
+tl_2024_06037_roads.prj,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.prj,165
+tl_2024_06037_roads.shp,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.shp,32779924
+tl_2024_06037_roads.shp.ea.iso.xml,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.shp.ea.iso.xml,21871
+tl_2024_06037_roads.shp.iso.xml,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.shp.iso.xml,50364
+tl_2024_06037_roads.shx,raw_data/roads_tiger_2024_la_county/tl_2024_06037_roads.shx,1081908

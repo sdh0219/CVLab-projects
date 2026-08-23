@@ -1,0 +1,10 @@
+{
+  "documents": 49,
+  "chunks": 56,
+  "max_chunks": null,
+  "entities": 58,
+  "claims": 202,
+  "relations": 792,
+  "communities": 10,
+  "extractor": "rule"
+}

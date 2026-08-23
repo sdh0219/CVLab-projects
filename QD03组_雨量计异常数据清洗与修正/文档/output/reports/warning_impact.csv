@@ -1,0 +1,17 @@
+﻿threshold,threshold_label,window_points,threshold_mm,method,trigger_samples,trigger_events,false_alarm_samples,false_alarm_events,missed_alarm_samples,missed_alarm_events,max_rolling_rainfall,false_alarm_reduction_vs_raw_pct
+10min,10min强降雨,1,16.0,raw,25,25,25,25,0,0,999.0,0.0
+10min,10min强降雨,1,16.0,corrected,0,0,0,0,0,0,10.2,100.0
+10min,10min强降雨,1,16.0,smoothed,0,0,0,0,0,0,9.8,100.0
+10min,10min强降雨,1,16.0,truth,0,0,0,0,0,0,10.2,100.0
+1h,1h累计雨量,6,30.0,raw,173,28,150,25,10,3,1013.7,0.0
+1h,1h累计雨量,6,30.0,corrected,33,3,0,0,0,0,54.8,100.0
+1h,1h累计雨量,6,30.0,smoothed,28,2,0,0,5,3,54.0,100.0
+1h,1h累计雨量,6,30.0,truth,33,3,0,0,0,0,54.8,100.0
+3h,3h累计雨量,18,50.0,raw,524,28,441,25,1,1,1056.5,0.0
+3h,3h累计雨量,18,50.0,corrected,83,5,0,0,1,1,139.6,100.0
+3h,3h累计雨量,18,50.0,smoothed,82,5,0,0,2,1,137.8,100.0
+3h,3h累计雨量,18,50.0,truth,84,5,0,0,0,0,141.5,100.0
+24h,24h累计雨量,144,100.0,raw,2210,11,1952,11,0,0,3115.1,0.0
+24h,24h累计雨量,144,100.0,corrected,258,2,0,0,0,0,207.6,100.0
+24h,24h累计雨量,144,100.0,smoothed,256,2,0,0,2,2,205.2,100.0
+24h,24h累计雨量,144,100.0,truth,258,2,0,0,0,0,211.2,100.0

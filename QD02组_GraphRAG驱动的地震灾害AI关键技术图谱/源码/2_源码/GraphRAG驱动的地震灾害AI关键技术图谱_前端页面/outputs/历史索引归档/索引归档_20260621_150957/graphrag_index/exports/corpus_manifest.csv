@@ -1,0 +1,11 @@
+﻿doc_id,title,topic,source_file,source_type,language,quality_status,path,char_count
+EQ_DOC_001,原始来源核验机制,原始来源核验,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/01_原始来源核验机制.md,1450
+EQ_DOC_002,全球典型地震事件参数,地震事件参数核验,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/02_全球典型地震事件参数.md,2262
+EQ_DOC_003,ShakeMap与PAGER影响评估,影响评估数据链,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/03_ShakeMap与PAGER影响评估.md,2090
+EQ_DOC_004,灾后应急响应与人道需求,灾后应急响应,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/04_灾后应急响应与人道需求.md,1768
+EQ_DOC_005,遥感影像与建筑震损标签,遥感震损识别,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/05_遥感影像与建筑震损标签.md,1616
+EQ_DOC_006,暴露体与生命线韧性,暴露体与生命线韧性,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/06_暴露体与生命线韧性.md,1452
+EQ_DOC_007,分布式AI地震预警,分布式AI地震预警,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/07_分布式AI地震预警.md,2039
+EQ_DOC_008,工程损失评估系统,工程损失评估,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/08_工程损失评估系统.md,1907
+EQ_DOC_009,应急治理政策标准,应急治理政策标准,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/09_应急治理政策标准.md,1934
+EQ_DOC_010,本体与复核机制,本体与复核机制,地震灾害数据收集与整理.docx,整理报告,zh-CN,待复核,data/corpus/earthquake/10_本体与复核机制.md,3145

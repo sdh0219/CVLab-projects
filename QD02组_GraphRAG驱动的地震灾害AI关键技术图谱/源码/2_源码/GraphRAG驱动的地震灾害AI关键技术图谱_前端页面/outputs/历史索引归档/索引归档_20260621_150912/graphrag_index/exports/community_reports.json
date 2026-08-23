@@ -1,0 +1,90 @@
+[
+  {
+    "community_id": "C00",
+    "title": "地震灾害背景",
+    "summary": "聚合地震灾害类型和基础事件参数。",
+    "entity_count": 1,
+    "relation_count": 3,
+    "representative_entities": "地震",
+    "evidence_sources": "ShakeMap与PAGER影响评估；全球典型地震事件参数；原始来源核验机制",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C01",
+    "title": "AI技术与模型方法",
+    "summary": "聚合预警、震损识别、风险模拟等AI技术及模型。",
+    "entity_count": 29,
+    "relation_count": 108,
+    "representative_entities": "Hazus；OpenQuake；Edge-AI CNN；地震证据图谱GraphRAG；地震应急辅助决策；地震早期预警；震后建筑损毁识别；遥感震损智能解译",
+    "evidence_sources": "ShakeMap与PAGER影响评估；全球典型地震事件参数；分布式AI地震预警；原始来源核验机制；工程损失评估系统；应急治理政策标准",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C02",
+    "title": "任务场景链",
+    "summary": "聚合震前、震时、震后和治理阶段的任务节点。",
+    "entity_count": 22,
+    "relation_count": 12,
+    "representative_entities": "应急响应；震后评估；震时预警；城市韧性评估；地震监测预警；人员伤亡估计；应急响应分级；恢复重建",
+    "evidence_sources": "ShakeMap与PAGER影响评估；全球典型地震事件参数；原始来源核验机制；工程损失评估系统；应急治理政策标准；本体与复核机制",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C03",
+    "title": "数据与影响产品",
+    "summary": "聚合ShakeMap、PAGER、遥感、暴露体和指标产品。",
+    "entity_count": 41,
+    "relation_count": 72,
+    "representative_entities": "ShakeMap；PAGER；xBD；Copernicus EMS；ALOS-2-BDE；震级；台站波形数据；PGA",
+    "evidence_sources": "ShakeMap与PAGER影响评估；全球典型地震事件参数；分布式AI地震预警；工程损失评估系统；应急治理政策标准；暴露体与生命线韧性",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C04",
+    "title": "地震案例事件",
+    "summary": "聚合典型地震事件和验证案例。",
+    "entity_count": 14,
+    "relation_count": 13,
+    "representative_entities": "2024 年日本能登半岛地震；2024 年日本能登半岛地震；2023 年土耳其-叙利亚地震；2023 年土耳其-叙利亚地震；2015 年尼泊尔廓尔喀地震；2015 年尼泊尔廓尔喀地震；2023 年土耳其 Elbistan 大震；2023 年土耳其 Elbistan 大震",
+    "evidence_sources": "ShakeMap与PAGER影响评估；全球典型地震事件参数；暴露体与生命线韧性；本体与复核机制；灾后应急响应与人道需求",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C05",
+    "title": "组织政策标准",
+    "summary": "聚合政策、标准和发布机构。",
+    "entity_count": 24,
+    "relation_count": 24,
+    "representative_entities": "ISO 22320:2018；Sendai Framework；USGS；ISO；国家地震应急预案；CENC；JMA；INSARAG",
+    "evidence_sources": "ShakeMap与PAGER影响评估；全球典型地震事件参数；工程损失评估系统；应急治理政策标准；本体与复核机制；灾后应急响应与人道需求",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C06",
+    "title": "限制与复核风险",
+    "summary": "聚合预警盲区、数据偏差、标注稀缺等风险。",
+    "entity_count": 18,
+    "relation_count": 5,
+    "representative_entities": "预警盲区；数据偏差；标注稀缺；SAR 影像解释不确定性；不确定性网格；光学影像云层遮挡；中等损伤标签混淆；大模型幻觉风险",
+    "evidence_sources": "ShakeMap与PAGER影响评估；分布式AI地震预警；本体与复核机制",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  },
+  {
+    "community_id": "C07",
+    "title": "语料与证据链",
+    "summary": "聚合文档来源、文本块和证据片段。",
+    "entity_count": 50,
+    "relation_count": 24,
+    "representative_entities": "分布式AI地震预警；ShakeMap与PAGER影响评估；本体与复核机制；工程损失评估系统；全球典型地震事件参数；灾后应急响应与人道需求；应急治理政策标准；遥感影像与建筑震损标签",
+    "evidence_sources": "分布式AI地震预警",
+    "open_questions": "低置信度关系需由专家复核；跨来源冲突需回到原始文档核验。",
+    "review_focus": "检查关系方向、证据片段是否支持三元组，以及英文专名中文解释是否准确。"
+  }
+]

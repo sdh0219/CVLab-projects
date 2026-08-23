@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基于真实地震数据的个性化地震预警信息自动生成系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>基于真实地震数据的个性化地震预警系统</h1>
+            <p>选择真实地震事件 · 构建用户画像 · 生成个性化地震应急提醒</p>
+        </header>
+
+        <div class="main-layout">
+            <div class="left-panel">
+                <div class="card form-card">
+                    <h2>填写用户信息</h2>
+                    <div class="form-body">
+                        <form id="warningForm">
+                            <div class="form-group">
+                                <label for="identity">人员身份</label>
+                                <select id="identity" name="identity" required>
+                                    <option value="">请选择人员身份</option>
+                                    <option value="普通居民">普通居民</option>
+                                    <option value="游客">游客</option>
+                                    <option value="应急人员">应急人员</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="age">年龄</label>
+                                <input type="number" id="age" name="age" min="1" max="120" placeholder="请输入年龄" required>
+                                <div class="form-hint">系统将根据年龄自动识别学生/未成年人群体或老年重点关注人群。</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="location">所在位置</label>
+                                <div class="location-row">
+                                    <input type="text" id="location" name="location" placeholder="例如：北京市海淀区" required>
+                                    <button type="button" id="locateBtn" class="btn-locate" title="一键定位">📍 一键定位</button>
+                                </div>
+                                <div id="locateMsg" class="locate-msg"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="event_id">选择地震事件</label>
+                                <select id="event_id" name="event_id" required>
+                                    <option value="">请选择真实地震事件</option>
+                                    {% for ev in events %}
+                                    <option value="{{ ev.event_id }}">{{ ev.event_time_beijing[:10] }} | M{{ ev.magnitude }} | {{ ev.place[:30] }}</option>
+                                    {% endfor %}
+                                </select>
+                                <div class="form-hint">默认选中最新真实地震事件。</div>
+                            </div>
+
+                            <div id="eventDetailCard" class="event-detail-card" style="display:none;">
+                                <h3>地震事件详情</h3>
+                                <div class="event-detail-grid">
+                                    <div class="detail-item"><strong>发生时间：</strong><span id="detTime"></span></div>
+                                    <div class="detail-item"><strong>震级：</strong><span id="detMag"></span></div>
+                                    <div class="detail-item"><strong>震源深度：</strong><span id="detDepth"></span></div>
+                                    <div class="detail-item"><strong>参考位置：</strong><span id="detPlace"></span></div>
+                                    <div class="detail-item"><strong>经纬度：</strong><span id="detLatLon"></span></div>
+                                    <div class="detail-item"><strong>数据来源：</strong><span id="detSource"></span></div>
+                                </div>
+                                <div class="event-detail-link" id="detLink" style="display:none;">
+                                    <a href="#" target="_blank" id="detUrl">查看原始数据来源</a>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>监测灾种</label>
+                                <div class="monitor-display">地震</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mobility">行动能力</label>
+                                <select id="mobility" name="mobility" required>
+                                    <option value="">请选择行动能力</option>
+                                    <option value="正常">正常</option>
+                                    <option value="较弱">较弱</option>
+                                    <option value="需协助">需协助</option>
+                                </select>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" id="generateBtn" class="btn">生成预警信息</button>
+                                <a href="/dashboard" class="btn btn-secondary">查看数据统计</a>
+                            </div>
+                            <div id="formError" class="error-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div class="phone-device" id="phoneDevice">
+                    <img class="phone-img phone-normal" src="/static/images/phone_normal.png" alt="手机锁屏">
+                    <img class="phone-img phone-blur" src="/static/images/phone_blur.png" alt="手机模糊">
+
+                    <div class="phone-popup-layer">
+                        <div class="phone-alert-popup" id="phoneAlertPopup">
+                            <div class="popup-header">
+                                <span class="popup-warn-icon">⚠</span>
+                                <span class="popup-title-text">地震提醒</span>
+                            </div>
+                            <div class="popup-body" id="popupBody"></div>
+                            <div class="popup-footer">
+                                <button class="btn btn-sm btn-secondary" onclick="window.location.href='/dashboard'">查看数据统计</button>
+                                <button class="btn btn-sm btn-close" id="closePopupBtn">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>基于真实地震数据的个性化地震预警信息自动生成系统 &copy; 2026</p>
+            
+        </footer>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var locateBtn = document.getElementById('locateBtn');
+        var locMsg = document.getElementById('locateMsg');
+        var locInput = document.getElementById('location');
+        var form = document.getElementById('warningForm');
+        var generateBtn = document.getElementById('generateBtn');
+        var formError = document.getElementById('formError');
+        var phoneDevice = document.getElementById('phoneDevice');
+        var phonePopup = document.getElementById('phoneAlertPopup');
+        var popupBody = document.getElementById('popupBody');
+        var popupTitle = document.querySelector('.popup-title-text');
+        var closePopupBtn = document.getElementById('closePopupBtn');
+        var eventSelect = document.getElementById('event_id');
+        var eventDetailCard = document.getElementById('eventDetailCard');
+
+        function showFormError(msg) {
+            formError.textContent = msg;
+            formError.classList.add('visible');
+        }
+
+        function hideFormError() {
+            formError.classList.remove('visible');
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            var div = document.createElement('div');
+            div.appendChild(document.createTextNode(str));
+            return div.innerHTML;
+        }
+
+        function loadEventDetail(eventId) {
+            if (!eventId) {
+                eventDetailCard.style.display = 'none';
+                return;
+            }
+            fetch('/get_event_detail?event_id=' + encodeURIComponent(eventId))
+                .then(function (r) { return r.json(); })
+                .then(function (data) {
+                    if (data.success) {
+                        var ev = data.event;
+                        document.getElementById('detTime').textContent = ev.event_time_beijing || 'N/A';
+                        document.getElementById('detMag').textContent = 'M' + (ev.magnitude || '?');
+                        document.getElementById('detDepth').textContent = (ev.depth_km || '?') + ' km';
+                        document.getElementById('detPlace').textContent = ev.place || 'N/A';
+                        document.getElementById('detLatLon').textContent = (ev.latitude || '?') + ', ' + (ev.longitude || '?');
+                        document.getElementById('detSource').textContent = ev.source || 'N/A';
+                        if (ev.detail_url) {
+                            document.getElementById('detUrl').href = ev.detail_url;
+                            document.getElementById('detLink').style.display = 'block';
+                        } else {
+                            document.getElementById('detLink').style.display = 'none';
+                        }
+                        eventDetailCard.style.display = 'block';
+                    }
+                })
+                .catch(function () {
+                    eventDetailCard.style.display = 'none';
+                });
+        }
+
+        eventSelect.addEventListener('change', function () {
+            loadEventDetail(this.value);
+        });
+
+        if (eventSelect.options.length > 1) {
+            eventSelect.selectedIndex = 1;
+            loadEventDetail(eventSelect.value);
+        }
+
+        if (locateBtn) {
+            locateBtn.addEventListener('click', function () {
+                locMsg.textContent = '正在获取位置...';
+                locMsg.className = 'locate-msg locating';
+
+                if (!navigator.geolocation) {
+                    locMsg.textContent = '定位失败，请手动输入位置';
+                    locMsg.className = 'locate-msg error';
+                    return;
+                }
+
+                navigator.geolocation.getCurrentPosition(
+                    function (pos) {
+                        var lat = pos.coords.latitude.toFixed(4);
+                        var lng = pos.coords.longitude.toFixed(4);
+                        locInput.value = '纬度' + lat + '，经度' + lng;
+                        locMsg.textContent = '定位成功，已自动填入位置';
+                        locMsg.className = 'locate-msg success';
+                    },
+                    function () {
+                        locMsg.textContent = '定位失败，请手动输入位置';
+                        locMsg.className = 'locate-msg error';
+                    },
+                    { timeout: 8000, enableHighAccuracy: false }
+                );
+            });
+        }
+
+        if (closePopupBtn) {
+            closePopupBtn.addEventListener('click', function () {
+                phoneDevice.classList.remove('alert-active');
+                phonePopup.classList.remove('popup-show');
+                phonePopup.style.display = 'none';
+                generateBtn.disabled = false;
+                generateBtn.textContent = '重新生成预警信息';
+            });
+        }
+
+        if (form) {
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                hideFormError();
+
+                var formData = new FormData(form);
+
+                generateBtn.disabled = true;
+                generateBtn.textContent = '生成中...';
+
+                fetch('/generate', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(function (res) {
+                    if (!res.ok) throw new Error('服务器返回状态码 ' + res.status);
+                    return res.json();
+                })
+                .then(function (data) {
+                    if (data.success) {
+                        phoneDevice.classList.add('alert-active');
+                        phonePopup.style.display = 'flex';
+                        phonePopup.classList.add('popup-show');
+
+                        popupTitle.textContent = '地震提醒';
+
+                        popupBody.innerHTML = '';
+
+                        var fields = [
+                            { label: '地震事件', val: (data.event_info.time || '') + ' | ' + data.event_info.place },
+                            { label: '震级/深度', val: 'M' + data.event_info.magnitude + ' / ' + data.event_info.depth_km + 'km' },
+                            { label: '用户画像', val: data.profile_label },
+                            { label: '重点需求', val: data.need_type },
+                            { label: '演示风险等级', val: data.risk_label },
+                            { label: '距离信息', val: data.distance_info },
+                            { label: '行动建议', val: data.action_suggestion },
+                        ];
+
+                        fields.forEach(function (f) {
+                            if (f.val) {
+                                var p = document.createElement('p');
+                                p.innerHTML = '<span class="popup-label">' + f.label + '</span><span class="popup-value">' + escapeHtml(f.val) + '</span>';
+                                popupBody.appendChild(p);
+                            }
+                        });
+
+                        var msgDiv = document.createElement('div');
+                        msgDiv.className = 'popup-message';
+                        msgDiv.textContent = data.warning_text || '';
+                        popupBody.appendChild(msgDiv);
+
+                        generateBtn.disabled = false;
+                        generateBtn.textContent = '重新生成预警信息';
+                    } else {
+                        throw new Error('生成失败');
+                    }
+                })
+                .catch(function (err) {
+                    phoneDevice.classList.remove('alert-active');
+                    phonePopup.classList.remove('popup-show');
+                    phonePopup.style.display = 'none';
+                    showFormError('生成预警信息失败：' + err.message + '，请重试');
+                    generateBtn.disabled = false;
+                    generateBtn.textContent = '生成预警信息';
+                });
+            });
+        }
+    });
+    </script>
+</body>
+</html>

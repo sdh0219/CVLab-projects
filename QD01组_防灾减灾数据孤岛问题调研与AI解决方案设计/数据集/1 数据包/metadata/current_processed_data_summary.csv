@@ -1,0 +1,5 @@
+﻿data_type,source,record_count,output_file
+weather,NOAA Daily Summaries,2192,processed_data/weather_noaa_daily_summaries_clean.csv
+disaster,FEMA Disaster Declarations,16,processed_data/disaster_fema_la_county_clean.csv
+geology,USGS Earthquake Catalog,3676,processed_data/earthquake_usgs_la_region_clean.csv
+transportation,Census TIGER/Line Roads Shapefile,135226 features in metadata,processed_data/tiger_roads_la_county_shapefile.zip

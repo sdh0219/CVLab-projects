@@ -1,0 +1,57 @@
+{
+  "name": "ai-disaster-technology-graph",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "lint": "eslint app db worker drizzle.config.ts next.config.ts vite.config.ts eslint.config.mjs postcss.config.mjs",
+    "db:generate": "drizzle-kit generate",
+    "atlas:corpus:earthquake": "python tools/build_earthquake_corpus.py",
+    "atlas:rebuild:earthquake": "python tools/rebuild_earthquake_graphrag_index.py",
+    "atlas:index": "python -m graphrag_atlas index --extractor rule --config config/ontology.json --corpus data/corpus/sample --output outputs/graphrag_index",
+    "atlas:index:llm": "python -m graphrag_atlas index --extractor llm --config config/ontology.json --corpus data/corpus/sample --output outputs/graphrag_index",
+    "atlas:index:hybrid": "python -m graphrag_atlas index --extractor hybrid --config config/ontology.json --corpus data/corpus/sample --output outputs/graphrag_index",
+    "atlas:index:nvidia": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/run_nvidia_llm.ps1 -Extractor llm",
+    "atlas:index:nvidia:hybrid": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/run_nvidia_llm.ps1 -Extractor hybrid",
+    "atlas:index:nvidia:smoke": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/run_nvidia_llm.ps1 -Extractor hybrid -MaxChunks 3",
+    "atlas:global": "python -m graphrag_atlas global-search LLM --output outputs/graphrag_index",
+    "atlas:local": "python -m graphrag_atlas local-search tech_remote_sensing_eq_damage --output outputs/graphrag_index",
+    "atlas:gaps": "python -m graphrag_atlas gap-search --output outputs/graphrag_index",
+    "atlas:enhance": "python tools/enhance_atlas_outputs.py --output outputs/graphrag_index",
+    "atlas:publish": "python tools/publish_atlas_frontend.py --output outputs/graphrag_index --public-dir public/atlas --config config/ontology.json",
+    "atlas:validate": "python tools/validate_atlas_outputs.py --corpus data/corpus/sample --output outputs/graphrag_index --public-file public/atlas/atlas_frontend.json",
+    "atlas:refresh": "npm run atlas:corpus:earthquake && npm run atlas:index && npm run atlas:enhance && npm run atlas:publish && npm run atlas:validate",
+    "atlas:package": "python tools/build_final_deliverables.py --root . --output-dir outputs/final_deliverables",
+    "atlas:all": "npm run atlas:refresh && npm run lint && npm run build && npm run atlas:package"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}

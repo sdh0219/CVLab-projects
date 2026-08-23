@@ -1,0 +1,401 @@
+[
+  {
+    "topology_community_id": "T001",
+    "title": "地震早期预警、震后建筑损毁识别",
+    "member_count": 52,
+    "relation_count": 725,
+    "entity_types": {
+      "AITech": 9,
+      "Case": 7,
+      "Dataset": 6,
+      "DisasterType": 1,
+      "Limitation": 6,
+      "Model": 7,
+      "Policy": 5,
+      "Scenario": 5,
+      "Task": 6
+    },
+    "members": [
+      {
+        "entity_id": "case_afghanistan_earthquake",
+        "name": "阿富汗地震",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "case_haiti_earthquake",
+        "name": "海地地震",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "case_myshake_warning",
+        "name": "MyShake地震预警案例",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "case_nepal_earthquake",
+        "name": "尼泊尔地震",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "case_noto_earthquake",
+        "name": "日本能登半岛地震",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "case_shakealert_warning",
+        "name": "ShakeAlert地震预警案例",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "case_turkiye_syria_earthquake",
+        "name": "土耳其叙利亚地震",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "data_building_footprint",
+        "name": "建筑物足迹数据",
+        "entity_type": "Dataset"
+      },
+      {
+        "entity_id": "data_disaster_event",
+        "name": "灾害事件数据库",
+        "entity_type": "Dataset"
+      },
+      {
+        "entity_id": "data_lifeline_assets",
+        "name": "生命线设施数据",
+        "entity_type": "Dataset"
+      },
+      {
+        "entity_id": "data_remote_sensing",
+        "name": "遥感影像",
+        "entity_type": "Dataset"
+      },
+      {
+        "entity_id": "data_seismic_network",
+        "name": "地震台网数据",
+        "entity_type": "Dataset"
+      },
+      {
+        "entity_id": "data_social_media",
+        "name": "众源文本",
+        "entity_type": "Dataset"
+      },
+      {
+        "entity_id": "hazard_earthquake",
+        "name": "地震",
+        "entity_type": "DisasterType"
+      },
+      {
+        "entity_id": "limit_communication_outage",
+        "name": "震后通信中断",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "limit_data_bias",
+        "name": "数据偏差",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "limit_deployment",
+        "name": "实时部署困难",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "limit_generalization",
+        "name": "跨区域泛化不足",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "limit_hallucination",
+        "name": "幻觉风险",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "limit_label_scarcity",
+        "name": "标注稀缺",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "model_cnn",
+        "name": "CNN",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "model_llm",
+        "name": "LLM",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "model_lstm",
+        "name": "LSTM",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "model_ml",
+        "name": "机器学习",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "model_rl",
+        "name": "强化学习",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "model_transformer",
+        "name": "Transformer",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "model_unet",
+        "name": "U-Net",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "policy_data_governance",
+        "name": "数据共享与隐私合规",
+        "entity_type": "Policy"
+      },
+      {
+        "entity_id": "policy_earthquake_emergency_plan",
+        "name": "地震应急预案",
+        "entity_type": "Policy"
+      },
+      {
+        "entity_id": "policy_earthquake_warning_standard",
+        "name": "地震预警发布规范",
+        "entity_type": "Policy"
+      },
+      {
+        "entity_id": "policy_seismic_risk_plan",
+        "name": "防震减灾规划",
+        "entity_type": "Policy"
+      },
+      {
+        "entity_id": "policy_technical_standard",
+        "name": "应急管理技术标准",
+        "entity_type": "Policy"
+      },
+      {
+        "entity_id": "stage_earthquake_warning",
+        "name": "地震早期预警",
+        "entity_type": "Scenario"
+      },
+      {
+        "entity_id": "stage_post_quake_damage",
+        "name": "震后损毁评估",
+        "entity_type": "Scenario"
+      },
+      {
+        "entity_id": "stage_post_quake_dispatch",
+        "name": "震后应急调度",
+        "entity_type": "Scenario"
+      },
+      {
+        "entity_id": "stage_seismic_monitoring",
+        "name": "震前监测感知",
+        "entity_type": "Scenario"
+      },
+      {
+        "entity_id": "stage_seismic_risk_assessment",
+        "name": "地震风险评估",
+        "entity_type": "Scenario"
+      },
+      {
+        "entity_id": "task_damage_assessment",
+        "name": "建筑损毁评估",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "task_earthquake_warning",
+        "name": "地震监测预警",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "task_evidence_qa",
+        "name": "证据链问答",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "task_resource_dispatch",
+        "name": "震后资源调度",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "task_seismic_risk_prediction",
+        "name": "震害风险预测",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "task_situation_summary",
+        "name": "灾情态势摘要",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "tech_graphrag_evidence",
+        "name": "地震证据图谱GraphRAG",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_llm_emergency_decision",
+        "name": "地震应急辅助决策",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_multimodal_situation",
+        "name": "地震多模态灾情理解",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_post_earthquake_damage_cv",
+        "name": "震后建筑损毁识别",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_rapid_loss_estimation",
+        "name": "震后灾情快速评估",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_remote_sensing_eq_damage",
+        "name": "遥感震损智能解译",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_rl_rescue_dispatch",
+        "name": "震后救援调度优化",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_seismic_early_warning",
+        "name": "地震早期预警",
+        "entity_type": "AITech"
+      },
+      {
+        "entity_id": "tech_seismic_risk_prediction",
+        "name": "地震风险时空预测",
+        "entity_type": "AITech"
+      }
+    ],
+    "representative_docs": [
+      {
+        "doc_id": "case_noto_earthquake",
+        "relation_count": 22
+      },
+      {
+        "doc_id": "paper_myshake_network",
+        "relation_count": 22
+      },
+      {
+        "doc_id": "project_myshake",
+        "relation_count": 22
+      },
+      {
+        "doc_id": "patent_myshake_warning",
+        "relation_count": 20
+      },
+      {
+        "doc_id": "patent_tw_earthquake_ai",
+        "relation_count": 20
+      },
+      {
+        "doc_id": "patent_tw_earthquake_warning",
+        "relation_count": 20
+      },
+      {
+        "doc_id": "policy_japan_disaster_plan",
+        "relation_count": 20
+      },
+      {
+        "doc_id": "project_shakealert",
+        "relation_count": 20
+      }
+    ],
+    "summary": "地震早期预警、震后建筑损毁识别包含AITech9、Model7、Case7、Dataset6，内部关系主要为SERVES_STAGE、APPLIES_TO、DEPENDS_ON、VALIDATED_IN。"
+  },
+  {
+    "topology_community_id": "T002",
+    "title": "生命线震损风险传播GNN",
+    "member_count": 5,
+    "relation_count": 24,
+    "entity_types": {
+      "AITech": 1,
+      "Case": 1,
+      "Limitation": 1,
+      "Model": 1,
+      "Task": 1
+    },
+    "members": [
+      {
+        "entity_id": "case_morocco_earthquake",
+        "name": "摩洛哥地震",
+        "entity_type": "Case"
+      },
+      {
+        "entity_id": "limit_explainability",
+        "name": "可解释性不足",
+        "entity_type": "Limitation"
+      },
+      {
+        "entity_id": "model_gnn",
+        "name": "GNN",
+        "entity_type": "Model"
+      },
+      {
+        "entity_id": "task_lifeline_risk",
+        "name": "生命线风险评估",
+        "entity_type": "Task"
+      },
+      {
+        "entity_id": "tech_lifeline_gnn",
+        "name": "生命线震损风险传播GNN",
+        "entity_type": "AITech"
+      }
+    ],
+    "representative_docs": [
+      {
+        "doc_id": "case_morocco_earthquake",
+        "relation_count": 4
+      },
+      {
+        "doc_id": "paper_lifeline_resilience",
+        "relation_count": 4
+      },
+      {
+        "doc_id": "policy_china_14th_drr_plan",
+        "relation_count": 4
+      },
+      {
+        "doc_id": "report_cdri_giri",
+        "relation_count": 4
+      },
+      {
+        "doc_id": "report_worldbank_lifelines",
+        "relation_count": 4
+      },
+      {
+        "doc_id": "standard_iso_37123_resilient_cities",
+        "relation_count": 4
+      }
+    ],
+    "summary": "生命线震损风险传播GNN包含AITech1、Model1、Task1、Case1，内部关系主要为SOLVES、USES_MODEL、VALIDATED_IN、LIMITED_BY。"
+  },
+  {
+    "topology_community_id": "T003",
+    "title": "Dataset社区",
+    "member_count": 1,
+    "relation_count": 0,
+    "entity_types": {
+      "Dataset": 1
+    },
+    "members": [
+      {
+        "entity_id": "data_iot",
+        "name": "物联传感器",
+        "entity_type": "Dataset"
+      }
+    ],
+    "representative_docs": [],
+    "summary": "Dataset社区包含Dataset1，内部关系主要为暂无内部关系。"
+  }
+]

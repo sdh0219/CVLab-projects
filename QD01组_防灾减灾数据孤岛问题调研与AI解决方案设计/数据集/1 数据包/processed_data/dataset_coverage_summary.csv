@@ -1,0 +1,11 @@
+﻿data_type,source,record_count,source_status,output_file
+weather,NOAA Daily Summaries,2192,real_downloaded,1_数据包/processed_data/weather_noaa_daily_summaries_clean.csv
+disaster,FEMA Disaster Declarations,16,real_downloaded,1_数据包/processed_data/disaster_fema_la_county_clean.csv
+earthquake,USGS Earthquake Catalog,3676,real_downloaded,1_数据包/processed_data/earthquake_usgs_la_region_clean.csv
+roads,Census TIGER Roads Shapefile ZIP,shapefile zip; 7 files; road features described by metadata,real_downloaded,1_数据包/raw_data/roads_tiger/tiger_roads_la_county_shapefile.zip
+population_svi,LA County SVI FeatureServer fallback,2315,simulated_fallback_or_replace_with_real_if_available,1_数据包/processed_data/population_svi_la_county.geojson
+emergency_fire_ems,LA County Fire/EMS fallback,174,simulated_fallback_or_replace_with_real_if_available,1_数据包/processed_data/emergency_fire_ems_stations_la.geojson
+emergency_hospitals,LA County Hospitals fallback,281,simulated_fallback_or_replace_with_real_if_available,1_数据包/processed_data/emergency_hospitals_la.geojson
+landslide,CGS Landslide Inventory fallback,150,simulated_fallback_due_ssl_download_failure,1_数据包/processed_data/landslide_cgs_la_county.geojson
+unified_hazard_events,Fused hazard table,3842,mixed_real_and_fallback,1_数据包/processed_data/unified_hazard_events.csv
+unified_monitoring_daily,Fused monitoring table,13152,real_downloaded,1_数据包/processed_data/unified_monitoring_daily.csv

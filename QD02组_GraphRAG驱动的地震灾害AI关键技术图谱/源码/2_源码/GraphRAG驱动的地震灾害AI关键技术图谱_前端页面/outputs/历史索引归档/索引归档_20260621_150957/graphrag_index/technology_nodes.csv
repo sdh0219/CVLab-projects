@@ -1,0 +1,67 @@
+﻿entity_id,id,name,label,entity_type,type,aliases,description,doc_ids,chunk_ids,community_id,community,evidence_count,relation_count,review_status,score
+tech_eq_001,tech_eq_001,地震早期预警,地震早期预警,AITech,AITech,地震预警；早期预警；earthquake early warning,AITech：地震早期预警,EQ_DOC_007,CHK_EQ_000019；CHK_EQ_000020,C01,C01,7,7,待复核,2.0
+tech_eq_002,tech_eq_002,震后建筑损毁识别,震后建筑损毁识别,AITech,AITech,建筑震损；建筑损毁；建筑损坏估计；building damage,AITech：震后建筑损毁识别,EQ_DOC_005；EQ_DOC_008,CHK_EQ_000013；CHK_EQ_000022,C01,C01,20,20,待复核,2.0
+tech_eq_003,tech_eq_003,遥感震损智能解译,遥感震损智能解译,AITech,AITech,遥感影像解译；遥感震损；震损标签；多源几何特征；SAR 震损,AITech：遥感震损智能解译,EQ_DOC_005,CHK_EQ_000013；CHK_EQ_000014,C01,C01,8,8,待复核,2.0
+tech_eq_004,tech_eq_004,地震风险时空预测,地震风险时空预测,AITech,AITech,地震风险评估；地震风险；风险预测；seismic risk,AITech：地震风险时空预测,EQ_DOC_008,CHK_EQ_000024,C01,C01,5,5,待复核,1.0
+tech_eq_005,tech_eq_005,震后灾情快速评估,震后灾情快速评估,AITech,AITech,快速影响评估；快速评估；灾情快速评估；impact assessment,AITech：震后灾情快速评估,EQ_DOC_003,CHK_EQ_000007,C01,C01,11,11,待复核,1.0
+tech_eq_006,tech_eq_006,地震应急辅助决策,地震应急辅助决策,AITech,AITech,应急响应；应急治理；辅助决策；response coordination,AITech：地震应急辅助决策,EQ_DOC_001；EQ_DOC_004；EQ_DOC_009,CHK_EQ_000001；CHK_EQ_000010；CHK_EQ_000025；CHK_EQ_000026；CHK_EQ_000027,C01,C01,9,9,待复核,5.0
+tech_eq_007,tech_eq_007,生命线震损风险传播GNN,生命线震损风险传播GNN,AITech,AITech,生命线震损风险传播；生命线系统韧性；生命线韧性；GNN；图神经网络,AITech：生命线震损风险传播GNN,EQ_DOC_006；EQ_DOC_010,CHK_EQ_000016；CHK_EQ_000029,C01,C01,8,8,待复核,2.0
+tech_eq_008,tech_eq_008,震后救援调度优化,震后救援调度优化,AITech,AITech,救援调度；物资调度；路径规划；救援路径；relief allocation,AITech：震后救援调度优化,,,C01,C01,1,1,待复核,1.69
+tech_eq_009,tech_eq_009,地震证据图谱GraphRAG,地震证据图谱GraphRAG,AITech,AITech,GraphRAG；知识图谱；证据图谱；证据链问答,AITech：地震证据图谱GraphRAG,EQ_DOC_001；EQ_DOC_010,CHK_EQ_000001；CHK_EQ_000002；CHK_EQ_000003；CHK_EQ_000028；CHK_EQ_000030；CHK_EQ_000031,C01,C01,7,7,待复核,6.0
+tech_eq_010,tech_eq_010,数字孪生城市地震风险模拟,数字孪生城市地震风险模拟,AITech,AITech,数字孪生；城市地震风险；风险模拟；loss simulation,AITech：数字孪生城市地震风险模拟,EQ_DOC_008,CHK_EQ_000024,C01,C01,5,5,待复核,1.0
+tech_eq_011,tech_eq_011,分布式AI地震预警,分布式AI地震预警,AITech,AITech,分布式AI地震预警系统；边缘计算；众包传感器网络；AI-Powered EEWS,AITech：分布式AI地震预警,EQ_DOC_007,CHK_EQ_000019；CHK_EQ_000020,C01,C01,25,25,待复核,2.0
+model_eq_001,model_eq_001,CNN,CNN,Model,Model,Convolutional Neural Network；卷积神经网络,Model：CNN,EQ_DOC_007,CHK_EQ_000020,C01,C01,2,2,待复核,1.0
+model_eq_002,model_eq_002,GNN,GNN,Model,Model,Graph Neural Network；图神经网络,Model：GNN,EQ_DOC_010,CHK_EQ_000029,C01,C01,2,2,待复核,1.0
+model_eq_003,model_eq_003,LSTM,LSTM,Model,Model,Long Short-Term Memory,Model：LSTM,,,C01,C01,0,0,待复核,0.0
+model_eq_004,model_eq_004,RNN,RNN,Model,Model,Recurrent Neural Network,Model：RNN,EQ_DOC_007,CHK_EQ_000020,C01,C01,1,1,待复核,1.0
+model_eq_005,model_eq_005,Transformer,Transformer,Model,Model,ViT；Swin Transformer,Model：Transformer,EQ_DOC_007；EQ_DOC_010,CHK_EQ_000020；CHK_EQ_000029,C01,C01,3,3,待复核,2.0
+model_eq_006,model_eq_006,U-Net,U-Net,Model,Model,UNet,Model：U-Net,,,C01,C01,1,1,待复核,1.69
+model_eq_007,model_eq_007,随机森林,随机森林,Model,Model,Random Forest,Model：随机森林,EQ_DOC_007,CHK_EQ_000020,C01,C01,1,1,待复核,1.0
+model_eq_008,model_eq_008,XGBoost,XGBoost,Model,Model,Gradient Boosting,Model：XGBoost,,,C01,C01,0,0,待复核,0.0
+model_eq_009,model_eq_009,能力谱法,能力谱法,Model,Model,Capacity Spectrum Method,Model：能力谱法,EQ_DOC_008,CHK_EQ_000022；CHK_EQ_000023,C01,C01,2,2,待复核,2.0
+model_eq_010,model_eq_010,Hazus,Hazus,Model,Model,HAZUS,Model：Hazus,EQ_DOC_008,CHK_EQ_000022；CHK_EQ_000023；CHK_EQ_000024,C01,C01,5,5,待复核,11.0
+model_eq_011,model_eq_011,OpenQuake,OpenQuake,Model,Model,OpenQuake Engine,Model：OpenQuake,EQ_DOC_008,CHK_EQ_000023；CHK_EQ_000024,C01,C01,9,9,待复核,10.0
+model_eq_012,model_eq_012,Edge-AI CNN,Edge-AI CNN,Model,Model,Edge-AI compact CNN；compact CNN,Model：Edge-AI CNN,,,C01,C01,1,1,待复核,8.0
+model_eq_013,model_eq_013,PhaseNet,PhaseNet,Model,Model,,Model：PhaseNet,EQ_DOC_007；EQ_DOC_010,CHK_EQ_000020；CHK_EQ_000029,C01,C01,3,3,待复核,2.0
+model_eq_014,model_eq_014,EQTransformer,EQTransformer,Model,Model,,Model：EQTransformer,EQ_DOC_007；EQ_DOC_010,CHK_EQ_000020；CHK_EQ_000029,C01,C01,3,3,待复核,2.0
+model_eq_015,model_eq_015,DBSCAN,DBSCAN,Model,Model,,Model：DBSCAN,EQ_DOC_007,CHK_EQ_000019,C01,C01,2,2,待复核,1.0
+model_eq_016,model_eq_016,多主体仿真,多主体仿真,Model,Model,Multi-agent simulation,Model：多主体仿真,,,C01,C01,0,0,待复核,0.0
+model_eq_017,model_eq_017,QuakeWake,QuakeWake,Model,Model,,Model：QuakeWake,EQ_DOC_007,CHK_EQ_000020,C01,C01,2,2,待复核,1.0
+model_eq_018,model_eq_018,E3WS,E3WS,Model,Model,,Model：E3WS,EQ_DOC_007,CHK_EQ_000020,C01,C01,2,2,待复核,1.0
+data_eq_001,data_eq_001,USGS ComCat,USGS ComCat,Dataset,Dataset,ComCat；USGS Earthquake Catalog,Dataset：USGS ComCat,,,C03,C03,0,0,待复核,0.0
+data_eq_002,data_eq_002,CENC 地震目录,CENC 地震目录,Dataset,Dataset,CENC；China Earthquake Networks Center；中国地震台网中心,Dataset：CENC 地震目录,EQ_DOC_002,CHK_EQ_000004；CHK_EQ_000005,C03,C03,3,3,待复核,2.0
+data_eq_003,data_eq_003,JMA 地震目录,JMA 地震目录,Dataset,Dataset,JMA；Japan Meteorological Agency；日本气象厅,Dataset：JMA 地震目录,EQ_DOC_002,CHK_EQ_000004；CHK_EQ_000005,C03,C03,2,2,待复核,2.0
+data_eq_004,data_eq_004,ShakeMap,ShakeMap,Dataset,Dataset,USGS ShakeMap,Dataset：ShakeMap,EQ_DOC_003,CHK_EQ_000007；CHK_EQ_000008；CHK_EQ_000009,C03,C03,23,23,待复核,11.0
+data_eq_005,data_eq_005,PAGER,PAGER,Dataset,Dataset,Prompt Assessment of Global Earthquakes for Response,Dataset：PAGER,EQ_DOC_003,CHK_EQ_000007；CHK_EQ_000008,C03,C03,16,16,待复核,10.0
+data_eq_006,data_eq_006,Finite Fault Model,Finite Fault Model,Dataset,Dataset,finite fault model；断层模型,Dataset：Finite Fault Model,EQ_DOC_003,CHK_EQ_000007,C03,C03,2,2,待复核,1.0
+data_eq_007,data_eq_007,WorldPop,WorldPop,Dataset,Dataset,population exposure,Dataset：WorldPop,EQ_DOC_003,CHK_EQ_000007,C03,C03,2,2,待复核,1.0
+data_eq_008,data_eq_008,xBD,xBD,Dataset,Dataset,xView2；xBD dataset,Dataset：xBD,EQ_DOC_005；EQ_DOC_010,CHK_EQ_000014；CHK_EQ_000029,C03,C03,5,5,待复核,10.0
+data_eq_009,data_eq_009,Copernicus EMS,Copernicus EMS,Dataset,Dataset,Copernicus Emergency Management Service,Dataset：Copernicus EMS,EQ_DOC_005,CHK_EQ_000014,C03,C03,3,3,待复核,9.0
+data_eq_010,data_eq_010,ALOS-2-BDE,ALOS-2-BDE,Dataset,Dataset,ALOS-2 Building Damage Estimation；PALSAR-2,Dataset：ALOS-2-BDE,EQ_DOC_005,CHK_EQ_000014,C03,C03,4,4,待复核,9.0
+data_eq_011,data_eq_011,Sentinel-1,Sentinel-1,Dataset,Dataset,Sentinel-1 SAR,Dataset：Sentinel-1,EQ_DOC_005,CHK_EQ_000014,C03,C03,3,3,待复核,1.0
+data_eq_012,data_eq_012,PALSAR-2,PALSAR-2,Dataset,Dataset,PALSAR,Dataset：PALSAR-2,EQ_DOC_005,CHK_EQ_000014,C03,C03,2,2,待复核,1.0
+data_eq_013,data_eq_013,OpenStreetMap,OpenStreetMap,Dataset,Dataset,OSM,Dataset：OpenStreetMap,EQ_DOC_005,CHK_EQ_000014,C03,C03,3,3,待复核,1.0
+data_eq_014,data_eq_014,建筑物足迹,建筑物足迹,Dataset,Dataset,Building Footprint；building footprint,Dataset：建筑物足迹,,,C03,C03,1,1,待复核,1.69
+data_eq_015,data_eq_015,台站波形数据,台站波形数据,Dataset,Dataset,seismic waveform；waveform data,Dataset：台站波形数据,,,C03,C03,2,2,待复核,3.1
+data_eq_016,data_eq_016,MEMS 加速度计,MEMS 加速度计,Dataset,Dataset,MEMS accelerometer；smartphone sensors,Dataset：MEMS 加速度计,EQ_DOC_007,CHK_EQ_000019,C03,C03,2,2,待复核,1.0
+data_eq_017,data_eq_017,Vs30,Vs30,Dataset,Dataset,site condition；场地条件,Dataset：Vs30,EQ_DOC_006,CHK_EQ_000018,C03,C03,2,2,待复核,1.0
+data_eq_018,data_eq_018,人口暴露格网,人口暴露格网,Dataset,Dataset,population grid；人口暴露,Dataset：人口暴露格网,EQ_DOC_003,CHK_EQ_000007,C03,C03,1,1,待复核,1.0
+data_eq_019,data_eq_019,生命线设施数据,生命线设施数据,Dataset,Dataset,lifeline infrastructure；critical infrastructure,Dataset：生命线设施数据,,,C03,C03,1,1,待复核,1.69
+data_eq_020,data_eq_020,道路网络,道路网络,Dataset,Dataset,road network,Dataset：道路网络,,,C03,C03,1,1,待复核,1.69
+data_eq_021,data_eq_021,避难所数据,避难所数据,Dataset,Dataset,shelter data,Dataset：避难所数据,,,C03,C03,0,0,待复核,0.0
+data_eq_022,data_eq_022,强震动记录,强震动记录,Dataset,Dataset,strong motion record,Dataset：强震动记录,,,C03,C03,0,0,待复核,0.0
+data_eq_023,data_eq_023,Uncertainty Grid,Uncertainty Grid,Dataset,Dataset,uncertainty grid,Dataset：Uncertainty Grid,EQ_DOC_003,CHK_EQ_000008；CHK_EQ_000009,C03,C03,2,1,待复核,2.0
+task_eq_001,task_eq_001,P 波起始拾取,P 波起始拾取,Task,Task,P-wave onset detection；P wave onset,Task：P 波起始拾取,,,C02,C02,0,0,待复核,0.0
+task_eq_002,task_eq_002,地震监测预警,地震监测预警,Task,Task,earthquake early warning,Task：地震监测预警,,,C02,C02,2,2,待复核,3.1
+task_eq_003,task_eq_003,地震风险评估,地震风险评估,Task,Task,seismic risk assessment,Task：地震风险评估,EQ_DOC_008,CHK_EQ_000024,C02,C02,4,4,待复核,1.0
+task_eq_004,task_eq_004,震后建筑损毁识别,震后建筑损毁识别,Task,Task,building damage recognition,Task：震后建筑损毁识别,,,C02,C02,2,2,待复核,3.1
+task_eq_005,task_eq_005,震后灾情快速评估,震后灾情快速评估,Task,Task,rapid impact assessment,Task：震后灾情快速评估,,,C02,C02,0,0,待复核,0.0
+task_eq_006,task_eq_006,人员伤亡估计,人员伤亡估计,Task,Task,fatality estimate；casualty estimate,Task：人员伤亡估计,,,C02,C02,2,2,待复核,3.1
+task_eq_007,task_eq_007,经济损失估计,经济损失估计,Task,Task,economic loss estimate,Task：经济损失估计,EQ_DOC_003,CHK_EQ_000007,C02,C02,4,4,待复核,1.0
+task_eq_008,task_eq_008,应急响应分级,应急响应分级,Task,Task,response level,Task：应急响应分级,,,C02,C02,2,2,待复核,3.1
+task_eq_009,task_eq_009,救援路径规划,救援路径规划,Task,Task,rescue routing,Task：救援路径规划,,,C02,C02,0,0,待复核,0.0
+task_eq_010,task_eq_010,物资调度优化,物资调度优化,Task,Task,relief allocation,Task：物资调度优化,,,C02,C02,0,0,待复核,0.0
+task_eq_011,task_eq_011,生命线风险传播分析,生命线风险传播分析,Task,Task,lifeline risk propagation,Task：生命线风险传播分析,,,C02,C02,1,1,待复核,1.69
+task_eq_012,task_eq_012,政策合规映射,政策合规映射,Task,Task,policy compliance mapping,Task：政策合规映射,,,C02,C02,1,1,待复核,1.69
+task_eq_013,task_eq_013,证据问答,证据问答,Task,Task,evidence QA；GraphRAG QA,Task：证据问答,EQ_DOC_010,CHK_EQ_000030,C02,C02,2,2,待复核,1.0
+task_eq_014,task_eq_014,地震动模拟,地震动模拟,Task,Task,ground motion simulation,Task：地震动模拟,EQ_DOC_002,CHK_EQ_000004,C02,C02,1,1,待复核,1.0

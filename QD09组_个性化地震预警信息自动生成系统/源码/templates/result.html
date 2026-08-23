@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地震提醒结果 - 基于真实地震数据的个性化地震预警系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>个性化地震提醒结果</h1>
+            <p>基于真实地震事件和您填写的用户信息，系统已生成个性化地震应急提醒</p>
+        </header>
+
+
+
+        <div class="card">
+            <h2>用户画像与地震事件信息</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>用户画像标签</strong>
+                    <span class="profile-label">{{ profile_label }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>系统识别的重点需求</strong>
+                    <span class="need-type">{{ need_type }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>地震事件</strong>
+                    <span>{{ event_info }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>震级/深度</strong>
+                    <span>{{ mag }}/{{ depth }}km</span>
+                </div>
+                <div class="info-item">
+                    <strong>演示风险等级</strong>
+                    <span class="risk-desc">{{ risk_label }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>推荐行动建议</strong>
+                    <span class="action-suggestion">{{ action_suggestion }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>人员身份</strong>
+                    <span>{{ identity }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>年龄</strong>
+                    <span>{{ age }} 岁</span>
+                </div>
+                <div class="info-item">
+                    <strong>所在位置</strong>
+                    <span>{{ location }}</span>
+                </div>
+                <div class="info-item">
+                    <strong>行动能力</strong>
+                    <span>{{ mobility }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>个性化地震提醒文本</h2>
+            <div class="alert-card earthquake-alert">
+                <div class="alert-text generated-text">{{ generated_text }}</div>
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href="/" class="btn">重新生成</a>
+            <a href="/dashboard" class="btn btn-secondary">查看数据统计</a>
+        </div>
+
+        <footer>
+            <p>基于真实地震数据的个性化地震预警信息自动生成系统 &copy; 2026</p>
+
+        </footer>
+    </div>
+</body>
+</html>

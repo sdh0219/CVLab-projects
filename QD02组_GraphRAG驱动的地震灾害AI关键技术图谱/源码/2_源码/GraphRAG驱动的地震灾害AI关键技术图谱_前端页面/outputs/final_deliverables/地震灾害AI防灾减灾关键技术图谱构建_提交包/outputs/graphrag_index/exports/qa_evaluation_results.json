@@ -1,0 +1,72 @@
+[
+  {
+    "question_id": "q_global_001",
+    "mode": "global",
+    "question": "地震灾害AI防灾减灾领域有哪些关键技术社区？",
+    "expected_count": 5,
+    "matched_count": 5,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": "该社区围绕地震早期预警展开，主要关联地震。当前证据关系以SERVES_STAGE、VALIDATED_IN、APPLIES_TO、SOLVES为主，适合进一步追踪关键技术、应用任务、数据依赖和验证案例。；该社区围绕震后建筑损毁识别展开，主要关联地震。当前证据关系以APPLIES_TO、SERVES_STAGE、SOLVES、DEPENDS_ON为主，适合进一步追踪关键技术、应用任务、数据依赖和验证案例。；该社区围绕遥感震损智能解译展开，主要关联地震。当前证据关系以APPLIES_TO、SERVES_STAGE、SOLVES、DEPENDS_ON为主，适合进一步追踪关键技术、应用任务、数据依赖和验证案例。"
+  },
+  {
+    "question_id": "q_gap_001",
+    "mode": "gap",
+    "question": "地震灾害场景下哪些AI技术缺少真实案例验证？",
+    "expected_count": 1,
+    "matched_count": 1,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": ""
+  },
+  {
+    "question_id": "q_local_001",
+    "mode": "local",
+    "question": "地震证据图谱GraphRAG在地震灾害防灾减灾中的证据链是什么？",
+    "expected_count": 10,
+    "matched_count": 10,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": "返回 20 条关系和 202 条全局声明供证据追踪。"
+  },
+  {
+    "question_id": "q_local_002",
+    "mode": "local",
+    "question": "地震早期预警在地震灾害防灾减灾中的证据链是什么？",
+    "expected_count": 10,
+    "matched_count": 10,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": "返回 20 条关系和 202 条全局声明供证据追踪。"
+  },
+  {
+    "question_id": "q_local_003",
+    "mode": "local",
+    "question": "地震应急辅助决策在地震灾害防灾减灾中的证据链是什么？",
+    "expected_count": 10,
+    "matched_count": 10,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": "返回 20 条关系和 202 条全局声明供证据追踪。"
+  },
+  {
+    "question_id": "q_local_004",
+    "mode": "local",
+    "question": "生命线震损风险传播GNN在地震灾害防灾减灾中的证据链是什么？",
+    "expected_count": 10,
+    "matched_count": 10,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": "返回 20 条关系和 202 条全局声明供证据追踪。"
+  },
+  {
+    "question_id": "q_local_005",
+    "mode": "local",
+    "question": "地震风险时空预测在地震灾害防灾减灾中的证据链是什么？",
+    "expected_count": 10,
+    "matched_count": 10,
+    "evidence_coverage": 1.0,
+    "status": "passed",
+    "answer_preview": "返回 20 条关系和 202 条全局声明供证据追踪。"
+  }
+]

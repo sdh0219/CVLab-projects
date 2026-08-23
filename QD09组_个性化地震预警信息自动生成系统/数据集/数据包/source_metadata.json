@@ -1,0 +1,27 @@
+{
+  "source_name": "USGS",
+  "source_url": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "fetch_time": "2026-06-23 02:43:43",
+  "query_parameters": {
+    "format": "geojson",
+    "starttime": "2025-12-24",
+    "endtime": "2026-06-22",
+    "minmagnitude": 2.5,
+    "maxradiuskm": 2000,
+    "latitude": 35,
+    "longitude": 105,
+    "orderby": "time",
+    "limit": 200
+  },
+  "http_status": 200,
+  "request_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-12-24&endtime=2026-06-22&minmagnitude=2.5&maxradiuskm=2000&latitude=35&longitude=105&orderby=time&limit=200",
+  "raw_file": "raw_data/earthquake_usgs_raw_20260623_024343.csv",
+  "snapshot_file": "raw_data/usgs_raw_20260623_024343.json",
+  "record_count": 200,
+  "processed_record_count": 200,
+  "data_start_time": "2025-12-31 17:03:54",
+  "data_end_time": "2026-06-20 12:33:10",
+  "file_sha256": "4b1a9083e6611002269a79a3874898e9952b5a84042d827a0f049c1ee059d26f",
+  "cached": false,
+  "cache_fetch_time": null
+}

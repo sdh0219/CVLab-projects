@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-20T15:00:15",
+  "package_name": "地震灾害AI防灾减灾关键技术图谱构建_提交包",
+  "source_root": "E:\\实验报告\\4.自然语言处理\\3.期末大作业\\5.AI防灾减灾关键技术图谱构建",
+  "summary": {
+    "documents": 49,
+    "chunks": 56,
+    "max_chunks": null,
+    "entities": 58,
+    "claims": 202,
+    "relations": 792,
+    "communities": 10,
+    "extractor": "rule"
+  },
+  "included_file_count": 132,
+  "included_roots": [
+    "README.md",
+    ".env.example",
+    "package.json",
+    "package-lock.json",
+    "tsconfig.json",
+    "next.config.ts",
+    "vite.config.ts",
+    "eslint.config.mjs",
+    "postcss.config.mjs",
+    "config",
+    "data/corpus",
+    "docs",
+    "graphrag_atlas",
+    "tools",
+    "app",
+    "public/atlas",
+    "public/favicon.svg",
+    "outputs/graphrag_index"
+  ],
+  "excluded": [
+    ".idea",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".wrangler",
+    "__pycache__",
+    "build",
+    "dev-server*.log",
+    "dist",
+    "llm_cache",
+    "node_modules"
+  ],
+  "notes": [
+    "未生成PPTX。",
+    "专家审核表为待审核结构，不能表述为已完成人工专家评审。",
+    "提交包排除了依赖缓存、IDE配置、运行缓存和日志。"
+  ]
+}

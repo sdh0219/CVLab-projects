@@ -1,0 +1,11 @@
+﻿tech_id,name,community_id,relation_count,evidence_doc_count,disaster_coverage,scenario_coverage,has_dataset_dependency,has_case_validation,has_limitation,key_tech_score,maturity_level,review_priority,missing_evidence
+tech_graphrag_evidence,地震证据图谱GraphRAG,C008,363,49,1,5,True,True,True,85,工程验证较充分,normal,
+tech_seismic_early_warning,地震早期预警,C001,99,12,1,2,True,True,True,75,证据较充分但需复核,normal,
+tech_llm_emergency_decision,地震应急辅助决策,C005,43,6,1,1,True,True,True,60,待补充证据,normal,
+tech_lifeline_gnn,生命线震损风险传播GNN,C007,43,6,1,1,True,True,True,60,待补充证据,normal,
+tech_seismic_risk_prediction,地震风险时空预测,C009,42,6,1,1,True,True,True,60,待补充证据,normal,
+tech_post_earthquake_damage_cv,震后建筑损毁识别,C002,35,5,1,1,True,True,True,58,待补充证据,normal,
+tech_remote_sensing_eq_damage,遥感震损智能解译,C003,28,4,1,1,True,True,True,56,待补充证据,normal,
+tech_rl_rescue_dispatch,震后救援调度优化,C006,21,3,1,1,True,True,True,54,待补充证据,normal,
+tech_rapid_loss_estimation,震后灾情快速评估,C010,16,2,1,1,True,True,True,52,待补充证据,normal,
+tech_multimodal_situation,地震多模态灾情理解,C004,14,2,1,1,True,True,True,52,待补充证据,normal,

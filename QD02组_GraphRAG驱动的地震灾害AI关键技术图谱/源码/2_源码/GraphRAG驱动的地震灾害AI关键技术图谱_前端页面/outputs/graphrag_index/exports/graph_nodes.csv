@@ -1,0 +1,200 @@
+﻿entity_id,id,name,label,entity_type,type,aliases,description,doc_ids,chunk_ids,community_id,community,evidence_count,relation_count,review_status,score
+EQ_DOC_001,EQ_DOC_001,原始来源核验机制,原始来源核验机制,Document,Document,EQ_DOC_001,地震专题语料文档：原始来源核验,EQ_DOC_001,,C07,C07,7,7,待复核,9.08
+EQ_DOC_002,EQ_DOC_002,全球典型地震事件参数,全球典型地震事件参数,Document,Document,EQ_DOC_002,地震专题语料文档：地震事件参数核验,EQ_DOC_002,,C07,C07,12,12,待复核,12.56
+EQ_DOC_003,EQ_DOC_003,ShakeMap与PAGER影响评估,ShakeMap与PAGER影响评估,Document,Document,EQ_DOC_003,地震专题语料文档：影响评估数据链,EQ_DOC_003,,C07,C07,22,22,待复核,13.14
+EQ_DOC_004,EQ_DOC_004,灾后应急响应与人道需求,灾后应急响应与人道需求,Document,Document,EQ_DOC_004,地震专题语料文档：灾后应急响应,EQ_DOC_004,,C07,C07,11,11,待复核,12.48
+EQ_DOC_005,EQ_DOC_005,遥感影像与建筑震损标签,遥感影像与建筑震损标签,Document,Document,EQ_DOC_005,地震专题语料文档：遥感震损识别,EQ_DOC_005,,C07,C07,8,8,待复核,10.2
+EQ_DOC_006,EQ_DOC_006,暴露体与生命线韧性,暴露体与生命线韧性,Document,Document,EQ_DOC_006,地震专题语料文档：暴露体与生命线韧性,EQ_DOC_006,,C07,C07,5,5,待复核,6.79
+EQ_DOC_007,EQ_DOC_007,分布式AI地震预警,分布式AI地震预警,Document,Document,EQ_DOC_007,地震专题语料文档：分布式AI地震预警,EQ_DOC_007,,C07,C07,15,15,待复核,12.77
+EQ_DOC_008,EQ_DOC_008,工程损失评估系统,工程损失评估系统,Document,Document,EQ_DOC_008,地震专题语料文档：工程损失评估,EQ_DOC_008,,C07,C07,14,14,待复核,12.71
+EQ_DOC_009,EQ_DOC_009,应急治理政策标准,应急治理政策标准,Document,Document,EQ_DOC_009,地震专题语料文档：应急治理政策标准,EQ_DOC_009,,C07,C07,11,11,待复核,12.48
+EQ_DOC_010,EQ_DOC_010,本体与复核机制,本体与复核机制,Document,Document,EQ_DOC_010,地震专题语料文档：本体与复核机制,EQ_DOC_010,,C07,C07,15,15,待复核,12.77
+hazard_eq_001,hazard_eq_001,地震,地震,DisasterType,DisasterType,地震灾害；震灾；Earthquake,本项目聚焦的主要灾害类型。,EQ_DOC_001；EQ_DOC_002；EQ_DOC_003；EQ_DOC_004；EQ_DOC_005；EQ_DOC_006；EQ_DOC_007；EQ_DOC_008；EQ_DOC_009；EQ_DOC_010,CHK_EQ_000001；CHK_EQ_000004；CHK_EQ_000005；CHK_EQ_000006；CHK_EQ_000007；CHK_EQ_000008；CHK_EQ_000009；CHK_EQ_000010；CHK_EQ_000011；CHK_EQ_000013；CHK_EQ_000014；CHK_EQ_000016；CHK_EQ_000017；CHK_EQ_000019；CHK_EQ_000020；CHK_EQ_000021；CHK_EQ_000022；CHK_EQ_000023；CHK_EQ_000024；CHK_EQ_000025,C00,C00,24,3,待复核,10.0
+stage_eq_001,stage_eq_001,震前监测,震前监测,Scenario,Scenario,,Scenario：震前监测,,,C02,C02,0,0,待复核,0.0
+stage_eq_002,stage_eq_002,震时预警,震时预警,Scenario,Scenario,,Scenario：震时预警,,,C02,C02,2,2,待复核,3.1
+stage_eq_003,stage_eq_003,震后评估,震后评估,Scenario,Scenario,,Scenario：震后评估,,,C02,C02,3,3,待复核,4.39
+stage_eq_004,stage_eq_004,应急响应,应急响应,Scenario,Scenario,,Scenario：应急响应,EQ_DOC_001；EQ_DOC_004；EQ_DOC_009,CHK_EQ_000001；CHK_EQ_000010；CHK_EQ_000025；CHK_EQ_000026；CHK_EQ_000027,C02,C02,5,5,待复核,5.0
+stage_eq_005,stage_eq_005,恢复重建,恢复重建,Scenario,Scenario,,Scenario：恢复重建,EQ_DOC_001；EQ_DOC_004,CHK_EQ_000001；CHK_EQ_000011,C02,C02,2,2,待复核,2.0
+stage_eq_006,stage_eq_006,灾后复盘,灾后复盘,Scenario,Scenario,,Scenario：灾后复盘,EQ_DOC_004,CHK_EQ_000010,C02,C02,1,1,待复核,1.0
+stage_eq_007,stage_eq_007,政策治理,政策治理,Scenario,Scenario,,Scenario：政策治理,,,C02,C02,0,0,待复核,0.0
+stage_eq_008,stage_eq_008,城市韧性评估,城市韧性评估,Scenario,Scenario,,Scenario：城市韧性评估,,,C02,C02,2,2,待复核,3.1
+tech_eq_001,tech_eq_001,地震早期预警,地震早期预警,AITech,AITech,地震预警；早期预警；earthquake early warning,AITech：地震早期预警,EQ_DOC_007,CHK_EQ_000019；CHK_EQ_000020,C01,C01,7,7,待复核,2.0
+tech_eq_002,tech_eq_002,震后建筑损毁识别,震后建筑损毁识别,AITech,AITech,建筑震损；建筑损毁；建筑损坏估计；building damage,AITech：震后建筑损毁识别,EQ_DOC_005；EQ_DOC_008,CHK_EQ_000013；CHK_EQ_000022,C01,C01,20,20,待复核,2.0
+tech_eq_003,tech_eq_003,遥感震损智能解译,遥感震损智能解译,AITech,AITech,遥感影像解译；遥感震损；震损标签；多源几何特征；SAR 震损,AITech：遥感震损智能解译,EQ_DOC_005,CHK_EQ_000013；CHK_EQ_000014,C01,C01,8,8,待复核,2.0
+tech_eq_004,tech_eq_004,地震风险时空预测,地震风险时空预测,AITech,AITech,地震风险评估；地震风险；风险预测；seismic risk,AITech：地震风险时空预测,EQ_DOC_008,CHK_EQ_000024,C01,C01,5,5,待复核,1.0
+tech_eq_005,tech_eq_005,震后灾情快速评估,震后灾情快速评估,AITech,AITech,快速影响评估；快速评估；灾情快速评估；impact assessment,AITech：震后灾情快速评估,EQ_DOC_003,CHK_EQ_000007,C01,C01,11,11,待复核,1.0
+tech_eq_006,tech_eq_006,地震应急辅助决策,地震应急辅助决策,AITech,AITech,应急响应；应急治理；辅助决策；response coordination,AITech：地震应急辅助决策,EQ_DOC_001；EQ_DOC_004；EQ_DOC_009,CHK_EQ_000001；CHK_EQ_000010；CHK_EQ_000025；CHK_EQ_000026；CHK_EQ_000027,C01,C01,9,9,待复核,5.0
+tech_eq_007,tech_eq_007,生命线震损风险传播GNN,生命线震损风险传播GNN,AITech,AITech,生命线震损风险传播；生命线系统韧性；生命线韧性；GNN；图神经网络,AITech：生命线震损风险传播GNN,EQ_DOC_006；EQ_DOC_010,CHK_EQ_000016；CHK_EQ_000029,C01,C01,8,8,待复核,2.0
+tech_eq_008,tech_eq_008,震后救援调度优化,震后救援调度优化,AITech,AITech,应急响应；灾后应急响应；人道主义需求；救援调度；物资调度；路径规划；救援路径；relief allocation；UNDAC；INSARAG,AITech：震后救援调度优化,EQ_DOC_001；EQ_DOC_004；EQ_DOC_009,CHK_EQ_000001；CHK_EQ_000010；CHK_EQ_000011；CHK_EQ_000012；CHK_EQ_000025；CHK_EQ_000026；CHK_EQ_000027,C01,C01,10,10,待复核,7.0
+tech_eq_009,tech_eq_009,地震证据图谱GraphRAG,地震证据图谱GraphRAG,AITech,AITech,GraphRAG；知识图谱；证据图谱；证据链问答,AITech：地震证据图谱GraphRAG,EQ_DOC_001；EQ_DOC_010,CHK_EQ_000001；CHK_EQ_000002；CHK_EQ_000003；CHK_EQ_000028；CHK_EQ_000030；CHK_EQ_000031,C01,C01,7,7,待复核,6.0
+tech_eq_010,tech_eq_010,数字孪生城市地震风险模拟,数字孪生城市地震风险模拟,AITech,AITech,数字孪生；城市地震风险；风险模拟；loss simulation,AITech：数字孪生城市地震风险模拟,EQ_DOC_008,CHK_EQ_000024,C01,C01,5,5,待复核,1.0
+tech_eq_011,tech_eq_011,分布式AI地震预警,分布式AI地震预警,AITech,AITech,分布式AI地震预警系统；边缘计算；众包传感器网络；AI-Powered EEWS,AITech：分布式AI地震预警,EQ_DOC_007,CHK_EQ_000019；CHK_EQ_000020,C01,C01,25,25,待复核,2.0
+model_eq_001,model_eq_001,CNN,CNN,Model,Model,Convolutional Neural Network；卷积神经网络,Model：CNN,EQ_DOC_007,CHK_EQ_000020,C01,C01,2,2,待复核,1.0
+model_eq_002,model_eq_002,GNN,GNN,Model,Model,Graph Neural Network；图神经网络,Model：GNN,EQ_DOC_010,CHK_EQ_000029,C01,C01,2,2,待复核,1.0
+model_eq_003,model_eq_003,LSTM,LSTM,Model,Model,Long Short-Term Memory,Model：LSTM,,,C01,C01,0,0,待复核,0.0
+model_eq_004,model_eq_004,RNN,RNN,Model,Model,Recurrent Neural Network,Model：RNN,EQ_DOC_007,CHK_EQ_000020,C01,C01,1,1,待复核,1.0
+model_eq_005,model_eq_005,Transformer,Transformer,Model,Model,ViT；Swin Transformer,Model：Transformer,EQ_DOC_007；EQ_DOC_010,CHK_EQ_000020；CHK_EQ_000029,C01,C01,3,3,待复核,2.0
+model_eq_006,model_eq_006,U-Net,U-Net,Model,Model,UNet,Model：U-Net,,,C01,C01,1,1,待复核,1.69
+model_eq_007,model_eq_007,随机森林,随机森林,Model,Model,Random Forest,Model：随机森林,EQ_DOC_007,CHK_EQ_000020,C01,C01,1,1,待复核,1.0
+model_eq_008,model_eq_008,XGBoost,XGBoost,Model,Model,Gradient Boosting,Model：XGBoost,,,C01,C01,0,0,待复核,0.0
+model_eq_009,model_eq_009,能力谱法,能力谱法,Model,Model,Capacity Spectrum Method,Model：能力谱法,EQ_DOC_008,CHK_EQ_000022；CHK_EQ_000023,C01,C01,2,2,待复核,2.0
+model_eq_010,model_eq_010,Hazus,Hazus,Model,Model,HAZUS,Model：Hazus,EQ_DOC_008,CHK_EQ_000022；CHK_EQ_000023；CHK_EQ_000024,C01,C01,5,5,待复核,11.0
+model_eq_011,model_eq_011,OpenQuake,OpenQuake,Model,Model,OpenQuake Engine,Model：OpenQuake,EQ_DOC_008,CHK_EQ_000023；CHK_EQ_000024,C01,C01,9,9,待复核,10.0
+model_eq_012,model_eq_012,Edge-AI CNN,Edge-AI CNN,Model,Model,Edge-AI compact CNN；compact CNN,Model：Edge-AI CNN,,,C01,C01,1,1,待复核,8.0
+model_eq_013,model_eq_013,PhaseNet,PhaseNet,Model,Model,,Model：PhaseNet,EQ_DOC_007；EQ_DOC_010,CHK_EQ_000020；CHK_EQ_000029,C01,C01,3,3,待复核,2.0
+model_eq_014,model_eq_014,EQTransformer,EQTransformer,Model,Model,,Model：EQTransformer,EQ_DOC_007；EQ_DOC_010,CHK_EQ_000020；CHK_EQ_000029,C01,C01,3,3,待复核,2.0
+model_eq_015,model_eq_015,DBSCAN,DBSCAN,Model,Model,,Model：DBSCAN,EQ_DOC_007,CHK_EQ_000019,C01,C01,2,2,待复核,1.0
+model_eq_016,model_eq_016,多主体仿真,多主体仿真,Model,Model,Multi-agent simulation,Model：多主体仿真,,,C01,C01,0,0,待复核,0.0
+model_eq_017,model_eq_017,QuakeWake,QuakeWake,Model,Model,,Model：QuakeWake,EQ_DOC_007,CHK_EQ_000020,C01,C01,2,2,待复核,1.0
+model_eq_018,model_eq_018,E3WS,E3WS,Model,Model,,Model：E3WS,EQ_DOC_007,CHK_EQ_000020,C01,C01,2,2,待复核,1.0
+data_eq_001,data_eq_001,USGS ComCat,USGS ComCat,Dataset,Dataset,ComCat；USGS Earthquake Catalog,Dataset：USGS ComCat,,,C03,C03,0,0,待复核,0.0
+data_eq_002,data_eq_002,CENC 地震目录,CENC 地震目录,Dataset,Dataset,CENC；China Earthquake Networks Center；中国地震台网中心,Dataset：CENC 地震目录,EQ_DOC_002,CHK_EQ_000004；CHK_EQ_000005,C03,C03,3,3,待复核,2.0
+data_eq_003,data_eq_003,JMA 地震目录,JMA 地震目录,Dataset,Dataset,JMA；Japan Meteorological Agency；日本气象厅,Dataset：JMA 地震目录,EQ_DOC_002,CHK_EQ_000004；CHK_EQ_000005,C03,C03,2,2,待复核,2.0
+data_eq_004,data_eq_004,ShakeMap,ShakeMap,Dataset,Dataset,USGS ShakeMap,Dataset：ShakeMap,EQ_DOC_003,CHK_EQ_000007；CHK_EQ_000008；CHK_EQ_000009,C03,C03,23,23,待复核,11.0
+data_eq_005,data_eq_005,PAGER,PAGER,Dataset,Dataset,Prompt Assessment of Global Earthquakes for Response,Dataset：PAGER,EQ_DOC_003,CHK_EQ_000007；CHK_EQ_000008,C03,C03,16,16,待复核,10.0
+data_eq_006,data_eq_006,Finite Fault Model,Finite Fault Model,Dataset,Dataset,finite fault model；断层模型,Dataset：Finite Fault Model,EQ_DOC_003,CHK_EQ_000007,C03,C03,2,2,待复核,1.0
+data_eq_007,data_eq_007,WorldPop,WorldPop,Dataset,Dataset,population exposure,Dataset：WorldPop,EQ_DOC_003,CHK_EQ_000007,C03,C03,2,2,待复核,1.0
+data_eq_008,data_eq_008,xBD,xBD,Dataset,Dataset,xView2；xBD dataset,Dataset：xBD,EQ_DOC_005；EQ_DOC_010,CHK_EQ_000014；CHK_EQ_000029,C03,C03,5,5,待复核,10.0
+data_eq_009,data_eq_009,Copernicus EMS,Copernicus EMS,Dataset,Dataset,Copernicus Emergency Management Service,Dataset：Copernicus EMS,EQ_DOC_005,CHK_EQ_000014,C03,C03,3,3,待复核,9.0
+data_eq_010,data_eq_010,ALOS-2-BDE,ALOS-2-BDE,Dataset,Dataset,ALOS-2 Building Damage Estimation；PALSAR-2,Dataset：ALOS-2-BDE,EQ_DOC_005,CHK_EQ_000014,C03,C03,4,4,待复核,9.0
+data_eq_011,data_eq_011,Sentinel-1,Sentinel-1,Dataset,Dataset,Sentinel-1 SAR,Dataset：Sentinel-1,EQ_DOC_005,CHK_EQ_000014,C03,C03,3,3,待复核,1.0
+data_eq_012,data_eq_012,PALSAR-2,PALSAR-2,Dataset,Dataset,PALSAR,Dataset：PALSAR-2,EQ_DOC_005,CHK_EQ_000014,C03,C03,2,2,待复核,1.0
+data_eq_013,data_eq_013,OpenStreetMap,OpenStreetMap,Dataset,Dataset,OSM,Dataset：OpenStreetMap,EQ_DOC_005,CHK_EQ_000014,C03,C03,3,3,待复核,1.0
+data_eq_014,data_eq_014,建筑物足迹,建筑物足迹,Dataset,Dataset,Building Footprint；building footprint,Dataset：建筑物足迹,,,C03,C03,1,1,待复核,1.69
+data_eq_015,data_eq_015,台站波形数据,台站波形数据,Dataset,Dataset,seismic waveform；waveform data,Dataset：台站波形数据,,,C03,C03,2,2,待复核,3.1
+data_eq_016,data_eq_016,MEMS 加速度计,MEMS 加速度计,Dataset,Dataset,MEMS accelerometer；smartphone sensors,Dataset：MEMS 加速度计,EQ_DOC_007,CHK_EQ_000019,C03,C03,2,2,待复核,1.0
+data_eq_017,data_eq_017,Vs30,Vs30,Dataset,Dataset,site condition；场地条件,Dataset：Vs30,EQ_DOC_006,CHK_EQ_000018,C03,C03,2,2,待复核,1.0
+data_eq_018,data_eq_018,人口暴露格网,人口暴露格网,Dataset,Dataset,population grid；人口暴露,Dataset：人口暴露格网,EQ_DOC_003,CHK_EQ_000007,C03,C03,1,1,待复核,1.0
+data_eq_019,data_eq_019,生命线设施数据,生命线设施数据,Dataset,Dataset,lifeline infrastructure；critical infrastructure,Dataset：生命线设施数据,,,C03,C03,1,1,待复核,1.69
+data_eq_020,data_eq_020,道路网络,道路网络,Dataset,Dataset,road network,Dataset：道路网络,,,C03,C03,1,1,待复核,1.69
+data_eq_021,data_eq_021,避难所数据,避难所数据,Dataset,Dataset,shelter data,Dataset：避难所数据,,,C03,C03,1,1,待复核,1.69
+data_eq_022,data_eq_022,强震动记录,强震动记录,Dataset,Dataset,strong motion record,Dataset：强震动记录,,,C03,C03,0,0,待复核,0.0
+data_eq_023,data_eq_023,Uncertainty Grid,Uncertainty Grid,Dataset,Dataset,uncertainty grid,Dataset：Uncertainty Grid,EQ_DOC_003,CHK_EQ_000008；CHK_EQ_000009,C03,C03,2,1,待复核,2.0
+task_eq_001,task_eq_001,P 波起始拾取,P 波起始拾取,Task,Task,P-wave onset detection；P wave onset,Task：P 波起始拾取,,,C02,C02,0,0,待复核,0.0
+task_eq_002,task_eq_002,地震监测预警,地震监测预警,Task,Task,earthquake early warning,Task：地震监测预警,,,C02,C02,2,2,待复核,3.1
+task_eq_003,task_eq_003,地震风险评估,地震风险评估,Task,Task,seismic risk assessment,Task：地震风险评估,EQ_DOC_008,CHK_EQ_000024,C02,C02,4,4,待复核,1.0
+task_eq_004,task_eq_004,震后建筑损毁识别,震后建筑损毁识别,Task,Task,building damage recognition,Task：震后建筑损毁识别,,,C02,C02,2,2,待复核,3.1
+task_eq_005,task_eq_005,震后灾情快速评估,震后灾情快速评估,Task,Task,rapid impact assessment,Task：震后灾情快速评估,,,C02,C02,0,0,待复核,0.0
+task_eq_006,task_eq_006,人员伤亡估计,人员伤亡估计,Task,Task,fatality estimate；casualty estimate,Task：人员伤亡估计,,,C02,C02,2,2,待复核,3.1
+task_eq_007,task_eq_007,经济损失估计,经济损失估计,Task,Task,economic loss estimate,Task：经济损失估计,EQ_DOC_003,CHK_EQ_000007,C02,C02,4,4,待复核,1.0
+task_eq_008,task_eq_008,应急响应分级,应急响应分级,Task,Task,response level,Task：应急响应分级,,,C02,C02,3,3,待复核,4.39
+task_eq_009,task_eq_009,救援路径规划,救援路径规划,Task,Task,rescue routing,Task：救援路径规划,,,C02,C02,1,1,待复核,1.69
+task_eq_010,task_eq_010,物资调度优化,物资调度优化,Task,Task,relief allocation,Task：物资调度优化,,,C02,C02,1,1,待复核,1.69
+task_eq_011,task_eq_011,生命线风险传播分析,生命线风险传播分析,Task,Task,lifeline risk propagation,Task：生命线风险传播分析,,,C02,C02,1,1,待复核,1.69
+task_eq_012,task_eq_012,政策合规映射,政策合规映射,Task,Task,policy compliance mapping,Task：政策合规映射,,,C02,C02,1,1,待复核,1.69
+task_eq_013,task_eq_013,证据问答,证据问答,Task,Task,evidence QA；GraphRAG QA,Task：证据问答,EQ_DOC_010,CHK_EQ_000030,C02,C02,2,2,待复核,1.0
+task_eq_014,task_eq_014,地震动模拟,地震动模拟,Task,Task,ground motion simulation,Task：地震动模拟,EQ_DOC_002,CHK_EQ_000004,C02,C02,1,1,待复核,1.0
+case_eq_001,case_eq_001,2024 年日本能登半岛地震,2024 年日本能登半岛地震,Case,Case,Noto Peninsula earthquake；能登半岛地震,Case：2024 年日本能登半岛地震,EQ_DOC_002；EQ_DOC_003；EQ_DOC_010,CHK_EQ_000005；CHK_EQ_000008；CHK_EQ_000029,C04,C04,8,8,待复核,3.0
+event_eq_001,event_eq_001,2024 年日本能登半岛地震,2024 年日本能登半岛地震,Event,Event,Noto Peninsula earthquake；能登半岛地震,Event：2024 年日本能登半岛地震,EQ_DOC_002；EQ_DOC_003；EQ_DOC_010,CHK_EQ_000005；CHK_EQ_000008；CHK_EQ_000029,C04,C04,3,3,待复核,3.0
+case_eq_002,case_eq_002,2023 年土耳其-叙利亚地震,2023 年土耳其-叙利亚地震,Case,Case,Türkiye-Syria earthquake；Turkey-Syria earthquake；土耳其-叙利亚,Case：2023 年土耳其-叙利亚地震,EQ_DOC_004,CHK_EQ_000010；CHK_EQ_000011,C04,C04,2,2,待复核,2.0
+event_eq_002,event_eq_002,2023 年土耳其-叙利亚地震,2023 年土耳其-叙利亚地震,Event,Event,Türkiye-Syria earthquake；Turkey-Syria earthquake；土耳其-叙利亚,Event：2023 年土耳其-叙利亚地震,EQ_DOC_004,CHK_EQ_000010；CHK_EQ_000011,C04,C04,2,1,待复核,2.0
+case_eq_003,case_eq_003,2023 年土耳其 Elbistan 大震,2023 年土耳其 Elbistan 大震,Case,Case,Elbistan earthquake,Case：2023 年土耳其 Elbistan 大震,,,C04,C04,0,0,待复核,0.0
+event_eq_003,event_eq_003,2023 年土耳其 Elbistan 大震,2023 年土耳其 Elbistan 大震,Event,Event,Elbistan earthquake,Event：2023 年土耳其 Elbistan 大震,,,C04,C04,0,0,待复核,0.0
+case_eq_004,case_eq_004,2015 年尼泊尔廓尔喀地震,2015 年尼泊尔廓尔喀地震,Case,Case,Gorkha earthquake；Nepal earthquake,Case：2015 年尼泊尔廓尔喀地震,EQ_DOC_006,CHK_EQ_000016,C04,C04,1,1,待复核,1.0
+event_eq_004,event_eq_004,2015 年尼泊尔廓尔喀地震,2015 年尼泊尔廓尔喀地震,Event,Event,Gorkha earthquake；Nepal earthquake,Event：2015 年尼泊尔廓尔喀地震,EQ_DOC_006,CHK_EQ_000016,C04,C04,1,1,待复核,1.0
+case_eq_005,case_eq_005,2021 年海地地震,2021 年海地地震,Case,Case,Haiti earthquake,Case：2021 年海地地震,,,C04,C04,0,0,待复核,0.0
+event_eq_005,event_eq_005,2021 年海地地震,2021 年海地地震,Event,Event,Haiti earthquake,Event：2021 年海地地震,,,C04,C04,0,0,待复核,0.0
+case_eq_006,case_eq_006,2024 年中国台湾花莲地震,2024 年中国台湾花莲地震,Case,Case,Hualien earthquake；Taiwan earthquake,Case：2024 年中国台湾花莲地震,,,C04,C04,0,0,待复核,0.0
+event_eq_006,event_eq_006,2024 年中国台湾花莲地震,2024 年中国台湾花莲地震,Event,Event,Hualien earthquake；Taiwan earthquake,Event：2024 年中国台湾花莲地震,,,C04,C04,0,0,待复核,0.0
+case_eq_007,case_eq_007,MyShake 地震预警案例,MyShake 地震预警案例,Case,Case,MyShake,Case：MyShake 地震预警案例,,,C04,C04,0,0,待复核,0.0
+case_eq_008,case_eq_008,ShakeAlert 地震预警案例,ShakeAlert 地震预警案例,Case,Case,ShakeAlert,Case：ShakeAlert 地震预警案例,,,C04,C04,0,0,待复核,0.0
+policy_eq_001,policy_eq_001,Sendai Framework,Sendai Framework,Policy,Policy,仙台框架；Sendai Framework for Disaster Risk Reduction,Policy：Sendai Framework,EQ_DOC_009,CHK_EQ_000025；CHK_EQ_000026,C05,C05,6,6,待复核,10.0
+policy_eq_002,policy_eq_002,国家地震应急预案,国家地震应急预案,Policy,Policy,National Earthquake Emergency Plan,Policy：国家地震应急预案,EQ_DOC_009,CHK_EQ_000025；CHK_EQ_000026,C05,C05,2,2,待复核,2.0
+policy_eq_003,policy_eq_003,甘肃省地震应急预案,甘肃省地震应急预案,Policy,Policy,甘肃省地震应急预案,Policy：甘肃省地震应急预案,EQ_DOC_009,CHK_EQ_000026,C05,C05,1,1,待复核,1.0
+policy_eq_004,policy_eq_004,地震预警发布规范,地震预警发布规范,Policy,Policy,earthquake warning standard,Policy：地震预警发布规范,,,C05,C05,0,0,待复核,0.0
+policy_eq_005,policy_eq_005,应急管理体系现代化规划,应急管理体系现代化规划,Policy,Policy,应急管理体系,Policy：应急管理体系现代化规划,EQ_DOC_009,CHK_EQ_000027,C05,C05,1,1,待复核,1.0
+standard_eq_001,standard_eq_001,ISO 22320:2018,ISO 22320:2018,Standard,Standard,ISO 22320,Standard：ISO 22320:2018,EQ_DOC_009；EQ_DOC_010,CHK_EQ_000025；CHK_EQ_000026；CHK_EQ_000029,C05,C05,5,5,待复核,11.0
+standard_eq_002,standard_eq_002,OASIS CAP,OASIS CAP,Standard,Standard,Common Alerting Protocol；CAP,Standard：OASIS CAP,EQ_DOC_008,CHK_EQ_000022,C05,C05,1,1,待复核,1.0
+standard_eq_003,standard_eq_003,OGC SensorThings API,OGC SensorThings API,Standard,Standard,SensorThings API,Standard：OGC SensorThings API,,,C05,C05,0,0,待复核,0.0
+standard_eq_004,standard_eq_004,DesInventar Sendai,DesInventar Sendai,Standard,Standard,DesInventar,Standard：DesInventar Sendai,EQ_DOC_009,CHK_EQ_000026,C05,C05,1,1,待复核,1.0
+limit_eq_001,limit_eq_001,预警盲区,预警盲区,Limitation,Limitation,blind zone,Limitation：预警盲区,EQ_DOC_007,CHK_EQ_000021,C06,C06,2,2,待复核,9.0
+limit_eq_002,limit_eq_002,误报风险,误报风险,Limitation,Limitation,false alarm,Limitation：误报风险,,,C06,C06,0,0,待复核,0.0
+limit_eq_003,limit_eq_003,漏报风险,漏报风险,Limitation,Limitation,missed alarm,Limitation：漏报风险,,,C06,C06,0,0,待复核,0.0
+limit_eq_004,limit_eq_004,数据偏差,数据偏差,Limitation,Limitation,data bias,Limitation：数据偏差,EQ_DOC_010,CHK_EQ_000029,C06,C06,1,1,待复核,9.0
+limit_eq_005,limit_eq_005,标注稀缺,标注稀缺,Limitation,Limitation,label scarcity；annotation scarcity,Limitation：标注稀缺,,,C06,C06,0,0,待复核,8.0
+limit_eq_006,limit_eq_006,跨区域泛化不足,跨区域泛化不足,Limitation,Limitation,generalization,Limitation：跨区域泛化不足,,,C06,C06,0,0,待复核,0.0
+limit_eq_007,limit_eq_007,实时部署困难,实时部署困难,Limitation,Limitation,real-time deployment,Limitation：实时部署困难,,,C06,C06,0,0,待复核,0.0
+limit_eq_008,limit_eq_008,边缘算力约束,边缘算力约束,Limitation,Limitation,edge computing constraint,Limitation：边缘算力约束,,,C06,C06,0,0,待复核,0.0
+limit_eq_009,limit_eq_009,SAR 影像解释不确定性,SAR 影像解释不确定性,Limitation,Limitation,SAR uncertainty,Limitation：SAR 影像解释不确定性,,,C06,C06,2,2,待复核,3.1
+limit_eq_010,limit_eq_010,光学影像云层遮挡,光学影像云层遮挡,Limitation,Limitation,cloud cover,Limitation：光学影像云层遮挡,,,C06,C06,1,1,待复核,1.69
+limit_eq_011,limit_eq_011,中等损伤标签混淆,中等损伤标签混淆,Limitation,Limitation,moderate damage confusion,Limitation：中等损伤标签混淆,,,C06,C06,1,1,待复核,1.69
+limit_eq_012,limit_eq_012,来源核验不足,来源核验不足,Limitation,Limitation,source verification,Limitation：来源核验不足,,,C06,C06,0,0,待复核,0.0
+limit_eq_013,limit_eq_013,专家复核不足,专家复核不足,Limitation,Limitation,expert review,Limitation：专家复核不足,EQ_DOC_010,CHK_EQ_000031,C06,C06,2,2,待复核,1.0
+limit_eq_014,limit_eq_014,大模型幻觉风险,大模型幻觉风险,Limitation,Limitation,hallucination,Limitation：大模型幻觉风险,,,C06,C06,1,1,待复核,1.69
+limit_eq_015,limit_eq_015,证据链断裂,证据链断裂,Limitation,Limitation,evidence chain,Limitation：证据链断裂,,,C06,C06,1,1,待复核,1.69
+limit_eq_016,limit_eq_016,通信延迟,通信延迟,Limitation,Limitation,communication delay,Limitation：通信延迟,,,C06,C06,1,1,待复核,1.69
+limit_eq_017,limit_eq_017,台站稀疏,台站稀疏,Limitation,Limitation,sparse station,Limitation：台站稀疏,EQ_DOC_003,CHK_EQ_000009,C06,C06,1,1,待复核,1.0
+limit_eq_018,limit_eq_018,不确定性网格,不确定性网格,Limitation,Limitation,uncertainty grid,Limitation：不确定性网格,EQ_DOC_003,CHK_EQ_000008；CHK_EQ_000009,C06,C06,2,1,待复核,2.0
+org_eq_001,org_eq_001,USGS,USGS,Organization,Organization,United States Geological Survey,Organization：USGS,EQ_DOC_002；EQ_DOC_003,CHK_EQ_000004；CHK_EQ_000005；CHK_EQ_000006；CHK_EQ_000007,C05,C05,4,4,待复核,4.0
+org_eq_002,org_eq_002,CENC,CENC,Organization,Organization,China Earthquake Networks Center；中国地震台网中心,Organization：CENC,EQ_DOC_002,CHK_EQ_000004；CHK_EQ_000005,C05,C05,2,2,待复核,2.0
+org_eq_003,org_eq_003,JMA,JMA,Organization,Organization,Japan Meteorological Agency,Organization：JMA,EQ_DOC_002,CHK_EQ_000004；CHK_EQ_000005,C05,C05,2,2,待复核,2.0
+org_eq_004,org_eq_004,FEMA,FEMA,Organization,Organization,Federal Emergency Management Agency,Organization：FEMA,EQ_DOC_008,CHK_EQ_000023,C05,C05,2,2,待复核,1.0
+org_eq_005,org_eq_005,GEM,GEM,Organization,Organization,Global Earthquake Model,Organization：GEM,EQ_DOC_008,CHK_EQ_000023,C05,C05,2,2,待复核,1.0
+org_eq_006,org_eq_006,UNDRR,UNDRR,Organization,Organization,United Nations Office for Disaster Risk Reduction,Organization：UNDRR,,,C05,C05,1,1,待复核,1.69
+org_eq_007,org_eq_007,INSARAG,INSARAG,Organization,Organization,,Organization：INSARAG,EQ_DOC_004,CHK_EQ_000010；CHK_EQ_000011,C05,C05,2,1,待复核,2.0
+org_eq_008,org_eq_008,UNDAC,UNDAC,Organization,Organization,,Organization：UNDAC,EQ_DOC_004,CHK_EQ_000010；CHK_EQ_000011,C05,C05,2,1,待复核,2.0
+org_eq_009,org_eq_009,AFAD,AFAD,Organization,Organization,,Organization：AFAD,EQ_DOC_004,CHK_EQ_000011,C05,C05,1,1,待复核,1.0
+org_eq_010,org_eq_010,WFP,WFP,Organization,Organization,World Food Programme,Organization：WFP,EQ_DOC_004,CHK_EQ_000010；CHK_EQ_000011,C05,C05,2,1,待复核,2.0
+org_eq_011,org_eq_011,CDRI,CDRI,Organization,Organization,Coalition for Disaster Resilient Infrastructure,Organization：CDRI,,,C05,C05,0,0,待复核,0.0
+org_eq_012,org_eq_012,ISO,ISO,Organization,Organization,,Organization：ISO,EQ_DOC_009；EQ_DOC_010,CHK_EQ_000025；CHK_EQ_000026；CHK_EQ_000029,C05,C05,3,3,待复核,3.0
+org_eq_013,org_eq_013,OGC,OGC,Organization,Organization,,Organization：OGC,,,C05,C05,0,0,待复核,0.0
+org_eq_014,org_eq_014,OASIS,OASIS,Organization,Organization,,Organization：OASIS,,,C05,C05,0,0,待复核,0.0
+org_eq_015,org_eq_015,Taiwan CWA,Taiwan CWA,Organization,Organization,Central Weather Administration,Organization：Taiwan CWA,EQ_DOC_002,CHK_EQ_000005,C05,C05,1,1,待复核,1.0
+metric_eq_001,metric_eq_001,PGA,PGA,Metric,Metric,Peak Ground Acceleration,Metric：PGA,EQ_DOC_003,CHK_EQ_000007；CHK_EQ_000008；CHK_EQ_000009,C03,C03,3,3,待复核,3.0
+metric_eq_002,metric_eq_002,PGV,PGV,Metric,Metric,Peak Ground Velocity,Metric：PGV,EQ_DOC_003,CHK_EQ_000007,C03,C03,2,2,待复核,1.0
+metric_eq_003,metric_eq_003,MMI,MMI,Metric,Metric,Modified Mercalli Intensity,Metric：MMI,EQ_DOC_003,CHK_EQ_000007；CHK_EQ_000008,C03,C03,2,2,待复核,2.0
+metric_eq_004,metric_eq_004,AEL,AEL,Metric,Metric,Average Economic Loss,Metric：AEL,EQ_DOC_008,CHK_EQ_000023,C03,C03,2,2,待复核,1.0
+metric_eq_005,metric_eq_005,AELR,AELR,Metric,Metric,Average Economic Loss Ratio,Metric：AELR,EQ_DOC_008,CHK_EQ_000023,C03,C03,2,2,待复核,1.0
+metric_eq_006,metric_eq_006,MDF,MDF,Metric,Metric,Mean Damage Factor,Metric：MDF,EQ_DOC_008,CHK_EQ_000023,C03,C03,2,2,待复核,1.0
+metric_eq_007,metric_eq_007,COV,COV,Metric,Metric,Coefficient of Variation,Metric：COV,EQ_DOC_008,CHK_EQ_000022；CHK_EQ_000023,C03,C03,2,2,待复核,2.0
+metric_eq_008,metric_eq_008,Vs30,Vs30,Metric,Metric,time-averaged shear-wave velocity,Metric：Vs30,EQ_DOC_006,CHK_EQ_000018,C03,C03,1,1,待复核,1.0
+metric_eq_009,metric_eq_009,confidence,confidence,Metric,Metric,置信度,Metric：confidence,EQ_DOC_010,CHK_EQ_000031,C03,C03,1,1,待复核,1.0
+metric_eq_010,metric_eq_010,震级,震级,Metric,Metric,magnitude,Metric：震级,EQ_DOC_002；EQ_DOC_007；EQ_DOC_009；EQ_DOC_010,CHK_EQ_000004；CHK_EQ_000005；CHK_EQ_000006；CHK_EQ_000019；CHK_EQ_000020；CHK_EQ_000021；CHK_EQ_000025；CHK_EQ_000027；CHK_EQ_000029,C03,C03,9,4,待复核,9.0
+metric_eq_011,metric_eq_011,震源深度,震源深度,Metric,Metric,depth,Metric：震源深度,EQ_DOC_002；EQ_DOC_007,CHK_EQ_000005；CHK_EQ_000020,C03,C03,3,3,待复核,2.0
+metric_eq_012,metric_eq_012,震中位置,震中位置,Metric,Metric,epicenter,Metric：震中位置,,,C03,C03,1,1,待复核,1.69
+product_eq_001,product_eq_001,PAGER XML,PAGER XML,ImpactProduct,ImpactProduct,PAGER xml,ImpactProduct：PAGER XML,EQ_DOC_003,CHK_EQ_000008,C03,C03,2,2,待复核,1.0
+product_eq_002,product_eq_002,PAGER 快速评估结果,PAGER 快速评估结果,ImpactProduct,ImpactProduct,PAGER product,ImpactProduct：PAGER 快速评估结果,EQ_DOC_003,CHK_EQ_000007,C03,C03,2,2,待复核,1.0
+product_eq_003,product_eq_003,Intensity Contours,Intensity Contours,ImpactProduct,ImpactProduct,intensity contours,ImpactProduct：Intensity Contours,EQ_DOC_003,CHK_EQ_000008,C03,C03,2,2,待复核,1.0
+product_eq_004,product_eq_004,XML Grid,XML Grid,ImpactProduct,ImpactProduct,grid.xml,ImpactProduct：XML Grid,EQ_DOC_003,CHK_EQ_000008,C03,C03,2,2,待复核,1.0
+product_eq_005,product_eq_005,Fault Rupture JSON,Fault Rupture JSON,ImpactProduct,ImpactProduct,rupture.json,ImpactProduct：Fault Rupture JSON,EQ_DOC_003,CHK_EQ_000008,C03,C03,2,2,待复核,1.0
+product_eq_006,product_eq_006,震损标签图,震损标签图,ImpactProduct,ImpactProduct,damage label map,ImpactProduct：震损标签图,,,C03,C03,1,1,待复核,1.69
+evidence_eq_001,evidence_eq_001,证据片段001,证据片段001,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000001,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_002,evidence_eq_002,证据片段002,证据片段002,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000002,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_003,evidence_eq_003,证据片段003,证据片段003,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000003,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_004,evidence_eq_004,证据片段004,证据片段004,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000004,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_005,evidence_eq_005,证据片段005,证据片段005,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000005,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_006,evidence_eq_006,证据片段006,证据片段006,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000006,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_007,evidence_eq_007,证据片段007,证据片段007,Evidence,Evidence,CHK_EQ_000020；REL_EQ_000007,...化的超轻量级卷机神经网络（CNN），仅含 物理模型权重参数；专攻 2 秒短时波形的高速 P-Wave 起始Picking [72] | 与 PhaseNet、EQTransformer 在高信噪比表现上相当；对微地震波定位精度保持在极,EQ_DOC_007,CHK_EQ_000020,C07,C07,1,1,待复核,1.0
+evidence_eq_008,evidence_eq_008,证据片段008,证据片段008,Evidence,Evidence,CHK_EQ_000020；REL_EQ_000008,...经网络（CNN），仅含 物理模型权重参数；专攻 2 秒短时波形的高速 P-Wave 起始Picking [72] | 与 PhaseNet、EQTransformer 在高信噪比表现上相当；对微地震波定位精度保持在极高水准 [72] ,EQ_DOC_007,CHK_EQ_000020,C07,C07,1,1,待复核,1.0
+evidence_eq_009,evidence_eq_009,证据片段009,证据片段009,Evidence,Evidence,CHK_EQ_000020；REL_EQ_000009,...流及计算Latency响应表现 | 传感器源依赖与边缘部署环境特征 | | --- | --- | --- | --- | --- | | QuakeWake 系统 [75] | 双阶段架构：本地端微型神经网络实时监控，云端采用深度神,EQ_DOC_007,CHK_EQ_000020,C07,C07,1,1,待复核,1.0
+evidence_eq_010,evidence_eq_010,证据片段010,证据片段010,Evidence,Evidence,CHK_EQ_000020；REL_EQ_000010,...] | 部署于低功耗 MEMS 边缘传感器（如 Raspberry Shake 社区网络边缘节点）；完美支持纯分布式计算 [72] | | AI-Powered EEWS (印度) [79] | 端到端混合深度神经网络，包含深度一维 ,EQ_DOC_007,CHK_EQ_000020,C07,C07,1,1,待复核,1.0
+evidence_eq_011,evidence_eq_011,证据片段011,证据片段011,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000011,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_012,evidence_eq_012,证据片段012,证据片段012,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000012,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_013,evidence_eq_013,证据片段013,证据片段013,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000013,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_014,evidence_eq_014,证据片段014,证据片段014,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000014,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_015,evidence_eq_015,证据片段015,证据片段015,Evidence,Evidence,CHK_EQ_000019；REL_EQ_000015,## 七、 分布式AI地震预警系统、边缘计算与众包传感器网络 传统的地震早期预警系统（EEW）虽然在减轻次生灾害方面发挥了巨大作用，但在处理超大规模传感器数据流（如来自数以万计众包手机或极高密度的窄带无线传感网络 WSN）时，仍然面临系统算,EQ_DOC_007,CHK_EQ_000019,C07,C07,1,1,待复核,1.0
+evidence_eq_016,evidence_eq_016,证据片段016,证据片段016,Evidence,Evidence,CHK_EQ_000024；REL_EQ_000016,"这些先进的计算工具表明，现代地震风险评估已呈现出显著的高精度（Site-specific）发展趋势 [25, 67]。过去，Hazus 常常使用区域性的普查区数据（Census Tract）来近似模拟平均建筑属性 [26, 67]。但现代 ",EQ_DOC_008,CHK_EQ_000024,C07,C07,1,1,待复核,1.0
+evidence_eq_017,evidence_eq_017,证据片段017,证据片段017,Evidence,Evidence,CHK_EQ_000004；REL_EQ_000017,...决定了后续地震动模拟、破坏力评估及次生灾害链预测模型的输出质量 [1]。由于不同地震观测网络（如美国地质调查局 USGS、中国地震台网中心 CENC、日本气象厅 JMA）在台网分布、仪器校准、计算方法（如面波震级 与矩震级 的差异）等,EQ_DOC_002,CHK_EQ_000004,C07,C07,1,1,待复核,1.0
+evidence_eq_018,evidence_eq_018,证据片段018,证据片段018,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000018,"...地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 PAGER（Prompt Assessment of Global ",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_019,evidence_eq_019,证据片段019,证据片段019,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000019,"...地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 PAGER（Prompt Assessment of Global ",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_020,evidence_eq_020,证据片段020,证据片段020,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000020,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_021,evidence_eq_021,证据片段021,证据片段021,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000021,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_022,evidence_eq_022,证据片段022,证据片段022,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000022,"...地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 PAGER（Prompt Assessment of Global ",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_023,evidence_eq_023,证据片段023,证据片段023,Evidence,Evidence,CHK_EQ_000008；REL_EQ_000023,"..., 33, 34] | 2021年海地大震数据值 [20, 21] | | --- | --- | --- | --- | --- | | ShakeMap 最大实测PGA | () [2] | 超出 范围 [10, 35] | - ",EQ_DOC_003,CHK_EQ_000008,C07,C07,1,1,待复核,1.0
+evidence_eq_024,evidence_eq_024,证据片段024,证据片段024,Evidence,Evidence,CHK_EQ_000008；REL_EQ_000024,"..., 33, 34] | 2021年海地大震数据值 [20, 21] | | --- | --- | --- | --- | --- | | ShakeMap 最大实测PGA | () [2] | 超出 范围 [10, 35] | - ",EQ_DOC_003,CHK_EQ_000008,C07,C07,1,1,待复核,1.0
+evidence_eq_025,evidence_eq_025,证据片段025,证据片段025,Evidence,Evidence,CHK_EQ_000008；REL_EQ_000025,"..., 33, 34] | 2021年海地大震数据值 [20, 21] | | --- | --- | --- | --- | --- | | ShakeMap 最大实测PGA | () [2] | 超出 范围 [10, 35] | - ",EQ_DOC_003,CHK_EQ_000008,C07,C07,1,1,待复核,1.0
+evidence_eq_026,evidence_eq_026,证据片段026,证据片段026,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000026,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_027,evidence_eq_027,证据片段027,证据片段027,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000027,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_028,evidence_eq_028,证据片段028,证据片段028,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000028,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_029,evidence_eq_029,证据片段029,证据片段029,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000029,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_030,evidence_eq_030,证据片段030,证据片段030,Evidence,Evidence,CHK_EQ_000008；REL_EQ_000030,"...MMI X (毁灭性强烈震动) [9] | MMI IX - X [3, 33] | MMI VIII (严重破坏烈度) [20] | | PAGER 经济损失警报级别 | 红色警报（经济损失极可能达到数亿美元，占日本国内生产总值的1",EQ_DOC_003,CHK_EQ_000008,C07,C07,1,1,待复核,1.0
+evidence_eq_031,evidence_eq_031,证据片段031,证据片段031,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000031,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_032,evidence_eq_032,证据片段032,证据片段032,Evidence,Evidence,CHK_EQ_000008；REL_EQ_000032,"| 评估指标与评估报告产品类型 | 2024年能登半岛地震数据值 [2, 4, 5, 29] | 2023年土耳其双震（主震）数据值 [9, 10, 31, 32] | 2015年尼泊尔大震数据值 [16, 17, 33, 34] | 20",EQ_DOC_003,CHK_EQ_000008,C07,C07,1,1,待复核,1.0
+evidence_eq_033,evidence_eq_033,证据片段033,证据片段033,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000033,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_034,evidence_eq_034,证据片段034,证据片段034,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000034,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_035,evidence_eq_035,证据片段035,证据片段035,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000035,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_036,evidence_eq_036,证据片段036,证据片段036,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000036,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_037,evidence_eq_037,证据片段037,证据片段037,Evidence,Evidence,CHK_EQ_000007；REL_EQ_000037,"## 三、 地震动、烈度图与PAGER快速影响评估数据链 地震动参数（如地面峰值加速度 PGA、地面峰值速度 PGV）是评估地面震动剧烈程度和预测建筑物结构物理破坏力的核心指标 [4, 26]。美国地质调查局的 ShakeMap 系统和 P",EQ_DOC_003,CHK_EQ_000007,C07,C07,1,1,待复核,1.0
+evidence_eq_038,evidence_eq_038,证据片段038,证据片段038,Evidence,Evidence,CHK_EQ_000013；REL_EQ_000038,## 五、 遥感影像解译、建筑震损标签与多源几何特征提取 面对大面积地震灾害，现场地毯式排查在效率和安全性上均无法满足应急决策的急迫时效要求 [49]。通过联合天基高分辨率卫星与空基无人机（UAV）遥感手段进行智能解译，是目前实现大范围、快,EQ_DOC_005,CHK_EQ_000013,C07,C07,1,1,待复核,1.0
+evidence_eq_039,evidence_eq_039,证据片段039,证据片段039,Evidence,Evidence,CHK_EQ_000013；REL_EQ_000039,## 五、 遥感影像解译、建筑震损标签与多源几何特征提取 面对大面积地震灾害，现场地毯式排查在效率和安全性上均无法满足应急决策的急迫时效要求 [49]。通过联合天基高分辨率卫星与空基无人机（UAV）遥感手段进行智能解译，是目前实现大范围、快,EQ_DOC_005,CHK_EQ_000013,C07,C07,1,1,待复核,1.0
+evidence_eq_040,evidence_eq_040,证据片段040,证据片段040,Evidence,Evidence,CHK_EQ_000013；REL_EQ_000040,## 五、 遥感影像解译、建筑震损标签与多源几何特征提取 面对大面积地震灾害，现场地毯式排查在效率和安全性上均无法满足应急决策的急迫时效要求 [49]。通过联合天基高分辨率卫星与空基无人机（UAV）遥感手段进行智能解译，是目前实现大范围、快,EQ_DOC_005,CHK_EQ_000013,C07,C07,1,1,待复核,1.0

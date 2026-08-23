@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据统计 - 基于真实地震数据的个性化地震预警系统</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>真实地震事件数据统计面板</h1>
+            <p>数据来源于公开地震目录，展示结果仅用于课程实践。</p>
+        </header>
+
+
+
+        {% if stats %}
+        <div class="stats-grid card">
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.total }}</div>
+                <div class="stat-label">真实地震记录数</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.source }}</div>
+                <div class="stat-label">数据来源</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">M{{ "%.1f"|format(stats.max_magnitude) }}</div>
+                <div class="stat-label">最大震级</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ "%.1f"|format(stats.avg_depth) }} km</div>
+                <div class="stat-label">平均震源深度</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">{{ stats.latest_time[:10] }}</div>
+                <div class="stat-label">最新数据时间</div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if charts %}
+        <div class="card">
+            <h2>地震统计图表</h2>
+            <div class="charts-grid">
+                <div>
+                    <h3 class="text-center mb-20">地震震级分布</h3>
+                    <img src="/static/{{ charts.magnitude_distribution }}" alt="震级分布图">
+                </div>
+                <div>
+                    <h3 class="text-center mb-20">震源深度分布</h3>
+                    <img src="/static/{{ charts.depth_distribution }}" alt="深度分布图">
+                </div>
+                <div>
+                    <h3 class="text-center mb-20">地震事件时间趋势</h3>
+                    <img src="/static/{{ charts.time_trend }}" alt="时间趋势图">
+                </div>
+                <div>
+                    <h3 class="text-center mb-20">地震经纬度散点分布</h3>
+                    <img src="/static/{{ charts.location_scatter }}" alt="地理分布图">
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if events %}
+        <div class="card">
+            <h2>最近 20 条真实地震事件</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>发震时间</th>
+                            <th>震级</th>
+                            <th>深度</th>
+                            <th>纬度</th>
+                            <th>经度</th>
+                            <th>参考位置</th>
+                            <th>来源</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for ev in events %}
+                        <tr>
+                            <td>{{ ev.event_time_beijing[:19] if ev.event_time_beijing else ev.event_time_utc[:19] }}</td>
+                            <td>{{ "%.1f"|format(ev.magnitude) }}</td>
+                            <td>{{ "%.0f"|format(ev.depth_km) }} km</td>
+                            <td>{{ "%.2f"|format(ev.latitude) }}</td>
+                            <td>{{ "%.2f"|format(ev.longitude) }}</td>
+                            <td>{{ ev.place[:40] }}</td>
+                            <td>{{ ev.source }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="nav-links">
+            <a href="/" class="btn">返回首页</a>
+            <a href="/dashboard" class="btn btn-secondary">刷新数据</a>
+        </div>
+
+        <footer>
+            <p>基于真实地震数据的个性化地震预警信息自动生成系统 &copy; 2026</p>
+
+        </footer>
+    </div>
+</body>
+</html>

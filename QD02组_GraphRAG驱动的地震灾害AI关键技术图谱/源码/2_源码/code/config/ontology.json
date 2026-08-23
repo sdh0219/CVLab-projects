@@ -1,0 +1,1204 @@
+{
+  "entity_types": [
+    "Document",
+    "Evidence",
+    "DisasterType",
+    "Case",
+    "Event",
+    "AITech",
+    "Model",
+    "Dataset",
+    "Task",
+    "Scenario",
+    "Policy",
+    "Standard",
+    "Limitation",
+    "Organization",
+    "Metric",
+    "ImpactProduct"
+  ],
+  "relation_types": [
+    "USES_MODEL",
+    "DEPENDS_ON",
+    "SOLVES",
+    "SERVES_STAGE",
+    "VALIDATED_IN",
+    "LIMITED_BY",
+    "REQUIRED_BY",
+    "SUPPORTED_BY",
+    "DERIVES_FROM",
+    "MEASURED_BY",
+    "EVALUATED_BY",
+    "PUBLISHED_BY",
+    "HAS_METRIC",
+    "HAS_PARAMETER",
+    "HAS_IMPACT"
+  ],
+  "entities": {
+    "Document": [],
+    "Evidence": [],
+    "DisasterType": [
+      {
+        "id": "hazard_eq_001",
+        "name": "地震",
+        "aliases": [
+          "地震灾害",
+          "震灾",
+          "Earthquake"
+        ]
+      }
+    ],
+    "Case": [
+      {
+        "id": "case_eq_001",
+        "name": "2024 年日本能登半岛地震",
+        "aliases": [
+          "Noto Peninsula earthquake",
+          "能登半岛地震"
+        ]
+      },
+      {
+        "id": "case_eq_002",
+        "name": "2023 年土耳其-叙利亚地震",
+        "aliases": [
+          "Türkiye-Syria earthquake",
+          "Turkey-Syria earthquake",
+          "土耳其-叙利亚"
+        ]
+      },
+      {
+        "id": "case_eq_003",
+        "name": "2023 年土耳其 Elbistan 大震",
+        "aliases": [
+          "Elbistan earthquake"
+        ]
+      },
+      {
+        "id": "case_eq_004",
+        "name": "2015 年尼泊尔廓尔喀地震",
+        "aliases": [
+          "Gorkha earthquake",
+          "Nepal earthquake"
+        ]
+      },
+      {
+        "id": "case_eq_005",
+        "name": "2021 年海地地震",
+        "aliases": [
+          "Haiti earthquake"
+        ]
+      },
+      {
+        "id": "case_eq_006",
+        "name": "2024 年中国台湾花莲地震",
+        "aliases": [
+          "Hualien earthquake",
+          "Taiwan earthquake"
+        ]
+      },
+      {
+        "id": "case_eq_007",
+        "name": "MyShake 地震预警案例",
+        "aliases": [
+          "MyShake"
+        ]
+      },
+      {
+        "id": "case_eq_008",
+        "name": "ShakeAlert 地震预警案例",
+        "aliases": [
+          "ShakeAlert"
+        ]
+      }
+    ],
+    "Event": [
+      {
+        "id": "event_eq_001",
+        "name": "2024 年日本能登半岛地震",
+        "aliases": [
+          "Noto Peninsula earthquake",
+          "能登半岛地震"
+        ]
+      },
+      {
+        "id": "event_eq_002",
+        "name": "2023 年土耳其-叙利亚地震",
+        "aliases": [
+          "Türkiye-Syria earthquake",
+          "Turkey-Syria earthquake",
+          "土耳其-叙利亚"
+        ]
+      },
+      {
+        "id": "event_eq_003",
+        "name": "2023 年土耳其 Elbistan 大震",
+        "aliases": [
+          "Elbistan earthquake"
+        ]
+      },
+      {
+        "id": "event_eq_004",
+        "name": "2015 年尼泊尔廓尔喀地震",
+        "aliases": [
+          "Gorkha earthquake",
+          "Nepal earthquake"
+        ]
+      },
+      {
+        "id": "event_eq_005",
+        "name": "2021 年海地地震",
+        "aliases": [
+          "Haiti earthquake"
+        ]
+      },
+      {
+        "id": "event_eq_006",
+        "name": "2024 年中国台湾花莲地震",
+        "aliases": [
+          "Hualien earthquake",
+          "Taiwan earthquake"
+        ]
+      }
+    ],
+    "AITech": [
+      {
+        "id": "tech_eq_001",
+        "name": "地震早期预警",
+        "aliases": [
+          "地震预警",
+          "早期预警",
+          "earthquake early warning"
+        ]
+      },
+      {
+        "id": "tech_eq_002",
+        "name": "震后建筑损毁识别",
+        "aliases": [
+          "建筑震损",
+          "建筑损毁",
+          "建筑损坏估计",
+          "building damage"
+        ]
+      },
+      {
+        "id": "tech_eq_003",
+        "name": "遥感震损智能解译",
+        "aliases": [
+          "遥感影像解译",
+          "遥感震损",
+          "震损标签",
+          "多源几何特征",
+          "SAR 震损"
+        ]
+      },
+      {
+        "id": "tech_eq_004",
+        "name": "地震风险时空预测",
+        "aliases": [
+          "地震风险评估",
+          "地震风险",
+          "风险预测",
+          "seismic risk"
+        ]
+      },
+      {
+        "id": "tech_eq_005",
+        "name": "震后灾情快速评估",
+        "aliases": [
+          "快速影响评估",
+          "快速评估",
+          "灾情快速评估",
+          "impact assessment"
+        ]
+      },
+      {
+        "id": "tech_eq_006",
+        "name": "地震应急辅助决策",
+        "aliases": [
+          "应急响应",
+          "应急治理",
+          "辅助决策",
+          "response coordination"
+        ]
+      },
+      {
+        "id": "tech_eq_007",
+        "name": "生命线震损风险传播GNN",
+        "aliases": [
+          "生命线震损风险传播",
+          "生命线系统韧性",
+          "生命线韧性",
+          "GNN",
+          "图神经网络"
+        ]
+      },
+      {
+        "id": "tech_eq_008",
+        "name": "震后救援调度优化",
+        "aliases": [
+          "应急响应",
+          "灾后应急响应",
+          "人道主义需求",
+          "救援调度",
+          "物资调度",
+          "路径规划",
+          "救援路径",
+          "relief allocation",
+          "UNDAC",
+          "INSARAG"
+        ]
+      },
+      {
+        "id": "tech_eq_009",
+        "name": "地震证据图谱GraphRAG",
+        "aliases": [
+          "GraphRAG",
+          "知识图谱",
+          "证据图谱",
+          "证据链问答"
+        ]
+      },
+      {
+        "id": "tech_eq_010",
+        "name": "数字孪生城市地震风险模拟",
+        "aliases": [
+          "数字孪生",
+          "城市地震风险",
+          "风险模拟",
+          "loss simulation"
+        ]
+      },
+      {
+        "id": "tech_eq_011",
+        "name": "分布式AI地震预警",
+        "aliases": [
+          "分布式AI地震预警系统",
+          "边缘计算",
+          "众包传感器网络",
+          "AI-Powered EEWS"
+        ]
+      }
+    ],
+    "Model": [
+      {
+        "id": "model_eq_001",
+        "name": "CNN",
+        "aliases": [
+          "Convolutional Neural Network",
+          "卷积神经网络"
+        ]
+      },
+      {
+        "id": "model_eq_002",
+        "name": "GNN",
+        "aliases": [
+          "Graph Neural Network",
+          "图神经网络"
+        ]
+      },
+      {
+        "id": "model_eq_003",
+        "name": "LSTM",
+        "aliases": [
+          "Long Short-Term Memory"
+        ]
+      },
+      {
+        "id": "model_eq_004",
+        "name": "RNN",
+        "aliases": [
+          "Recurrent Neural Network"
+        ]
+      },
+      {
+        "id": "model_eq_005",
+        "name": "Transformer",
+        "aliases": [
+          "ViT",
+          "Swin Transformer"
+        ]
+      },
+      {
+        "id": "model_eq_006",
+        "name": "U-Net",
+        "aliases": [
+          "UNet"
+        ]
+      },
+      {
+        "id": "model_eq_007",
+        "name": "随机森林",
+        "aliases": [
+          "Random Forest"
+        ]
+      },
+      {
+        "id": "model_eq_008",
+        "name": "XGBoost",
+        "aliases": [
+          "Gradient Boosting"
+        ]
+      },
+      {
+        "id": "model_eq_009",
+        "name": "能力谱法",
+        "aliases": [
+          "Capacity Spectrum Method"
+        ]
+      },
+      {
+        "id": "model_eq_010",
+        "name": "Hazus",
+        "aliases": [
+          "HAZUS"
+        ]
+      },
+      {
+        "id": "model_eq_011",
+        "name": "OpenQuake",
+        "aliases": [
+          "OpenQuake Engine"
+        ]
+      },
+      {
+        "id": "model_eq_012",
+        "name": "Edge-AI CNN",
+        "aliases": [
+          "Edge-AI compact CNN",
+          "compact CNN"
+        ]
+      },
+      {
+        "id": "model_eq_013",
+        "name": "PhaseNet",
+        "aliases": []
+      },
+      {
+        "id": "model_eq_014",
+        "name": "EQTransformer",
+        "aliases": []
+      },
+      {
+        "id": "model_eq_015",
+        "name": "DBSCAN",
+        "aliases": []
+      },
+      {
+        "id": "model_eq_016",
+        "name": "多主体仿真",
+        "aliases": [
+          "Multi-agent simulation"
+        ]
+      },
+      {
+        "id": "model_eq_017",
+        "name": "QuakeWake",
+        "aliases": []
+      },
+      {
+        "id": "model_eq_018",
+        "name": "E3WS",
+        "aliases": []
+      }
+    ],
+    "Dataset": [
+      {
+        "id": "data_eq_001",
+        "name": "USGS ComCat",
+        "aliases": [
+          "ComCat",
+          "USGS Earthquake Catalog"
+        ]
+      },
+      {
+        "id": "data_eq_002",
+        "name": "CENC 地震目录",
+        "aliases": [
+          "CENC",
+          "China Earthquake Networks Center",
+          "中国地震台网中心"
+        ]
+      },
+      {
+        "id": "data_eq_003",
+        "name": "JMA 地震目录",
+        "aliases": [
+          "JMA",
+          "Japan Meteorological Agency",
+          "日本气象厅"
+        ]
+      },
+      {
+        "id": "data_eq_004",
+        "name": "ShakeMap",
+        "aliases": [
+          "USGS ShakeMap"
+        ]
+      },
+      {
+        "id": "data_eq_005",
+        "name": "PAGER",
+        "aliases": [
+          "Prompt Assessment of Global Earthquakes for Response"
+        ]
+      },
+      {
+        "id": "data_eq_006",
+        "name": "Finite Fault Model",
+        "aliases": [
+          "finite fault model",
+          "断层模型"
+        ]
+      },
+      {
+        "id": "data_eq_007",
+        "name": "WorldPop",
+        "aliases": [
+          "population exposure"
+        ]
+      },
+      {
+        "id": "data_eq_008",
+        "name": "xBD",
+        "aliases": [
+          "xView2",
+          "xBD dataset"
+        ]
+      },
+      {
+        "id": "data_eq_009",
+        "name": "Copernicus EMS",
+        "aliases": [
+          "Copernicus Emergency Management Service"
+        ]
+      },
+      {
+        "id": "data_eq_010",
+        "name": "ALOS-2-BDE",
+        "aliases": [
+          "ALOS-2 Building Damage Estimation",
+          "PALSAR-2"
+        ]
+      },
+      {
+        "id": "data_eq_011",
+        "name": "Sentinel-1",
+        "aliases": [
+          "Sentinel-1 SAR"
+        ]
+      },
+      {
+        "id": "data_eq_012",
+        "name": "PALSAR-2",
+        "aliases": [
+          "PALSAR"
+        ]
+      },
+      {
+        "id": "data_eq_013",
+        "name": "OpenStreetMap",
+        "aliases": [
+          "OSM"
+        ]
+      },
+      {
+        "id": "data_eq_014",
+        "name": "建筑物足迹",
+        "aliases": [
+          "Building Footprint",
+          "building footprint"
+        ]
+      },
+      {
+        "id": "data_eq_015",
+        "name": "台站波形数据",
+        "aliases": [
+          "seismic waveform",
+          "waveform data"
+        ]
+      },
+      {
+        "id": "data_eq_016",
+        "name": "MEMS 加速度计",
+        "aliases": [
+          "MEMS accelerometer",
+          "smartphone sensors"
+        ]
+      },
+      {
+        "id": "data_eq_017",
+        "name": "Vs30",
+        "aliases": [
+          "site condition",
+          "场地条件"
+        ]
+      },
+      {
+        "id": "data_eq_018",
+        "name": "人口暴露格网",
+        "aliases": [
+          "population grid",
+          "人口暴露"
+        ]
+      },
+      {
+        "id": "data_eq_019",
+        "name": "生命线设施数据",
+        "aliases": [
+          "lifeline infrastructure",
+          "critical infrastructure"
+        ]
+      },
+      {
+        "id": "data_eq_020",
+        "name": "道路网络",
+        "aliases": [
+          "road network"
+        ]
+      },
+      {
+        "id": "data_eq_021",
+        "name": "避难所数据",
+        "aliases": [
+          "shelter data"
+        ]
+      },
+      {
+        "id": "data_eq_022",
+        "name": "强震动记录",
+        "aliases": [
+          "strong motion record"
+        ]
+      },
+      {
+        "id": "data_eq_023",
+        "name": "Uncertainty Grid",
+        "aliases": [
+          "uncertainty grid"
+        ]
+      }
+    ],
+    "Task": [
+      {
+        "id": "task_eq_001",
+        "name": "P 波起始拾取",
+        "aliases": [
+          "P-wave onset detection",
+          "P wave onset"
+        ]
+      },
+      {
+        "id": "task_eq_002",
+        "name": "地震监测预警",
+        "aliases": [
+          "earthquake early warning"
+        ]
+      },
+      {
+        "id": "task_eq_003",
+        "name": "地震风险评估",
+        "aliases": [
+          "seismic risk assessment"
+        ]
+      },
+      {
+        "id": "task_eq_004",
+        "name": "震后建筑损毁识别",
+        "aliases": [
+          "building damage recognition"
+        ]
+      },
+      {
+        "id": "task_eq_005",
+        "name": "震后灾情快速评估",
+        "aliases": [
+          "rapid impact assessment"
+        ]
+      },
+      {
+        "id": "task_eq_006",
+        "name": "人员伤亡估计",
+        "aliases": [
+          "fatality estimate",
+          "casualty estimate"
+        ]
+      },
+      {
+        "id": "task_eq_007",
+        "name": "经济损失估计",
+        "aliases": [
+          "economic loss estimate"
+        ]
+      },
+      {
+        "id": "task_eq_008",
+        "name": "应急响应分级",
+        "aliases": [
+          "response level"
+        ]
+      },
+      {
+        "id": "task_eq_009",
+        "name": "救援路径规划",
+        "aliases": [
+          "rescue routing"
+        ]
+      },
+      {
+        "id": "task_eq_010",
+        "name": "物资调度优化",
+        "aliases": [
+          "relief allocation"
+        ]
+      },
+      {
+        "id": "task_eq_011",
+        "name": "生命线风险传播分析",
+        "aliases": [
+          "lifeline risk propagation"
+        ]
+      },
+      {
+        "id": "task_eq_012",
+        "name": "政策合规映射",
+        "aliases": [
+          "policy compliance mapping"
+        ]
+      },
+      {
+        "id": "task_eq_013",
+        "name": "证据问答",
+        "aliases": [
+          "evidence QA",
+          "GraphRAG QA"
+        ]
+      },
+      {
+        "id": "task_eq_014",
+        "name": "地震动模拟",
+        "aliases": [
+          "ground motion simulation"
+        ]
+      }
+    ],
+    "Scenario": [
+      {
+        "id": "stage_eq_001",
+        "name": "震前监测",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_002",
+        "name": "震时预警",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_003",
+        "name": "震后评估",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_004",
+        "name": "应急响应",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_005",
+        "name": "恢复重建",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_006",
+        "name": "灾后复盘",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_007",
+        "name": "政策治理",
+        "aliases": []
+      },
+      {
+        "id": "stage_eq_008",
+        "name": "城市韧性评估",
+        "aliases": []
+      }
+    ],
+    "Policy": [
+      {
+        "id": "policy_eq_001",
+        "name": "Sendai Framework",
+        "aliases": [
+          "仙台框架",
+          "Sendai Framework for Disaster Risk Reduction"
+        ]
+      },
+      {
+        "id": "policy_eq_002",
+        "name": "国家地震应急预案",
+        "aliases": [
+          "National Earthquake Emergency Plan"
+        ]
+      },
+      {
+        "id": "policy_eq_003",
+        "name": "甘肃省地震应急预案",
+        "aliases": [
+          "甘肃省地震应急预案"
+        ]
+      },
+      {
+        "id": "policy_eq_004",
+        "name": "地震预警发布规范",
+        "aliases": [
+          "earthquake warning standard"
+        ]
+      },
+      {
+        "id": "policy_eq_005",
+        "name": "应急管理体系现代化规划",
+        "aliases": [
+          "应急管理体系"
+        ]
+      }
+    ],
+    "Standard": [
+      {
+        "id": "standard_eq_001",
+        "name": "ISO 22320:2018",
+        "aliases": [
+          "ISO 22320"
+        ]
+      },
+      {
+        "id": "standard_eq_002",
+        "name": "OASIS CAP",
+        "aliases": [
+          "Common Alerting Protocol",
+          "CAP"
+        ]
+      },
+      {
+        "id": "standard_eq_003",
+        "name": "OGC SensorThings API",
+        "aliases": [
+          "SensorThings API"
+        ]
+      },
+      {
+        "id": "standard_eq_004",
+        "name": "DesInventar Sendai",
+        "aliases": [
+          "DesInventar"
+        ]
+      }
+    ],
+    "Limitation": [
+      {
+        "id": "limit_eq_001",
+        "name": "预警盲区",
+        "aliases": [
+          "blind zone"
+        ]
+      },
+      {
+        "id": "limit_eq_002",
+        "name": "误报风险",
+        "aliases": [
+          "false alarm"
+        ]
+      },
+      {
+        "id": "limit_eq_003",
+        "name": "漏报风险",
+        "aliases": [
+          "missed alarm"
+        ]
+      },
+      {
+        "id": "limit_eq_004",
+        "name": "数据偏差",
+        "aliases": [
+          "data bias"
+        ]
+      },
+      {
+        "id": "limit_eq_005",
+        "name": "标注稀缺",
+        "aliases": [
+          "label scarcity",
+          "annotation scarcity"
+        ]
+      },
+      {
+        "id": "limit_eq_006",
+        "name": "跨区域泛化不足",
+        "aliases": [
+          "generalization"
+        ]
+      },
+      {
+        "id": "limit_eq_007",
+        "name": "实时部署困难",
+        "aliases": [
+          "real-time deployment"
+        ]
+      },
+      {
+        "id": "limit_eq_008",
+        "name": "边缘算力约束",
+        "aliases": [
+          "edge computing constraint"
+        ]
+      },
+      {
+        "id": "limit_eq_009",
+        "name": "SAR 影像解释不确定性",
+        "aliases": [
+          "SAR uncertainty"
+        ]
+      },
+      {
+        "id": "limit_eq_010",
+        "name": "光学影像云层遮挡",
+        "aliases": [
+          "cloud cover"
+        ]
+      },
+      {
+        "id": "limit_eq_011",
+        "name": "中等损伤标签混淆",
+        "aliases": [
+          "moderate damage confusion"
+        ]
+      },
+      {
+        "id": "limit_eq_012",
+        "name": "来源核验不足",
+        "aliases": [
+          "source verification"
+        ]
+      },
+      {
+        "id": "limit_eq_013",
+        "name": "专家复核不足",
+        "aliases": [
+          "expert review"
+        ]
+      },
+      {
+        "id": "limit_eq_014",
+        "name": "大模型幻觉风险",
+        "aliases": [
+          "hallucination"
+        ]
+      },
+      {
+        "id": "limit_eq_015",
+        "name": "证据链断裂",
+        "aliases": [
+          "evidence chain"
+        ]
+      },
+      {
+        "id": "limit_eq_016",
+        "name": "通信延迟",
+        "aliases": [
+          "communication delay"
+        ]
+      },
+      {
+        "id": "limit_eq_017",
+        "name": "台站稀疏",
+        "aliases": [
+          "sparse station"
+        ]
+      },
+      {
+        "id": "limit_eq_018",
+        "name": "不确定性网格",
+        "aliases": [
+          "uncertainty grid"
+        ]
+      }
+    ],
+    "Organization": [
+      {
+        "id": "org_eq_001",
+        "name": "USGS",
+        "aliases": [
+          "United States Geological Survey"
+        ]
+      },
+      {
+        "id": "org_eq_002",
+        "name": "CENC",
+        "aliases": [
+          "China Earthquake Networks Center",
+          "中国地震台网中心"
+        ]
+      },
+      {
+        "id": "org_eq_003",
+        "name": "JMA",
+        "aliases": [
+          "Japan Meteorological Agency"
+        ]
+      },
+      {
+        "id": "org_eq_004",
+        "name": "FEMA",
+        "aliases": [
+          "Federal Emergency Management Agency"
+        ]
+      },
+      {
+        "id": "org_eq_005",
+        "name": "GEM",
+        "aliases": [
+          "Global Earthquake Model"
+        ]
+      },
+      {
+        "id": "org_eq_006",
+        "name": "UNDRR",
+        "aliases": [
+          "United Nations Office for Disaster Risk Reduction"
+        ]
+      },
+      {
+        "id": "org_eq_007",
+        "name": "INSARAG",
+        "aliases": []
+      },
+      {
+        "id": "org_eq_008",
+        "name": "UNDAC",
+        "aliases": []
+      },
+      {
+        "id": "org_eq_009",
+        "name": "AFAD",
+        "aliases": []
+      },
+      {
+        "id": "org_eq_010",
+        "name": "WFP",
+        "aliases": [
+          "World Food Programme"
+        ]
+      },
+      {
+        "id": "org_eq_011",
+        "name": "CDRI",
+        "aliases": [
+          "Coalition for Disaster Resilient Infrastructure"
+        ]
+      },
+      {
+        "id": "org_eq_012",
+        "name": "ISO",
+        "aliases": []
+      },
+      {
+        "id": "org_eq_013",
+        "name": "OGC",
+        "aliases": []
+      },
+      {
+        "id": "org_eq_014",
+        "name": "OASIS",
+        "aliases": []
+      },
+      {
+        "id": "org_eq_015",
+        "name": "Taiwan CWA",
+        "aliases": [
+          "Central Weather Administration"
+        ]
+      }
+    ],
+    "Metric": [
+      {
+        "id": "metric_eq_001",
+        "name": "PGA",
+        "aliases": [
+          "Peak Ground Acceleration"
+        ]
+      },
+      {
+        "id": "metric_eq_002",
+        "name": "PGV",
+        "aliases": [
+          "Peak Ground Velocity"
+        ]
+      },
+      {
+        "id": "metric_eq_003",
+        "name": "MMI",
+        "aliases": [
+          "Modified Mercalli Intensity"
+        ]
+      },
+      {
+        "id": "metric_eq_004",
+        "name": "AEL",
+        "aliases": [
+          "Average Economic Loss"
+        ]
+      },
+      {
+        "id": "metric_eq_005",
+        "name": "AELR",
+        "aliases": [
+          "Average Economic Loss Ratio"
+        ]
+      },
+      {
+        "id": "metric_eq_006",
+        "name": "MDF",
+        "aliases": [
+          "Mean Damage Factor"
+        ]
+      },
+      {
+        "id": "metric_eq_007",
+        "name": "COV",
+        "aliases": [
+          "Coefficient of Variation"
+        ]
+      },
+      {
+        "id": "metric_eq_008",
+        "name": "Vs30",
+        "aliases": [
+          "time-averaged shear-wave velocity"
+        ]
+      },
+      {
+        "id": "metric_eq_009",
+        "name": "confidence",
+        "aliases": [
+          "置信度"
+        ]
+      },
+      {
+        "id": "metric_eq_010",
+        "name": "震级",
+        "aliases": [
+          "magnitude"
+        ]
+      },
+      {
+        "id": "metric_eq_011",
+        "name": "震源深度",
+        "aliases": [
+          "depth"
+        ]
+      },
+      {
+        "id": "metric_eq_012",
+        "name": "震中位置",
+        "aliases": [
+          "epicenter"
+        ]
+      }
+    ],
+    "ImpactProduct": [
+      {
+        "id": "product_eq_001",
+        "name": "PAGER XML",
+        "aliases": [
+          "PAGER xml"
+        ]
+      },
+      {
+        "id": "product_eq_002",
+        "name": "PAGER 快速评估结果",
+        "aliases": [
+          "PAGER product"
+        ]
+      },
+      {
+        "id": "product_eq_003",
+        "name": "Intensity Contours",
+        "aliases": [
+          "intensity contours"
+        ]
+      },
+      {
+        "id": "product_eq_004",
+        "name": "XML Grid",
+        "aliases": [
+          "grid.xml"
+        ]
+      },
+      {
+        "id": "product_eq_005",
+        "name": "Fault Rupture JSON",
+        "aliases": [
+          "rupture.json"
+        ]
+      },
+      {
+        "id": "product_eq_006",
+        "name": "震损标签图",
+        "aliases": [
+          "damage label map"
+        ]
+      }
+    ]
+  },
+  "relation_rules": [
+    {
+      "source_type": "AITech",
+      "target_type": "Model",
+      "relation_type": "USES_MODEL",
+      "confidence": 0.64
+    },
+    {
+      "source_type": "AITech",
+      "target_type": "Dataset",
+      "relation_type": "DEPENDS_ON",
+      "confidence": 0.66
+    },
+    {
+      "source_type": "AITech",
+      "target_type": "Task",
+      "relation_type": "SOLVES",
+      "confidence": 0.7
+    },
+    {
+      "source_type": "AITech",
+      "target_type": "Scenario",
+      "relation_type": "SERVES_STAGE",
+      "confidence": 0.68
+    },
+    {
+      "source_type": "Dataset",
+      "target_type": "Organization",
+      "relation_type": "PUBLISHED_BY",
+      "confidence": 0.62
+    },
+    {
+      "source_type": "Task",
+      "target_type": "Policy",
+      "relation_type": "REQUIRED_BY",
+      "confidence": 0.58
+    },
+    {
+      "source_type": "Dataset",
+      "target_type": "Metric",
+      "relation_type": "HAS_METRIC",
+      "confidence": 0.72
+    },
+    {
+      "source_type": "Case",
+      "target_type": "Metric",
+      "relation_type": "HAS_PARAMETER",
+      "confidence": 0.72
+    }
+  ],
+  "quality_status": "待复核",
+  "source_file": "地震灾害数据收集与整理.docx",
+  "updated_at": "2026-06-21T15:09:57"
+}

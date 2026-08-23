@@ -1,0 +1,4 @@
+﻿topology_community_id,title,member_count,relation_count,entity_types,representative_docs,summary
+T001,地震早期预警、震后建筑损毁识别,52,725,"{""AITech"": 9, ""Case"": 7, ""Dataset"": 6, ""DisasterType"": 1, ""Limitation"": 6, ""Model"": 7, ""Policy"": 5, ""Scenario"": 5, ""Task"": 6}",case_noto_earthquake;paper_myshake_network;project_myshake;patent_myshake_warning;patent_tw_earthquake_ai;patent_tw_earthquake_warning;policy_japan_disaster_plan;project_shakealert,地震早期预警、震后建筑损毁识别包含AITech9、Model7、Case7、Dataset6，内部关系主要为SERVES_STAGE、APPLIES_TO、DEPENDS_ON、VALIDATED_IN。
+T002,生命线震损风险传播GNN,5,24,"{""AITech"": 1, ""Case"": 1, ""Limitation"": 1, ""Model"": 1, ""Task"": 1}",case_morocco_earthquake;paper_lifeline_resilience;policy_china_14th_drr_plan;report_cdri_giri;report_worldbank_lifelines;standard_iso_37123_resilient_cities,生命线震损风险传播GNN包含AITech1、Model1、Task1、Case1，内部关系主要为SOLVES、USES_MODEL、VALIDATED_IN、LIMITED_BY。
+T003,Dataset社区,1,0,"{""Dataset"": 1}",,Dataset社区包含Dataset1，内部关系主要为暂无内部关系。

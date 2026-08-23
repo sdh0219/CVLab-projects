@@ -1,0 +1,18 @@
+# 缺失数据的真实直连下载/API 地址
+
+注意：ArcGIS 的 item 页面经常只是网页，不是数据文件。
+请使用下面这种 /query?f=geojson 形式，或直接运行 scripts/download_missing_real_data.py。
+
+1. 洛杉矶县 SVI 人口脆弱性，分页下载：
+https://services.arcgis.com/RmCCgQtiZLDCtblq/ArcGIS/rest/services/Social_Vulnerability_Index_LA_County/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=0
+
+https://services.arcgis.com/RmCCgQtiZLDCtblq/ArcGIS/rest/services/Social_Vulnerability_Index_LA_County/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson&resultRecordCount=2000&resultOffset=2000
+
+2. 洛杉矶县消防站：
+https://services.arcgis.com/RmCCgQtiZLDCtblq/arcgis/rest/services/LACoFD_Fire_Station_Locations/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson
+
+3. 洛杉矶县医院/医疗中心：
+https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/LA_County_Points_of_Interest/FeatureServer/0/query?where=cat2%3D%27Hospitals%20and%20Medical%20Centers%27&outFields=*&returnGeometry=true&outSR=4326&f=geojson
+
+4. CGS 加州滑坡清单，2026-03-09 更新，ZIP：
+https://www.conservation.ca.gov/cgs/documents/publications/landslide-inventory/cgs_lsi_20260309.zip

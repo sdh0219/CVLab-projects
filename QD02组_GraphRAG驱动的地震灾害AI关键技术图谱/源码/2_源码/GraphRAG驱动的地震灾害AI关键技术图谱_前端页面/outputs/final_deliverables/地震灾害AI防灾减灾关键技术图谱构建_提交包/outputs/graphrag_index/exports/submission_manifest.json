@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "documents": 49,
+    "chunks": 56,
+    "max_chunks": null,
+    "entities": 58,
+    "claims": 202,
+    "relations": 792,
+    "communities": 10,
+    "extractor": "rule"
+  },
+  "export_files": [
+    {
+      "name": "atlas.graphml",
+      "bytes": 200485
+    },
+    {
+      "name": "atlas_quality_report.json",
+      "bytes": 7306
+    },
+    {
+      "name": "atlas_quality_report.md",
+      "bytes": 1222
+    },
+    {
+      "name": "community_reports.csv",
+      "bytes": 8779
+    },
+    {
+      "name": "community_reports.json",
+      "bytes": 31627
+    },
+    {
+      "name": "corpus_manifest.csv",
+      "bytes": 16605
+    },
+    {
+      "name": "evidence_edges.csv",
+      "bytes": 739545
+    },
+    {
+      "name": "expert_review_log.csv",
+      "bytes": 114355
+    },
+    {
+      "name": "expert_review_priority.csv",
+      "bytes": 66044
+    },
+    {
+      "name": "graph_edges_neo4j.csv",
+      "bytes": 694362
+    },
+    {
+      "name": "graph_nodes.csv",
+      "bytes": 6852
+    },
+    {
+      "name": "graph_visualization.json",
+      "bytes": 198254
+    },
+    {
+      "name": "key_technology_assessment.csv",
+      "bytes": 1330
+    },
+    {
+      "name": "key_technology_assessment.json",
+      "bytes": 4752
+    },
+    {
+      "name": "key_technology_assessment.md",
+      "bytes": 951
+    },
+    {
+      "name": "neo4j_import.cypher",
+      "bytes": 1035
+    },
+    {
+      "name": "qa_evaluation_results.csv",
+      "bytes": 1858
+    },
+    {
+      "name": "qa_evaluation_results.json",
+      "bytes": 3064
+    },
+    {
+      "name": "qa_evaluation_set.csv",
+      "bytes": 2284
+    },
+    {
+      "name": "qa_evaluation_set.json",
+      "bytes": 3288
+    },
+    {
+      "name": "scenario_nodes.csv",
+      "bytes": 1519
+    },
+    {
+      "name": "submission_manifest.json",
+      "bytes": 2835
+    },
+    {
+      "name": "submission_manifest.md",
+      "bytes": 1896
+    },
+    {
+      "name": "technology_nodes.csv",
+      "bytes": 3564
+    },
+    {
+      "name": "topology_communities.csv",
+      "bytes": 1190
+    },
+    {
+      "name": "topology_communities.json",
+      "bytes": 10772
+    },
+    {
+      "name": "topology_communities.md",
+      "bytes": 767
+    },
+    {
+      "name": "uncertainty_report.json",
+      "bytes": 17997
+    },
+    {
+      "name": "uncertainty_report.md",
+      "bytes": 8629
+    }
+  ],
+  "recommended_include": [
+    "config",
+    "data/corpus",
+    "graphrag_atlas",
+    "tools",
+    "outputs/graphrag_index",
+    "public/atlas",
+    "docs",
+    "README.md"
+  ],
+  "recommended_exclude": [
+    "node_modules",
+    ".wrangler",
+    ".idea",
+    "dist",
+    "build",
+    "__pycache__",
+    "dev-server*.log"
+  ]
+}

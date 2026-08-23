@@ -1,0 +1,8 @@
+﻿data_type,records,source,file
+weather,10960,real_downloaded,weather_noaa_daily_summaries_clean.csv
+fema,16,real_downloaded,disaster_fema_la_county_clean.csv
+earthquake,3676,real_downloaded,earthquake_usgs_la_region_clean.csv
+svi,2315,SIMULATED_FALLBACK,population_svi_la_county.geojson
+resources,455,MIXED_OR_FALLBACK,emergency_fire_ems_stations_la.geojson;emergency_hospitals_la.geojson
+landslide,150,SIMULATED_FALLBACK,landslide_cgs_la_county.geojson
+roads,0,real_downloaded,dataset_coverage_summary.csv

@@ -1,0 +1,6806 @@
+{
+  "nodes": [
+    {
+      "id": "hazard_earthquake",
+      "label": "地震",
+      "type": "DisasterType",
+      "relation_count": 95,
+      "evidence_count": 49,
+      "community_id": "C010"
+    },
+    {
+      "id": "stage_seismic_monitoring",
+      "label": "震前监测感知",
+      "type": "Scenario",
+      "relation_count": 54,
+      "evidence_count": 14,
+      "community_id": "C008"
+    },
+    {
+      "id": "stage_seismic_risk_assessment",
+      "label": "地震风险评估",
+      "type": "Scenario",
+      "relation_count": 44,
+      "evidence_count": 15,
+      "community_id": "C009"
+    },
+    {
+      "id": "stage_earthquake_warning",
+      "label": "地震早期预警",
+      "type": "Scenario",
+      "relation_count": 48,
+      "evidence_count": 12,
+      "community_id": "C008"
+    },
+    {
+      "id": "stage_post_quake_dispatch",
+      "label": "震后应急调度",
+      "type": "Scenario",
+      "relation_count": 28,
+      "evidence_count": 9,
+      "community_id": "C008"
+    },
+    {
+      "id": "stage_post_quake_damage",
+      "label": "震后损毁评估",
+      "type": "Scenario",
+      "relation_count": 33,
+      "evidence_count": 11,
+      "community_id": "C010"
+    },
+    {
+      "id": "tech_seismic_early_warning",
+      "label": "地震早期预警",
+      "type": "AITech",
+      "relation_count": 99,
+      "evidence_count": 12,
+      "community_id": "C008"
+    },
+    {
+      "id": "tech_post_earthquake_damage_cv",
+      "label": "震后建筑损毁识别",
+      "type": "AITech",
+      "relation_count": 35,
+      "evidence_count": 5,
+      "community_id": "C002"
+    },
+    {
+      "id": "tech_remote_sensing_eq_damage",
+      "label": "遥感震损智能解译",
+      "type": "AITech",
+      "relation_count": 28,
+      "evidence_count": 4,
+      "community_id": "C003"
+    },
+    {
+      "id": "tech_multimodal_situation",
+      "label": "地震多模态灾情理解",
+      "type": "AITech",
+      "relation_count": 14,
+      "evidence_count": 2,
+      "community_id": "C004"
+    },
+    {
+      "id": "tech_llm_emergency_decision",
+      "label": "地震应急辅助决策",
+      "type": "AITech",
+      "relation_count": 43,
+      "evidence_count": 6,
+      "community_id": "C005"
+    },
+    {
+      "id": "tech_rl_rescue_dispatch",
+      "label": "震后救援调度优化",
+      "type": "AITech",
+      "relation_count": 21,
+      "evidence_count": 3,
+      "community_id": "C006"
+    },
+    {
+      "id": "tech_lifeline_gnn",
+      "label": "生命线震损风险传播GNN",
+      "type": "AITech",
+      "relation_count": 43,
+      "evidence_count": 6,
+      "community_id": "C007"
+    },
+    {
+      "id": "tech_graphrag_evidence",
+      "label": "地震证据图谱GraphRAG",
+      "type": "AITech",
+      "relation_count": 363,
+      "evidence_count": 49,
+      "community_id": "C008"
+    },
+    {
+      "id": "tech_seismic_risk_prediction",
+      "label": "地震风险时空预测",
+      "type": "AITech",
+      "relation_count": 42,
+      "evidence_count": 6,
+      "community_id": "C009"
+    },
+    {
+      "id": "tech_rapid_loss_estimation",
+      "label": "震后灾情快速评估",
+      "type": "AITech",
+      "relation_count": 16,
+      "evidence_count": 2,
+      "community_id": "C010"
+    },
+    {
+      "id": "model_unet",
+      "label": "U-Net",
+      "type": "Model",
+      "relation_count": 8,
+      "evidence_count": 4,
+      "community_id": "C008"
+    },
+    {
+      "id": "model_transformer",
+      "label": "Transformer",
+      "type": "Model",
+      "relation_count": 8,
+      "evidence_count": 4,
+      "community_id": "C010"
+    },
+    {
+      "id": "model_gnn",
+      "label": "GNN",
+      "type": "Model",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C008"
+    },
+    {
+      "id": "model_llm",
+      "label": "LLM",
+      "type": "Model",
+      "relation_count": 15,
+      "evidence_count": 9,
+      "community_id": "C008"
+    },
+    {
+      "id": "model_rl",
+      "label": "强化学习",
+      "type": "Model",
+      "relation_count": 11,
+      "evidence_count": 6,
+      "community_id": "C008"
+    },
+    {
+      "id": "model_cnn",
+      "label": "CNN",
+      "type": "Model",
+      "relation_count": 10,
+      "evidence_count": 5,
+      "community_id": "C008"
+    },
+    {
+      "id": "model_lstm",
+      "label": "LSTM",
+      "type": "Model",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C009"
+    },
+    {
+      "id": "model_ml",
+      "label": "机器学习",
+      "type": "Model",
+      "relation_count": 24,
+      "evidence_count": 12,
+      "community_id": "C008"
+    },
+    {
+      "id": "data_seismic_network",
+      "label": "地震台网数据",
+      "type": "Dataset",
+      "relation_count": 36,
+      "evidence_count": 18,
+      "community_id": "C009"
+    },
+    {
+      "id": "data_remote_sensing",
+      "label": "遥感影像",
+      "type": "Dataset",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C010"
+    },
+    {
+      "id": "data_iot",
+      "label": "物联传感器",
+      "type": "Dataset",
+      "relation_count": 0,
+      "evidence_count": 0,
+      "community_id": ""
+    },
+    {
+      "id": "data_social_media",
+      "label": "众源文本",
+      "type": "Dataset",
+      "relation_count": 16,
+      "evidence_count": 8,
+      "community_id": "C008"
+    },
+    {
+      "id": "data_building_footprint",
+      "label": "建筑物足迹数据",
+      "type": "Dataset",
+      "relation_count": 10,
+      "evidence_count": 5,
+      "community_id": "C008"
+    },
+    {
+      "id": "data_lifeline_assets",
+      "label": "生命线设施数据",
+      "type": "Dataset",
+      "relation_count": 18,
+      "evidence_count": 9,
+      "community_id": "C008"
+    },
+    {
+      "id": "data_disaster_event",
+      "label": "灾害事件数据库",
+      "type": "Dataset",
+      "relation_count": 3,
+      "evidence_count": 3,
+      "community_id": "C008"
+    },
+    {
+      "id": "task_earthquake_warning",
+      "label": "地震监测预警",
+      "type": "Task",
+      "relation_count": 24,
+      "evidence_count": 12,
+      "community_id": "C008"
+    },
+    {
+      "id": "task_damage_assessment",
+      "label": "建筑损毁评估",
+      "type": "Task",
+      "relation_count": 22,
+      "evidence_count": 11,
+      "community_id": "C010"
+    },
+    {
+      "id": "task_resource_dispatch",
+      "label": "震后资源调度",
+      "type": "Task",
+      "relation_count": 6,
+      "evidence_count": 3,
+      "community_id": "C008"
+    },
+    {
+      "id": "task_evidence_qa",
+      "label": "证据链问答",
+      "type": "Task",
+      "relation_count": 15,
+      "evidence_count": 9,
+      "community_id": "C008"
+    },
+    {
+      "id": "task_lifeline_risk",
+      "label": "生命线风险评估",
+      "type": "Task",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C008"
+    },
+    {
+      "id": "task_seismic_risk_prediction",
+      "label": "震害风险预测",
+      "type": "Task",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C009"
+    },
+    {
+      "id": "task_situation_summary",
+      "label": "灾情态势摘要",
+      "type": "Task",
+      "relation_count": 8,
+      "evidence_count": 4,
+      "community_id": "C010"
+    },
+    {
+      "id": "case_turkiye_syria_earthquake",
+      "label": "土耳其叙利亚地震",
+      "type": "Case",
+      "relation_count": 17,
+      "evidence_count": 10,
+      "community_id": "C010"
+    },
+    {
+      "id": "case_noto_earthquake",
+      "label": "日本能登半岛地震",
+      "type": "Case",
+      "relation_count": 22,
+      "evidence_count": 11,
+      "community_id": "C009"
+    },
+    {
+      "id": "case_nepal_earthquake",
+      "label": "尼泊尔地震",
+      "type": "Case",
+      "relation_count": 6,
+      "evidence_count": 3,
+      "community_id": "C008"
+    },
+    {
+      "id": "case_haiti_earthquake",
+      "label": "海地地震",
+      "type": "Case",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C008"
+    },
+    {
+      "id": "case_morocco_earthquake",
+      "label": "摩洛哥地震",
+      "type": "Case",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C008"
+    },
+    {
+      "id": "case_afghanistan_earthquake",
+      "label": "阿富汗地震",
+      "type": "Case",
+      "relation_count": 4,
+      "evidence_count": 2,
+      "community_id": "C008"
+    },
+    {
+      "id": "case_shakealert_warning",
+      "label": "ShakeAlert地震预警案例",
+      "type": "Case",
+      "relation_count": 24,
+      "evidence_count": 12,
+      "community_id": "C008"
+    },
+    {
+      "id": "case_myshake_warning",
+      "label": "MyShake地震预警案例",
+      "type": "Case",
+      "relation_count": 4,
+      "evidence_count": 2,
+      "community_id": "C008"
+    },
+    {
+      "id": "policy_earthquake_emergency_plan",
+      "label": "地震应急预案",
+      "type": "Policy",
+      "relation_count": 11,
+      "evidence_count": 11,
+      "community_id": ""
+    },
+    {
+      "id": "policy_earthquake_warning_standard",
+      "label": "地震预警发布规范",
+      "type": "Policy",
+      "relation_count": 24,
+      "evidence_count": 12,
+      "community_id": ""
+    },
+    {
+      "id": "policy_technical_standard",
+      "label": "应急管理技术标准",
+      "type": "Policy",
+      "relation_count": 36,
+      "evidence_count": 24,
+      "community_id": ""
+    },
+    {
+      "id": "policy_seismic_risk_plan",
+      "label": "防震减灾规划",
+      "type": "Policy",
+      "relation_count": 12,
+      "evidence_count": 12,
+      "community_id": ""
+    },
+    {
+      "id": "policy_data_governance",
+      "label": "数据共享与隐私合规",
+      "type": "Policy",
+      "relation_count": 5,
+      "evidence_count": 5,
+      "community_id": ""
+    },
+    {
+      "id": "limit_label_scarcity",
+      "label": "标注稀缺",
+      "type": "Limitation",
+      "relation_count": 10,
+      "evidence_count": 5,
+      "community_id": "C008"
+    },
+    {
+      "id": "limit_generalization",
+      "label": "跨区域泛化不足",
+      "type": "Limitation",
+      "relation_count": 20,
+      "evidence_count": 10,
+      "community_id": "C009"
+    },
+    {
+      "id": "limit_deployment",
+      "label": "实时部署困难",
+      "type": "Limitation",
+      "relation_count": 28,
+      "evidence_count": 14,
+      "community_id": "C010"
+    },
+    {
+      "id": "limit_hallucination",
+      "label": "幻觉风险",
+      "type": "Limitation",
+      "relation_count": 15,
+      "evidence_count": 9,
+      "community_id": "C008"
+    },
+    {
+      "id": "limit_explainability",
+      "label": "可解释性不足",
+      "type": "Limitation",
+      "relation_count": 12,
+      "evidence_count": 6,
+      "community_id": "C008"
+    },
+    {
+      "id": "limit_data_bias",
+      "label": "数据偏差",
+      "type": "Limitation",
+      "relation_count": 4,
+      "evidence_count": 2,
+      "community_id": "C008"
+    },
+    {
+      "id": "limit_communication_outage",
+      "label": "震后通信中断",
+      "type": "Limitation",
+      "relation_count": 6,
+      "evidence_count": 3,
+      "community_id": "C008"
+    }
+  ],
+  "edges": [
+    {
+      "id": "b31244eb50634a12",
+      "source": "tech_multimodal_situation",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "79f51a5680c1580d",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "948b8e2695ed3278",
+      "source": "tech_multimodal_situation",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "2363ef646f2659d6",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "32565c0c3b206382",
+      "source": "tech_multimodal_situation",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "2584a9f3a3d13d6f",
+      "source": "tech_graphrag_evidence",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "2d0adafdcfda8ad5",
+      "source": "tech_multimodal_situation",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "85eee34f6a10b505",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "b396f05da10bcabc",
+      "source": "tech_multimodal_situation",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "22a9e9958aad317e",
+      "source": "tech_graphrag_evidence",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "dfe6d6761109e332",
+      "source": "tech_multimodal_situation",
+      "target": "case_afghanistan_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "c07cdd479a5ded58",
+      "source": "tech_graphrag_evidence",
+      "target": "case_afghanistan_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "aab8af3972802e93",
+      "source": "tech_multimodal_situation",
+      "target": "limit_data_bias",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "aa30e17a340efce9",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_data_bias",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "69837950f2f28f38",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_data_governance",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_afghanistan_earthquake_2023"
+    },
+    {
+      "id": "ca76995849aca089",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "873e784d9d7c7a8b",
+      "source": "tech_llm_emergency_decision",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "28736d23e9ba0c25",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "6dda2c4c78137396",
+      "source": "tech_llm_emergency_decision",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "3d7c25fc052fea47",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "a5024fdaf02c23ac",
+      "source": "tech_llm_emergency_decision",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "910e3b91809b1fa2",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "86be5f7a36a03740",
+      "source": "tech_llm_emergency_decision",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "59a18de12ede1596",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "f73526cbfd0a7c75",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "ae840f8499caa072",
+      "source": "tech_graphrag_evidence",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "a69d5ed49d6d838c",
+      "source": "tech_llm_emergency_decision",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "62adc232bacdb89b",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "95cf56d0312afcd5",
+      "source": "tech_llm_emergency_decision",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "53cf3eceff42cb04",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_haiti_earthquake"
+    },
+    {
+      "id": "01651932f9e5c1f9",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "0f72decac03cf208",
+      "source": "tech_lifeline_gnn",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "741c7c383f117003",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "c79eb1a73fa50f78",
+      "source": "tech_lifeline_gnn",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "9f728ecdc0eab69d",
+      "source": "tech_graphrag_evidence",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "8052664096545ec7",
+      "source": "tech_lifeline_gnn",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "fece68779390fecc",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "ff935e99f0f9038b",
+      "source": "tech_lifeline_gnn",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "7e277377b5eec1f7",
+      "source": "tech_graphrag_evidence",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "a2ed7717f9a68206",
+      "source": "tech_lifeline_gnn",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "6fe890a21aeef50b",
+      "source": "tech_graphrag_evidence",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "209ca78e47ffe1a8",
+      "source": "tech_lifeline_gnn",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "65f3a59811276c2c",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "8092597edcc18366",
+      "source": "tech_lifeline_gnn",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "0b559af3a7235b3d",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_morocco_earthquake"
+    },
+    {
+      "id": "4727d715fefde5f8",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "04af1bd659426f83",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "ab11460f0a12d593",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "7e7022bee59f4bfe",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "38c3f2691876365b",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "task_resource_dispatch",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "3613cc9a9c176b6d",
+      "source": "tech_graphrag_evidence",
+      "target": "task_resource_dispatch",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "3f10efa5a097fe71",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "388aed5249c99b27",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "ee34e82e612d89ca",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "3a1510ba14f653e7",
+      "source": "tech_graphrag_evidence",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "ef101e6aa8ed3413",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "case_nepal_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "20a8bdc1b1572401",
+      "source": "tech_graphrag_evidence",
+      "target": "case_nepal_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "5e7435ea9424a227",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "limit_communication_outage",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "5356ad807e0b4992",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_communication_outage",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "dcc65fae2c6d90e8",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_nepal_earthquake_pdna"
+    },
+    {
+      "id": "e419bbb1b47721fd",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "84203d5ac75c36bd",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "edfb338837c0a0fc",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "e99cb3e1fa8b97dc",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "07044b8a26a54ea1",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "c5447683d159abe2",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "e184fdde4c9b1798",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "e35a072f519a5263",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "5c3c4d7e90a3ec4d",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "631e1e4881b569c1",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "4bcde944cf36f782",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "edeb7d2bffa26d10",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "d131a1634771cd30",
+      "source": "tech_seismic_early_warning",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "7184cfe6d9f25945",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "7f98cdcb71a61cc3",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "5d8bed7803c6a0c7",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "6f63d90b30b20a02",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "7fafd3d60e7bf263",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "e3c9d105a48927c8",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "f0f224dfa2f40c53",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "00e5cc1313d95116",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "9c1f0d4abdd35179",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_noto_earthquake"
+    },
+    {
+      "id": "1ed3a560d1032862",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "c110f9bcb665420c",
+      "source": "tech_rapid_loss_estimation",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "0c0640fe34df6f78",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "c73cd92a33cb8d65",
+      "source": "tech_rapid_loss_estimation",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "98d0798f0baf404e",
+      "source": "tech_graphrag_evidence",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "6c3e8da910eb3ca4",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "e4e07b9007620505",
+      "source": "tech_rapid_loss_estimation",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "c0a621d888934b1c",
+      "source": "tech_rapid_loss_estimation",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "9bb48b574228bdd3",
+      "source": "tech_graphrag_evidence",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "8f77dc917a70b275",
+      "source": "tech_rapid_loss_estimation",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "a7ef9e80b7a2c74b",
+      "source": "tech_graphrag_evidence",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "ec2e65514e5ba754",
+      "source": "tech_rapid_loss_estimation",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "dca2de697d40ec2a",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "1466a7f541c880be",
+      "source": "tech_rapid_loss_estimation",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "71d771fb672b94f2",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "e8071fec033e2daf",
+      "source": "tech_rapid_loss_estimation",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "188a365419c10f78",
+      "source": "stage_post_quake_damage",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_turkiye_rdna"
+    },
+    {
+      "id": "301066b69611f9b8",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "bb8c7bb8eda13360",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "8eec6ebb4690cabf",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "099cf5d3ac3d1515",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "b48fdf14b4731bd5",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "ab3fcc7754653973",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "6db16c386d6d71bf",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "873fc57d202e73be",
+      "source": "tech_graphrag_evidence",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "becd55ba850bbbdd",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "7cfd7aba798b9489",
+      "source": "tech_graphrag_evidence",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "3a152a397d970fe4",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "a8786fedced5e2be",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "aa513714e51ff668",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "ef3629ce1a53754f",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "57766d325c44b7fb",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "case_turkiye_syria_earthquake"
+    },
+    {
+      "id": "922f80f6ccc50ab3",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "981913bb0e788ee0",
+      "source": "tech_llm_emergency_decision",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "5d02d61ee14e833b",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "f00bc30d624a1106",
+      "source": "tech_llm_emergency_decision",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "04cb9c67dc5d59dc",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "8a5c20fdc6891810",
+      "source": "tech_llm_emergency_decision",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "484bb2457a298cc4",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "c84585af3bacc7e2",
+      "source": "tech_llm_emergency_decision",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "aba04f982d49b12b",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "0b9f2a3d8bc0bbb6",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "168dfe4f5431de1e",
+      "source": "tech_graphrag_evidence",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "3f023083e232756f",
+      "source": "tech_llm_emergency_decision",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "f3c722d48a94a8ab",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "6a1badfba6c8692a",
+      "source": "tech_llm_emergency_decision",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "af8dcff22a29b79c",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_ai_emergency_qa"
+    },
+    {
+      "id": "24179d6e6b60c175",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "f56c366e016514ea",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "cda73a8c7ea0eb7b",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "96dd7b209229fe28",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "3d28ac0e2d02e2bb",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "020f6b174cd670bb",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "870f6f76d584278d",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "6b849b41ebe89353",
+      "source": "tech_graphrag_evidence",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "2f5ac126c02de929",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "0c14cbe4c6dae748",
+      "source": "tech_graphrag_evidence",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "38715330afdb0e0c",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "8a93dcdb5830dd7a",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "1e7d2520286770b9",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "1dd93e52ffeaafea",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "a1620670694704f9",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_bddnet_damage"
+    },
+    {
+      "id": "aa6d1ac6a749ac60",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "c504c215465a3648",
+      "source": "tech_lifeline_gnn",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "f5e8e653708e5e7f",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "9065194803e33ba4",
+      "source": "tech_lifeline_gnn",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "dc7df02a66df8709",
+      "source": "tech_graphrag_evidence",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "fa43ec8cddb5a4d6",
+      "source": "tech_lifeline_gnn",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "ce91c39cebd17cce",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "3f8d2a7452adb45d",
+      "source": "tech_lifeline_gnn",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "0d6e34070f7301e2",
+      "source": "tech_graphrag_evidence",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "46e08844790d01bc",
+      "source": "tech_lifeline_gnn",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "9b8b5cf7f39d4e7d",
+      "source": "tech_graphrag_evidence",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "31559cfe7c9d453f",
+      "source": "tech_lifeline_gnn",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "fe3e8e2358b6b481",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "867d8ae8a9ece2bf",
+      "source": "tech_lifeline_gnn",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "83e85539004dafd8",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_lifeline_resilience"
+    },
+    {
+      "id": "93cf77737b15d04e",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "3caf29cb4e3d14df",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "27e3576f3dfeab8b",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "91aaa9668e375170",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "8335384d0c4f9d08",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "7fa8b436a858b910",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "53c0692bf14266bb",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "e748b97d541964d3",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "a380162c72b5b290",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "142853868f272361",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "84e75c8fe83dcabf",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "ec7b6061376b9cbc",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "dba6b6090646f132",
+      "source": "tech_seismic_early_warning",
+      "target": "case_myshake_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "431e3b949e86e21f",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "3db2ff199a6fa11f",
+      "source": "tech_graphrag_evidence",
+      "target": "case_myshake_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "159c3db9d0bc992a",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "8afc5b1e4d90d24e",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "d86fc9ec8e9e95ad",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "1f9feeadf9dd679a",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "2ce2fc2ea4fbceaf",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "e5686d5319e448de",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "34b01d5be04bcca9",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_myshake_network"
+    },
+    {
+      "id": "55a45e7e47410465",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "f897d8a6b76edd5a",
+      "source": "tech_seismic_risk_prediction",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "cd84b5e46b9712e2",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "a165b5a6bad18f8e",
+      "source": "tech_seismic_risk_prediction",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "d52049e7e1db1a5d",
+      "source": "tech_graphrag_evidence",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "74d8ba589c2b1acf",
+      "source": "tech_seismic_risk_prediction",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "a457d2e30bca3e8b",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "691e614f8ea33177",
+      "source": "tech_seismic_risk_prediction",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "89f587bbe050c9a3",
+      "source": "tech_graphrag_evidence",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "3c869ef25b1f90e8",
+      "source": "tech_seismic_risk_prediction",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "dd079cd974c93d43",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "6bb30901db8eb506",
+      "source": "tech_seismic_risk_prediction",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "f41d76c478cedec5",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "2209c28929aa18e5",
+      "source": "tech_seismic_risk_prediction",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "d9d378ba6bd3fc8d",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_seismic_risk_prediction"
+    },
+    {
+      "id": "205ca118a50d84c2",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "6e4c377af52acaa8",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "38cff87ae974f9b3",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "72d20b17bc3aa634",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "f219bfe1de049aa4",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "b0c2b8213d8440de",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "58712bbef9818c7e",
+      "source": "tech_graphrag_evidence",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "cb4b37429157ed05",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "80872b592176aa40",
+      "source": "tech_graphrag_evidence",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "456d7ee0c2d53efa",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "440a9a6e0420619e",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "2c671da68d8e3176",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "218a3b705965cf20",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "1cdd9bad1e6986fa",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "234b284ac7aad1a1",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_transfer_learning_damage"
+    },
+    {
+      "id": "e96f5adcb8c2dd4b",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "a895949da84905df",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "e98c6ed68f96ecdc",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "c8054048ac3ecb1d",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "9bc02296fdefcc6e",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "5846848a88fd8609",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "76e3c82b6cc23c0b",
+      "source": "tech_graphrag_evidence",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "6335b415f1d0dd7e",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "42b805c811c67158",
+      "source": "tech_graphrag_evidence",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "f6932f73b72b2cde",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "95c282348b6a8fbc",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "6dd0f2426c2db860",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "9e6972831552df3a",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "22ca5ab8c1d6ec47",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "f20c5c4341fd7da7",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "paper_xbd_damage_assessment"
+    },
+    {
+      "id": "a5bd8035db444cf2",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "42fa684a189b7b8d",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "1c35d7469c80615f",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "cd9db43bd6050d70",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "445dc272168d9fca",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "task_resource_dispatch",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "1d2ad6ff11f9fa94",
+      "source": "tech_graphrag_evidence",
+      "target": "task_resource_dispatch",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "0276b39fa889c41a",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "7cd9518024ee1c94",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "e292fabccc9e712e",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "6007093c5fe5cecb",
+      "source": "tech_graphrag_evidence",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "d44a6e9a4e430699",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "case_nepal_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "4cc73514b5d78ccd",
+      "source": "tech_graphrag_evidence",
+      "target": "case_nepal_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "d75b49982ee87358",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "limit_communication_outage",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "ac4e82b29bee3fca",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_communication_outage",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "29e26b97b60eed27",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_disaster_recovery_prediction"
+    },
+    {
+      "id": "a513cf0a8bbea1cc",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "d1fb17313d6cc9f6",
+      "source": "tech_seismic_risk_prediction",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "3e7d5892fd1f6afe",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "0da2d21234a2a079",
+      "source": "tech_seismic_risk_prediction",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "b5300a95ae37c6a8",
+      "source": "tech_graphrag_evidence",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "c75453681ff4719d",
+      "source": "tech_seismic_risk_prediction",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "ae0b47f807d31bbc",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "056562f8e3946a7a",
+      "source": "tech_seismic_risk_prediction",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "5f36b146a640ac17",
+      "source": "tech_graphrag_evidence",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "6042307c0807fa07",
+      "source": "tech_seismic_risk_prediction",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "051200c6136aec31",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "1cff312b29b40d12",
+      "source": "tech_seismic_risk_prediction",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "35d6ef76d8afa62c",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "11368dd1149ef856",
+      "source": "tech_seismic_risk_prediction",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "198fd865e30ce410",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_earthquake_prediction_device"
+    },
+    {
+      "id": "f8ef4ac03df1acf4",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "18508c2d0226aa56",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "18d7f70f72c73e4e",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "db847d4e1fa69272",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "83a5c655278baa00",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "a6a0bf6a3ea0acaa",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "ca0df15c9a818bf3",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "b93eba6cf1ad2e9b",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "4414eebe286c24c9",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "27effacb8c957717",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "45922a9ce5c82c34",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "34a0cb189a239001",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "ff1f624bc630cb3e",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "0d45c06e2ba64f5d",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "39f70aa6c5f40765",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "603c4053f39c77a9",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "d47563233be6ff23",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "e681c906bcd0d556",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "328e0ac8bc8636fd",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "964de6962d9cc9bc",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_myshake_warning"
+    },
+    {
+      "id": "00c741f4b40c3593",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "09beb85e95fe17aa",
+      "source": "tech_llm_emergency_decision",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "2a92b93359d38d0d",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "39579a0e0f23048f",
+      "source": "tech_llm_emergency_decision",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "cdda9b9713c92040",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "7e75e91db04ef759",
+      "source": "tech_llm_emergency_decision",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "667845ca8d24bd09",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "7cd89826d1e2b698",
+      "source": "tech_llm_emergency_decision",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "3504829c56ec6ee0",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "319419a1584e882c",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "7f0e798b74ef4f7a",
+      "source": "tech_graphrag_evidence",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "b2b6ffd2ca7c539a",
+      "source": "tech_llm_emergency_decision",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "2e562687127952b7",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "4512416fa84cea63",
+      "source": "tech_llm_emergency_decision",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "68f8e0cc67ebcc48",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_predictive_emergency_analytics"
+    },
+    {
+      "id": "2efb0da36a089187",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "3955620c316d9836",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "6836329b18c27b32",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "3919e8cb0070b614",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "c1f9a2e367d11017",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "60448606100b795a",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "576a3cffe579fa7e",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "2ccc5fac205ee1ff",
+      "source": "tech_graphrag_evidence",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "9aab11aa48142cd9",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "fc4d2e822506c557",
+      "source": "tech_graphrag_evidence",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "ad00791a23bc0f6c",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "4bc01b04635043f2",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "c1665553fa7eb66a",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "b14e99bcf445f886",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "261e211614d14cc8",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_structural_damage_predictor"
+    },
+    {
+      "id": "cbcc50214824143c",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "7932354ada5e62d7",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "7f6649913605003c",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "5439e6e5d1169895",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "d7cc3018c72dc446",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "7864ea0dddcb5e92",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "a752d8f68693cc9d",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "6ef8e14d834aa09c",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "387f3c077c291767",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "96cfb2b87f323c62",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "eb38cbb090b3170e",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "4cc4a102a03bf702",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "85d14398b76659a0",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "8b1b11a4c3941b2e",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "4b6065aa942ddf27",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "de165a6be6a2e31f",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "1328a03fec4ec883",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "ec2611b917421ba6",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "532de0a355067a65",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "2930fce4a24c3c21",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_ai"
+    },
+    {
+      "id": "866947943e13feec",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "422d66cd87327080",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "5bc589201df0fa27",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "e4fb7ac85cf15b4d",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "9eb88ce8fe9f7878",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "119dd199773b431f",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "17bd015ab8fdd497",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "6b1b9379bbaacc30",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "51f604ea6d8dc5e8",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "9cf6e2212e232491",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "35265c66e32590ff",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "49e1c6bf5c151307",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "f38237325945cc82",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "2e98b471c5dbfe93",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "cc6bdd9bae7fe587",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "4372c8b119311ac1",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "e7b5e3ccb7b636c1",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "69b4f485a2f9338f",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "c33bf5d317bd461d",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "ea1071becf0e1498",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "patent_tw_earthquake_warning"
+    },
+    {
+      "id": "94154eafbcb94bc2",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "7f9d914eed8d9887",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "cb869e9eb64fc7ce",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "be38110ccdad9217",
+      "source": "tech_graphrag_evidence",
+      "target": "data_disaster_event",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "7767538a2eb199c6",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "2e7317adbe64d727",
+      "source": "tech_graphrag_evidence",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "97ee7743eb9af6c5",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "576e6d07d2e4c59d",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "c30b5692d5a6b0ae",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_data_governance",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_ai_governance_response"
+    },
+    {
+      "id": "7bb0fe0d0893426c",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "c97d7eb555c8279f",
+      "source": "tech_lifeline_gnn",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "347012d2d729a1d8",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "ed86310c65a27b96",
+      "source": "tech_lifeline_gnn",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "9f7db2a1ef12cfcc",
+      "source": "tech_graphrag_evidence",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "c5fc6a1c5da5113d",
+      "source": "tech_lifeline_gnn",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "4e1037156efd9565",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "a2d4c8d25c392569",
+      "source": "tech_lifeline_gnn",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "bb4cfc8494d4912f",
+      "source": "tech_graphrag_evidence",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "90948099269f50a5",
+      "source": "tech_lifeline_gnn",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "d7e3a4c0f363bfe8",
+      "source": "tech_graphrag_evidence",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "bb1fffd8f814e6ee",
+      "source": "tech_lifeline_gnn",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "648bfc90e88372aa",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "fce8eb265c489829",
+      "source": "tech_lifeline_gnn",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "42ae2ae4caa6b396",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_china_14th_drr_plan"
+    },
+    {
+      "id": "f438f6acc1524484",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "54c625b4dc82c879",
+      "source": "tech_llm_emergency_decision",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "d3eba40006abe1f3",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "97e62aa3974cdea2",
+      "source": "tech_llm_emergency_decision",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "56a311363005b004",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "a083ae99d33c5bde",
+      "source": "tech_llm_emergency_decision",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "1acb6312d1a107f6",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "27bea1d4347be476",
+      "source": "tech_llm_emergency_decision",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "2c47a14fee3dddaf",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "d91aa7ffd22dfead",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "223e14abbaf7d33c",
+      "source": "tech_graphrag_evidence",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "821e5955aecf6337",
+      "source": "tech_llm_emergency_decision",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "2dacbdb41690654f",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "a5b1a270c60400a7",
+      "source": "tech_llm_emergency_decision",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "c85e207859f8e9a7",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_china_earthquake_plan"
+    },
+    {
+      "id": "4f65b020e1789d5f",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "f01cd5598d0d17ab",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "138f4aac0db365a2",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "af5dc12c9c196fdc",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "3c4e4cf5d0311204",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "task_resource_dispatch",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "75fcf3e532908e56",
+      "source": "tech_graphrag_evidence",
+      "target": "task_resource_dispatch",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "f4ab7bda0e36a901",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "92cf0a0205d7e647",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "ff773d94db20cf49",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "bc89d4e7725a26d8",
+      "source": "tech_graphrag_evidence",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "c0d33a9dad17c33c",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "case_nepal_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "550bddee90eec844",
+      "source": "tech_graphrag_evidence",
+      "target": "case_nepal_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "f0b8264425558a24",
+      "source": "tech_rl_rescue_dispatch",
+      "target": "limit_communication_outage",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "723b3d274f5ce85a",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_communication_outage",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "01d0d2b5ee4b5464",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_fema_nims"
+    },
+    {
+      "id": "1a86ed34fbd0b817",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "77e8a3545d7cf999",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "48be7ed204daa3b5",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "8af27b6b8e433c5d",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "adf1afdd1920d408",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "0be2e93ad7b294e9",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "d8e05c6ec4a962d0",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "2eacee9a16308b10",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "1bf592396cc37ef3",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "4b672e01186ed4f8",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "238227721c7045e9",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "38325ec8ee822867",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "12d13a32b6ee37ff",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "060ab02fb1540936",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "8151e460cb121e0f",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "ad8cb7124530c9da",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "d6e05d670c2f1637",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "13a8c80e1c71ddeb",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "e37b1c54e5b61242",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "ae15325f6201e38e",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_japan_disaster_plan"
+    },
+    {
+      "id": "022e864d32d02051",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "b019c700bb6ddfa8",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "1824220a10d789c2",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "960a02d947414bcc",
+      "source": "tech_graphrag_evidence",
+      "target": "data_disaster_event",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "c8c1d78bfadc2dab",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "dfa6aa303421847f",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "9d3302448cd7fcaf",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "2f2de12ded883647",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_data_governance",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_sendai_framework_earthquake"
+    },
+    {
+      "id": "fefb86ddfb9dcbd1",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "757bfc02f25631a0",
+      "source": "tech_seismic_risk_prediction",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "3f6e5f93e234a40a",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "5b903cf3e0922ec7",
+      "source": "tech_seismic_risk_prediction",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "d6d1c9ed5cf7e4db",
+      "source": "tech_graphrag_evidence",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "c4a3d513aa41cd76",
+      "source": "tech_seismic_risk_prediction",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "e257655a828218d8",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "9665564ec78e6d1d",
+      "source": "tech_seismic_risk_prediction",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "68d8acd494076bba",
+      "source": "tech_graphrag_evidence",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "5096a1917d2b07ac",
+      "source": "tech_seismic_risk_prediction",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "a60a8867ad1a8ebd",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "af68c66153742e8c",
+      "source": "tech_seismic_risk_prediction",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "1927e504668e5080",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "8b80e38859c045ed",
+      "source": "tech_seismic_risk_prediction",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "8744411bb3b97678",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "policy_us_mitigation_framework"
+    },
+    {
+      "id": "43a1a6980e583462",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "6ba371a0114559b0",
+      "source": "tech_rapid_loss_estimation",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "bd469f1191626452",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "8f1e11ac47398257",
+      "source": "tech_rapid_loss_estimation",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "1066613de11f8b1e",
+      "source": "tech_graphrag_evidence",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "29ea1ea1c2f39540",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "dc3ff40bbdd709b7",
+      "source": "tech_rapid_loss_estimation",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "05b846c5f33f766e",
+      "source": "tech_rapid_loss_estimation",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "78999bd9c691a802",
+      "source": "tech_graphrag_evidence",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "2cb60d30eb1e57ae",
+      "source": "tech_rapid_loss_estimation",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "cd544cc0a6d725dc",
+      "source": "tech_graphrag_evidence",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "781690b09c090311",
+      "source": "tech_rapid_loss_estimation",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "dc11b5e2a97d4f1c",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "757b12291eca2a98",
+      "source": "tech_rapid_loss_estimation",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "ecf4407085011b44",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "b73e71192395cf71",
+      "source": "tech_rapid_loss_estimation",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "f9f3c8f1ad062c78",
+      "source": "stage_post_quake_damage",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_fema_hazus"
+    },
+    {
+      "id": "1f860f84178b146c",
+      "source": "tech_multimodal_situation",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "3541edb3e46dd399",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "f68cf70b8befb68c",
+      "source": "tech_multimodal_situation",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "0fc9cec8d77c9fb7",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "5e287df5c06d1c9e",
+      "source": "tech_multimodal_situation",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "cee94d1a119dea43",
+      "source": "tech_graphrag_evidence",
+      "target": "task_situation_summary",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "20030eb485ccb92f",
+      "source": "tech_multimodal_situation",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "6ecf716f210efe77",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "9e0b17de5c06e826",
+      "source": "tech_multimodal_situation",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "e58ff532ca075848",
+      "source": "tech_graphrag_evidence",
+      "target": "model_transformer",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "d51b82beee23cb72",
+      "source": "tech_multimodal_situation",
+      "target": "case_afghanistan_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "e28ac22e5d2e7d0e",
+      "source": "tech_graphrag_evidence",
+      "target": "case_afghanistan_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "b40863ef8ca5004c",
+      "source": "tech_multimodal_situation",
+      "target": "limit_data_bias",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "8432f8618d5b4adc",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_data_bias",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "caba682a8d9b1db1",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_data_governance",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_hot_osm_earthquake"
+    },
+    {
+      "id": "3147f979a7bf0d22",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "0dd19d2a2365f1a5",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "a170b47508bc1cac",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "62e6b486130c7867",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "ee65349cccba9ff4",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "8424516e9a6b5614",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "d67315305644120c",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "8ccbbc513187311d",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "1f6600e741074997",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "e06522ea39e5aa40",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "2a010a4dbdfd4156",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "545517be1a4fc60f",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "ed2217faa0f496b7",
+      "source": "tech_seismic_early_warning",
+      "target": "case_myshake_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "4b1b49c3084fbc13",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "e24847fe68831408",
+      "source": "tech_graphrag_evidence",
+      "target": "case_myshake_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "7d86a2bd068e24b3",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "51ce5c3848dd17a8",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "91173a8981b8251f",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "835262048770b1e0",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "92f07b70c5c7ec66",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "b815b8249829a95b",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "f59d792a3270ea7e",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_myshake"
+    },
+    {
+      "id": "c7bc30292041e0f1",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "960679fa62fd1b08",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "ab68ddf351efc756",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "fd74e7e3d03838af",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "8d4bd0c9625279e4",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "855e29689ff7b7c7",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "e15751a5500d3092",
+      "source": "tech_graphrag_evidence",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "08f94cf566812214",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "d6c9b3a3cccccd80",
+      "source": "tech_graphrag_evidence",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "6e6ed45915a7e24a",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "dc4cb530fc3f3177",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "7d2542d55e2c36bb",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "8cf2803bc98f9337",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "f17ff2064f778f81",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "ea8e0f577b45d966",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_nasa_earthquake_response"
+    },
+    {
+      "id": "4a93cc17c58d40ea",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "36917590ba824792",
+      "source": "tech_seismic_risk_prediction",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "9c0d5ba0164c1c5f",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "7c807647fa4b25f8",
+      "source": "tech_seismic_risk_prediction",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "06ee7434d256a790",
+      "source": "tech_graphrag_evidence",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "c5275bbc35df1a24",
+      "source": "tech_seismic_risk_prediction",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "b55390a8c6fbbae4",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "0b4c98a048e7c8c3",
+      "source": "tech_seismic_risk_prediction",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "5409ea761870b255",
+      "source": "tech_graphrag_evidence",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "7b744dbbd1c14645",
+      "source": "tech_seismic_risk_prediction",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "868f5b30a291fcce",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "4c88cab0efa06eb2",
+      "source": "tech_seismic_risk_prediction",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "390aecda50b268a2",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "b6135fc949b5ff3e",
+      "source": "tech_seismic_risk_prediction",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "4f0393a6e7939086",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_openquake"
+    },
+    {
+      "id": "e11cfd05dcc863d6",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "7c06fa64e79f6d7f",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "f945c75e90a0eb32",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "5bc7aabfbc0caf96",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "811c302c514ab7f5",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "59f96f888de7daaa",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "19ae7cf4155a648a",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "61926834020b3ad1",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "c12db2dccf13fd0e",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "86804fbede8c6580",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "35105e0ffd116fb2",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "07f3e021ec44a719",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "72d608aff24b9057",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "090b2d24d6efe7ec",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "cb8db7ba13588910",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "780542031270d94d",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "52e2bb06c6ae5408",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "08150ac004de88d4",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "812d9f40cc038624",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "ae4a10ec46e25bee",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_shakealert"
+    },
+    {
+      "id": "a8903381e92efc56",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "2753fa20bcc1c94c",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "594542cd2b15fd2b",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "3abaafc3cbab6bc8",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "ad161580acf1f470",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "d984ac6641d565ea",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "76733cf0ebeeee85",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "c94df9e4ba663267",
+      "source": "tech_graphrag_evidence",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "2a1d3ff8b35dd948",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "d3f782b7b3464bfb",
+      "source": "tech_graphrag_evidence",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "cd24cf64a209b319",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "e9767c4760881d74",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "13ef0e7f697c8e3a",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "647b598770748697",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "f15a534241ce2e78",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "project_xview2_earthquake"
+    },
+    {
+      "id": "0a5165543eace490",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "864ef23d3b1af029",
+      "source": "tech_lifeline_gnn",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "935d4175f63b0d24",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "81568173991d24cd",
+      "source": "tech_lifeline_gnn",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "8a3310bd576024f1",
+      "source": "tech_graphrag_evidence",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "489bb40d175a53d9",
+      "source": "tech_lifeline_gnn",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "36ce6cc700d61065",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "76087c156773d52d",
+      "source": "tech_lifeline_gnn",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "9887a23ee037ab88",
+      "source": "tech_graphrag_evidence",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "d08b8814c046735b",
+      "source": "tech_lifeline_gnn",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "619632ecf7156a7b",
+      "source": "tech_graphrag_evidence",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "fadcc00d2cfad45d",
+      "source": "tech_lifeline_gnn",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "04f6c7ca4aad5e4e",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "b56a955f58e81b51",
+      "source": "tech_lifeline_gnn",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "38800034c93659b9",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_cdri_giri"
+    },
+    {
+      "id": "76ab57b4cbd3ac0c",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "c7a5cd3c72cd46bb",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "45ae4dafb4b2489f",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "f60e4640cfd735b0",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "48264d38b7ef81b3",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "e2497722c874411a",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "40df486dfdf0a063",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "2b1c249037e62c6a",
+      "source": "tech_graphrag_evidence",
+      "target": "data_building_footprint",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "fdf50062a10ae3dd",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "c84098ee50894a39",
+      "source": "tech_graphrag_evidence",
+      "target": "model_cnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "1ceb1d958655ef24",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "4276fad20d9303b2",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "b015a67def826aad",
+      "source": "tech_post_earthquake_damage_cv",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "a1d52d989e05914a",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_label_scarcity",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "56c43a97a6f6bde7",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_fema_building_codes"
+    },
+    {
+      "id": "ea436877ba796f80",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "49b2407cac606ca9",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "1f3f1f6a8f110261",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "10460a44e13fe341",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "stage_post_quake_damage",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "9390ccb9261042d8",
+      "source": "tech_graphrag_evidence",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "d550ed70120a180b",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "task_damage_assessment",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "f4e1212aaca86065",
+      "source": "tech_graphrag_evidence",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "7b270ea338e504b3",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "data_remote_sensing",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "5147a4821d14d3e2",
+      "source": "tech_graphrag_evidence",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "ab3ef3f9c02a417f",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "model_unet",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "8bd4b3271882181b",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "ab1e06d0cd2041cc",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "35db59c04596ee2d",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "7d7a2d1c16c5c5f8",
+      "source": "tech_remote_sensing_eq_damage",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "8173ed3151b3e5e4",
+      "source": "stage_post_quake_damage",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_gfdrr_ml_drm"
+    },
+    {
+      "id": "b7783a13eb412d0c",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "e4415c0578f0e5e2",
+      "source": "tech_llm_emergency_decision",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "300d7588b060213c",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "5e23f34d958c6511",
+      "source": "tech_llm_emergency_decision",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "d4b6d9a1394f46da",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "cf17489596b08da8",
+      "source": "tech_llm_emergency_decision",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "01b3b2fd4c21dcdf",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "9a136e7601f424cb",
+      "source": "tech_llm_emergency_decision",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "5e4b64bfceebb9de",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "ee963d0072b94951",
+      "source": "tech_graphrag_evidence",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "f4d08d1cb1a5fbb2",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "3693c4be8566a419",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "3571aa71bb36be77",
+      "source": "tech_graphrag_evidence",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "702db93841d355a3",
+      "source": "tech_llm_emergency_decision",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "8f3ccd731910d2fb",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "8cbc8d031157b8fc",
+      "source": "tech_llm_emergency_decision",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "9deca8b9fbe4c5bd",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_gfdrr_responsible_ai"
+    },
+    {
+      "id": "a8d1ed35a7d17090",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "3da67d62561a7b01",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "cf178eb9430cb50c",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "29f137be45fd19a5",
+      "source": "tech_graphrag_evidence",
+      "target": "data_disaster_event",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "3d039fb08129423c",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "38a048a28c17cf43",
+      "source": "tech_graphrag_evidence",
+      "target": "case_turkiye_syria_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "7aca1e1f587af54c",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "56e8ac34f4329b77",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_data_governance",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_jrc_ai_drm"
+    },
+    {
+      "id": "20028cc939542c74",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "ae485d039ccf4299",
+      "source": "tech_seismic_risk_prediction",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "f10b0a0c3a10f01f",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "65b3225e9eec9be7",
+      "source": "tech_seismic_risk_prediction",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "16d9df2093a33656",
+      "source": "tech_graphrag_evidence",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "ea293153d2c8ccf3",
+      "source": "tech_seismic_risk_prediction",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "7b174d383c980f3c",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "4ad6dd2830ecdcc5",
+      "source": "tech_seismic_risk_prediction",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "ca3699337862784e",
+      "source": "tech_graphrag_evidence",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "e7cb5083a74a78f6",
+      "source": "tech_seismic_risk_prediction",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "b4cc57e1b559e25b",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "89bcdfa0f5b52b69",
+      "source": "tech_seismic_risk_prediction",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "1924557343b4f493",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "4b5f1a6b16474709",
+      "source": "tech_seismic_risk_prediction",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "3e003ade5440b394",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_undrr_gar2025"
+    },
+    {
+      "id": "3b01caf23b794238",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "e5d9223e1de6c62b",
+      "source": "tech_lifeline_gnn",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "ed6ef2aab94eed5f",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "24f9a2743a8289ff",
+      "source": "tech_lifeline_gnn",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "d9901fa60d5fac2c",
+      "source": "tech_graphrag_evidence",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "19dad1a818c7676f",
+      "source": "tech_lifeline_gnn",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "5a0641ed905b06ad",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "c7ae93737763bc0c",
+      "source": "tech_lifeline_gnn",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "96c1e111f1833615",
+      "source": "tech_graphrag_evidence",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "bdf04b6f3904178f",
+      "source": "tech_graphrag_evidence",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "9b1e9a6677f1ba10",
+      "source": "tech_lifeline_gnn",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "c004a9e74c777026",
+      "source": "tech_lifeline_gnn",
+      "target": "model_rl",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "3185855dba1c2bba",
+      "source": "tech_graphrag_evidence",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "548a98462b2cde42",
+      "source": "tech_lifeline_gnn",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "313cb781bf081ac0",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "c2e4d39afd09af4d",
+      "source": "tech_lifeline_gnn",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "c52a7b3fac6d0a3d",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "report_worldbank_lifelines"
+    },
+    {
+      "id": "7c6b4e2046b79094",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "10fa9675602ec499",
+      "source": "tech_llm_emergency_decision",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "9b89b8bad5b79f3a",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "6b936fa8d88c8c71",
+      "source": "tech_llm_emergency_decision",
+      "target": "stage_post_quake_dispatch",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "076468a880904305",
+      "source": "tech_graphrag_evidence",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "144c13ffded4637c",
+      "source": "tech_llm_emergency_decision",
+      "target": "task_evidence_qa",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "298372184b1befd5",
+      "source": "tech_graphrag_evidence",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "c6b1f1fad357e27d",
+      "source": "tech_llm_emergency_decision",
+      "target": "data_social_media",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "55bd22704abf4341",
+      "source": "tech_graphrag_evidence",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "81d4dd2a7d603122",
+      "source": "tech_llm_emergency_decision",
+      "target": "model_llm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "8179d45d1581bb23",
+      "source": "tech_graphrag_evidence",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "0025b5d79f0d6ba9",
+      "source": "tech_llm_emergency_decision",
+      "target": "case_haiti_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "9bf022e8a98b37db",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "07a320c4cef0f117",
+      "source": "tech_llm_emergency_decision",
+      "target": "limit_hallucination",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "72e6d8bc8f672875",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "216095bd8455ca5c",
+      "source": "stage_post_quake_dispatch",
+      "target": "policy_earthquake_emergency_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22320_incident_management"
+    },
+    {
+      "id": "404a4d79b996b78e",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "6070a987e40e8927",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "73e5d4e1948366e0",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "97c1562da4bfe46e",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "403ffb22986b1ac7",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "3a0c32d06915459c",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "2abffa2f427bd70d",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "aaf75a16c0f6f57a",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "2106adf849a5a2a4",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "c9350f6a79ad8236",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "3d75cfecafff942c",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "e4b575b8f97538b4",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "90184cc2aff0384d",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "e0483e37ccb40eae",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "0a053bdfbe45bcf9",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "8d01c60634476ad7",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "633724e0f585940e",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "5fbdb16c59325463",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "ae616351a69ae8b6",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "07457fe0d8bea329",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22322_public_warning"
+    },
+    {
+      "id": "bdf68d7ca11adb13",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "a01a1245acf63b0d",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "d092ca43d31b4a42",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "fdc7198d628257a7",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "d4dc1142810358e5",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "c4a39322b3b8fe5b",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "0a23ce9763e3c247",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "b5ac77197e651ee3",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "099670a893c78a86",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "a724838fe2f15068",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "3a9bfc8ac6876601",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "396f7738796a5f11",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "627bead48830fc53",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "a226edef6ee95618",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "f333b7e3116c02b3",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "9834b7e32160ef4a",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "4a2797516758f422",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "f1af4398a8b613ae",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "f75cf582a75cc45f",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "5d95532db59ad4d6",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_22324_colour_alerts"
+    },
+    {
+      "id": "90a3bb03440c5303",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "a668f5c505523372",
+      "source": "tech_seismic_risk_prediction",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "25fb8c9bdceb261d",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "5efd3207ca264621",
+      "source": "tech_seismic_risk_prediction",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "c223dafb86e1e735",
+      "source": "tech_graphrag_evidence",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "b533a1107b69a622",
+      "source": "tech_seismic_risk_prediction",
+      "target": "task_seismic_risk_prediction",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "e13b64ec1b8e4c85",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "b86cdcc8d050898c",
+      "source": "tech_seismic_risk_prediction",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "d6e3e186dd78d8cf",
+      "source": "tech_graphrag_evidence",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "548dd3911086f19a",
+      "source": "tech_seismic_risk_prediction",
+      "target": "model_lstm",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "1b71bf9e0adfebbe",
+      "source": "tech_graphrag_evidence",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "96aa0f640256fdd6",
+      "source": "tech_seismic_risk_prediction",
+      "target": "case_noto_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "8fa6ac59fd2e6b93",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "a5398c1d70b35c37",
+      "source": "tech_seismic_risk_prediction",
+      "target": "limit_generalization",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "20778e8fe7158b22",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "6423fc29a7b533ce",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_31000_risk"
+    },
+    {
+      "id": "963d8aa7d48923c2",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "57dbd49b5bf70aae",
+      "source": "tech_lifeline_gnn",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "0648bd8b073a49ad",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "e459a59f3fa016e8",
+      "source": "tech_lifeline_gnn",
+      "target": "stage_seismic_risk_assessment",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "3535d989554234f7",
+      "source": "tech_graphrag_evidence",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "20e8f8f7cc242667",
+      "source": "tech_lifeline_gnn",
+      "target": "task_lifeline_risk",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "40abd1a1c8b62e9b",
+      "source": "tech_graphrag_evidence",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "80c893649ab9d5fe",
+      "source": "tech_lifeline_gnn",
+      "target": "data_lifeline_assets",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "0e94bf48e4688ed8",
+      "source": "tech_graphrag_evidence",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "22cb420e7e3fd0ea",
+      "source": "tech_lifeline_gnn",
+      "target": "model_gnn",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "320aaf2f66f0bcd7",
+      "source": "tech_graphrag_evidence",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "1be40a807b49039d",
+      "source": "tech_lifeline_gnn",
+      "target": "case_morocco_earthquake",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "092c7f66e3da320e",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "6c4adb9dc45ad34e",
+      "source": "tech_lifeline_gnn",
+      "target": "limit_explainability",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "e309e1dca289c1d8",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "37761cb90145cbb5",
+      "source": "stage_seismic_risk_assessment",
+      "target": "policy_seismic_risk_plan",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_iso_37123_resilient_cities"
+    },
+    {
+      "id": "c2abac30ef89053a",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "0a504ae44433e6d1",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "5d6c99dd14b2aaa1",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "391100ee4922b719",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "01a135ba210af807",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "0df6f7d89a8fb5f4",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "2c84c1a987540d3c",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "5547ba7006d9efcc",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "7eed794b5548bfeb",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "3b89ad435d50eda9",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "ed034f3c8e92646b",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "3d7f357540be042a",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "0e632df780b25c1b",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "65c4a7217e7bd3d9",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "e229f554f2405d81",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "c5ed5034b352ec70",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "2e7526ae11fdee03",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "de47759cfb77cdf5",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "9853624c27108d70",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "3f430471157b3bf6",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_oasis_cap"
+    },
+    {
+      "id": "35e6b122edad7ccc",
+      "source": "tech_seismic_early_warning",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "ec99d4e555011550",
+      "source": "tech_graphrag_evidence",
+      "target": "hazard_earthquake",
+      "type": "APPLIES_TO",
+      "confidence": 0.72,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "904642c805f8c793",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "1a08229fe5ebab09",
+      "source": "tech_seismic_early_warning",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "8409ab84505bb121",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_seismic_monitoring",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "4eb16a3cbb01dced",
+      "source": "tech_graphrag_evidence",
+      "target": "stage_earthquake_warning",
+      "type": "SERVES_STAGE",
+      "confidence": 0.68,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "46d3de7ca69fbda6",
+      "source": "tech_seismic_early_warning",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "057407999954325b",
+      "source": "tech_graphrag_evidence",
+      "target": "task_earthquake_warning",
+      "type": "SOLVES",
+      "confidence": 0.7,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "640e174836ddaeb9",
+      "source": "tech_seismic_early_warning",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "e71e18918fba981f",
+      "source": "tech_graphrag_evidence",
+      "target": "data_seismic_network",
+      "type": "DEPENDS_ON",
+      "confidence": 0.66,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "b2e568abd3a18721",
+      "source": "tech_seismic_early_warning",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "970ae7ca79182742",
+      "source": "tech_graphrag_evidence",
+      "target": "model_ml",
+      "type": "USES_MODEL",
+      "confidence": 0.64,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "50cee5645c94f801",
+      "source": "tech_seismic_early_warning",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "2d3628e77635a0a5",
+      "source": "tech_graphrag_evidence",
+      "target": "case_shakealert_warning",
+      "type": "VALIDATED_IN",
+      "confidence": 0.62,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "a3243a99841bde40",
+      "source": "tech_seismic_early_warning",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "c241addeee107d6c",
+      "source": "tech_graphrag_evidence",
+      "target": "limit_deployment",
+      "type": "LIMITED_BY",
+      "confidence": 0.6,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "3b1f918105ad76a6",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "02ef225d8c69d535",
+      "source": "stage_seismic_monitoring",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "dba3c427b57e8498",
+      "source": "stage_earthquake_warning",
+      "target": "policy_technical_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_ogc_sensorthings"
+    },
+    {
+      "id": "7c7f276e14094687",
+      "source": "stage_earthquake_warning",
+      "target": "policy_earthquake_warning_standard",
+      "type": "REQUIRED_BY",
+      "confidence": 0.58,
+      "doc_id": "standard_ogc_sensorthings"
+    }
+  ]
+}

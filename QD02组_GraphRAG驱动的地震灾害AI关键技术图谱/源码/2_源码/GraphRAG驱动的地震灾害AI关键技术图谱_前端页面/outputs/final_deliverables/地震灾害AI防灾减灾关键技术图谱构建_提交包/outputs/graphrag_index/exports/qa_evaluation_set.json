@@ -1,0 +1,58 @@
+[
+  {
+    "question_id": "q_global_001",
+    "mode": "global",
+    "question": "地震灾害AI防灾减灾领域有哪些关键技术社区？",
+    "expected_answer_focus": "应综合 community_reports，列出地震专题技术社区、代表证据和待复核问题。",
+    "expected_evidence": "C001;C002;C003;C004;C005",
+    "review_status": "pending"
+  },
+  {
+    "question_id": "q_gap_001",
+    "mode": "gap",
+    "question": "地震灾害场景下哪些AI技术缺少真实案例验证？",
+    "expected_answer_focus": "应依据 VALIDATED_IN 缺失情况返回需补地震案例验证的技术。",
+    "expected_evidence": "key_technology_assessment.csv",
+    "review_status": "pending"
+  },
+  {
+    "question_id": "q_local_001",
+    "mode": "local",
+    "question": "地震证据图谱GraphRAG在地震灾害防灾减灾中的证据链是什么？",
+    "expected_answer_focus": "应返回相关实体、关系类型、来源文档、证据片段和置信度。",
+    "expected_evidence": "79f51a5680c1580d;2363ef646f2659d6;2584a9f3a3d13d6f;85eee34f6a10b505;22a9e9958aad317e;c07cdd479a5ded58;aa30e17a340efce9;ca76995849aca089;28736d23e9ba0c25;3d7c25fc052fea47",
+    "review_status": "pending"
+  },
+  {
+    "question_id": "q_local_002",
+    "mode": "local",
+    "question": "地震早期预警在地震灾害防灾减灾中的证据链是什么？",
+    "expected_answer_focus": "应返回相关实体、关系类型、来源文档、证据片段和置信度。",
+    "expected_evidence": "e419bbb1b47721fd;edfb338837c0a0fc;e99cb3e1fa8b97dc;e184fdde4c9b1798;5c3c4d7e90a3ec4d;4bcde944cf36f782;d131a1634771cd30;7184cfe6d9f25945;6f63d90b30b20a02;93cf77737b15d04e",
+    "review_status": "pending"
+  },
+  {
+    "question_id": "q_local_003",
+    "mode": "local",
+    "question": "地震应急辅助决策在地震灾害防灾减灾中的证据链是什么？",
+    "expected_answer_focus": "应返回相关实体、关系类型、来源文档、证据片段和置信度。",
+    "expected_evidence": "873e784d9d7c7a8b;6dda2c4c78137396;a5024fdaf02c23ac;86be5f7a36a03740;f73526cbfd0a7c75;a69d5ed49d6d838c;95cf56d0312afcd5;981913bb0e788ee0;f00bc30d624a1106;8a5c20fdc6891810",
+    "review_status": "pending"
+  },
+  {
+    "question_id": "q_local_004",
+    "mode": "local",
+    "question": "生命线震损风险传播GNN在地震灾害防灾减灾中的证据链是什么？",
+    "expected_answer_focus": "应返回相关实体、关系类型、来源文档、证据片段和置信度。",
+    "expected_evidence": "0f72decac03cf208;c79eb1a73fa50f78;8052664096545ec7;ff935e99f0f9038b;a2ed7717f9a68206;209ca78e47ffe1a8;8092597edcc18366;c504c215465a3648;9065194803e33ba4;fa43ec8cddb5a4d6",
+    "review_status": "pending"
+  },
+  {
+    "question_id": "q_local_005",
+    "mode": "local",
+    "question": "地震风险时空预测在地震灾害防灾减灾中的证据链是什么？",
+    "expected_answer_focus": "应返回相关实体、关系类型、来源文档、证据片段和置信度。",
+    "expected_evidence": "f897d8a6b76edd5a;a165b5a6bad18f8e;74d8ba589c2b1acf;691e614f8ea33177;3c869ef25b1f90e8;6bb30901db8eb506;2209c28929aa18e5;d1fb17313d6cc9f6;0da2d21234a2a079;c75453681ff4719d",
+    "review_status": "pending"
+  }
+]

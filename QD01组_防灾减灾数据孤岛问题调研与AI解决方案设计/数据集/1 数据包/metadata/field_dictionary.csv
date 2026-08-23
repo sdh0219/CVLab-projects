@@ -1,0 +1,13 @@
+﻿file,field,meaning,source_status
+weather_noaa_daily_summaries_clean.csv,date,NOAA daily observation date,real
+weather_noaa_daily_summaries_clean.csv,precipitation,Daily precipitation value from NOAA daily summaries,real
+weather_noaa_daily_summaries_clean.csv,temp_max_c/temp_min_c,Daily max/min temperature in Celsius,real
+disaster_fema_la_county_clean.csv,disasterNumber,FEMA disaster declaration number,real
+disaster_fema_la_county_clean.csv,incidentType,FEMA incident type,real
+earthquake_usgs_la_region_clean.csv,mag,Earthquake magnitude,real
+earthquake_usgs_la_region_clean.csv,latitude/longitude,Epicenter coordinates,real
+population_svi_la_county.geojson,RPL_THEMES / SVI_SCORE,Social vulnerability index-like fallback score,fallback_simulated
+emergency_fire_ems_stations_la.geojson,NAME / resource_type,Emergency fire/EMS facility name/type,fallback_simulated unless replaced by real download
+emergency_hospitals_la.geojson,NAME / resource_type,Hospital or medical center name/type,fallback_simulated unless replaced by real download
+landslide_cgs_la_county.geojson,LANDSLIDE_TYPE / CONFIDENCE / ACTIVITY,Landslide inventory-like attributes,fallback_simulated
+unified_hazard_events.csv,source_status,Indicates whether each record is real_downloaded or simulated_fallback,mixed

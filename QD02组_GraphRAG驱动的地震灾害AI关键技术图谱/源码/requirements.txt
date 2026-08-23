@@ -1,0 +1,5 @@
+﻿python-docx
+networkx
+pandas
+numpy
+pydantic

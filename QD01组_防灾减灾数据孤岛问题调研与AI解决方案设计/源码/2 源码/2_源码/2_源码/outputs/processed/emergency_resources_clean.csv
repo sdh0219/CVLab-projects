@@ -1,0 +1,456 @@
+﻿resource_id,resource_name,resource_type,address,city,latitude,longitude,source_agency,source_status
+1,Fallback Fire/EMS Station 001,fire_ems,5863 Example Ave,Burbank,34.385286,-118.399083,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+2,Fallback Fire/EMS Station 002,fire_ems,6638 Example Ave,Whittier,34.001771,-118.307258,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+3,Fallback Fire/EMS Station 003,fire_ems,466 Example Ave,Torrance,33.848272,-118.490681,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+4,Fallback Fire/EMS Station 004,fire_ems,3350 Example Ave,Pasadena,33.740533,-117.834286,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+5,Fallback Fire/EMS Station 005,fire_ems,8900 Example Ave,Los Angeles,33.904914,-117.955153,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+6,Fallback Fire/EMS Station 006,fire_ems,7361 Example Ave,Lancaster,33.787292,-118.298767,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+7,Fallback Fire/EMS Station 007,fire_ems,8071 Example Ave,Glendale,34.144729,-118.087023,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+8,Fallback Fire/EMS Station 008,fire_ems,7904 Example Ave,Lancaster,33.708186,-118.744635,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+9,Fallback Fire/EMS Station 009,fire_ems,2235 Example Ave,Pasadena,34.43878,-117.83779,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+10,Fallback Fire/EMS Station 010,fire_ems,5300 Example Ave,Glendale,34.424022,-118.106373,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+11,Fallback Fire/EMS Station 011,fire_ems,9907 Example Ave,Santa Monica,34.359881,-118.10261,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+12,Fallback Fire/EMS Station 012,fire_ems,1382 Example Ave,Long Beach,34.375831,-118.245577,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+13,Fallback Fire/EMS Station 013,fire_ems,1649 Example Ave,Lancaster,34.165539,-118.39733,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+14,Fallback Fire/EMS Station 014,fire_ems,3054 Example Ave,Long Beach,34.071737,-118.176516,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+15,Fallback Fire/EMS Station 015,fire_ems,6324 Example Ave,Torrance,33.707826,-118.589963,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+16,Fallback Fire/EMS Station 016,fire_ems,2803 Example Ave,Glendale,34.495456,-118.252508,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+17,Fallback Fire/EMS Station 017,fire_ems,3007 Example Ave,Long Beach,34.00836,-118.016205,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+18,Fallback Fire/EMS Station 018,fire_ems,4022 Example Ave,Glendale,34.322696,-117.92444,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+19,Fallback Fire/EMS Station 019,fire_ems,9437 Example Ave,Whittier,34.358978,-118.708772,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+20,Fallback Fire/EMS Station 020,fire_ems,3390 Example Ave,Lancaster,34.062479,-117.854217,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+21,Fallback Fire/EMS Station 021,fire_ems,8528 Example Ave,Lancaster,34.239054,-118.637724,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+22,Fallback Fire/EMS Station 022,fire_ems,7692 Example Ave,Burbank,34.397597,-118.584797,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+23,Fallback Fire/EMS Station 023,fire_ems,5299 Example Ave,Lancaster,34.02319,-118.663521,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+24,Fallback Fire/EMS Station 024,fire_ems,4572 Example Ave,Santa Monica,34.027298,-118.280929,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+25,Fallback Fire/EMS Station 025,fire_ems,800 Example Ave,Santa Monica,34.272878,-118.320239,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+26,Fallback Fire/EMS Station 026,fire_ems,6423 Example Ave,Los Angeles,34.265067,-118.081175,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+27,Fallback Fire/EMS Station 027,fire_ems,2236 Example Ave,Pasadena,33.896098,-118.020677,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+28,Fallback Fire/EMS Station 028,fire_ems,782 Example Ave,Pomona,33.79273,-118.625839,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+29,Fallback Fire/EMS Station 029,fire_ems,5626 Example Ave,Los Angeles,33.853922,-118.688155,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+30,Fallback Fire/EMS Station 030,fire_ems,5776 Example Ave,Long Beach,34.480943,-117.96929,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+31,Fallback Fire/EMS Station 031,fire_ems,2965 Example Ave,Whittier,34.549839,-118.253178,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+32,Fallback Fire/EMS Station 032,fire_ems,5133 Example Ave,Los Angeles,34.450092,-117.897187,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+33,Fallback Fire/EMS Station 033,fire_ems,2895 Example Ave,Pomona,34.424826,-118.524991,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+34,Fallback Fire/EMS Station 034,fire_ems,4994 Example Ave,Los Angeles,34.28878,-117.974187,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+35,Fallback Fire/EMS Station 035,fire_ems,4723 Example Ave,Long Beach,34.260169,-117.782226,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+36,Fallback Fire/EMS Station 036,fire_ems,2442 Example Ave,Lancaster,34.274241,-118.309928,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+37,Fallback Fire/EMS Station 037,fire_ems,9903 Example Ave,Glendale,34.114424,-118.333871,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+38,Fallback Fire/EMS Station 038,fire_ems,8646 Example Ave,Lancaster,33.708846,-118.360613,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+39,Fallback Fire/EMS Station 039,fire_ems,1861 Example Ave,Los Angeles,34.221361,-117.932621,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+40,Fallback Fire/EMS Station 040,fire_ems,2178 Example Ave,Pasadena,34.534414,-118.626555,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+41,Fallback Fire/EMS Station 041,fire_ems,7120 Example Ave,Los Angeles,34.440776,-117.810789,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+42,Fallback Fire/EMS Station 042,fire_ems,2440 Example Ave,Pasadena,33.82391,-117.935178,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+43,Fallback Fire/EMS Station 043,fire_ems,1403 Example Ave,Torrance,34.095897,-118.586665,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+44,Fallback Fire/EMS Station 044,fire_ems,7230 Example Ave,Pomona,34.216485,-118.390852,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+45,Fallback Fire/EMS Station 045,fire_ems,3264 Example Ave,Burbank,33.716264,-118.30237,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+46,Fallback Fire/EMS Station 046,fire_ems,9101 Example Ave,Pomona,34.089745,-118.052739,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+47,Fallback Fire/EMS Station 047,fire_ems,9625 Example Ave,Whittier,34.360554,-118.255478,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+48,Fallback Fire/EMS Station 048,fire_ems,8423 Example Ave,Pomona,34.276142,-118.436375,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+49,Fallback Fire/EMS Station 049,fire_ems,4421 Example Ave,Pasadena,34.388396,-118.431908,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+50,Fallback Fire/EMS Station 050,fire_ems,1626 Example Ave,Santa Monica,33.743449,-118.671195,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+51,Fallback Fire/EMS Station 051,fire_ems,6957 Example Ave,Torrance,33.814079,-117.974596,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+52,Fallback Fire/EMS Station 052,fire_ems,2426 Example Ave,Glendale,34.320891,-118.402455,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+53,Fallback Fire/EMS Station 053,fire_ems,4977 Example Ave,Pasadena,34.465962,-117.783245,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+54,Fallback Fire/EMS Station 054,fire_ems,8651 Example Ave,Whittier,34.005142,-118.071671,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+55,Fallback Fire/EMS Station 055,fire_ems,366 Example Ave,Santa Monica,33.930754,-118.359338,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+56,Fallback Fire/EMS Station 056,fire_ems,2532 Example Ave,Burbank,34.363386,-118.300906,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+57,Fallback Fire/EMS Station 057,fire_ems,1871 Example Ave,Burbank,33.964797,-117.861104,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+58,Fallback Fire/EMS Station 058,fire_ems,257 Example Ave,Santa Monica,34.269249,-118.304831,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+59,Fallback Fire/EMS Station 059,fire_ems,2032 Example Ave,Pomona,34.120313,-117.793448,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+60,Fallback Fire/EMS Station 060,fire_ems,8001 Example Ave,Lancaster,34.417656,-117.935995,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+61,Fallback Fire/EMS Station 061,fire_ems,3127 Example Ave,Glendale,33.815414,-118.178546,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+62,Fallback Fire/EMS Station 062,fire_ems,1752 Example Ave,Pomona,34.48257,-118.404945,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+63,Fallback Fire/EMS Station 063,fire_ems,4316 Example Ave,Los Angeles,34.504146,-118.29133,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+64,Fallback Fire/EMS Station 064,fire_ems,8426 Example Ave,Los Angeles,34.120892,-117.827631,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+65,Fallback Fire/EMS Station 065,fire_ems,2806 Example Ave,Glendale,34.22794,-118.548794,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+66,Fallback Fire/EMS Station 066,fire_ems,4346 Example Ave,Glendale,34.418185,-118.584921,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+67,Fallback Fire/EMS Station 067,fire_ems,1405 Example Ave,Pasadena,34.097315,-118.325237,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+68,Fallback Fire/EMS Station 068,fire_ems,248 Example Ave,Los Angeles,33.7574,-118.162736,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+69,Fallback Fire/EMS Station 069,fire_ems,6170 Example Ave,Burbank,34.07704,-118.371457,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+70,Fallback Fire/EMS Station 070,fire_ems,9212 Example Ave,Burbank,33.833821,-118.469088,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+71,Fallback Fire/EMS Station 071,fire_ems,2014 Example Ave,Long Beach,33.70512,-118.310974,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+72,Fallback Fire/EMS Station 072,fire_ems,6364 Example Ave,Burbank,34.425885,-117.949297,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+73,Fallback Fire/EMS Station 073,fire_ems,2882 Example Ave,Los Angeles,34.102922,-118.114179,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+74,Fallback Fire/EMS Station 074,fire_ems,8032 Example Ave,Pasadena,34.021918,-117.91665,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+75,Fallback Fire/EMS Station 075,fire_ems,2407 Example Ave,Glendale,34.062142,-117.992767,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+76,Fallback Fire/EMS Station 076,fire_ems,5947 Example Ave,Los Angeles,34.256065,-118.370721,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+77,Fallback Fire/EMS Station 077,fire_ems,3397 Example Ave,Long Beach,33.98607,-118.087807,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+78,Fallback Fire/EMS Station 078,fire_ems,2235 Example Ave,Pomona,34.097732,-118.182074,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+79,Fallback Fire/EMS Station 079,fire_ems,575 Example Ave,Santa Monica,34.260602,-118.375041,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+80,Fallback Fire/EMS Station 080,fire_ems,4809 Example Ave,Lancaster,34.465559,-118.368581,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+81,Fallback Fire/EMS Station 081,fire_ems,9722 Example Ave,Burbank,34.300215,-118.040496,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+82,Fallback Fire/EMS Station 082,fire_ems,868 Example Ave,Whittier,34.310689,-118.401901,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+83,Fallback Fire/EMS Station 083,fire_ems,7774 Example Ave,Pasadena,33.871139,-118.322709,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+84,Fallback Fire/EMS Station 084,fire_ems,1418 Example Ave,Pasadena,34.329586,-118.401603,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+85,Fallback Fire/EMS Station 085,fire_ems,1862 Example Ave,Los Angeles,34.281629,-118.334214,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+86,Fallback Fire/EMS Station 086,fire_ems,2084 Example Ave,Los Angeles,33.742108,-118.526726,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+87,Fallback Fire/EMS Station 087,fire_ems,6198 Example Ave,Pasadena,33.803276,-117.918986,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+88,Fallback Fire/EMS Station 088,fire_ems,9125 Example Ave,Los Angeles,34.404143,-118.005441,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+89,Fallback Fire/EMS Station 089,fire_ems,297 Example Ave,Burbank,34.184279,-118.326827,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+90,Fallback Fire/EMS Station 090,fire_ems,1698 Example Ave,Burbank,34.49585,-118.282564,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+91,Fallback Fire/EMS Station 091,fire_ems,5978 Example Ave,Los Angeles,33.887559,-117.941264,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+92,Fallback Fire/EMS Station 092,fire_ems,3931 Example Ave,Long Beach,33.90195,-118.547668,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+93,Fallback Fire/EMS Station 093,fire_ems,3006 Example Ave,Glendale,34.496321,-118.293594,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+94,Fallback Fire/EMS Station 094,fire_ems,1820 Example Ave,Lancaster,34.385721,-118.378036,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+95,Fallback Fire/EMS Station 095,fire_ems,6761 Example Ave,Torrance,34.104276,-117.78993,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+96,Fallback Fire/EMS Station 096,fire_ems,862 Example Ave,Los Angeles,33.917289,-117.848571,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+97,Fallback Fire/EMS Station 097,fire_ems,5151 Example Ave,Lancaster,33.705605,-118.191093,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+98,Fallback Fire/EMS Station 098,fire_ems,7820 Example Ave,Santa Monica,33.992705,-118.564219,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+99,Fallback Fire/EMS Station 099,fire_ems,2479 Example Ave,Long Beach,34.274163,-118.028071,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+100,Fallback Fire/EMS Station 100,fire_ems,4257 Example Ave,Santa Monica,34.444309,-118.103693,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+101,Fallback Fire/EMS Station 101,fire_ems,1776 Example Ave,Whittier,33.77352,-118.387822,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+102,Fallback Fire/EMS Station 102,fire_ems,4839 Example Ave,Pasadena,34.246342,-117.843181,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+103,Fallback Fire/EMS Station 103,fire_ems,6972 Example Ave,Pasadena,34.092471,-118.325194,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+104,Fallback Fire/EMS Station 104,fire_ems,5132 Example Ave,Whittier,34.236628,-117.881707,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+105,Fallback Fire/EMS Station 105,fire_ems,2944 Example Ave,Santa Monica,33.849267,-118.396318,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+106,Fallback Fire/EMS Station 106,fire_ems,7852 Example Ave,Pasadena,34.411959,-118.545554,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+107,Fallback Fire/EMS Station 107,fire_ems,2744 Example Ave,Long Beach,34.411417,-117.963478,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+108,Fallback Fire/EMS Station 108,fire_ems,7262 Example Ave,Long Beach,34.246332,-118.717553,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+109,Fallback Fire/EMS Station 109,fire_ems,5771 Example Ave,Lancaster,33.889636,-118.068143,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+110,Fallback Fire/EMS Station 110,fire_ems,6779 Example Ave,Los Angeles,33.756405,-118.611194,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+111,Fallback Fire/EMS Station 111,fire_ems,2858 Example Ave,Pomona,34.349581,-118.334778,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+112,Fallback Fire/EMS Station 112,fire_ems,554 Example Ave,Long Beach,34.336442,-118.5122,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+113,Fallback Fire/EMS Station 113,fire_ems,7060 Example Ave,Long Beach,34.459108,-118.593626,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+114,Fallback Fire/EMS Station 114,fire_ems,5841 Example Ave,Pomona,33.747498,-117.945642,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+115,Fallback Fire/EMS Station 115,fire_ems,7565 Example Ave,Pomona,33.805118,-118.221634,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+116,Fallback Fire/EMS Station 116,fire_ems,6305 Example Ave,Pomona,34.325116,-118.16479,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+117,Fallback Fire/EMS Station 117,fire_ems,2040 Example Ave,Whittier,34.147846,-117.9028,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+118,Fallback Fire/EMS Station 118,fire_ems,3452 Example Ave,Long Beach,33.730384,-118.713672,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+119,Fallback Fire/EMS Station 119,fire_ems,765 Example Ave,Whittier,34.104518,-118.389135,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+120,Fallback Fire/EMS Station 120,fire_ems,3682 Example Ave,Whittier,34.170699,-118.235823,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+121,Fallback Fire/EMS Station 121,fire_ems,6378 Example Ave,Whittier,34.373497,-117.809975,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+122,Fallback Fire/EMS Station 122,fire_ems,2486 Example Ave,Long Beach,33.789567,-118.069226,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+123,Fallback Fire/EMS Station 123,fire_ems,1199 Example Ave,Long Beach,33.730854,-118.631734,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+124,Fallback Fire/EMS Station 124,fire_ems,1931 Example Ave,Long Beach,33.831889,-118.467647,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+125,Fallback Fire/EMS Station 125,fire_ems,603 Example Ave,Burbank,34.122969,-117.993779,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+126,Fallback Fire/EMS Station 126,fire_ems,2333 Example Ave,Lancaster,34.046991,-118.311766,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+127,Fallback Fire/EMS Station 127,fire_ems,9893 Example Ave,Lancaster,34.492625,-118.699931,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+128,Fallback Fire/EMS Station 128,fire_ems,1968 Example Ave,Los Angeles,33.757085,-118.079623,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+129,Fallback Fire/EMS Station 129,fire_ems,3841 Example Ave,Lancaster,34.298598,-118.515838,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+130,Fallback Fire/EMS Station 130,fire_ems,9769 Example Ave,Lancaster,33.974853,-117.944491,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+131,Fallback Fire/EMS Station 131,fire_ems,7629 Example Ave,Pasadena,34.549018,-117.794344,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+132,Fallback Fire/EMS Station 132,fire_ems,6581 Example Ave,Santa Monica,34.176244,-117.820943,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+133,Fallback Fire/EMS Station 133,fire_ems,9826 Example Ave,Pasadena,34.312043,-117.881266,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+134,Fallback Fire/EMS Station 134,fire_ems,4596 Example Ave,Santa Monica,33.890552,-117.847238,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+135,Fallback Fire/EMS Station 135,fire_ems,8882 Example Ave,Pomona,34.265305,-117.862833,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+136,Fallback Fire/EMS Station 136,fire_ems,4905 Example Ave,Glendale,34.050074,-118.278988,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+137,Fallback Fire/EMS Station 137,fire_ems,3461 Example Ave,Pasadena,33.713507,-118.474732,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+138,Fallback Fire/EMS Station 138,fire_ems,255 Example Ave,Lancaster,33.857301,-118.427244,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+139,Fallback Fire/EMS Station 139,fire_ems,8196 Example Ave,Whittier,34.149738,-118.693064,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+140,Fallback Fire/EMS Station 140,fire_ems,4994 Example Ave,Santa Monica,33.860075,-118.239337,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+141,Fallback Fire/EMS Station 141,fire_ems,9375 Example Ave,Whittier,34.507243,-117.872776,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+142,Fallback Fire/EMS Station 142,fire_ems,2507 Example Ave,Los Angeles,33.889201,-118.43931,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+143,Fallback Fire/EMS Station 143,fire_ems,6668 Example Ave,Glendale,33.892491,-117.867008,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+144,Fallback Fire/EMS Station 144,fire_ems,5696 Example Ave,Whittier,34.442677,-118.673441,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+145,Fallback Fire/EMS Station 145,fire_ems,3146 Example Ave,Santa Monica,33.816084,-117.764514,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+146,Fallback Fire/EMS Station 146,fire_ems,9014 Example Ave,Pomona,34.16002,-118.688764,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+147,Fallback Fire/EMS Station 147,fire_ems,5012 Example Ave,Torrance,33.954348,-118.049819,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+148,Fallback Fire/EMS Station 148,fire_ems,955 Example Ave,Burbank,34.374704,-118.659495,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+149,Fallback Fire/EMS Station 149,fire_ems,7180 Example Ave,Los Angeles,34.403895,-117.98261,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+150,Fallback Fire/EMS Station 150,fire_ems,6145 Example Ave,Los Angeles,33.855702,-118.361964,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+151,Fallback Fire/EMS Station 151,fire_ems,6078 Example Ave,Pomona,34.220367,-118.177695,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+152,Fallback Fire/EMS Station 152,fire_ems,8762 Example Ave,Los Angeles,34.05142,-118.559634,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+153,Fallback Fire/EMS Station 153,fire_ems,9923 Example Ave,Los Angeles,34.434208,-118.225014,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+154,Fallback Fire/EMS Station 154,fire_ems,8056 Example Ave,Los Angeles,34.319765,-118.094658,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+155,Fallback Fire/EMS Station 155,fire_ems,8643 Example Ave,Pomona,34.032622,-117.793055,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+156,Fallback Fire/EMS Station 156,fire_ems,9802 Example Ave,Whittier,34.534182,-118.390177,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+157,Fallback Fire/EMS Station 157,fire_ems,5640 Example Ave,Glendale,33.708875,-117.877569,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+158,Fallback Fire/EMS Station 158,fire_ems,3106 Example Ave,Burbank,34.119058,-118.051147,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+159,Fallback Fire/EMS Station 159,fire_ems,5368 Example Ave,Burbank,34.494952,-118.581375,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+160,Fallback Fire/EMS Station 160,fire_ems,1457 Example Ave,Los Angeles,34.233612,-118.097055,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+161,Fallback Fire/EMS Station 161,fire_ems,7092 Example Ave,Torrance,33.772727,-118.643926,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+162,Fallback Fire/EMS Station 162,fire_ems,339 Example Ave,Long Beach,34.449815,-118.225707,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+163,Fallback Fire/EMS Station 163,fire_ems,6144 Example Ave,Whittier,33.964785,-117.89935,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+164,Fallback Fire/EMS Station 164,fire_ems,4335 Example Ave,Long Beach,33.79661,-117.770979,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+165,Fallback Fire/EMS Station 165,fire_ems,4086 Example Ave,Glendale,34.497628,-117.768916,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+166,Fallback Fire/EMS Station 166,fire_ems,2871 Example Ave,Long Beach,33.951251,-118.100591,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+167,Fallback Fire/EMS Station 167,fire_ems,269 Example Ave,Lancaster,34.316746,-118.268906,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+168,Fallback Fire/EMS Station 168,fire_ems,2832 Example Ave,Los Angeles,34.447012,-117.854897,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+169,Fallback Fire/EMS Station 169,fire_ems,7673 Example Ave,Santa Monica,34.099247,-117.930502,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+170,Fallback Fire/EMS Station 170,fire_ems,3133 Example Ave,Burbank,33.845617,-118.567099,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+171,Fallback Fire/EMS Station 171,fire_ems,1119 Example Ave,Burbank,34.239237,-118.746744,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+172,Fallback Fire/EMS Station 172,fire_ems,7233 Example Ave,Pomona,34.10485,-117.915583,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+173,Fallback Fire/EMS Station 173,fire_ems,1171 Example Ave,Pasadena,34.541764,-118.171912,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+174,Fallback Fire/EMS Station 174,fire_ems,8492 Example Ave,Long Beach,34.130823,-118.704432,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+1,Fallback Hospital or Medical Center 001,hospital,1633 Example Ave,Burbank,34.389791,-118.659171,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+2,Fallback Hospital or Medical Center 002,hospital,4309 Example Ave,Burbank,33.951453,-118.546981,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+3,Fallback Hospital or Medical Center 003,hospital,9906 Example Ave,Burbank,34.425078,-117.865872,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+4,Fallback Hospital or Medical Center 004,hospital,4699 Example Ave,Pasadena,34.266546,-118.692886,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+5,Fallback Hospital or Medical Center 005,hospital,3201 Example Ave,Glendale,33.795183,-118.190198,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+6,Fallback Hospital or Medical Center 006,hospital,7405 Example Ave,Pasadena,33.708587,-117.810014,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+7,Fallback Hospital or Medical Center 007,hospital,3483 Example Ave,Burbank,34.435282,-117.808979,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+8,Fallback Hospital or Medical Center 008,hospital,4088 Example Ave,Whittier,33.702509,-118.121838,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+9,Fallback Hospital or Medical Center 009,hospital,9129 Example Ave,Glendale,33.797996,-117.959708,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+10,Fallback Hospital or Medical Center 010,hospital,961 Example Ave,Lancaster,33.866747,-117.81505,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+11,Fallback Hospital or Medical Center 011,hospital,2698 Example Ave,Pasadena,34.228492,-118.472748,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+12,Fallback Hospital or Medical Center 012,hospital,7831 Example Ave,Santa Monica,34.169837,-117.865532,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+13,Fallback Hospital or Medical Center 013,hospital,5251 Example Ave,Whittier,33.751079,-118.233753,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+14,Fallback Hospital or Medical Center 014,hospital,511 Example Ave,Long Beach,34.489422,-118.122172,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+15,Fallback Hospital or Medical Center 015,hospital,1485 Example Ave,Whittier,34.24954,-118.074935,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+16,Fallback Hospital or Medical Center 016,hospital,3591 Example Ave,Torrance,34.196979,-118.719806,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+17,Fallback Hospital or Medical Center 017,hospital,3157 Example Ave,Torrance,33.867516,-118.007378,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+18,Fallback Hospital or Medical Center 018,hospital,2542 Example Ave,Pasadena,34.34565,-118.580988,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+19,Fallback Hospital or Medical Center 019,hospital,6705 Example Ave,Pasadena,34.47018,-118.337225,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+20,Fallback Hospital or Medical Center 020,hospital,4988 Example Ave,Burbank,34.032844,-118.459584,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+21,Fallback Hospital or Medical Center 021,hospital,8781 Example Ave,Burbank,33.99356,-118.005706,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+22,Fallback Hospital or Medical Center 022,hospital,8069 Example Ave,Pomona,33.70575,-118.7204,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+23,Fallback Hospital or Medical Center 023,hospital,9332 Example Ave,Pasadena,33.931059,-118.505914,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+24,Fallback Hospital or Medical Center 024,hospital,3162 Example Ave,Lancaster,34.535301,-118.564347,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+25,Fallback Hospital or Medical Center 025,hospital,6708 Example Ave,Lancaster,34.385454,-117.935209,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+26,Fallback Hospital or Medical Center 026,hospital,3432 Example Ave,Pomona,33.964499,-118.145451,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+27,Fallback Hospital or Medical Center 027,hospital,205 Example Ave,Lancaster,33.995882,-117.762492,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+28,Fallback Hospital or Medical Center 028,hospital,8239 Example Ave,Torrance,34.009142,-118.23203,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+29,Fallback Hospital or Medical Center 029,hospital,1686 Example Ave,Pasadena,34.043197,-117.880961,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+30,Fallback Hospital or Medical Center 030,hospital,6368 Example Ave,Whittier,33.880095,-118.651917,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+31,Fallback Hospital or Medical Center 031,hospital,5278 Example Ave,Whittier,33.855816,-118.664552,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+32,Fallback Hospital or Medical Center 032,hospital,4051 Example Ave,Pomona,33.7135,-117.853214,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+33,Fallback Hospital or Medical Center 033,hospital,8183 Example Ave,Lancaster,34.081015,-118.620358,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+34,Fallback Hospital or Medical Center 034,hospital,8728 Example Ave,Pasadena,34.261025,-118.227158,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+35,Fallback Hospital or Medical Center 035,hospital,7168 Example Ave,Glendale,34.279781,-118.154423,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+36,Fallback Hospital or Medical Center 036,hospital,7097 Example Ave,Santa Monica,33.853409,-117.755539,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+37,Fallback Hospital or Medical Center 037,hospital,7926 Example Ave,Glendale,34.37677,-118.427076,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+38,Fallback Hospital or Medical Center 038,hospital,4269 Example Ave,Burbank,34.532493,-118.551012,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+39,Fallback Hospital or Medical Center 039,hospital,5523 Example Ave,Lancaster,34.128722,-118.528946,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+40,Fallback Hospital or Medical Center 040,hospital,4403 Example Ave,Santa Monica,34.389503,-118.090632,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+41,Fallback Hospital or Medical Center 041,hospital,4102 Example Ave,Pomona,34.358742,-118.104095,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+42,Fallback Hospital or Medical Center 042,hospital,1242 Example Ave,Long Beach,34.049322,-118.059486,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+43,Fallback Hospital or Medical Center 043,hospital,8529 Example Ave,Pasadena,34.5221,-118.030364,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+44,Fallback Hospital or Medical Center 044,hospital,6577 Example Ave,Whittier,34.520719,-118.127408,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+45,Fallback Hospital or Medical Center 045,hospital,7573 Example Ave,Pasadena,34.475071,-118.132889,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+46,Fallback Hospital or Medical Center 046,hospital,5535 Example Ave,Pomona,34.131021,-118.511165,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+47,Fallback Hospital or Medical Center 047,hospital,744 Example Ave,Pasadena,33.746836,-118.66902,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+48,Fallback Hospital or Medical Center 048,hospital,3215 Example Ave,Burbank,33.879906,-118.596668,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+49,Fallback Hospital or Medical Center 049,hospital,1889 Example Ave,Los Angeles,34.372811,-117.850721,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+50,Fallback Hospital or Medical Center 050,hospital,6166 Example Ave,Pasadena,34.425748,-117.944662,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+51,Fallback Hospital or Medical Center 051,hospital,2414 Example Ave,Torrance,34.283554,-118.227796,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+52,Fallback Hospital or Medical Center 052,hospital,7482 Example Ave,Whittier,33.851546,-118.119691,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+53,Fallback Hospital or Medical Center 053,hospital,7046 Example Ave,Los Angeles,33.8934,-117.87388,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+54,Fallback Hospital or Medical Center 054,hospital,1888 Example Ave,Whittier,34.545001,-118.035338,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+55,Fallback Hospital or Medical Center 055,hospital,8998 Example Ave,Torrance,34.032871,-118.491157,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+56,Fallback Hospital or Medical Center 056,hospital,6603 Example Ave,Torrance,33.99769,-117.998521,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+57,Fallback Hospital or Medical Center 057,hospital,7676 Example Ave,Glendale,34.205659,-117.765259,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+58,Fallback Hospital or Medical Center 058,hospital,412 Example Ave,Los Angeles,33.70383,-118.323228,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+59,Fallback Hospital or Medical Center 059,hospital,5295 Example Ave,Burbank,34.422006,-118.507175,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+60,Fallback Hospital or Medical Center 060,hospital,4753 Example Ave,Lancaster,34.445114,-118.729513,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+61,Fallback Hospital or Medical Center 061,hospital,8624 Example Ave,Los Angeles,34.058457,-117.86833,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+62,Fallback Hospital or Medical Center 062,hospital,278 Example Ave,Pasadena,33.870415,-117.78113,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+63,Fallback Hospital or Medical Center 063,hospital,133 Example Ave,Lancaster,34.239043,-118.360756,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+64,Fallback Hospital or Medical Center 064,hospital,5899 Example Ave,Pasadena,34.08684,-117.797781,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+65,Fallback Hospital or Medical Center 065,hospital,5082 Example Ave,Pasadena,33.721599,-118.453111,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+66,Fallback Hospital or Medical Center 066,hospital,4458 Example Ave,Burbank,33.875304,-117.992949,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+67,Fallback Hospital or Medical Center 067,hospital,8197 Example Ave,Lancaster,33.989138,-118.18453,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+68,Fallback Hospital or Medical Center 068,hospital,3057 Example Ave,Whittier,33.715562,-118.652638,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+69,Fallback Hospital or Medical Center 069,hospital,9846 Example Ave,Lancaster,34.342459,-118.326911,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+70,Fallback Hospital or Medical Center 070,hospital,9428 Example Ave,Torrance,33.742122,-118.727337,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+71,Fallback Hospital or Medical Center 071,hospital,2475 Example Ave,Glendale,33.787912,-117.948026,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+72,Fallback Hospital or Medical Center 072,hospital,2139 Example Ave,Torrance,33.79358,-118.304348,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+73,Fallback Hospital or Medical Center 073,hospital,3892 Example Ave,Pasadena,34.368458,-118.666523,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+74,Fallback Hospital or Medical Center 074,hospital,7825 Example Ave,Lancaster,34.238961,-118.436424,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+75,Fallback Hospital or Medical Center 075,hospital,7846 Example Ave,Long Beach,33.769453,-118.716926,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+76,Fallback Hospital or Medical Center 076,hospital,6539 Example Ave,Pomona,34.264646,-118.168306,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+77,Fallback Hospital or Medical Center 077,hospital,3928 Example Ave,Whittier,34.295155,-117.993803,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+78,Fallback Hospital or Medical Center 078,hospital,9706 Example Ave,Long Beach,33.971012,-118.056004,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+79,Fallback Hospital or Medical Center 079,hospital,2728 Example Ave,Whittier,33.80108,-118.555213,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+80,Fallback Hospital or Medical Center 080,hospital,7828 Example Ave,Santa Monica,34.385148,-117.779326,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+81,Fallback Hospital or Medical Center 081,hospital,8432 Example Ave,Pomona,33.78664,-118.185721,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+82,Fallback Hospital or Medical Center 082,hospital,8635 Example Ave,Glendale,34.365862,-118.491946,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+83,Fallback Hospital or Medical Center 083,hospital,439 Example Ave,Pasadena,34.437519,-118.584062,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+84,Fallback Hospital or Medical Center 084,hospital,9950 Example Ave,Long Beach,33.984069,-118.082081,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+85,Fallback Hospital or Medical Center 085,hospital,9364 Example Ave,Pasadena,33.957064,-118.516752,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+86,Fallback Hospital or Medical Center 086,hospital,4214 Example Ave,Glendale,34.135475,-118.552255,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+87,Fallback Hospital or Medical Center 087,hospital,791 Example Ave,Lancaster,34.085678,-118.377696,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+88,Fallback Hospital or Medical Center 088,hospital,4624 Example Ave,Lancaster,34.489004,-118.506333,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+89,Fallback Hospital or Medical Center 089,hospital,8373 Example Ave,Lancaster,34.333898,-118.46657,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+90,Fallback Hospital or Medical Center 090,hospital,9491 Example Ave,Lancaster,34.465368,-118.633939,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+91,Fallback Hospital or Medical Center 091,hospital,653 Example Ave,Pomona,33.855721,-118.268088,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+92,Fallback Hospital or Medical Center 092,hospital,5507 Example Ave,Torrance,34.424903,-118.530491,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+93,Fallback Hospital or Medical Center 093,hospital,838 Example Ave,Los Angeles,33.886149,-118.124757,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+94,Fallback Hospital or Medical Center 094,hospital,6015 Example Ave,Los Angeles,33.700516,-118.064986,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+95,Fallback Hospital or Medical Center 095,hospital,3868 Example Ave,Glendale,34.11248,-118.111317,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+96,Fallback Hospital or Medical Center 096,hospital,6981 Example Ave,Pomona,34.358794,-118.315353,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+97,Fallback Hospital or Medical Center 097,hospital,1030 Example Ave,Glendale,34.155883,-118.737266,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+98,Fallback Hospital or Medical Center 098,hospital,6113 Example Ave,Lancaster,33.888045,-118.18815,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+99,Fallback Hospital or Medical Center 099,hospital,553 Example Ave,Lancaster,34.277104,-118.086922,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+100,Fallback Hospital or Medical Center 100,hospital,6773 Example Ave,Burbank,34.342231,-117.991857,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+101,Fallback Hospital or Medical Center 101,hospital,4427 Example Ave,Torrance,34.479621,-117.7639,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+102,Fallback Hospital or Medical Center 102,hospital,3523 Example Ave,Los Angeles,34.517795,-118.45394,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+103,Fallback Hospital or Medical Center 103,hospital,5379 Example Ave,Whittier,33.75878,-117.803918,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+104,Fallback Hospital or Medical Center 104,hospital,5281 Example Ave,Burbank,34.073312,-118.635722,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+105,Fallback Hospital or Medical Center 105,hospital,4623 Example Ave,Pasadena,34.165712,-118.591609,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+106,Fallback Hospital or Medical Center 106,hospital,1668 Example Ave,Glendale,34.278249,-118.02468,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+107,Fallback Hospital or Medical Center 107,hospital,3101 Example Ave,Torrance,34.010235,-118.709216,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+108,Fallback Hospital or Medical Center 108,hospital,8428 Example Ave,Burbank,34.346194,-118.339673,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+109,Fallback Hospital or Medical Center 109,hospital,9916 Example Ave,Whittier,33.895441,-118.185118,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+110,Fallback Hospital or Medical Center 110,hospital,3859 Example Ave,Pasadena,34.483231,-118.304971,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+111,Fallback Hospital or Medical Center 111,hospital,1399 Example Ave,Santa Monica,34.32185,-118.151497,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+112,Fallback Hospital or Medical Center 112,hospital,2648 Example Ave,Los Angeles,34.389067,-118.37469,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+113,Fallback Hospital or Medical Center 113,hospital,4538 Example Ave,Long Beach,34.360999,-118.317985,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+114,Fallback Hospital or Medical Center 114,hospital,3215 Example Ave,Pasadena,34.349107,-118.727047,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+115,Fallback Hospital or Medical Center 115,hospital,2713 Example Ave,Lancaster,34.291825,-118.567978,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+116,Fallback Hospital or Medical Center 116,hospital,7705 Example Ave,Pomona,34.444313,-117.847574,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+117,Fallback Hospital or Medical Center 117,hospital,5995 Example Ave,Burbank,33.740236,-117.94546,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+118,Fallback Hospital or Medical Center 118,hospital,1166 Example Ave,Torrance,34.080394,-117.854965,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+119,Fallback Hospital or Medical Center 119,hospital,8010 Example Ave,Glendale,34.08197,-118.324431,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+120,Fallback Hospital or Medical Center 120,hospital,5119 Example Ave,Lancaster,34.154875,-118.546164,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+121,Fallback Hospital or Medical Center 121,hospital,1547 Example Ave,Santa Monica,34.263587,-118.512908,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+122,Fallback Hospital or Medical Center 122,hospital,9841 Example Ave,Long Beach,34.153545,-118.557126,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+123,Fallback Hospital or Medical Center 123,hospital,5241 Example Ave,Pomona,33.901136,-118.735596,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+124,Fallback Hospital or Medical Center 124,hospital,6860 Example Ave,Torrance,33.804606,-118.106841,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+125,Fallback Hospital or Medical Center 125,hospital,1735 Example Ave,Santa Monica,33.724094,-118.692854,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+126,Fallback Hospital or Medical Center 126,hospital,3143 Example Ave,Santa Monica,34.225174,-118.749293,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+127,Fallback Hospital or Medical Center 127,hospital,1837 Example Ave,Glendale,34.078919,-118.634635,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+128,Fallback Hospital or Medical Center 128,hospital,2093 Example Ave,Whittier,34.421175,-118.638444,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+129,Fallback Hospital or Medical Center 129,hospital,5842 Example Ave,Pasadena,34.032389,-118.093908,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+130,Fallback Hospital or Medical Center 130,hospital,6513 Example Ave,Long Beach,33.857116,-117.941311,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+131,Fallback Hospital or Medical Center 131,hospital,8392 Example Ave,Lancaster,33.879103,-118.542171,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+132,Fallback Hospital or Medical Center 132,hospital,1652 Example Ave,Los Angeles,33.894308,-117.97561,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+133,Fallback Hospital or Medical Center 133,hospital,3540 Example Ave,Lancaster,34.303748,-118.124488,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+134,Fallback Hospital or Medical Center 134,hospital,3946 Example Ave,Burbank,34.116366,-117.794466,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+135,Fallback Hospital or Medical Center 135,hospital,8045 Example Ave,Lancaster,34.109701,-118.00155,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+136,Fallback Hospital or Medical Center 136,hospital,6552 Example Ave,Torrance,33.755602,-118.269987,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+137,Fallback Hospital or Medical Center 137,hospital,7388 Example Ave,Pasadena,33.918386,-118.383439,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+138,Fallback Hospital or Medical Center 138,hospital,6947 Example Ave,Pasadena,33.754834,-118.499097,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+139,Fallback Hospital or Medical Center 139,hospital,8537 Example Ave,Whittier,33.874832,-118.569045,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+140,Fallback Hospital or Medical Center 140,hospital,8214 Example Ave,Lancaster,33.752403,-117.969511,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+141,Fallback Hospital or Medical Center 141,hospital,3355 Example Ave,Glendale,34.171062,-118.584475,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+142,Fallback Hospital or Medical Center 142,hospital,8766 Example Ave,Long Beach,33.897278,-118.158186,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+143,Fallback Hospital or Medical Center 143,hospital,1169 Example Ave,Pomona,33.927612,-118.132524,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+144,Fallback Hospital or Medical Center 144,hospital,5779 Example Ave,Glendale,34.264991,-117.809914,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+145,Fallback Hospital or Medical Center 145,hospital,5833 Example Ave,Santa Monica,34.210814,-118.49231,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+146,Fallback Hospital or Medical Center 146,hospital,7816 Example Ave,Los Angeles,33.776513,-118.542097,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+147,Fallback Hospital or Medical Center 147,hospital,1507 Example Ave,Santa Monica,34.336661,-118.350385,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+148,Fallback Hospital or Medical Center 148,hospital,9579 Example Ave,Torrance,34.104453,-118.211789,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+149,Fallback Hospital or Medical Center 149,hospital,8893 Example Ave,Pasadena,34.207909,-118.749366,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+150,Fallback Hospital or Medical Center 150,hospital,2609 Example Ave,Pasadena,34.173093,-117.807712,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+151,Fallback Hospital or Medical Center 151,hospital,7123 Example Ave,Lancaster,34.431269,-118.560203,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+152,Fallback Hospital or Medical Center 152,hospital,3891 Example Ave,Pasadena,34.429789,-117.75343,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+153,Fallback Hospital or Medical Center 153,hospital,519 Example Ave,Glendale,34.20592,-118.281353,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+154,Fallback Hospital or Medical Center 154,hospital,2015 Example Ave,Burbank,34.359314,-118.646233,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+155,Fallback Hospital or Medical Center 155,hospital,6785 Example Ave,Whittier,33.756738,-118.663692,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+156,Fallback Hospital or Medical Center 156,hospital,4478 Example Ave,Whittier,33.753859,-117.79142,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+157,Fallback Hospital or Medical Center 157,hospital,8545 Example Ave,Torrance,34.485703,-118.715607,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+158,Fallback Hospital or Medical Center 158,hospital,7418 Example Ave,Los Angeles,34.414244,-118.565451,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+159,Fallback Hospital or Medical Center 159,hospital,6177 Example Ave,Glendale,34.443879,-118.606307,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+160,Fallback Hospital or Medical Center 160,hospital,3535 Example Ave,Whittier,34.112574,-118.700427,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+161,Fallback Hospital or Medical Center 161,hospital,3910 Example Ave,Whittier,34.115184,-117.880466,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+162,Fallback Hospital or Medical Center 162,hospital,5650 Example Ave,Burbank,33.904365,-117.967143,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+163,Fallback Hospital or Medical Center 163,hospital,2993 Example Ave,Long Beach,34.073246,-118.447366,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+164,Fallback Hospital or Medical Center 164,hospital,2678 Example Ave,Santa Monica,33.836654,-118.358217,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+165,Fallback Hospital or Medical Center 165,hospital,7265 Example Ave,Whittier,34.045919,-118.372868,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+166,Fallback Hospital or Medical Center 166,hospital,820 Example Ave,Glendale,33.796878,-118.749419,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+167,Fallback Hospital or Medical Center 167,hospital,6444 Example Ave,Glendale,34.401137,-118.226811,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+168,Fallback Hospital or Medical Center 168,hospital,5345 Example Ave,Lancaster,34.475498,-118.708258,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+169,Fallback Hospital or Medical Center 169,hospital,9146 Example Ave,Glendale,33.833985,-117.94996,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+170,Fallback Hospital or Medical Center 170,hospital,1981 Example Ave,Santa Monica,33.845548,-117.85518,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+171,Fallback Hospital or Medical Center 171,hospital,5682 Example Ave,Pasadena,33.959286,-117.871461,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+172,Fallback Hospital or Medical Center 172,hospital,5267 Example Ave,Burbank,33.912539,-118.075371,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+173,Fallback Hospital or Medical Center 173,hospital,1313 Example Ave,Long Beach,34.083064,-118.493908,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+174,Fallback Hospital or Medical Center 174,hospital,2685 Example Ave,Whittier,34.069716,-118.077362,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+175,Fallback Hospital or Medical Center 175,hospital,5891 Example Ave,Long Beach,34.282119,-118.282235,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+176,Fallback Hospital or Medical Center 176,hospital,8045 Example Ave,Pasadena,33.774091,-118.139127,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+177,Fallback Hospital or Medical Center 177,hospital,6839 Example Ave,Glendale,34.152072,-118.104748,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+178,Fallback Hospital or Medical Center 178,hospital,4545 Example Ave,Lancaster,34.210702,-118.648373,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+179,Fallback Hospital or Medical Center 179,hospital,5356 Example Ave,Burbank,33.904212,-117.992857,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+180,Fallback Hospital or Medical Center 180,hospital,9948 Example Ave,Los Angeles,34.358284,-118.606074,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+181,Fallback Hospital or Medical Center 181,hospital,4919 Example Ave,Lancaster,34.477042,-118.433159,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+182,Fallback Hospital or Medical Center 182,hospital,4137 Example Ave,Torrance,34.170371,-118.266385,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+183,Fallback Hospital or Medical Center 183,hospital,9902 Example Ave,Glendale,33.820053,-118.662157,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+184,Fallback Hospital or Medical Center 184,hospital,8366 Example Ave,Santa Monica,34.465221,-118.582751,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+185,Fallback Hospital or Medical Center 185,hospital,6749 Example Ave,Long Beach,34.344764,-118.318242,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+186,Fallback Hospital or Medical Center 186,hospital,6177 Example Ave,Glendale,34.404915,-118.661473,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+187,Fallback Hospital or Medical Center 187,hospital,6197 Example Ave,Los Angeles,34.149866,-118.504095,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+188,Fallback Hospital or Medical Center 188,hospital,4781 Example Ave,Glendale,33.716749,-118.359102,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+189,Fallback Hospital or Medical Center 189,hospital,1335 Example Ave,Lancaster,33.770709,-118.08626,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+190,Fallback Hospital or Medical Center 190,hospital,1819 Example Ave,Burbank,34.040172,-118.442184,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+191,Fallback Hospital or Medical Center 191,hospital,6540 Example Ave,Lancaster,34.113346,-118.188593,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+192,Fallback Hospital or Medical Center 192,hospital,877 Example Ave,Whittier,33.986322,-117.926302,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+193,Fallback Hospital or Medical Center 193,hospital,5508 Example Ave,Lancaster,33.730674,-118.560778,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+194,Fallback Hospital or Medical Center 194,hospital,1208 Example Ave,Burbank,34.493427,-118.639202,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+195,Fallback Hospital or Medical Center 195,hospital,1033 Example Ave,Glendale,34.300968,-118.10007,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+196,Fallback Hospital or Medical Center 196,hospital,6909 Example Ave,Glendale,33.994646,-118.007874,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+197,Fallback Hospital or Medical Center 197,hospital,9211 Example Ave,Glendale,33.904647,-118.030262,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+198,Fallback Hospital or Medical Center 198,hospital,5008 Example Ave,Lancaster,33.964462,-117.780241,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+199,Fallback Hospital or Medical Center 199,hospital,1091 Example Ave,Pomona,33.975366,-118.472494,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+200,Fallback Hospital or Medical Center 200,hospital,9512 Example Ave,Glendale,33.86044,-118.542139,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+201,Fallback Hospital or Medical Center 201,hospital,7187 Example Ave,Burbank,33.770931,-118.259576,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+202,Fallback Hospital or Medical Center 202,hospital,6976 Example Ave,Pasadena,33.812839,-117.865831,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+203,Fallback Hospital or Medical Center 203,hospital,7354 Example Ave,Santa Monica,33.822038,-118.706557,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+204,Fallback Hospital or Medical Center 204,hospital,9533 Example Ave,Los Angeles,34.154391,-118.670732,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+205,Fallback Hospital or Medical Center 205,hospital,3785 Example Ave,Los Angeles,34.484764,-117.916268,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+206,Fallback Hospital or Medical Center 206,hospital,4366 Example Ave,Los Angeles,34.319533,-118.48283,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+207,Fallback Hospital or Medical Center 207,hospital,8005 Example Ave,Torrance,33.892898,-118.720763,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+208,Fallback Hospital or Medical Center 208,hospital,533 Example Ave,Long Beach,34.083411,-118.725676,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+209,Fallback Hospital or Medical Center 209,hospital,5183 Example Ave,Long Beach,33.836202,-118.037715,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+210,Fallback Hospital or Medical Center 210,hospital,1746 Example Ave,Long Beach,34.366085,-118.452405,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+211,Fallback Hospital or Medical Center 211,hospital,500 Example Ave,Torrance,34.036819,-118.29347,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+212,Fallback Hospital or Medical Center 212,hospital,9528 Example Ave,Whittier,33.742942,-118.535595,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+213,Fallback Hospital or Medical Center 213,hospital,2008 Example Ave,Long Beach,34.464099,-118.696721,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+214,Fallback Hospital or Medical Center 214,hospital,384 Example Ave,Pomona,33.900147,-118.706298,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+215,Fallback Hospital or Medical Center 215,hospital,8138 Example Ave,Los Angeles,33.762469,-117.819013,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+216,Fallback Hospital or Medical Center 216,hospital,6330 Example Ave,Glendale,34.304821,-118.182824,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+217,Fallback Hospital or Medical Center 217,hospital,2262 Example Ave,Los Angeles,33.713217,-118.570326,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+218,Fallback Hospital or Medical Center 218,hospital,2267 Example Ave,Glendale,34.10227,-118.235071,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+219,Fallback Hospital or Medical Center 219,hospital,2650 Example Ave,Lancaster,34.349936,-118.669892,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+220,Fallback Hospital or Medical Center 220,hospital,2750 Example Ave,Lancaster,34.165708,-118.330827,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+221,Fallback Hospital or Medical Center 221,hospital,7864 Example Ave,Pasadena,33.774895,-118.02738,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+222,Fallback Hospital or Medical Center 222,hospital,9990 Example Ave,Los Angeles,33.856057,-118.442301,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+223,Fallback Hospital or Medical Center 223,hospital,6633 Example Ave,Burbank,34.105738,-118.461048,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+224,Fallback Hospital or Medical Center 224,hospital,4091 Example Ave,Lancaster,33.827236,-118.35618,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+225,Fallback Hospital or Medical Center 225,hospital,6232 Example Ave,Lancaster,34.000926,-118.382851,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+226,Fallback Hospital or Medical Center 226,hospital,6618 Example Ave,Burbank,34.174545,-117.809328,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+227,Fallback Hospital or Medical Center 227,hospital,2062 Example Ave,Burbank,33.743775,-117.97635,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+228,Fallback Hospital or Medical Center 228,hospital,3310 Example Ave,Torrance,33.98706,-118.639461,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+229,Fallback Hospital or Medical Center 229,hospital,5750 Example Ave,Los Angeles,34.337436,-118.018137,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+230,Fallback Hospital or Medical Center 230,hospital,9431 Example Ave,Torrance,34.305468,-118.519429,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+231,Fallback Hospital or Medical Center 231,hospital,5169 Example Ave,Santa Monica,34.509693,-118.552246,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+232,Fallback Hospital or Medical Center 232,hospital,4780 Example Ave,Long Beach,34.390198,-117.818591,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+233,Fallback Hospital or Medical Center 233,hospital,3394 Example Ave,Santa Monica,34.458037,-118.145539,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+234,Fallback Hospital or Medical Center 234,hospital,7899 Example Ave,Long Beach,34.251542,-118.057208,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+235,Fallback Hospital or Medical Center 235,hospital,895 Example Ave,Long Beach,33.917593,-117.954593,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+236,Fallback Hospital or Medical Center 236,hospital,8601 Example Ave,Whittier,34.317525,-118.381859,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+237,Fallback Hospital or Medical Center 237,hospital,1036 Example Ave,Pasadena,34.470797,-118.088157,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+238,Fallback Hospital or Medical Center 238,hospital,1682 Example Ave,Pomona,33.735745,-118.41467,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+239,Fallback Hospital or Medical Center 239,hospital,5469 Example Ave,Pomona,34.46033,-118.451703,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+240,Fallback Hospital or Medical Center 240,hospital,7051 Example Ave,Santa Monica,34.401411,-118.176073,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+241,Fallback Hospital or Medical Center 241,hospital,8542 Example Ave,Burbank,33.966316,-118.718258,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+242,Fallback Hospital or Medical Center 242,hospital,2686 Example Ave,Glendale,34.478294,-118.667448,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+243,Fallback Hospital or Medical Center 243,hospital,8923 Example Ave,Long Beach,33.985711,-118.398364,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+244,Fallback Hospital or Medical Center 244,hospital,4318 Example Ave,Pomona,33.826473,-118.115312,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+245,Fallback Hospital or Medical Center 245,hospital,1285 Example Ave,Long Beach,34.527937,-118.727928,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+246,Fallback Hospital or Medical Center 246,hospital,8300 Example Ave,Los Angeles,34.169392,-118.353102,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+247,Fallback Hospital or Medical Center 247,hospital,7131 Example Ave,Whittier,34.276496,-117.776272,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+248,Fallback Hospital or Medical Center 248,hospital,2030 Example Ave,Pasadena,34.495628,-118.462874,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+249,Fallback Hospital or Medical Center 249,hospital,7964 Example Ave,Pomona,34.516312,-118.457441,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+250,Fallback Hospital or Medical Center 250,hospital,5200 Example Ave,Glendale,34.382759,-118.421925,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+251,Fallback Hospital or Medical Center 251,hospital,4678 Example Ave,Long Beach,33.947023,-118.041194,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+252,Fallback Hospital or Medical Center 252,hospital,1224 Example Ave,Whittier,33.724782,-117.926795,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+253,Fallback Hospital or Medical Center 253,hospital,3518 Example Ave,Whittier,33.902799,-117.769643,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+254,Fallback Hospital or Medical Center 254,hospital,2644 Example Ave,Long Beach,33.719996,-117.959351,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+255,Fallback Hospital or Medical Center 255,hospital,855 Example Ave,Long Beach,34.166169,-118.743061,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+256,Fallback Hospital or Medical Center 256,hospital,4197 Example Ave,Glendale,33.74767,-118.500614,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+257,Fallback Hospital or Medical Center 257,hospital,245 Example Ave,Los Angeles,34.533404,-117.839012,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+258,Fallback Hospital or Medical Center 258,hospital,2085 Example Ave,Torrance,34.262371,-117.900149,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+259,Fallback Hospital or Medical Center 259,hospital,662 Example Ave,Pasadena,34.236945,-117.983867,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+260,Fallback Hospital or Medical Center 260,hospital,7762 Example Ave,Lancaster,34.447219,-117.858242,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+261,Fallback Hospital or Medical Center 261,hospital,6891 Example Ave,Pomona,33.804538,-118.277359,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+262,Fallback Hospital or Medical Center 262,hospital,281 Example Ave,Los Angeles,34.41893,-117.822099,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+263,Fallback Hospital or Medical Center 263,hospital,6006 Example Ave,Glendale,34.477347,-117.868889,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+264,Fallback Hospital or Medical Center 264,hospital,5035 Example Ave,Santa Monica,33.85493,-118.303947,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+265,Fallback Hospital or Medical Center 265,hospital,7458 Example Ave,Long Beach,34.107783,-118.253721,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+266,Fallback Hospital or Medical Center 266,hospital,5833 Example Ave,Lancaster,33.979052,-118.08516,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+267,Fallback Hospital or Medical Center 267,hospital,743 Example Ave,Glendale,33.769333,-118.655694,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+268,Fallback Hospital or Medical Center 268,hospital,8498 Example Ave,Burbank,33.91511,-118.318297,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+269,Fallback Hospital or Medical Center 269,hospital,3287 Example Ave,Lancaster,34.036093,-118.721883,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+270,Fallback Hospital or Medical Center 270,hospital,6723 Example Ave,Glendale,33.781326,-118.315687,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+271,Fallback Hospital or Medical Center 271,hospital,1828 Example Ave,Whittier,34.528299,-117.850331,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+272,Fallback Hospital or Medical Center 272,hospital,288 Example Ave,Torrance,33.832973,-117.812407,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+273,Fallback Hospital or Medical Center 273,hospital,7588 Example Ave,Whittier,34.001061,-118.429821,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+274,Fallback Hospital or Medical Center 274,hospital,9478 Example Ave,Whittier,34.294141,-118.395359,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+275,Fallback Hospital or Medical Center 275,hospital,4447 Example Ave,Long Beach,34.415868,-118.453047,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+276,Fallback Hospital or Medical Center 276,hospital,3471 Example Ave,Los Angeles,34.081835,-118.135824,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+277,Fallback Hospital or Medical Center 277,hospital,7185 Example Ave,Burbank,33.864389,-118.51353,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+278,Fallback Hospital or Medical Center 278,hospital,4408 Example Ave,Long Beach,34.183027,-118.408423,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+279,Fallback Hospital or Medical Center 279,hospital,6486 Example Ave,Glendale,34.089718,-118.333173,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+280,Fallback Hospital or Medical Center 280,hospital,8202 Example Ave,Lancaster,33.711757,-118.09153,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable
+281,Fallback Hospital or Medical Center 281,hospital,6160 Example Ave,Los Angeles,34.200844,-118.431344,LA County / HIFLD style,simulated_fallback_due_download_missing_or_unavailable

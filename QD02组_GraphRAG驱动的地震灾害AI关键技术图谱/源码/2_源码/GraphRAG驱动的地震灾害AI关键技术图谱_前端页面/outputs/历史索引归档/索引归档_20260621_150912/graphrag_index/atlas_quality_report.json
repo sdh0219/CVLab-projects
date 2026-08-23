@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-06-21T15:06:58",
+  "source_file": "E:\\实验报告\\4.自然语言处理\\3.期末大作业\\5.AI防灾减灾关键技术图谱构建\\地震灾害数据收集与整理.docx",
+  "archive_dir": "E:\\实验报告\\4.自然语言处理\\3.期末大作业\\5.AI防灾减灾关键技术图谱构建\\outputs\\历史索引归档\\索引归档_20260621_150657",
+  "docx_meta": {
+    "paragraph_count": 59,
+    "table_count": 10,
+    "inline_shape_count": 97,
+    "source_size_bytes": 23304978
+  },
+  "corpus_count": 10,
+  "chunk_count": 31,
+  "entity_count": 199,
+  "relation_count": 261,
+  "claim_count": 261,
+  "community_count": 8,
+  "evidence_edge_count": 261,
+  "low_confidence_relation_count": 76,
+  "required_entity_type_coverage": {
+    "Document": 10,
+    "Evidence": 40,
+    "DisasterType": 1,
+    "Case": 8,
+    "Event": 6,
+    "AITech": 11,
+    "Model": 18,
+    "Dataset": 23,
+    "Task": 14,
+    "Scenario": 8,
+    "Policy": 5,
+    "Standard": 4,
+    "Limitation": 18,
+    "Organization": 15,
+    "Metric": 12,
+    "ImpactProduct": 6
+  },
+  "required_relation_type_coverage": {
+    "USES_MODEL": 13,
+    "DEPENDS_ON": 26,
+    "SOLVES": 15,
+    "SERVES_STAGE": 9,
+    "VALIDATED_IN": 2,
+    "LIMITED_BY": 9,
+    "REQUIRED_BY": 5,
+    "SUPPORTED_BY": 41,
+    "DERIVES_FROM": 116,
+    "MEASURED_BY": 0,
+    "EVALUATED_BY": 1,
+    "PUBLISHED_BY": 8,
+    "HAS_METRIC": 7,
+    "HAS_PARAMETER": 3,
+    "HAS_IMPACT": 6
+  },
+  "missing_key_entities": [],
+  "quality_status": "待复核",
+  "notes": [
+    "本轮索引基于新增 Word 的正文和表格内容生成。",
+    "Word 中图片仅统计数量，未自动抽取图片像素内容。",
+    "所有关系保留 doc_id、chunk_id、证据片段、置信度和待复核状态。"
+  ]
+}

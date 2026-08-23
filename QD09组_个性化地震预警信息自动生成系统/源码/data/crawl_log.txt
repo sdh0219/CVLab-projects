@@ -1,0 +1,79 @@
+[2026-06-23 01:16:34] === Start update: 2026-06-23 01:16:27 ===
+[2026-06-23 01:16:34] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 01:16:34] USGS: 200 events fetched
+[2026-06-23 01:16:34] Before dedup: 200, After dedup: 200
+[2026-06-23 01:16:34] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_个性化灾害预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 01:16:34] Sources used: USGS
+[2026-06-23 01:16:34] Total records: 200
+[2026-06-23 01:16:34] === End update ===
+[2026-06-23 01:35:27] === Start update: 2026-06-23 01:35:19 ===
+[2026-06-23 01:35:27] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 01:35:27] USGS: 200 events fetched
+[2026-06-23 01:35:27] Before dedup: 200, After dedup: 200
+[2026-06-23 01:35:27] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_个性化灾害预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 01:35:27] Sources used: USGS
+[2026-06-23 01:35:27] Total records: 200
+[2026-06-23 01:35:27] === End update ===
+[2026-06-23 02:07:23] === Start update: 2026-06-23 02:07:15 ===
+[2026-06-23 02:07:23] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:07:23] USGS: Error - Fetch failed after 3 retries: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Max retries exceeded with url: /fdsnws/event/1/query?format=geojson&starttime=2025-12-24&endtime=2026-06-22&minmagnitude=2.5&maxradiuskm=2000&latitude=35&longitude=105&orderby=time&limit=200 (Caused by NewConnectionError("HTTPSConnection(host='earthquake.usgs.gov', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。"))
+[2026-06-23 02:07:23] Network fetch returned 0 records total
+[2026-06-23 02:07:23] Using cached processed data: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv
+[2026-06-23 02:07:23] Before dedup: 200, After dedup: 200
+[2026-06-23 02:07:23] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 02:07:23] Sources used: cache
+[2026-06-23 02:07:23] Total records: 200
+[2026-06-23 02:07:23] === End update ===
+[2026-06-23 02:08:08] === Start update: 2026-06-23 02:08:01 ===
+[2026-06-23 02:08:08] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:08:08] USGS: 200 events fetched
+[2026-06-23 02:08:08] Before dedup: 200, After dedup: 200
+[2026-06-23 02:08:08] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 02:08:08] Sources used: USGS
+[2026-06-23 02:08:08] Total records: 200
+[2026-06-23 02:08:08] === End update ===
+[2026-06-23 02:09:34] === Start update: 2026-06-23 02:09:26 ===
+[2026-06-23 02:09:34] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:09:34] USGS: Error - Fetch failed after 3 retries: HTTPSConnectionPool(host='earthquake.usgs.gov', port=443): Max retries exceeded with url: /fdsnws/event/1/query?format=geojson&starttime=2025-12-24&endtime=2026-06-22&minmagnitude=2.5&maxradiuskm=2000&latitude=35&longitude=105&orderby=time&limit=200 (Caused by NewConnectionError("HTTPSConnection(host='earthquake.usgs.gov', port=443): Failed to establish a new connection: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。"))
+[2026-06-23 02:09:34] Network fetch returned 0 records total
+[2026-06-23 02:09:34] No cached data available - fetch failed completely
+[2026-06-23 02:26:14] === Start update: 2026-06-23 02:26:08 ===
+[2026-06-23 02:26:14] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:26:14] USGS: 200 events fetched, HTTP 200
+[2026-06-23 02:26:14] Before dedup: 200, After dedup: 200
+[2026-06-23 02:26:14] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 02:26:14] Metadata saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\source_metadata.json
+[2026-06-23 02:26:14] Sources used: USGS
+[2026-06-23 02:26:14] Total records: 200
+[2026-06-23 02:26:14] Used cache: False
+[2026-06-23 02:26:14] === End update: 2026-06-23 02:26:14 ===
+[2026-06-23 02:38:16] === Start update: 2026-06-23 02:38:09 ===
+[2026-06-23 02:38:16] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:38:16] USGS: 200 events fetched, HTTP 200
+[2026-06-23 02:38:16] Before dedup: 200, After dedup: 200
+[2026-06-23 02:38:16] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 02:38:16] Metadata saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\source_metadata.json
+[2026-06-23 02:38:16] Sources used: USGS
+[2026-06-23 02:38:16] Total records: 200
+[2026-06-23 02:38:16] Used cache: False
+[2026-06-23 02:38:16] === End update: 2026-06-23 02:38:16 ===
+[2026-06-23 02:40:15] === Start update: 2026-06-23 02:40:08 ===
+[2026-06-23 02:40:15] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:40:15] USGS: 200 events fetched, HTTP 200
+[2026-06-23 02:40:15] Before dedup: 200, After dedup: 200
+[2026-06-23 02:40:15] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 02:40:15] Metadata saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\source_metadata.json
+[2026-06-23 02:40:15] Sources used: USGS
+[2026-06-23 02:40:15] Total records: 200
+[2026-06-23 02:40:15] Used cache: False
+[2026-06-23 02:40:15] === End update: 2026-06-23 02:40:15 ===
+[2026-06-23 02:43:43] === Start update: 2026-06-23 02:43:36 ===
+[2026-06-23 02:43:43] CEIC: 0 events (page may be blocked or structure changed)
+[2026-06-23 02:43:43] USGS: 200 events fetched, HTTP 200
+[2026-06-23 02:43:43] Before dedup: 200, After dedup: 200
+[2026-06-23 02:43:43] Processed data saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\processed\earthquake_events_processed.csv (200 records)
+[2026-06-23 02:43:43] Metadata saved: C:\Users\79422\Desktop\研一课堂作业\自然语言处理-袁静\项目09_基于真实地震数据的个性化地震预警信息自动生成系统_袁静\2_源码\data\source_metadata.json
+[2026-06-23 02:43:43] Sources used: USGS
+[2026-06-23 02:43:43] Total records: 200
+[2026-06-23 02:43:43] Used cache: False
+[2026-06-23 02:43:43] === End update: 2026-06-23 02:43:43 ===

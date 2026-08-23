@@ -1,0 +1,12 @@
+﻿entity_id,name,entity_type,aliases,relation_count,evidence_count,policy_priority,expert_status
+hazard_earthquake,地震,DisasterType,地震灾害;震灾;震后;强震;破坏性地震,95,49,pending_review,pending
+stage_seismic_monitoring,震前监测感知,Scenario,地震监测;地震感知;地震观测,54,14,pending_review,pending
+stage_seismic_risk_assessment,地震风险评估,Scenario,震害风险评估;区域震害评估;生命线风险评估,44,15,pending_review,pending
+stage_earthquake_warning,地震早期预警,Scenario,地震预警;早期预警;临震预警;秒级预警,48,12,pending_review,pending
+stage_post_quake_dispatch,震后应急调度,Scenario,救援调度;物资调度;疏散调度;应急响应,28,9,pending_review,pending
+stage_post_quake_damage,震后损毁评估,Scenario,灾后评估;建筑损毁评估;损毁评估;震损评估,33,11,pending_review,pending
+policy_earthquake_emergency_plan,地震应急预案,Policy,应急预案;地震应急管理预案,11,11,pending_review,pending
+policy_earthquake_warning_standard,地震预警发布规范,Policy,预警发布规范;地震预警标准,24,12,pending_review,pending
+policy_technical_standard,应急管理技术标准,Policy,技术标准;标准;规范;指南,36,24,pending_review,pending
+policy_seismic_risk_plan,防震减灾规划,Policy,防震减灾;地震灾害防治,12,12,pending_review,pending
+policy_data_governance,数据共享与隐私合规,Policy,数据共享;隐私保护;模型治理,5,5,pending_review,pending

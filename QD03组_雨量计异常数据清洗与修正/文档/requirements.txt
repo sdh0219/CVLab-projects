@@ -1,0 +1,9 @@
+# 雨量计异常数据清洗与纠正 —— 运行依赖
+# 安装：pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+scipy>=1.10
+scikit-learn>=1.3
+python-docx>=1.0        # 仅生成技术方案/实验报告 docx 时需要
+python-pptx>=0.6        # 仅生成汇报 PPT 时需要

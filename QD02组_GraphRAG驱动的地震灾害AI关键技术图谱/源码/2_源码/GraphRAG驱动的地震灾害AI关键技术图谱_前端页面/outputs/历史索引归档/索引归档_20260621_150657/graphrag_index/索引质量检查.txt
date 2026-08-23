@@ -1,0 +1,46 @@
+地震灾害新增资料 GraphRAG 索引质量检查
+
+必需节点类型覆盖：
+{
+  "Document": 10,
+  "Evidence": 40,
+  "DisasterType": 1,
+  "Case": 8,
+  "Event": 6,
+  "AITech": 11,
+  "Model": 18,
+  "Dataset": 23,
+  "Task": 14,
+  "Scenario": 8,
+  "Policy": 5,
+  "Standard": 4,
+  "Limitation": 18,
+  "Organization": 15,
+  "Metric": 12,
+  "ImpactProduct": 6
+}
+
+必需关系类型覆盖：
+{
+  "USES_MODEL": 2,
+  "DEPENDS_ON": 4,
+  "SOLVES": 2,
+  "SERVES_STAGE": 0,
+  "VALIDATED_IN": 1,
+  "LIMITED_BY": 0,
+  "REQUIRED_BY": 1,
+  "SUPPORTED_BY": 40,
+  "DERIVES_FROM": 103,
+  "MEASURED_BY": 0,
+  "EVALUATED_BY": 0,
+  "PUBLISHED_BY": 7,
+  "HAS_METRIC": 7,
+  "HAS_PARAMETER": 2,
+  "HAS_IMPACT": 5
+}
+
+关键实体缺失：
+[]
+
+低置信度关系数：0
+质量状态：待复核

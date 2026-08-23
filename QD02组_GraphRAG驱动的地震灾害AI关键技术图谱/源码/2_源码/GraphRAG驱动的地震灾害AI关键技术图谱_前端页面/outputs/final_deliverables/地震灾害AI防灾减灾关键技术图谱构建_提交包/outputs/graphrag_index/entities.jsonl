@@ -1,0 +1,58 @@
+{"entity_id": "hazard_earthquake", "name": "地震", "entity_type": "DisasterType", "aliases": ["地震灾害", "震灾", "震后", "强震", "破坏性地震"]}
+{"entity_id": "stage_seismic_monitoring", "name": "震前监测感知", "entity_type": "Scenario", "aliases": ["地震监测", "地震感知", "地震观测"]}
+{"entity_id": "stage_seismic_risk_assessment", "name": "地震风险评估", "entity_type": "Scenario", "aliases": ["震害风险评估", "区域震害评估", "生命线风险评估"]}
+{"entity_id": "stage_earthquake_warning", "name": "地震早期预警", "entity_type": "Scenario", "aliases": ["地震预警", "早期预警", "临震预警", "秒级预警"]}
+{"entity_id": "stage_post_quake_dispatch", "name": "震后应急调度", "entity_type": "Scenario", "aliases": ["救援调度", "物资调度", "疏散调度", "应急响应"]}
+{"entity_id": "stage_post_quake_damage", "name": "震后损毁评估", "entity_type": "Scenario", "aliases": ["灾后评估", "建筑损毁评估", "损毁评估", "震损评估"]}
+{"entity_id": "tech_seismic_early_warning", "name": "地震早期预警", "entity_type": "AITech", "aliases": ["智能早期预警", "ShakeAlert", "MyShake", "秒级地震预警"]}
+{"entity_id": "tech_post_earthquake_damage_cv", "name": "震后建筑损毁识别", "entity_type": "AITech", "aliases": ["建筑损毁识别", "计算机视觉损毁评估", "卫星震损识别", "震损识别"]}
+{"entity_id": "tech_remote_sensing_eq_damage", "name": "遥感震损智能解译", "entity_type": "AITech", "aliases": ["遥感智能解译", "多源遥感", "SAR震损解译", "光学遥感震损"]}
+{"entity_id": "tech_multimodal_situation", "name": "地震多模态灾情理解", "entity_type": "AITech", "aliases": ["多模态灾情理解", "灾情摘要", "图文融合", "现场报告理解"]}
+{"entity_id": "tech_llm_emergency_decision", "name": "地震应急辅助决策", "entity_type": "AITech", "aliases": ["大模型应急辅助决策", "LLM应急问答", "地震应急问答"]}
+{"entity_id": "tech_rl_rescue_dispatch", "name": "震后救援调度优化", "entity_type": "AITech", "aliases": ["强化学习调度优化", "RL调度", "资源调度优化", "路径规划"]}
+{"entity_id": "tech_lifeline_gnn", "name": "生命线震损风险传播GNN", "entity_type": "AITech", "aliases": ["生命线风险传播GNN", "GNN风险传播", "图神经网络", "级联风险"]}
+{"entity_id": "tech_graphrag_evidence", "name": "地震证据图谱GraphRAG", "entity_type": "AITech", "aliases": ["GraphRAG", "知识图谱", "证据图谱", "证据链问答"]}
+{"entity_id": "tech_seismic_risk_prediction", "name": "地震风险时空预测", "entity_type": "AITech", "aliases": ["灾害时空预测", "时空预测", "震害预测", "风险预测"]}
+{"entity_id": "tech_rapid_loss_estimation", "name": "震后灾情快速评估", "entity_type": "AITech", "aliases": ["快速灾情评估", "损失评估", "应急评估", "PDNA智能分析"]}
+{"entity_id": "model_unet", "name": "U-Net", "entity_type": "Model", "aliases": ["UNet"]}
+{"entity_id": "model_transformer", "name": "Transformer", "entity_type": "Model", "aliases": ["Swin Transformer", "ViT"]}
+{"entity_id": "model_gnn", "name": "GNN", "entity_type": "Model", "aliases": ["图神经网络", "Graph Neural Network"]}
+{"entity_id": "model_llm", "name": "LLM", "entity_type": "Model", "aliases": ["大语言模型", "大模型"]}
+{"entity_id": "model_rl", "name": "强化学习", "entity_type": "Model", "aliases": ["PPO", "DQN", "策略优化"]}
+{"entity_id": "model_cnn", "name": "CNN", "entity_type": "Model", "aliases": ["卷积神经网络", "计算机视觉模型"]}
+{"entity_id": "model_lstm", "name": "LSTM", "entity_type": "Model", "aliases": ["循环神经网络", "序列模型"]}
+{"entity_id": "model_ml", "name": "机器学习", "entity_type": "Model", "aliases": ["随机森林", "梯度提升", "深度学习"]}
+{"entity_id": "data_seismic_network", "name": "地震台网数据", "entity_type": "Dataset", "aliases": ["波形数据", "强震动记录", "地震计"]}
+{"entity_id": "data_remote_sensing", "name": "遥感影像", "entity_type": "Dataset", "aliases": ["SAR", "光学影像", "无人机影像"]}
+{"entity_id": "data_iot", "name": "物联传感器", "entity_type": "Dataset", "aliases": ["IoT", "加速度计", "GNSS", "智能手机传感器"]}
+{"entity_id": "data_social_media", "name": "众源文本", "entity_type": "Dataset", "aliases": ["社交媒体", "热线工单", "现场报告"]}
+{"entity_id": "data_building_footprint", "name": "建筑物足迹数据", "entity_type": "Dataset", "aliases": ["建筑物轮廓", "建筑物矢量", "building footprint"]}
+{"entity_id": "data_lifeline_assets", "name": "生命线设施数据", "entity_type": "Dataset", "aliases": ["道路网络", "电力网络", "通信基站", "critical infrastructure"]}
+{"entity_id": "data_disaster_event", "name": "灾害事件数据库", "entity_type": "Dataset", "aliases": ["历史地震记录", "地震目录", "损失数据库"]}
+{"entity_id": "task_earthquake_warning", "name": "地震监测预警", "entity_type": "Task", "aliases": ["预警发布", "秒级预警", "震相识别"]}
+{"entity_id": "task_damage_assessment", "name": "建筑损毁评估", "entity_type": "Task", "aliases": ["损毁评估", "震损分级", "建筑损毁"]}
+{"entity_id": "task_resource_dispatch", "name": "震后资源调度", "entity_type": "Task", "aliases": ["资源调度", "队伍调度", "路径规划"]}
+{"entity_id": "task_evidence_qa", "name": "证据链问答", "entity_type": "Task", "aliases": ["证据问答", "应急问答"]}
+{"entity_id": "task_lifeline_risk", "name": "生命线风险评估", "entity_type": "Task", "aliases": ["级联风险评估", "基础设施风险"]}
+{"entity_id": "task_seismic_risk_prediction", "name": "震害风险预测", "entity_type": "Task", "aliases": ["风险预测", "烈度预测", "损失预测"]}
+{"entity_id": "task_situation_summary", "name": "灾情态势摘要", "entity_type": "Task", "aliases": ["灾情摘要", "现场态势", "多源灾情融合"]}
+{"entity_id": "case_turkiye_syria_earthquake", "name": "土耳其叙利亚地震", "entity_type": "Case", "aliases": ["Turkiye Syria earthquake", "土叙地震", "土耳其地震"]}
+{"entity_id": "case_noto_earthquake", "name": "日本能登半岛地震", "entity_type": "Case", "aliases": ["Noto Peninsula earthquake", "能登地震"]}
+{"entity_id": "case_nepal_earthquake", "name": "尼泊尔地震", "entity_type": "Case", "aliases": ["Nepal earthquake", "尼泊尔震后评估"]}
+{"entity_id": "case_haiti_earthquake", "name": "海地地震", "entity_type": "Case", "aliases": ["Haiti earthquake", "海地震后恢复"]}
+{"entity_id": "case_morocco_earthquake", "name": "摩洛哥地震", "entity_type": "Case", "aliases": ["Morocco earthquake", "摩洛哥震灾"]}
+{"entity_id": "case_afghanistan_earthquake", "name": "阿富汗地震", "entity_type": "Case", "aliases": ["Afghanistan earthquake", "阿富汗震灾"]}
+{"entity_id": "case_shakealert_warning", "name": "ShakeAlert地震预警案例", "entity_type": "Case", "aliases": ["ShakeAlert", "USGS ShakeAlert"]}
+{"entity_id": "case_myshake_warning", "name": "MyShake地震预警案例", "entity_type": "Case", "aliases": ["MyShake", "MyShake warning"]}
+{"entity_id": "policy_earthquake_emergency_plan", "name": "地震应急预案", "entity_type": "Policy", "aliases": ["应急预案", "地震应急管理预案"]}
+{"entity_id": "policy_earthquake_warning_standard", "name": "地震预警发布规范", "entity_type": "Policy", "aliases": ["预警发布规范", "地震预警标准"]}
+{"entity_id": "policy_technical_standard", "name": "应急管理技术标准", "entity_type": "Policy", "aliases": ["技术标准", "标准", "规范", "指南"]}
+{"entity_id": "policy_seismic_risk_plan", "name": "防震减灾规划", "entity_type": "Policy", "aliases": ["防震减灾", "地震灾害防治"]}
+{"entity_id": "policy_data_governance", "name": "数据共享与隐私合规", "entity_type": "Policy", "aliases": ["数据共享", "隐私保护", "模型治理"]}
+{"entity_id": "limit_label_scarcity", "name": "标注稀缺", "entity_type": "Limitation", "aliases": ["样本不足", "标签不足"]}
+{"entity_id": "limit_generalization", "name": "跨区域泛化不足", "entity_type": "Limitation", "aliases": ["泛化不足", "迁移能力不足", "区域差异"]}
+{"entity_id": "limit_deployment", "name": "实时部署困难", "entity_type": "Limitation", "aliases": ["部署困难", "实时性不足", "系统接入"]}
+{"entity_id": "limit_hallucination", "name": "幻觉风险", "entity_type": "Limitation", "aliases": ["事实一致性", "不可靠生成"]}
+{"entity_id": "limit_explainability", "name": "可解释性不足", "entity_type": "Limitation", "aliases": ["黑箱模型", "解释不足"]}
+{"entity_id": "limit_data_bias", "name": "数据偏差", "entity_type": "Limitation", "aliases": ["代表性不足", "观测偏差"]}
+{"entity_id": "limit_communication_outage", "name": "震后通信中断", "entity_type": "Limitation", "aliases": ["通信中断", "断网", "数据传输受阻"]}

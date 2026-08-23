@@ -1,0 +1,59 @@
+﻿entity_id:ID,name,:LABEL,entity_type,aliases,relation_count:int,evidence_count:int,community_id,expert_status
+hazard_earthquake,地震,DisasterType,DisasterType,地震灾害;震灾;震后;强震;破坏性地震,95,49,C010,pending
+stage_seismic_monitoring,震前监测感知,Scenario,Scenario,地震监测;地震感知;地震观测,54,14,C008,pending
+stage_seismic_risk_assessment,地震风险评估,Scenario,Scenario,震害风险评估;区域震害评估;生命线风险评估,44,15,C009,pending
+stage_earthquake_warning,地震早期预警,Scenario,Scenario,地震预警;早期预警;临震预警;秒级预警,48,12,C008,pending
+stage_post_quake_dispatch,震后应急调度,Scenario,Scenario,救援调度;物资调度;疏散调度;应急响应,28,9,C008,pending
+stage_post_quake_damage,震后损毁评估,Scenario,Scenario,灾后评估;建筑损毁评估;损毁评估;震损评估,33,11,C010,pending
+tech_seismic_early_warning,地震早期预警,AITech,AITech,智能早期预警;ShakeAlert;MyShake;秒级地震预警,99,12,C008,pending
+tech_post_earthquake_damage_cv,震后建筑损毁识别,AITech,AITech,建筑损毁识别;计算机视觉损毁评估;卫星震损识别;震损识别,35,5,C002,pending
+tech_remote_sensing_eq_damage,遥感震损智能解译,AITech,AITech,遥感智能解译;多源遥感;SAR震损解译;光学遥感震损,28,4,C003,pending
+tech_multimodal_situation,地震多模态灾情理解,AITech,AITech,多模态灾情理解;灾情摘要;图文融合;现场报告理解,14,2,C004,pending
+tech_llm_emergency_decision,地震应急辅助决策,AITech,AITech,大模型应急辅助决策;LLM应急问答;地震应急问答,43,6,C005,pending
+tech_rl_rescue_dispatch,震后救援调度优化,AITech,AITech,强化学习调度优化;RL调度;资源调度优化;路径规划,21,3,C006,pending
+tech_lifeline_gnn,生命线震损风险传播GNN,AITech,AITech,生命线风险传播GNN;GNN风险传播;图神经网络;级联风险,43,6,C007,pending
+tech_graphrag_evidence,地震证据图谱GraphRAG,AITech,AITech,GraphRAG;知识图谱;证据图谱;证据链问答,363,49,C008,pending
+tech_seismic_risk_prediction,地震风险时空预测,AITech,AITech,灾害时空预测;时空预测;震害预测;风险预测,42,6,C009,pending
+tech_rapid_loss_estimation,震后灾情快速评估,AITech,AITech,快速灾情评估;损失评估;应急评估;PDNA智能分析,16,2,C010,pending
+model_unet,U-Net,Model,Model,UNet,8,4,C008,pending
+model_transformer,Transformer,Model,Model,Swin Transformer;ViT,8,4,C010,pending
+model_gnn,GNN,Model,Model,图神经网络;Graph Neural Network,12,6,C008,pending
+model_llm,LLM,Model,Model,大语言模型;大模型,15,9,C008,pending
+model_rl,强化学习,Model,Model,PPO;DQN;策略优化,11,6,C008,pending
+model_cnn,CNN,Model,Model,卷积神经网络;计算机视觉模型,10,5,C008,pending
+model_lstm,LSTM,Model,Model,循环神经网络;序列模型,12,6,C009,pending
+model_ml,机器学习,Model,Model,随机森林;梯度提升;深度学习,24,12,C008,pending
+data_seismic_network,地震台网数据,Dataset,Dataset,波形数据;强震动记录;地震计,36,18,C009,pending
+data_remote_sensing,遥感影像,Dataset,Dataset,SAR;光学影像;无人机影像,12,6,C010,pending
+data_iot,物联传感器,Dataset,Dataset,IoT;加速度计;GNSS;智能手机传感器,0,0,,pending
+data_social_media,众源文本,Dataset,Dataset,社交媒体;热线工单;现场报告,16,8,C008,pending
+data_building_footprint,建筑物足迹数据,Dataset,Dataset,建筑物轮廓;建筑物矢量;building footprint,10,5,C008,pending
+data_lifeline_assets,生命线设施数据,Dataset,Dataset,道路网络;电力网络;通信基站;critical infrastructure,18,9,C008,pending
+data_disaster_event,灾害事件数据库,Dataset,Dataset,历史地震记录;地震目录;损失数据库,3,3,C008,pending
+task_earthquake_warning,地震监测预警,Task,Task,预警发布;秒级预警;震相识别,24,12,C008,pending
+task_damage_assessment,建筑损毁评估,Task,Task,损毁评估;震损分级;建筑损毁,22,11,C010,pending
+task_resource_dispatch,震后资源调度,Task,Task,资源调度;队伍调度;路径规划,6,3,C008,pending
+task_evidence_qa,证据链问答,Task,Task,证据问答;应急问答,15,9,C008,pending
+task_lifeline_risk,生命线风险评估,Task,Task,级联风险评估;基础设施风险,12,6,C008,pending
+task_seismic_risk_prediction,震害风险预测,Task,Task,风险预测;烈度预测;损失预测,12,6,C009,pending
+task_situation_summary,灾情态势摘要,Task,Task,灾情摘要;现场态势;多源灾情融合,8,4,C010,pending
+case_turkiye_syria_earthquake,土耳其叙利亚地震,Case,Case,Turkiye Syria earthquake;土叙地震;土耳其地震,17,10,C010,pending
+case_noto_earthquake,日本能登半岛地震,Case,Case,Noto Peninsula earthquake;能登地震,22,11,C009,pending
+case_nepal_earthquake,尼泊尔地震,Case,Case,Nepal earthquake;尼泊尔震后评估,6,3,C008,pending
+case_haiti_earthquake,海地地震,Case,Case,Haiti earthquake;海地震后恢复,12,6,C008,pending
+case_morocco_earthquake,摩洛哥地震,Case,Case,Morocco earthquake;摩洛哥震灾,12,6,C008,pending
+case_afghanistan_earthquake,阿富汗地震,Case,Case,Afghanistan earthquake;阿富汗震灾,4,2,C008,pending
+case_shakealert_warning,ShakeAlert地震预警案例,Case,Case,ShakeAlert;USGS ShakeAlert,24,12,C008,pending
+case_myshake_warning,MyShake地震预警案例,Case,Case,MyShake;MyShake warning,4,2,C008,pending
+policy_earthquake_emergency_plan,地震应急预案,Policy,Policy,应急预案;地震应急管理预案,11,11,,pending
+policy_earthquake_warning_standard,地震预警发布规范,Policy,Policy,预警发布规范;地震预警标准,24,12,,pending
+policy_technical_standard,应急管理技术标准,Policy,Policy,技术标准;标准;规范;指南,36,24,,pending
+policy_seismic_risk_plan,防震减灾规划,Policy,Policy,防震减灾;地震灾害防治,12,12,,pending
+policy_data_governance,数据共享与隐私合规,Policy,Policy,数据共享;隐私保护;模型治理,5,5,,pending
+limit_label_scarcity,标注稀缺,Limitation,Limitation,样本不足;标签不足,10,5,C008,pending
+limit_generalization,跨区域泛化不足,Limitation,Limitation,泛化不足;迁移能力不足;区域差异,20,10,C009,pending
+limit_deployment,实时部署困难,Limitation,Limitation,部署困难;实时性不足;系统接入,28,14,C010,pending
+limit_hallucination,幻觉风险,Limitation,Limitation,事实一致性;不可靠生成,15,9,C008,pending
+limit_explainability,可解释性不足,Limitation,Limitation,黑箱模型;解释不足,12,6,C008,pending
+limit_data_bias,数据偏差,Limitation,Limitation,代表性不足;观测偏差,4,2,C008,pending
+limit_communication_outage,震后通信中断,Limitation,Limitation,通信中断;断网;数据传输受阻,6,3,C008,pending

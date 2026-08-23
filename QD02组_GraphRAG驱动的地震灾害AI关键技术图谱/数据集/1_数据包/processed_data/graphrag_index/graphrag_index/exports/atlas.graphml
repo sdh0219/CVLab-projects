@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="type" for="node" attr.name="type" attr.type="string"/>
+  <key id="relation_type" for="edge" attr.name="relation_type" attr.type="string"/>
+  <key id="confidence" for="edge" attr.name="confidence" attr.type="double"/>
+  <graph id="earthquake_atlas" edgedefault="directed">
+    <node id="EQ_DOC_001">
+      <data key="name">原始来源核验机制</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_002">
+      <data key="name">全球典型地震事件参数</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_003">
+      <data key="name">ShakeMap与PAGER影响评估</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_004">
+      <data key="name">灾后应急响应与人道需求</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_005">
+      <data key="name">遥感影像与建筑震损标签</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_006">
+      <data key="name">暴露体与生命线韧性</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_007">
+      <data key="name">分布式AI地震预警</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_008">
+      <data key="name">工程损失评估系统</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_009">
+      <data key="name">应急治理政策标准</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="EQ_DOC_010">
+      <data key="name">本体与复核机制</data>
+      <data key="type">Document</data>
+    </node>
+    <node id="hazard_eq_001">
+      <data key="name">地震</data>
+      <data key="type">DisasterType</data>
+    </node>
+    <node id="stage_eq_001">
+      <data key="name">震前监测</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_002">
+      <data key="name">震时预警</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_003">
+      <data key="name">震后评估</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_004">
+      <data key="name">应急响应</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_005">
+      <data key="name">恢复重建</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_006">
+      <data key="name">灾后复盘</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_007">
+      <data key="name">政策治理</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="stage_eq_008">
+      <data key="name">城市韧性评估</data>
+      <data key="type">Scenario</data>
+    </node>
+    <node id="tech_eq_001">
+      <data key="name">地震早期预警</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_002">
+      <data key="name">震后建筑损毁识别</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_003">
+      <data key="name">遥感震损智能解译</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_004">
+      <data key="name">地震风险时空预测</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_005">
+      <data key="name">震后灾情快速评估</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_006">
+      <data key="name">地震应急辅助决策</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_007">
+      <data key="name">生命线震损风险传播GNN</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_008">
+      <data key="name">震后救援调度优化</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_009">
+      <data key="name">地震证据图谱GraphRAG</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_010">
+      <data key="name">数字孪生城市地震风险模拟</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="tech_eq_011">
+      <data key="name">分布式AI地震预警</data>
+      <data key="type">AITech</data>
+    </node>
+    <node id="model_eq_001">
+      <data key="name">CNN</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_002">
+      <data key="name">GNN</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_003">
+      <data key="name">LSTM</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_004">
+      <data key="name">RNN</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_005">
+      <data key="name">Transformer</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_006">
+      <data key="name">U-Net</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_007">
+      <data key="name">随机森林</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_008">
+      <data key="name">XGBoost</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_009">
+      <data key="name">能力谱法</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_010">
+      <data key="name">Hazus</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_011">
+      <data key="name">OpenQuake</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_012">
+      <data key="name">Edge-AI CNN</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_013">
+      <data key="name">PhaseNet</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_014">
+      <data key="name">EQTransformer</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_015">
+      <data key="name">DBSCAN</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_016">
+      <data key="name">多主体仿真</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_017">
+      <data key="name">QuakeWake</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="model_eq_018">
+      <data key="name">E3WS</data>
+      <data key="type">Model</data>
+    </node>
+    <node id="data_eq_001">
+      <data key="name">USGS ComCat</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_002">
+      <data key="name">CENC 地震目录</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_003">
+      <data key="name">JMA 地震目录</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_004">
+      <data key="name">ShakeMap</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_005">
+      <data key="name">PAGER</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_006">
+      <data key="name">Finite Fault Model</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_007">
+      <data key="name">WorldPop</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_008">
+      <data key="name">xBD</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_009">
+      <data key="name">Copernicus EMS</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_010">
+      <data key="name">ALOS-2-BDE</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_011">
+      <data key="name">Sentinel-1</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_012">
+      <data key="name">PALSAR-2</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_013">
+      <data key="name">OpenStreetMap</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_014">
+      <data key="name">建筑物足迹</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_015">
+      <data key="name">台站波形数据</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_016">
+      <data key="name">MEMS 加速度计</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_017">
+      <data key="name">Vs30</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_018">
+      <data key="name">人口暴露格网</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_019">
+      <data key="name">生命线设施数据</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_020">
+      <data key="name">道路网络</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_021">
+      <data key="name">避难所数据</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_022">
+      <data key="name">强震动记录</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="data_eq_023">
+      <data key="name">Uncertainty Grid</data>
+      <data key="type">Dataset</data>
+    </node>
+    <node id="task_eq_001">
+      <data key="name">P 波起始拾取</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_002">
+      <data key="name">地震监测预警</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_003">
+      <data key="name">地震风险评估</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_004">
+      <data key="name">震后建筑损毁识别</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_005">
+      <data key="name">震后灾情快速评估</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_006">
+      <data key="name">人员伤亡估计</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_007">
+      <data key="name">经济损失估计</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_008">
+      <data key="name">应急响应分级</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_009">
+      <data key="name">救援路径规划</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_010">
+      <data key="name">物资调度优化</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_011">
+      <data key="name">生命线风险传播分析</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_012">
+      <data key="name">政策合规映射</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_013">
+      <data key="name">证据问答</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="task_eq_014">
+      <data key="name">地震动模拟</data>
+      <data key="type">Task</data>
+    </node>
+    <node id="case_eq_001">
+      <data key="name">2024 年日本能登半岛地震</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="event_eq_001">
+      <data key="name">2024 年日本能登半岛地震</data>
+      <data key="type">Event</data>
+    </node>
+    <node id="case_eq_002">
+      <data key="name">2023 年土耳其-叙利亚地震</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="event_eq_002">
+      <data key="name">2023 年土耳其-叙利亚地震</data>
+      <data key="type">Event</data>
+    </node>
+    <node id="case_eq_003">
+      <data key="name">2023 年土耳其 Elbistan 大震</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="event_eq_003">
+      <data key="name">2023 年土耳其 Elbistan 大震</data>
+      <data key="type">Event</data>
+    </node>
+    <node id="case_eq_004">
+      <data key="name">2015 年尼泊尔廓尔喀地震</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="event_eq_004">
+      <data key="name">2015 年尼泊尔廓尔喀地震</data>
+      <data key="type">Event</data>
+    </node>
+    <node id="case_eq_005">
+      <data key="name">2021 年海地地震</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="event_eq_005">
+      <data key="name">2021 年海地地震</data>
+      <data key="type">Event</data>
+    </node>
+    <node id="case_eq_006">
+      <data key="name">2024 年中国台湾花莲地震</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="event_eq_006">
+      <data key="name">2024 年中国台湾花莲地震</data>
+      <data key="type">Event</data>
+    </node>
+    <node id="case_eq_007">
+      <data key="name">MyShake 地震预警案例</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="case_eq_008">
+      <data key="name">ShakeAlert 地震预警案例</data>
+      <data key="type">Case</data>
+    </node>
+    <node id="policy_eq_001">
+      <data key="name">Sendai Framework</data>
+      <data key="type">Policy</data>
+    </node>
+    <node id="policy_eq_002">
+      <data key="name">国家地震应急预案</data>
+      <data key="type">Policy</data>
+    </node>
+    <node id="policy_eq_003">
+      <data key="name">甘肃省地震应急预案</data>
+      <data key="type">Policy</data>
+    </node>
+    <node id="policy_eq_004">
+      <data key="name">地震预警发布规范</data>
+      <data key="type">Policy</data>
+    </node>
+    <node id="policy_eq_005">
+      <data key="name">应急管理体系现代化规划</data>
+      <data key="type">Policy</data>
+    </node>
+    <node id="standard_eq_001">
+      <data key="name">ISO 22320:2018</data>
+      <data key="type">Standard</data>
+    </node>
+    <node id="standard_eq_002">
+      <data key="name">OASIS CAP</data>
+      <data key="type">Standard</data>
+    </node>
+    <node id="standard_eq_003">
+      <data key="name">OGC SensorThings API</data>
+      <data key="type">Standard</data>
+    </node>
+    <node id="standard_eq_004">
+      <data key="name">DesInventar Sendai</data>
+      <data key="type">Standard</data>
+    </node>
+    <node id="limit_eq_001">
+      <data key="name">预警盲区</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_002">
+      <data key="name">误报风险</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_003">
+      <data key="name">漏报风险</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_004">
+      <data key="name">数据偏差</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_005">
+      <data key="name">标注稀缺</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_006">
+      <data key="name">跨区域泛化不足</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_007">
+      <data key="name">实时部署困难</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_008">
+      <data key="name">边缘算力约束</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_009">
+      <data key="name">SAR 影像解释不确定性</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_010">
+      <data key="name">光学影像云层遮挡</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_011">
+      <data key="name">中等损伤标签混淆</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_012">
+      <data key="name">来源核验不足</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_013">
+      <data key="name">专家复核不足</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_014">
+      <data key="name">大模型幻觉风险</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_015">
+      <data key="name">证据链断裂</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_016">
+      <data key="name">通信延迟</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_017">
+      <data key="name">台站稀疏</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="limit_eq_018">
+      <data key="name">不确定性网格</data>
+      <data key="type">Limitation</data>
+    </node>
+    <node id="org_eq_001">
+      <data key="name">USGS</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_002">
+      <data key="name">CENC</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_003">
+      <data key="name">JMA</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_004">
+      <data key="name">FEMA</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_005">
+      <data key="name">GEM</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_006">
+      <data key="name">UNDRR</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_007">
+      <data key="name">INSARAG</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_008">
+      <data key="name">UNDAC</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_009">
+      <data key="name">AFAD</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_010">
+      <data key="name">WFP</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_011">
+      <data key="name">CDRI</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_012">
+      <data key="name">ISO</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_013">
+      <data key="name">OGC</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_014">
+      <data key="name">OASIS</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="org_eq_015">
+      <data key="name">Taiwan CWA</data>
+      <data key="type">Organization</data>
+    </node>
+    <node id="metric_eq_001">
+      <data key="name">PGA</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_002">
+      <data key="name">PGV</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_003">
+      <data key="name">MMI</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_004">
+      <data key="name">AEL</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_005">
+      <data key="name">AELR</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_006">
+      <data key="name">MDF</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_007">
+      <data key="name">COV</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_008">
+      <data key="name">Vs30</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_009">
+      <data key="name">confidence</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_010">
+      <data key="name">震级</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_011">
+      <data key="name">震源深度</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="metric_eq_012">
+      <data key="name">震中位置</data>
+      <data key="type">Metric</data>
+    </node>
+    <node id="product_eq_001">
+      <data key="name">PAGER XML</data>
+      <data key="type">ImpactProduct</data>
+    </node>
+    <node id="product_eq_002">
+      <data key="name">PAGER 快速评估结果</data>
+      <data key="type">ImpactProduct</data>
+    </node>
+    <node id="product_eq_003">
+      <data key="name">Intensity Contours</data>
+      <data key="type">ImpactProduct</data>
+    </node>
+    <node id="product_eq_004">
+      <data key="name">XML Grid</data>
+      <data key="type">ImpactProduct</data>
+    </node>
+    <node id="product_eq_005">
+      <data key="name">Fault Rupture JSON</data>
+      <data key="type">ImpactProduct</data>
+    </node>
+    <node id="product_eq_006">
+      <data key="name">震损标签图</data>
+      <data key="type">ImpactProduct</data>
+    </node>
+    <node id="evidence_eq_001">
+      <data key="name">证据片段001</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_002">
+      <data key="name">证据片段002</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_003">
+      <data key="name">证据片段003</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_004">
+      <data key="name">证据片段004</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_005">
+      <data key="name">证据片段005</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_006">
+      <data key="name">证据片段006</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_007">
+      <data key="name">证据片段007</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_008">
+      <data key="name">证据片段008</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_009">
+      <data key="name">证据片段009</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_010">
+      <data key="name">证据片段010</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_011">
+      <data key="name">证据片段011</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_012">
+      <data key="name">证据片段012</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_013">
+      <data key="name">证据片段013</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_014">
+      <data key="name">证据片段014</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_015">
+      <data key="name">证据片段015</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_016">
+      <data key="name">证据片段016</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_017">
+      <data key="name">证据片段017</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_018">
+      <data key="name">证据片段018</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_019">
+      <data key="name">证据片段019</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_020">
+      <data key="name">证据片段020</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_021">
+      <data key="name">证据片段021</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_022">
+      <data key="name">证据片段022</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_023">
+      <data key="name">证据片段023</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_024">
+      <data key="name">证据片段024</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_025">
+      <data key="name">证据片段025</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_026">
+      <data key="name">证据片段026</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_027">
+      <data key="name">证据片段027</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_028">
+      <data key="name">证据片段028</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_029">
+      <data key="name">证据片段029</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_030">
+      <data key="name">证据片段030</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_031">
+      <data key="name">证据片段031</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_032">
+      <data key="name">证据片段032</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_033">
+      <data key="name">证据片段033</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_034">
+      <data key="name">证据片段034</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_035">
+      <data key="name">证据片段035</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_036">
+      <data key="name">证据片段036</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_037">
+      <data key="name">证据片段037</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_038">
+      <data key="name">证据片段038</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_039">
+      <data key="name">证据片段039</data>
+      <data key="type">Evidence</data>
+    </node>
+    <node id="evidence_eq_040">
+      <data key="name">证据片段040</data>
+      <data key="type">Evidence</data>
+    </node>
+    <edge id="REL_EQ_000001" source="tech_eq_001" target="stage_eq_002">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000002" source="tech_eq_001" target="task_eq_002">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000003" source="tech_eq_001" target="data_eq_015">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000004" source="tech_eq_011" target="task_eq_002">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000005" source="tech_eq_011" target="stage_eq_002">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000006" source="tech_eq_011" target="model_eq_012">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000007" source="tech_eq_011" target="model_eq_013">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000008" source="tech_eq_011" target="model_eq_014">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000009" source="tech_eq_011" target="model_eq_017">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000010" source="tech_eq_011" target="model_eq_018">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000011" source="tech_eq_011" target="model_eq_015">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000012" source="tech_eq_011" target="data_eq_016">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000013" source="tech_eq_011" target="data_eq_015">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000014" source="tech_eq_011" target="limit_eq_001">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000015" source="tech_eq_011" target="limit_eq_016">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000016" source="tech_eq_004" target="task_eq_003">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000017" source="tech_eq_004" target="data_eq_002">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000018" source="data_eq_004" target="data_eq_006">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000019" source="data_eq_004" target="data_eq_017">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000020" source="data_eq_004" target="metric_eq_001">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000021" source="data_eq_004" target="metric_eq_002">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000022" source="data_eq_004" target="metric_eq_003">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000023" source="data_eq_004" target="product_eq_003">
+      <data key="relation_type">HAS_IMPACT</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000024" source="data_eq_004" target="product_eq_004">
+      <data key="relation_type">HAS_IMPACT</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000025" source="data_eq_004" target="product_eq_005">
+      <data key="relation_type">HAS_IMPACT</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000026" source="data_eq_005" target="data_eq_004">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000027" source="data_eq_005" target="data_eq_007">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000028" source="data_eq_005" target="task_eq_006">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000029" source="data_eq_005" target="task_eq_007">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000030" source="data_eq_005" target="product_eq_001">
+      <data key="relation_type">HAS_IMPACT</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000031" source="data_eq_005" target="product_eq_002">
+      <data key="relation_type">HAS_IMPACT</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000032" source="data_eq_004" target="case_eq_001">
+      <data key="relation_type">VALIDATED_IN</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000033" source="tech_eq_005" target="stage_eq_003">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000034" source="tech_eq_005" target="data_eq_004">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000035" source="tech_eq_005" target="data_eq_005">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000036" source="tech_eq_005" target="task_eq_006">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000037" source="tech_eq_005" target="task_eq_007">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000038" source="tech_eq_002" target="stage_eq_003">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000039" source="tech_eq_002" target="data_eq_008">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000040" source="tech_eq_002" target="data_eq_009">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000041" source="tech_eq_002" target="data_eq_010">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000042" source="tech_eq_002" target="data_eq_011">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000043" source="tech_eq_002" target="data_eq_012">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000044" source="tech_eq_002" target="data_eq_013">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000045" source="tech_eq_002" target="data_eq_014">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000046" source="tech_eq_002" target="task_eq_004">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000047" source="tech_eq_002" target="model_eq_001">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000048" source="tech_eq_002" target="model_eq_006">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000049" source="tech_eq_002" target="model_eq_005">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000050" source="tech_eq_002" target="limit_eq_010">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000051" source="tech_eq_002" target="limit_eq_009">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000052" source="tech_eq_002" target="limit_eq_011">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000053" source="data_eq_008" target="product_eq_006">
+      <data key="relation_type">HAS_IMPACT</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000054" source="data_eq_010" target="case_eq_001">
+      <data key="relation_type">VALIDATED_IN</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000055" source="tech_eq_003" target="stage_eq_003">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000056" source="tech_eq_003" target="task_eq_004">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000057" source="tech_eq_003" target="data_eq_008">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000058" source="tech_eq_003" target="data_eq_009">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000059" source="tech_eq_003" target="data_eq_010">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000060" source="tech_eq_003" target="data_eq_011">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000061" source="tech_eq_003" target="limit_eq_009">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000062" source="tech_eq_007" target="model_eq_002">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000063" source="tech_eq_007" target="data_eq_019">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000064" source="tech_eq_007" target="data_eq_020">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000065" source="tech_eq_007" target="data_eq_013">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000066" source="tech_eq_007" target="task_eq_011">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000067" source="tech_eq_007" target="stage_eq_008">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000068" source="tech_eq_010" target="model_eq_011">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000069" source="tech_eq_010" target="model_eq_010">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000070" source="tech_eq_010" target="task_eq_003">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000071" source="tech_eq_010" target="stage_eq_008">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000072" source="tech_eq_008" target="stage_eq_004">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000073" source="tech_eq_008" target="task_eq_009">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000074" source="tech_eq_008" target="task_eq_010">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000075" source="tech_eq_008" target="task_eq_008">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000076" source="tech_eq_008" target="data_eq_021">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000077" source="tech_eq_008" target="case_eq_002">
+      <data key="relation_type">VALIDATED_IN</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000078" source="tech_eq_008" target="policy_eq_001">
+      <data key="relation_type">REQUIRED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000079" source="tech_eq_006" target="stage_eq_004">
+      <data key="relation_type">SERVES_STAGE</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000080" source="tech_eq_006" target="task_eq_008">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000081" source="tech_eq_006" target="data_eq_005">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000082" source="tech_eq_006" target="data_eq_004">
+      <data key="relation_type">DEPENDS_ON</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000083" source="tech_eq_006" target="standard_eq_001">
+      <data key="relation_type">REQUIRED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000084" source="tech_eq_006" target="policy_eq_001">
+      <data key="relation_type">REQUIRED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000085" source="model_eq_010" target="model_eq_009">
+      <data key="relation_type">USES_MODEL</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000086" source="model_eq_010" target="task_eq_007">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000087" source="model_eq_011" target="task_eq_003">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000088" source="model_eq_011" target="metric_eq_001">
+      <data key="relation_type">EVALUATED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000089" source="model_eq_011" target="metric_eq_004">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000090" source="model_eq_011" target="metric_eq_005">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000091" source="model_eq_011" target="metric_eq_006">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000092" source="model_eq_011" target="metric_eq_007">
+      <data key="relation_type">HAS_METRIC</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000093" source="task_eq_012" target="policy_eq_001">
+      <data key="relation_type">REQUIRED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000094" source="task_eq_008" target="standard_eq_001">
+      <data key="relation_type">REQUIRED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000095" source="policy_eq_002" target="policy_eq_001">
+      <data key="relation_type">REQUIRED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000096" source="tech_eq_009" target="task_eq_013">
+      <data key="relation_type">SOLVES</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000097" source="tech_eq_009" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000098" source="tech_eq_009" target="limit_eq_014">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000099" source="tech_eq_009" target="limit_eq_015">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000100" source="tech_eq_009" target="limit_eq_013">
+      <data key="relation_type">LIMITED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000101" source="tech_eq_009" target="EQ_DOC_001">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000102" source="data_eq_004" target="org_eq_001">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000103" source="data_eq_005" target="org_eq_001">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000104" source="data_eq_002" target="org_eq_002">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000105" source="data_eq_003" target="org_eq_003">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000106" source="model_eq_010" target="org_eq_004">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000107" source="model_eq_011" target="org_eq_005">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000108" source="policy_eq_001" target="org_eq_006">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000109" source="standard_eq_001" target="org_eq_012">
+      <data key="relation_type">PUBLISHED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000110" source="case_eq_001" target="metric_eq_010">
+      <data key="relation_type">HAS_PARAMETER</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000111" source="case_eq_001" target="metric_eq_011">
+      <data key="relation_type">HAS_PARAMETER</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000112" source="case_eq_001" target="metric_eq_012">
+      <data key="relation_type">HAS_PARAMETER</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000113" source="hazard_eq_001" target="EQ_DOC_001">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000114" source="hazard_eq_001" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000115" source="hazard_eq_001" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000116" source="stage_eq_004" target="EQ_DOC_001">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000117" source="stage_eq_004" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000118" source="stage_eq_004" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000119" source="stage_eq_005" target="EQ_DOC_001">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000120" source="stage_eq_005" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000121" source="stage_eq_006" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000122" source="tech_eq_001" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000123" source="tech_eq_002" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000124" source="tech_eq_002" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000125" source="tech_eq_003" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000126" source="tech_eq_004" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000127" source="tech_eq_005" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000128" source="tech_eq_006" target="EQ_DOC_001">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000129" source="tech_eq_006" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000130" source="tech_eq_006" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000131" source="tech_eq_007" target="EQ_DOC_006">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000132" source="tech_eq_007" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000133" source="tech_eq_008" target="EQ_DOC_001">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000134" source="tech_eq_008" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000135" source="tech_eq_008" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000136" source="tech_eq_009" target="EQ_DOC_001">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000137" source="tech_eq_010" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000138" source="tech_eq_011" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000139" source="model_eq_001" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000140" source="model_eq_002" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000141" source="model_eq_004" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000142" source="model_eq_005" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000143" source="model_eq_005" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000144" source="model_eq_007" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000145" source="model_eq_009" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000146" source="model_eq_010" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000147" source="model_eq_011" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000148" source="model_eq_013" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000149" source="model_eq_013" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000150" source="model_eq_014" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000151" source="model_eq_014" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000152" source="model_eq_015" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000153" source="model_eq_017" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000154" source="model_eq_018" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000155" source="data_eq_002" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000156" source="data_eq_003" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000157" source="data_eq_004" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000158" source="data_eq_005" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000159" source="data_eq_006" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000160" source="data_eq_007" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000161" source="data_eq_008" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000162" source="data_eq_008" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000163" source="data_eq_009" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000164" source="data_eq_010" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000165" source="data_eq_011" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000166" source="data_eq_012" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000167" source="data_eq_013" target="EQ_DOC_005">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000168" source="data_eq_016" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000169" source="data_eq_017" target="EQ_DOC_006">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000170" source="data_eq_018" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000171" source="data_eq_023" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000172" source="task_eq_003" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000173" source="task_eq_007" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000174" source="task_eq_013" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000175" source="task_eq_014" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000176" source="case_eq_001" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000177" source="case_eq_001" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000178" source="case_eq_001" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000179" source="event_eq_001" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000180" source="event_eq_001" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000181" source="event_eq_001" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000182" source="case_eq_002" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000183" source="event_eq_002" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000184" source="case_eq_004" target="EQ_DOC_006">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000185" source="event_eq_004" target="EQ_DOC_006">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000186" source="policy_eq_001" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000187" source="policy_eq_002" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000188" source="policy_eq_003" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000189" source="policy_eq_005" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000190" source="standard_eq_001" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000191" source="standard_eq_001" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000192" source="standard_eq_002" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000193" source="standard_eq_004" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000194" source="limit_eq_001" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000195" source="limit_eq_004" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000196" source="limit_eq_013" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000197" source="limit_eq_017" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000198" source="limit_eq_018" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000199" source="org_eq_001" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000200" source="org_eq_001" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000201" source="org_eq_002" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000202" source="org_eq_003" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000203" source="org_eq_004" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000204" source="org_eq_005" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000205" source="org_eq_007" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000206" source="org_eq_008" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000207" source="org_eq_009" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000208" source="org_eq_010" target="EQ_DOC_004">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000209" source="org_eq_012" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000210" source="org_eq_012" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000211" source="org_eq_015" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000212" source="metric_eq_001" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000213" source="metric_eq_002" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000214" source="metric_eq_003" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000215" source="metric_eq_004" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000216" source="metric_eq_005" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000217" source="metric_eq_006" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000218" source="metric_eq_007" target="EQ_DOC_008">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000219" source="metric_eq_008" target="EQ_DOC_006">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000220" source="metric_eq_009" target="EQ_DOC_010">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000221" source="metric_eq_010" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000222" source="metric_eq_010" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000223" source="metric_eq_010" target="EQ_DOC_009">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000224" source="metric_eq_011" target="EQ_DOC_002">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000225" source="metric_eq_011" target="EQ_DOC_007">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000226" source="product_eq_001" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000227" source="product_eq_002" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000228" source="product_eq_003" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000229" source="product_eq_004" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000230" source="product_eq_005" target="EQ_DOC_003">
+      <data key="relation_type">DERIVES_FROM</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000231" source="tech_eq_001" target="evidence_eq_001">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000232" source="tech_eq_001" target="evidence_eq_002">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000233" source="tech_eq_001" target="evidence_eq_003">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000234" source="tech_eq_011" target="evidence_eq_004">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000235" source="tech_eq_011" target="evidence_eq_005">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000236" source="tech_eq_011" target="evidence_eq_006">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000237" source="tech_eq_011" target="evidence_eq_007">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000238" source="tech_eq_011" target="evidence_eq_008">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000239" source="tech_eq_011" target="evidence_eq_009">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000240" source="tech_eq_011" target="evidence_eq_010">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000241" source="tech_eq_011" target="evidence_eq_011">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000242" source="tech_eq_011" target="evidence_eq_012">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000243" source="tech_eq_011" target="evidence_eq_013">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000244" source="tech_eq_011" target="evidence_eq_014">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000245" source="tech_eq_011" target="evidence_eq_015">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000246" source="tech_eq_004" target="evidence_eq_016">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000247" source="tech_eq_004" target="evidence_eq_017">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000248" source="data_eq_004" target="evidence_eq_018">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000249" source="data_eq_004" target="evidence_eq_019">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000250" source="data_eq_004" target="evidence_eq_020">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000251" source="data_eq_004" target="evidence_eq_021">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000252" source="data_eq_004" target="evidence_eq_022">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000253" source="data_eq_004" target="evidence_eq_023">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000254" source="data_eq_004" target="evidence_eq_024">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000255" source="data_eq_004" target="evidence_eq_025">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000256" source="data_eq_005" target="evidence_eq_026">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000257" source="data_eq_005" target="evidence_eq_027">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000258" source="data_eq_005" target="evidence_eq_028">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000259" source="data_eq_005" target="evidence_eq_029">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000260" source="data_eq_005" target="evidence_eq_030">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000261" source="data_eq_005" target="evidence_eq_031">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000262" source="data_eq_004" target="evidence_eq_032">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000263" source="tech_eq_005" target="evidence_eq_033">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000264" source="tech_eq_005" target="evidence_eq_034">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000265" source="tech_eq_005" target="evidence_eq_035">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.9</data>
+    </edge>
+    <edge id="REL_EQ_000266" source="tech_eq_005" target="evidence_eq_036">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000267" source="tech_eq_005" target="evidence_eq_037">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.75</data>
+    </edge>
+    <edge id="REL_EQ_000268" source="tech_eq_002" target="evidence_eq_038">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000269" source="tech_eq_002" target="evidence_eq_039">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+    <edge id="REL_EQ_000270" source="tech_eq_002" target="evidence_eq_040">
+      <data key="relation_type">SUPPORTED_BY</data>
+      <data key="confidence">0.6</data>
+    </edge>
+  </graph>
+</graphml>

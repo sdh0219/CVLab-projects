@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>地震灾害AI防灾减灾关键技术图谱构建最终成果报告</title>
+<style>
+body{font-family:Arial,'Microsoft YaHei',sans-serif;line-height:1.75;color:#172026;max-width:1120px;margin:32px auto;padding:0 24px;background:#fff}
+h1{font-size:30px} h2{font-size:22px;margin-top:28px} table{border-collapse:collapse;width:100%;margin:14px 0} th,td{border:1px solid #d7ded8;padding:8px;vertical-align:top} th{background:#eef4ef} code,pre{background:#f6f8f7} pre{padding:12px;overflow:auto}
+</style>
+</head>
+<body>
+<h1>地震灾害AI防灾减灾关键技术图谱构建最终成果报告</h1>
+<p>生成时间：2026-06-20T15:00:14</p>
+<h2>1. 项目目标</h2>
+<p>本项目构建一个可运行的 GraphRAG 风格工程原型，并将研究尺度统一到地震灾害案例。系统从论文、专利、项目、政策、地震案例、标准和报告中抽取地震早期预警、震后损毁评估、应急调度、生命线风险传播和证据链问答等关键技术、应用场景、证据关系和待复核问题，形成可追溯、可问答、可更新的地震灾害关键技术图谱。</p>
+<h2>2. 已完成成果</h2>
+<ul>
+<li>语料规模：49 篇地震专题整理语料，覆盖 7 类来源。</li>
+<li>图谱规模：58 个实体节点，792 条证据关系，202 条声明。</li>
+<li>社区结果：10 个技术社区，3 个拓扑社区。</li>
+<li>评测结果：7 条问答评测问题，其中 7 条通过当前覆盖度检查。</li>
+<li>风险筛查：28 个不确定性复核项，其中 0 个高优先级。</li>
+</ul>
+<h2>3. 关键技术评分</h2>
+<table>
+<tr><th>排名</th><th>技术</th><th>分数</th><th>成熟度</th><th>证据来源</th><th>缺口</th></tr>
+<tr><td>1</td><td>地震证据图谱GraphRAG</td><td>85</td><td>工程验证较充分</td><td>49</td><td>无规则缺口</td></tr>
+<tr><td>2</td><td>地震早期预警</td><td>75</td><td>证据较充分但需复核</td><td>12</td><td>无规则缺口</td></tr>
+<tr><td>3</td><td>地震应急辅助决策</td><td>60</td><td>待补充证据</td><td>6</td><td>无规则缺口</td></tr>
+<tr><td>4</td><td>生命线震损风险传播GNN</td><td>60</td><td>待补充证据</td><td>6</td><td>无规则缺口</td></tr>
+<tr><td>5</td><td>地震风险时空预测</td><td>60</td><td>待补充证据</td><td>6</td><td>无规则缺口</td></tr>
+<tr><td>6</td><td>震后建筑损毁识别</td><td>58</td><td>待补充证据</td><td>5</td><td>无规则缺口</td></tr>
+<tr><td>7</td><td>遥感震损智能解译</td><td>56</td><td>待补充证据</td><td>4</td><td>无规则缺口</td></tr>
+<tr><td>8</td><td>震后救援调度优化</td><td>54</td><td>待补充证据</td><td>3</td><td>无规则缺口</td></tr>
+<tr><td>9</td><td>震后灾情快速评估</td><td>52</td><td>待补充证据</td><td>2</td><td>无规则缺口</td></tr>
+<tr><td>10</td><td>地震多模态灾情理解</td><td>52</td><td>待补充证据</td><td>2</td><td>无规则缺口</td></tr>
+</table>
+<h2>4. 技术缺口</h2>
+<ul>
+<li>当前规则检查未发现核心证据缺口。</li>
+</ul>
+<h2>5. 拓扑社区</h2>
+<table>
+<tr><th>社区</th><th>标题</th><th>成员数</th><th>关系数</th><th>摘要</th></tr>
+<tr><td>T001</td><td>地震早期预警、震后建筑损毁识别</td><td>52</td><td>725</td><td>地震早期预警、震后建筑损毁识别包含AITech9、Model7、Case7、Dataset6，内部关系主要为SERVES_STAGE、APPLIES_TO、DEPENDS_ON、VALIDATED_IN。</td></tr>
+<tr><td>T002</td><td>生命线震损风险传播GNN</td><td>5</td><td>24</td><td>生命线震损风险传播GNN包含AITech1、Model1、Task1、Case1，内部关系主要为SOLVES、USES_MODEL、VALIDATED_IN、LIMITED_BY。</td></tr>
+<tr><td>T003</td><td>Dataset社区</td><td>1</td><td>0</td><td>Dataset社区包含Dataset1，内部关系主要为暂无内部关系。</td></tr>
+</table>
+<h2>6. 可复现命令</h2>
+<pre><code>
+npm.cmd run atlas:refresh
+npm.cmd run lint
+npm.cmd run build
+npm.cmd run atlas:package
+</code></pre>
+<h2>7. 边界说明</h2>
+<ul>
+<li>当前专家审核表和专家预审优先级表是待审核结构，不代表已完成人工专家评审。</li>
+<li>当前社区报告以规则化证据聚合为主，拓扑社区为加权标签传播结果，后续可接入正式 Leiden 或 Microsoft GraphRAG 社区发现。</li>
+<li>语料正文为面向抽取的中文整理稿，不是原文全文转载；正式论文或报告引用时应回到 `corpus_manifest.csv` 中的来源 URL 核对。</li>
+<li>Neo4j 导入文件已经生成，但仍需在真实 Neo4j 实例中执行和验收。</li>
+</ul>
+</body>
+</html>
