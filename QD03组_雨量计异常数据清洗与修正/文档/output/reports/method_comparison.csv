@@ -1,7 +1,0 @@
-﻿method,status,precision,recall,f1,accuracy,fp,fn,total_rainfall_error_pct,mae,rmse,anomaly_count
-规则法,enabled,100.0,97.45,98.71,99.84,0.0,7.0,-0.31,0.0018,0.0455,268.0
-Isolation Forest,enabled,21.05,11.64,14.99,91.6,120.0,243.0,-0.31,0.0767,1.1378,152.0
-LSTM-AE,skipped: torch disabled in self-contained EXE,,,,,,,,,,
-规则法 + Isolation Forest,enabled,69.23,98.18,81.2,97.11,120.0,5.0,-20.93,0.041,0.4575,390.0
-规则法 + LSTM-AE,skipped: torch disabled in self-contained EXE,,,,,,,,,,
-规则法 + IF + LSTM-AE,skipped: LSTM-AE unavailable,,,,,,,,,,

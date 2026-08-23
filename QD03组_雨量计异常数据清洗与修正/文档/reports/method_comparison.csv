@@ -1,7 +1,0 @@
-﻿method,status,precision,recall,f1,accuracy,fp,fn,total_rainfall_error_pct,mae,rmse,anomaly_count
-规则法,enabled,100.0,97.45,98.71,99.84,0,7,-0.32,0.0017,0.0454,268
-Isolation Forest,enabled,21.05,11.64,14.99,91.6,120,243,-0.31,0.0767,1.1378,152
-LSTM-AE,enabled,9.42,7.64,8.43,89.44,202,254,362.1,0.6533,11.0405,223
-规则法 + Isolation Forest,enabled,69.23,98.18,81.2,97.11,120,5,-20.93,0.041,0.4575,390
-规则法 + LSTM-AE,enabled,57.11,97.82,72.12,95.19,202,6,-15.92,0.0294,0.3147,471
-规则法 + IF + LSTM-AE,enabled,52.53,98.18,68.44,94.24,244,5,-29.81,0.055,0.5245,514

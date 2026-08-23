@@ -34,3 +34,6 @@ QD14组_避开危险路段的救援路径规划/数据集/osm_sichuan_earthquake
 # === QD16: 数据集（22GB → Gitee）+ best.pth 权重（105MB → Gitee）===
 QD16组_灾后建筑损毁自动识别与GIS空间化评估/数据集/
 QD16组_灾后建筑损毁自动识别与GIS空间化评估/源码/aline/outputs/checkpoints/best.pth
+
+# === 内部文档（教师用，不入库）===
+QD项目实战编写指南.md

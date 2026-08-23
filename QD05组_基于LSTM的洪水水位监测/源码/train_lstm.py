@@ -245,13 +245,15 @@ def main() -> int:
     print("Training BiLSTM Model...")
     print("=" * 60)
     bilstm_model = build_bilstm_model(n_features=len(feature_columns))
+    # 早停回调必须为每个模型单独创建：回调内部会记录历史成绩，不能跨模型共用
+    bilstm_early_stop = EarlyStopping(monitor="val_loss", patience=8, restore_best_weights=True)
     bilstm_model.fit(
         x_train,
         y_train,
         validation_split=0.15,
         epochs=30,
         batch_size=128,
-        callbacks=[early_stop],
+        callbacks=[bilstm_early_stop],
         verbose=2,
     )
     bilstm_model.save(bilstm_model_path)

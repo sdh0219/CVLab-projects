@@ -1,0 +1,10 @@
+# QD05 基于LSTM的洪水水位监测 —— 依赖清单
+# 安装方式：激活虚拟环境后执行  pip install -r requirements.txt
+# 以下版本已在一台 Windows 10 (i5-11300H, CPU) 机器上完整验证（2026-08-23）
+tensorflow-cpu==2.17.0
+keras==3.5.0
+numpy==1.26.4
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+requests==2.34.2

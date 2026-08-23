@@ -1,9 +1,0 @@
-﻿variant,disabled_component,final_output,precision,recall,f1,accuracy,fp,fn,mae,rmse,total_rainfall_error_pct,anomaly_count
-full rule pipeline,none,corrected,100.0,97.45,98.71,99.84,0,7,0.0017,0.0454,-0.32,268
-no MAD spike detection,MAD spike,corrected,100.0,97.45,98.71,99.84,0,7,0.0017,0.0454,-0.32,268
-no stuck detection,stuck,corrected,100.0,85.82,92.37,99.1,0,39,0.0196,0.2162,10.51,236
-no spurious tip detection,spurious tip,corrected,100.0,84.36,91.52,99.0,0,43,0.0033,0.0488,0.6,232
-no physical upper-bound check,upper bound,corrected,100.0,88.36,93.82,99.26,0,32,2.9578,49.3397,1796.15,243
-no smoothing,smoothing,corrected,100.0,97.45,98.71,99.84,0,7,0.0017,0.0454,-0.32,268
-corrected only,output choice,corrected,100.0,97.45,98.71,99.84,0,7,0.0017,0.0454,-0.32,268
-smoothed output,output choice,smoothed,100.0,97.45,98.71,99.84,0,7,0.0233,0.1557,-2.42,268
