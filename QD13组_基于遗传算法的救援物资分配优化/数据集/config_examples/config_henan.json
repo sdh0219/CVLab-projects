@@ -1,6 +1,6 @@
 {
   "data": {
-    "disaster_points_file": "../../数据包/processed_data/henan_disaster_processed_data.py",
+    "disaster_points_file": "../../数据集/processed_data/henan_disaster_processed_data.py",
     "use_simulation": false
   },
   "algorithm": {

@@ -1,6 +1,6 @@
 {
   "data": {
-    "disaster_points_file": "../../数据包/dataset_02_complex_scenario/processed_data/processed_data.py",
+    "disaster_points_file": "../../数据集/dataset_02_complex_scenario/processed_data/processed_data.py",
     "use_simulation": false
   },
   "algorithm": {

@@ -1,0 +1,12 @@
+# QD03 雨量计异常数据清洗与修正 —— 依赖清单
+# 安装方式：激活虚拟环境后执行  pip install -r requirements.txt
+# 以下版本已在一台 Windows 10 (i5-11300H, CPU) 机器上完整验证（2026-08-23）
+numpy==1.26.4
+pandas==3.0.5
+matplotlib==3.11.1
+scikit-learn==1.9.0
+# 可选（LSTM 自编码器，CPU 版约 200MB；不装则自动跳过该组件）：
+# torch==2.4.1  --index-url https://download.pytorch.org/whl/cpu
+# 可选（生成 Word/PPT 报告）：
+# python-docx
+# python-pptx

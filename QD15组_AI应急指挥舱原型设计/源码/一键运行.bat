@@ -56,8 +56,8 @@ echo.
 echo ============================================================
 echo   [2/5] 导入数据
 echo ============================================================
-if exist "import_real_data.py" (
-    ".venv\Scripts\python.exe" import_real_data.py
+if exist "app\data\import_real_data.py" (
+    ".venv\Scripts\python.exe" -m app.data.import_real_data
     if errorlevel 1 (
         echo   [警告] 数据导入出错，尝试用基础数据初始化...
         ".venv\Scripts\python.exe" -c "from app.database import init_db; init_db()"
@@ -65,7 +65,7 @@ if exist "import_real_data.py" (
         echo   数据导入完成 ✓
     )
 ) else (
-    echo   未找到 import_real_data.py，跳过数据导入
+    echo   未找到 app\data\import_real_data.py，跳过数据导入
 )
 
 cd ..

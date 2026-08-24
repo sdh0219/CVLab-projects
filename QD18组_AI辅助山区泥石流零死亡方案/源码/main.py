@@ -29,16 +29,29 @@ def load_config():
     return {}
 
 def detect_project_root():
-    """自动检测项目根目录：向上查找包含 1_数据包 和 2_源码 的目录"""
+    """自动检测项目根目录：向上查找包含 数据集 和 源码（或旧版 1_数据包/2_源码）的目录"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     # 先检查脚本所在目录的上级目录
     for candidate in [script_dir] + list(Path(script_dir).parents):
         candidate = str(candidate)
-        if os.path.isdir(os.path.join(candidate, '1_数据包')) and \
-           os.path.isdir(os.path.join(candidate, '2_源码')):
+        if (os.path.isdir(os.path.join(candidate, '1_数据包')) and
+                os.path.isdir(os.path.join(candidate, '2_源码'))):
+            return candidate
+        if os.path.isdir(os.path.join(candidate, '数据集')) and \
+           os.path.isdir(os.path.join(candidate, '源码')):
             return candidate
     # 兜底：使用脚本所在目录的上级
     return os.path.dirname(script_dir)
+
+def resolve_path(path_str, fallback):
+    """解析 config.json 中的路径：绝对路径直接用；相对路径基于项目根（脚本上级目录）；空则用 fallback"""
+    if not path_str:
+        return fallback
+    p = Path(path_str)
+    if p.is_absolute():
+        return str(p)
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return str((Path(project_root) / p).resolve())
 
 CFG = load_config()
 
@@ -54,9 +67,15 @@ _DPI = _PLOT.get('dpi', 150)
 # 路径配置（优先使用 config.json 中的配置，否则自动检测）
 _cfg_paths = CFG.get('paths', {})
 BASE = _cfg_paths.get('base', '') or detect_project_root()
-PROCESSED_DIR = _cfg_paths.get('raster_dir') or os.path.join(BASE, '1_数据包', 'processed_data')
-DB_DATA_DIR = _cfg_paths.get('vector_dir') or os.path.join(BASE, '1_数据包', 'database_data')
-OUTPUT_DIR = _cfg_paths.get('output_dir') or os.path.join(BASE, '2_源码', 'output')
+_DEFAULT_PROCESSED = os.path.join(BASE, '数据集', 'processed_data')
+if not os.path.isdir(_DEFAULT_PROCESSED):
+    _DEFAULT_PROCESSED = os.path.join(BASE, '1_数据包', 'processed_data')
+_DEFAULT_DB = os.path.join(BASE, '数据集', 'database_data')
+if not os.path.isdir(_DEFAULT_DB):
+    _DEFAULT_DB = os.path.join(BASE, '1_数据包', 'database_data')
+PROCESSED_DIR = resolve_path(_cfg_paths.get('raster_dir'), _DEFAULT_PROCESSED)
+DB_DATA_DIR = resolve_path(_cfg_paths.get('vector_dir'), _DEFAULT_DB)
+OUTPUT_DIR = resolve_path(_cfg_paths.get('output_dir'), os.path.join(BASE, '源码', 'output'))
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 print(f"[配置] 项目根目录: {BASE}")
 

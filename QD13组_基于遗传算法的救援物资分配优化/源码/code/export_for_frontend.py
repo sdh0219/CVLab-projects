@@ -28,17 +28,17 @@ DATASET_CONFIGS = [
     {
         'id': 'henan_disaster',
         'name': '河南洪涝灾害（基准案例）',
-        'config': os.path.join(CODE_DIR, '../../数据包/config_examples/config_henan.json'),
+        'config': os.path.join(CODE_DIR, '../../数据集/config_examples/config_henan.json'),
     },
     {
         'id': 'dataset_01_large_scale',
         'name': '大规模洪涝模拟',
-        'config': os.path.join(CODE_DIR, '../../数据包/config_examples/config_large_scale.json'),
+        'config': os.path.join(CODE_DIR, '../../数据集/config_examples/config_large_scale.json'),
     },
     {
         'id': 'dataset_02_complex_scenario',
         'name': '复杂场景多灾害模拟',
-        'config': os.path.join(CODE_DIR, '../../数据包/config_examples/config_complex_scenario.json'),
+        'config': os.path.join(CODE_DIR, '../../数据集/config_examples/config_complex_scenario.json'),
     },
 ]
 

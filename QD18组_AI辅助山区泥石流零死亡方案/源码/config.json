@@ -1,10 +1,10 @@
 {
     "paths": {
-        "_说明": "项目已按四分类重构：数据集/（含 processed_data 栅格与 database_data 加密矢量）、源码/、文档模板/。下列为重构后绝对路径；如迁移项目目录，请同步修改。",
-        "base": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案",
-        "raster_dir": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案\\数据集\\processed_data",
-        "vector_dir": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案\\数据集\\database_data",
-        "output_dir": "D:\\deepLearning\\data_of_yuan\\1_tem\\260820_青岛教程\\18组_AI辅助山区泥石流零死亡方案\\源码\\output"
+        "_说明": "以下路径留空 = 自动检测（推荐）：程序从 main.py 所在位置向上找 数据集/ 和 源码/ 所在的项目根目录。如需手动指定，可填相对项目根的路径（如 数据集/processed_data）或绝对路径。",
+        "base": "",
+        "raster_dir": "",
+        "vector_dir": "",
+        "output_dir": ""
     },
 
     "ahp_weights": {

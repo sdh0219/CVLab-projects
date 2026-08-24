@@ -52,13 +52,10 @@ SCRIPT_DIR = SCRIPT_PATH.parent
 
 def find_project_root() -> Path:
     """
-    从 main.py 所在目录向上查找，只要发现：
-    1_数据包/processed_data
-    就认为该目录是项目根目录。
-
-    你的情况：
-    main.py = C:/Users/Lenovo/Desktop/自然语言处理/2_源码/2_源码/main.py
-    项目根目录 = C:/Users/Lenovo/Desktop/自然语言处理
+    从 main.py 所在目录向上查找数据目录，兼容两种布局：
+    1. 项目根目录/1_数据包/processed_data          （原始开发布局）
+    2. 项目根目录/数据集/1_数据包/processed_data   （课程交付布局，含"1 数据包"带空格变体）
+    找到即返回"数据目录的上一级"（布局 1 返回项目根，布局 2 返回 数据集/1_数据包）。
     """
     candidates: List[Path] = []
 
@@ -67,27 +64,31 @@ def find_project_root() -> Path:
     cwd = Path.cwd().resolve()
     candidates.extend([cwd] + list(cwd.parents))
 
+    # 数据目录的候选相对布局：目录名 -> 数据子目录名
+    layouts = [
+        ("1_数据包", "processed_data"),
+        ("数据集", "processed_data"),          # 数据集根下直接放 processed_data
+        ("数据集/1_数据包", "processed_data"),  # 交付布局（下划线）
+        ("数据集/1 数据包", "processed_data"),  # 交付布局（带空格）
+    ]
+
     seen = set()
     for c in candidates:
         if c in seen:
             continue
         seen.add(c)
-        if (c / "1_数据包" / "processed_data").exists():
-            return c
-
-    if len(SCRIPT_PATH.parents) >= 3:
-        fallback = SCRIPT_PATH.parents[2]
-        if (fallback / "1_数据包" / "processed_data").exists():
-            return fallback
+        for folder, sub in layouts:
+            if (c / folder / sub).exists():
+                return c / folder
 
     raise FileNotFoundError(
-        "没有找到数据目录：1_数据包/processed_data。\n"
-        "请确认你的目录结构是：项目根目录/1_数据包/processed_data 和 项目根目录/2_源码/2_源码/main.py"
+        "没有找到数据目录：1_数据包/processed_data 或 数据集/1_数据包/processed_data。\n"
+        "请确认数据目录与 main.py 的相对位置（详见复现指南 2.4 节）"
     )
 
 
 PROJECT_ROOT = find_project_root()
-DATA_DIR = PROJECT_ROOT / "1_数据包" / "processed_data"
+DATA_DIR = PROJECT_ROOT / "processed_data"
 OUTPUT_DIR = SCRIPT_DIR / "outputs"
 PROCESSED_OUT = OUTPUT_DIR / "processed"
 FIGURE_OUT = OUTPUT_DIR / "figures"

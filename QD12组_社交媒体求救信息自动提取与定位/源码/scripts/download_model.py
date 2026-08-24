@@ -46,10 +46,27 @@ def main():
     )
     print(f"\n[OK] 下载完成 -> {path}")
 
+    # modelscope 的缓存布局是 models/AI-ModelScope--bert-base-chinese/snapshots/<版本>/,
+    # 而代码期望的加载路径是平铺的 models/AI-ModelScope/bert-base-chinese/。
+    # 这里把快照内容复制/同步到目标目录, 让 src/config.py 的本地探测直接命中。
+    import shutil
+    TARGET_DIR.mkdir(parents=True, exist_ok=True)
+    copied = skipped = 0
+    for f in sorted(Path(path).iterdir()):
+        dest = TARGET_DIR / f.name
+        if f.name.startswith("."):
+            continue
+        if dest.exists() and dest.stat().st_size == f.stat().st_size:
+            skipped += 1
+            continue
+        shutil.copy2(f, dest)
+        copied += 1
+    print(f"[OK] 已同步到 {TARGET_DIR} (复制 {copied} 个文件, 跳过已存在 {skipped} 个)")
+
     # 列出文件 + 校验大小
     print("\n文件清单:")
     total = 0
-    for f in sorted(Path(path).iterdir()):
+    for f in sorted(TARGET_DIR.iterdir()):
         size = f.stat().st_size
         total += size
         if size > 1024 * 1024:
@@ -58,11 +75,10 @@ def main():
             print(f"  {f.name:30s}  {size/1024:.1f} KB")
     print(f"  {'合计':30s}  {total/1024/1024:.1f} MB")
 
-    # 提示修改 config
     print("\n" + "=" * 60)
-    print("下载成功! 请确认 src/config.py 中:")
-    print(f'  BERT_MODEL_NAME = "{path}"')
-    print("(脚本已自动修改, 若已存在则无需手动改)")
+    print("下载成功! 无需修改任何配置:")
+    print(f"  src/config.py 会自动检测到本地模型目录")
+    print(f"  {TARGET_DIR}")
     print("=" * 60)
 
 
