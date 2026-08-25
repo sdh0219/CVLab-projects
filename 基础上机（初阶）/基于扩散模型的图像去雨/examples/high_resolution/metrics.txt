@@ -1,0 +1,3 @@
+resolution=768x598
+rainy_psnr=30.1432
+derained_psnr=27.3974

@@ -1,0 +1,5 @@
+source=clear_04.jpg
+seed=111
+hazy_psnr_db=10.0510
+dehazed_psnr_db=20.5465
+improvement_db=10.4955
